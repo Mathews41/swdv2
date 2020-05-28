@@ -10,6 +10,7 @@ import { Link } from 'gatsby'
 import bgimg from '../images/bg.jpg'
 import pic1 from '../images/QS106_Edited_3.jpg'
 import * as Icon from 'react-feather'
+import '../assets/scss/layout/_main.scss'
 
 import greenguard from '../images/greenguard logo (1).png'
 import abaa from '../images/abaa.svg'

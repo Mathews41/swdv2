@@ -10,10 +10,10 @@ import { Carousel } from 'react-bootstrap'
 //images
 import bg1 from '../images/bg1.jpg'
 import bg4 from '../images/bg4.jpg'
-import labshot from '../images/Lab Shot 1 small.png'
+import labshot from '../images/Lab-shot-1-small.png'
 import icon2 from '../images/icon2.png'
 import ASU from '../images/ASU.jpg'
-// import uofahonors from '../images/UofAHonors.jpg'
+import uofahonors from '../images/UofAHonors.jpg'
 
 
 import PropTypes from 'prop-types'
@@ -138,7 +138,7 @@ class IndexPage extends React.Component {
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item className='item'>
-                <img className='car-img' src={bg1} alt= 'this is the first slide'/>
+                <img className='car-img' src={uofahonors} alt= 'this is the first slide'/>
                 <Carousel.Caption className='caption'>
                   <h3> University of Arizona Honors Student Housing
                   </h3>
