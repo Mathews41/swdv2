@@ -10,7 +10,6 @@ import Modal from 'react-bootstrap/Modal'
 import greenguard from '../images/greenguard logo (1).png'
 import icon2 from '../images/icon2.png'
 import greenbuilding from '../images/greenbuilding.png'
-import masterSpec from '../images/masterSpec.png'
 import abaa from '../images/abaa.svg'
 
 
