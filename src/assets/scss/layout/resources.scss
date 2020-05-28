@@ -1,0 +1,76 @@
+.resources {
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    justify-content: space-evenly;
+}
+.lftContent {
+    width: 45%;
+    height: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+.shrink {
+    width: 45%;
+    height: 10%;
+    background: red;
+}
+.accordianres {
+    box-shadow: 10px 10px 20px 5px black;
+    width: 100%;
+    height: 45%;
+    background: rgba(2, 43, 85, 0.836);
+    z-index: 2;
+    margin: 1%;
+    text-align: center;
+    border-radius: 10px;;
+    
+}
+.accordianres > h4 {
+    color: white;
+}
+.collapseres {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.cardres {
+    width: 100%;
+    height: auto;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+}
+.toggleres {
+    font-size: 16pt;
+    text-align: center;
+    
+}
+.bodyres{
+    width: 100%;
+    height: auto;
+    background: rgb(221, 221, 221);
+}
+.mediares {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#media-bodyres {
+    height: 20%;
+    text-align: left;
+    word-wrap: normal;
+    display: flex;
+    flex-direction: row;
+}
+.resList {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

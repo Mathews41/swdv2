@@ -24,7 +24,7 @@
 
 	body, input, select, textarea {
 		color: _palette(fg);
-		font-family: _font(family);
+		font-family: 'eurostile';
 		font-weight: _font(weight);
 		font-size: 1rem;
 		line-height: 1.65;
@@ -36,12 +36,12 @@
 			'background-color #{_duration(transition)} ease-in-out',
 			'border-bottom-color #{_duration(transition)} ease-in-out'
 		));
-		border-bottom: dotted 1px _palette(fg-light);
 		text-decoration: none;
-		color: inherit;
+		color: rgb(0, 0, 0);
 
 		&:hover {
-			border-bottom-color: transparent;
+			text-decoration: none;
+			color: rgb(156, 156, 156);
 		}
 	}
 
@@ -58,11 +58,12 @@
 		margin: 0 0 _size(element-margin) 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h3, h4 {
 		color: _palette(fg-bold);
 		font-weight: _font(weight-bold);
 		line-height: 1.5;
-		margin: 0 0 (_size(element-margin) * 0.5) 0;
+		color: black;
+		// margin: 0 0 (_size(element-margin) * 0.5) 0;
 		text-transform: uppercase;
 		letter-spacing: _font(letter-spacing);
 
@@ -104,6 +105,7 @@
 
 	h5 {
 		font-size: 0.7rem;
+		color: black;
 	}
 
 	h6 {
@@ -125,7 +127,6 @@
 	sub {
 		font-size: 0.8rem;
 		position: relative;
-		top: 0.5rem;
 	}
 
 	sup {
