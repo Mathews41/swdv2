@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-dimension-v2",
-  "description": "Gatsby Starter - Dimension V2",
+  "name": "SWD",
+  "description": "Polyurethane Technologies",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Mark Mathews",
   "dependencies": {
     "bootstrap": "^4.5.0",
     "gatsby": "^2.19.5",
