@@ -29,6 +29,7 @@ import icon2 from '../images/icon2.png'
 import abaa from '../images/abaa.svg'
 import greenguard from '../images/greenguard logo (1).png'
 import diagram from '../images/Picture1.png'
+import cabin from '../images/DSC04667.jpg'
 
 //DOCS
 import ccrr108 from '../images/CCRR-108.pdf'
@@ -62,7 +63,7 @@ export default function architectsInsulation() {
         <div className='arch-page'>
         <Header/>
             <div className='img-container1'>
-                <img className='split-img11' src={elevation}/>
+                <img className='split-img11' src={cabin}/>
                 <span>Architects/Specifiers</span>
                 <sub></sub>
                 <img className='split-img11' src={img2}/>

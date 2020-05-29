@@ -83,7 +83,7 @@ export default function Footer() {
       <div className='footerQuestions'>
         <h3>Questions? Call Us.</h3>
         <p>We’re here to help. Call us and speak with a foam specialist who will answer any questions you might have.</p>
-        <h3>800-828-1394</h3>
+        <h3 className='number'>800-828-1394</h3>
       </div>
       <div className='ogLogoContainer'>
       <div className='logosContainer'>

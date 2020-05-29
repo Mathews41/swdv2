@@ -7,6 +7,7 @@ import Toggle from 'react-bootstrap/DropdownToggle'
 import Item from 'react-bootstrap/DropdownItem'
 import Menu from 'react-bootstrap/DropdownMenu'
 import DropdownMenu from 'react-bootstrap/DropdownMenu'
+import * as Icon from 'react-feather'
 
 
 
@@ -16,8 +17,9 @@ export default function Header() {
           return (
           <header id="header">
             <div className='superheaderContainer'>
-              
-            <Link className='superheader' to="/contact/"> Contact Us 800-828-1394</Link>
+              <Icon.Phone className='phoneIcon' size={30} color='#1F3F77'/>
+            <Link className='superheader' to="/contact/">
+              800-828-1394</Link>
             </div>
               <nav className="navbar">
                 <div className='architectsMenu'>
@@ -40,6 +42,7 @@ export default function Header() {
                     </sub>
                   </div>
                 </div>
+                    <Icon.Menu tabIndex='0' type='button' className='hamburger' color='#1F3F77' size={45}/>
                   <ul className='top-nav-list' >
                     <li>
                       <div className='products'>
