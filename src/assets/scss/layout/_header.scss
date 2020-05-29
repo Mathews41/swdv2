@@ -2044,11 +2044,7 @@ Link {
   top: -.6rem;
 
 }
-.hamButton {
-  position: absolute;
-  display: inline;
-  right: 0;
-}
+
 .hamburger {
   right: 0;
 }
@@ -3043,7 +3039,9 @@ a {
       top: -.6rem;
     
     }
-    
+    .hamburger {
+      display: none;
+    }
     .top-nav-list {
         // width: 70%;
         height: 100%;
