@@ -10,10 +10,10 @@ import { Carousel } from 'react-bootstrap'
 //images
 import bg1 from '../images/bg1.jpg'
 import bg4 from '../images/bg4.jpg'
-import labshot from '../images/Lab-shot-1-small.png'
+import labshot from '../../src/images/Lab-Shot-1-small.png'
 import icon2 from '../images/icon2.png'
 import ASU from '../images/ASU.jpg'
-import uofahonors from '../images/UofAHonors.jpg'
+import uofahonors from '../../src/images/UofAHonors.jpg'
 
 
 import PropTypes from 'prop-types'
