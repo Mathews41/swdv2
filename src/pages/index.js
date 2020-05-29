@@ -13,7 +13,7 @@ import bg4 from '../images/bg4.jpg'
 import labshot from '../../src/images/Lab-Shot-1-small.png'
 import icon2 from '../images/icon2.png'
 import ASU from '../images/ASU.jpg'
-import uofahonors from '../../src/images/uofahonors.jpg'
+import uofahonors from '../../src/images/uofahonors.png'
 
 
 import PropTypes from 'prop-types'
