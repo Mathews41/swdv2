@@ -16,11 +16,8 @@ import ASU from '../images/ASU.jpg'
 import uofahonors from '../../src/images/uofahonors.png'
 
 
-import { LazyLoad } from 'react-lazyload';
-
 import PropTypes from 'prop-types'
 
- 
 
 const propTypes = {
   pause: PropTypes.oneOf(['hover', false])
@@ -133,9 +130,7 @@ class IndexPage extends React.Component {
             <div className='carContainer'>
             <Carousel data-pause='false' className='carousel'>
               <Carousel.Item className='item'>
-              <LazyLoad height={200} once offset={100}>
                 <img className='car-img' src={bg1} alt= 'this is the first slide'/>
-                </LazyLoad>
                 <Carousel.Caption className='caption'>
                   <h3>St. Joseph Hospital</h3>
                   <h5 className='carTag'>Denver, Colorado</h5>
@@ -169,8 +164,7 @@ class IndexPage extends React.Component {
               </Carousel.Item>
             </Carousel>
             <div className='lpImgContainer'>
-            <LazyLoad height={200} once offset={100}>
-            <img alt='swd chemical lab shot'className='secondaryimg' src={labshot}/></LazyLoad>
+            <img alt='swd chemical lab shot'className='secondaryimg' src={labshot}/>
             <img className='lplogo' src={icon2}/>
             </div>
             </div>
