@@ -16,7 +16,7 @@ import ASU from '../images/ASU.jpg'
 import uofahonors from '../../src/images/uofahonors.png'
 
 
-import { lazyload } from 'react-lazyload';
+import { LazyLoad } from 'react-lazyload';
 
 import PropTypes from 'prop-types'
 
