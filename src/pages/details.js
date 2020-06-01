@@ -117,7 +117,7 @@ export default function details() {
                     
                             <Card className='card1'>
                                 <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="1">
-                                    <h3>Details at Ceiling </h3>
+                                    <h3>Ceiling Details </h3>
                                     <Icon.ChevronDown color='blue' size={45} />
                                 </Accordion.Toggle>
                                 <Accordion.Collapse className='collapse1' eventKey="1">
@@ -153,7 +153,7 @@ export default function details() {
                         </Card>
                         <Card className='card1'>
                                 <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="2">
-                                    <h3>Details at Floor </h3>
+                                    <h3> Floor Details </h3>
                                     <Icon.ChevronDown color='blue' size={45} />
                                 </Accordion.Toggle>
                                 <Accordion.Collapse className='collapse1' eventKey="2">
@@ -239,7 +239,7 @@ export default function details() {
                         </Card>
                         <Card className='card1'>
                                 <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="3">
-                                    <h3>Details at Wall </h3>
+                                    <h3>Wall Details</h3>
                                     <Icon.ChevronDown color='blue' size={45} />
                                 </Accordion.Toggle>
                                 <Accordion.Collapse className='collapse1' eventKey="3">
@@ -405,7 +405,7 @@ export default function details() {
                             
                     <Card className='card1'>
                     <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="1">
-                        <h3>Curb & Equiptment & other Misc Details </h3>
+                        <h3>Curb & Equipment & other Misc Details </h3>
                         <Icon.ChevronDown color='blue' size={45} />
                     </Accordion.Toggle>
                     <Accordion.Collapse className='collapse1' eventKey="1">
