@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import logo from '../images/icon3.png'
-import appstore from '../images/appstore.png'
+import appstore from '../images/appstore-min.png'
 import googleplay from '../images/googleplay.png'
 import facebook from '../images/facebook.jpeg'
 import linkedin from '../images/linkedin.png'
@@ -56,12 +56,6 @@ export default function Footer() {
           </li>
           <li>
           <a href='contact'> Contact Us </a>
-          </li>
-          <li>
-          <a> SWD Sales Team </a>
-          </li>
-          <li>
-          <a> SWD Technical Team </a>
           </li>
           <li>
           <a> News </a>

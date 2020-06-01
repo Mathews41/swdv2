@@ -46,40 +46,21 @@ export default function Header() {
                   <ul className='top-nav-list' >
                     <li>
                       <div className='products'>
-                      <Link 
-                      className='linkProd' to='/products/'
+                      <a 
+                      className='linkProd' href='/products/'
                       > Products
-                      <div className='productsMenu'>
-                          <ul>
-                            <li>
-                              <Link className='prodLink' to='/products/'>Wall Insulation</Link>
-                            </li>
-                            <li>
-                              <Link className='prodLink' to='/products/'>Wall Insulation</Link>
-                            </li>
-                            <li>
-                              <Link className='prodLink' to='/products/'>Wall Insulation</Link>
-                            </li>
-                            <li>
-                              <Link className='prodLink' to='/products/'>Wall Insulation</Link>
-                            </li>
-                            <li>
-                              <Link className='prodLink' to='/products/'>Wall Insulation</Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </Link>
+                      </a>
                         </div>
                     </li>
                     <li>
-                      <Link className='linkCont' to='/contractors/'
-                      >Contractors</Link>
+                      <a className='linkCont' href='/contractors/'
+                      >Contractors</a>
                     </li>
                     <li>
                       <div className='dropdown'>
-                      <Link className='linkArch' to='/architectsStepper/'>
+                      <a className='linkArch' href='/architectsStepper/'>
                         Architects
-                        </Link>
+                        </a>
                         <div className='architectsMenu'>
                           <ul>
                             <li>

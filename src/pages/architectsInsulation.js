@@ -6,7 +6,7 @@ import '../assets/scss/layout/architectsRoofing.scss'
 import Media from 'react-bootstrap/Media'
 import * as Icon from 'react-feather'
 import Header from '../components/Header'
-import arch from '../images/Arch Wall Photo.png'
+import arch from '../images/Arch Wall Photo-min.png'
 import '../assets/scss/layout/architectsStepper.scss'
 import Footer from '../components/Footer'
 
@@ -21,15 +21,14 @@ import qs104b from '../images/QS104B.pdf'
 import qs108ymb from '../images/QS108YMB.pdf'
 
 //Images
-import elevation from '../images/elevation shot.png'
-import img2 from '../images/img2.png'
+import elevation from '../images/elevation shot-min.png'
+import img2 from '../images/Roofing_Edited_5-min.jpg'
 import greenbuilding from '../images/greenbuilding.png'
 import masterSpec from '../images/images.png'
 import icon2 from '../images/icon2.png'
 import abaa from '../images/abaa.svg'
 import greenguard from '../images/greenguard logo (1).png'
-import diagram from '../images/Picture1.png'
-import cabin from '../images/DSC04667.jpg'
+import cabin from '../images/DSC04667-min.jpg'
 
 //DOCS
 import ccrr108 from '../images/CCRR-108.pdf'
