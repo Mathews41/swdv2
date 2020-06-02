@@ -99,10 +99,8 @@ export default function details() {
             <img className='detailsImg' src={uofahero}/>
             <div className='detailsPg'>
             <div className='detailsheader'>
-                <h1>Resources</h1>
-            <p>
-                a little about the details and drawing section
-            </p>
+                <h1>Details & Drawings</h1>
+                <p></p>
             </div>
 
             {/* Main Content */}
@@ -573,7 +571,7 @@ export default function details() {
             </Card>
             <Card className='card1'>
                     <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="4">
-                        <h3>Fire Rates Assemblies </h3>
+                        <h3>Fire Rated Assemblies </h3>
                         <Icon.ChevronDown color='blue' size={45} />
                     </Accordion.Toggle>
                     <Accordion.Collapse className='collapse1' eventKey="4">
