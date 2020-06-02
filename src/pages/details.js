@@ -96,7 +96,7 @@ export default function details() {
     return (
         <div className='page'>
             <Header/>
-                <img className='detailsImg' src={uofahero}/>
+            <img className='detailsImg' src={uofahero}/>
             <div className='detailsPg'>
             <div className='detailsheader'>
                 <h1>Resources</h1>
