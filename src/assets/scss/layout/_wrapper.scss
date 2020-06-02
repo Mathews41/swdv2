@@ -9,7 +9,7 @@
 		}
 	}
 		.body {
-			height: 100vh;
+			height: 200vh;
 			width: 100vw;
 			background: white;
 		}
@@ -25,7 +25,7 @@
 			padding: 0;
 			z-index: 3;
 			display: flex;
-			overflow-x: hidden;
+			// overflow-x: hidden;
 	
 			
 	
@@ -53,12 +53,12 @@
 		}
 		.car-img {
 			position: inherit;
-			height: 80vh;
+			height: 100%;
 			width: 100%;
 			margin-top: 10vh;
 		}
 		.carousel-control-next {
-			width: 100px;
+			width: 20px;
 		}
 		.carousel-control-next-icon {
 			color: blue;
@@ -70,12 +70,13 @@
 			margin-bottom: 0;
 		}
 		.carousel-control-prev {
-			width: 100px;
+			width: 20px;
 			display: flex; 
 			bottom: 0;
 		}
 		.carousel {
-			width: 60%;
+			height: 100%;
+			width: 100%;
 			background: white;
 			overflow: hidden;
 		}
@@ -86,16 +87,19 @@
 		}
 		.carContainer {
 			width: 100%;
-			height: 90%;
+			height: 100vh;
 			display: flex;
-			flex-direction: row-reverse;
+			flex-direction: column;
 			justify-content: space-between;
-			margin-top: 2%;
+			margin-top: 3%;
 	
 	
 		}
+		.caption > h5 {
+			font-size: 8pt;
+		}
 		.caption {
-			height: 130px;
+			height: auto;
 			background: rgba(255, 255, 255, 0.925);
 			border-radius: 10px 10px 0px 0px;
 			display: flex;
@@ -105,14 +109,13 @@
 	
 		}
 		.caption > h3 {
-			font-size: 12pt;
+			font-size: 8pt;
 		}
 		#button {
 			background: #1F3F77;
-			width: 200px;
+			width: 120px;
 			height: 2rem;
-			font-size: 10pt;
-			text-align: center;
+			text-align: left;
 			justify-content: center;
 			align-items: center;
 			margin-top: 0px;
@@ -123,11 +126,11 @@
 		}
 		#button > h3 {
 			color: white;
-			font-size: 12pt;
+			font-size: 8pt;
 		}
 		.lp2 {
 			width: 100%;
-			height: 40vh;
+			height: auto;
 			background: white;
 			display: flex;
 			flex-direction: column;
@@ -137,7 +140,7 @@
 			margin-top: 3%;
 		}
 		.lp2 > h3 {
-			font-size: 20pt;
+			font-size: 10pt;
 			margin-bottom: 30px;
 			margin-top: 1%;
 		}
@@ -145,16 +148,17 @@
 			width: 100%;
 			height: 100%;
 			display: flex;
-			flex-direction: row;
+			flex-direction: column;
 			justify-content: space-evenly;
+			align-self: center;
 			padding: 10px;
-			
-	
+			margin-top: 0%;
 		}
 		.videoCont > iframe {
-			width: 400px;
-			height: 250px;
+			width: 100%;
+			height: 100%;
 			border-radius: 10px;
+			padding: 1%;
 		}
 		.carousel-inner {
 			height: fit-content;
@@ -174,8 +178,8 @@
 			color: black;
 		}
 		.iso {
-			width: 100px;
-			height: 100px;
+			width: 10px;
+			height: 10px;
 			bottom: 0;
 			margin: 5px;
 		}
@@ -209,7 +213,9 @@
 			background: #1F3F77;
 		}
 		.lpImgContainer {
-			width: 40%;
+			width: 100%;
+			height: 50%;
+			margin-top: 10%;
 			display: flex;
 			flex-direction: column;
 			justify-content: flex-end;
@@ -217,8 +223,8 @@
 		}
 		.lplogo {
 			position: absolute;
-			width: 150px;
-			height: 150px;
+			width: 50px;
+			height: 50px;
 			display: flex;
 			z-index: 10;
 			padding-bottom: 5px;;
@@ -235,7 +241,7 @@
 		}
 	}
 		.body {
-			height: 100vh;
+			height: 200vh;
 			width: 100vw;
 			background: white;
 		}
@@ -251,7 +257,7 @@
 			padding: 0;
 			z-index: 3;
 			display: flex;
-			overflow-x: hidden;
+			// overflow-x: hidden;
 	
 			
 	
@@ -265,11 +271,11 @@
 			}
 	
 			@include breakpoint(small) {
-				// padding: 2rem 1rem;
+				padding: 2rem 1rem;
 			}
 	
 			@include breakpoint(xsmall) {
-				// padding: 1rem;
+				padding: 1rem;
 			}
 	
 			&.page {
@@ -279,12 +285,12 @@
 		}
 		.car-img {
 			position: inherit;
-			height: 50vh;
+			height: 100%;
 			width: 100%;
-			margin-top: 10%;
+			margin-top: 10vh;
 		}
 		.carousel-control-next {
-			width: 100px;
+			width: 20px;
 		}
 		.carousel-control-next-icon {
 			color: blue;
@@ -296,33 +302,36 @@
 			margin-bottom: 0;
 		}
 		.carousel-control-prev {
-			width: 50px;
+			width: 20px;
 			display: flex; 
 			bottom: 0;
 		}
 		.carousel {
+			height: 100%;
 			width: 100%;
 			background: white;
 			overflow: hidden;
 		}
 		.secondaryimg {
-			width: 50vw;
+			width: 100%;
 			height: 100%;
 			z-index: 3;
 		}
 		.carContainer {
 			width: 100%;
-			height: 90%;
+			height: 100vh;
 			display: flex;
 			flex-direction: column;
 			justify-content: space-between;
-			align-items: center;
 			margin-top: 2%;
 	
 	
 		}
+		.caption > h5 {
+			font-size: 8pt;
+		}
 		.caption {
-			height: 100px;
+			height: auto;
 			background: rgba(255, 255, 255, 0.925);
 			border-radius: 10px 10px 0px 0px;
 			display: flex;
@@ -336,10 +345,9 @@
 		}
 		#button {
 			background: #1F3F77;
-			width: 100px;
+			width: 120px;
 			height: 2rem;
-			font-size: 10pt;
-			text-align: center;
+			text-align: left;
 			justify-content: center;
 			align-items: center;
 			margin-top: 0px;
@@ -354,7 +362,7 @@
 		}
 		.lp2 {
 			width: 100%;
-			height: 40vh;
+			height: 20vh;
 			background: white;
 			display: flex;
 			flex-direction: column;
@@ -364,7 +372,7 @@
 			margin-top: 3%;
 		}
 		.lp2 > h3 {
-			font-size: 12pt;
+			font-size: 10pt;
 			margin-bottom: 30px;
 			margin-top: 1%;
 		}
@@ -379,8 +387,8 @@
 	
 		}
 		.videoCont > iframe {
-			width: 100px;
-			height: 80px;
+			width: 50px;
+			height: 50px;
 			border-radius: 10px;
 		}
 		.carousel-inner {
@@ -401,8 +409,8 @@
 			color: black;
 		}
 		.iso {
-			width: 100px;
-			height: 100px;
+			width: 10px;
+			height: 10px;
 			bottom: 0;
 			margin: 5px;
 		}
@@ -437,16 +445,17 @@
 		}
 		.lpImgContainer {
 			width: 100%;
+			height: 50%;
+			margin-top: 10%;
 			display: flex;
 			flex-direction: column;
 			justify-content: flex-end;
 			align-items: center;
-			margin-top: 10px;
 		}
 		.lplogo {
 			position: absolute;
-			width: 40px;
-			height: 40px;
+			width: 50px;
+			height: 50px;
 			display: flex;
 			z-index: 10;
 			padding-bottom: 5px;;

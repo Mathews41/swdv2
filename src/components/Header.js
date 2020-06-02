@@ -8,12 +8,13 @@ import Item from 'react-bootstrap/DropdownItem'
 import Menu from 'react-bootstrap/DropdownMenu'
 import DropdownMenu from 'react-bootstrap/DropdownMenu'
 import * as Icon from 'react-feather'
+import Burger from './Hamburger'
+import styled from 'styled-components';
 
 
 
 export default function Header() {
   
-          const [isShown, setIsShown] = useState(true);
           return (
           <header id="header">
             <div className='superheaderContainer'>
@@ -42,7 +43,7 @@ export default function Header() {
                     </sub>
                   </div>
                 </div>
-                    <Icon.Menu tabIndex='0' type='button' className='hamburger' color='#1F3F77' size={45}/>
+                    <Burger/>
                   <ul className='top-nav-list' >
                     <li>
                       <div className='products'>
@@ -74,7 +75,21 @@ export default function Header() {
                         </div>
                     </li>
                     <li>
-                      <Link className='linkProj'  to='/projects/'>Projects</Link>
+                    <div className='dropdown'>
+                      <a className='linkProj' href='/projectsStepper/'>
+                        Projects
+                        </a>
+                        <div className='architectsMenu'>
+                          <ul>
+                            <li>
+                              <Link className='archLink' to='/projectsWall/'>Wall Insulation Projects</Link>
+                            </li>
+                            <li className='roofList'>
+                            <Link className='roofLink' to='/projectsRoof/'>Roofing Projects</Link>
+                            </li>
+                          </ul>
+                        </div>
+                        </div>
                     </li>
                     <li>
                       <Link className='linkInd' to='/industrial/'>Industrial</Link>
