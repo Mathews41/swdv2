@@ -11,7 +11,7 @@ import 'normalize.css';
 //images
 import bg1 from '../images/bg1-min.jpg'
 import bg4 from '../images/bg4-min.jpg'
-import labshot from '../../src/images/labShot-min.png'
+import labshot from '../../src/images/labShot-min.jpg'
 import icon2 from '../images/icon2.png'
 import ASU from '../images/ASU-min.jpg'
 import uofahonors from '../../src/images/uofahonors-min.png'
