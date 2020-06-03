@@ -285,8 +285,8 @@
 		}
 		.car-img {
 			position: inherit;
-			height: 100%;
-			width: 100%;
+			height: 50vh;
+			width: 100vw;
 			margin-top: 10vh;
 		}
 		.carousel-control-next {
@@ -310,12 +310,12 @@
 			height: 100%;
 			width: 100%;
 			background: white;
-			overflow: hidden;
 		}
 		.secondaryimg {
 			width: 100%;
 			height: 100%;
 			z-index: 3;
+			margin: 1%;
 		}
 		.carContainer {
 			width: 100%;
@@ -323,7 +323,7 @@
 			display: flex;
 			flex-direction: column;
 			justify-content: space-between;
-			margin-top: 2%;
+			margin-top: 5%;
 	
 	
 		}
@@ -345,7 +345,7 @@
 		}
 		#button {
 			background: #1F3F77;
-			width: 120px;
+			width: 150px;
 			height: 2rem;
 			text-align: left;
 			justify-content: center;
@@ -362,34 +362,35 @@
 		}
 		.lp2 {
 			width: 100%;
-			height: 20vh;
+			height: 60vh;
 			background: white;
 			display: flex;
 			flex-direction: column;
 			z-index: 2;
 			padding: 0%;
 			text-align: center;
-			margin-top: 3%;
+			margin-top: 40%;
 		}
 		.lp2 > h3 {
 			font-size: 10pt;
-			margin-bottom: 30px;
-			margin-top: 1%;
+			margin-bottom: 10px;
 		}
 		.videoCont {
 			width: 100%;
 			height: 100%;
 			display: flex;
-			flex-direction: row;
+			flex-direction: column;
 			justify-content: space-evenly;
-			padding: 10px;
+			align-items: center;
+			margin-top: 0%;
 			
 	
 		}
 		.videoCont > iframe {
-			width: 50px;
-			height: 50px;
+			width: 200px;
+			height: 100px;
 			border-radius: 10px;
+			margin-top: 5%;
 		}
 		.carousel-inner {
 			height: fit-content;
@@ -446,7 +447,8 @@
 		.lpImgContainer {
 			width: 100%;
 			height: 50%;
-			margin-top: 10%;
+			margin-top: 3%;
+			margin-bottom: 3%;
 			display: flex;
 			flex-direction: column;
 			justify-content: flex-end;
