@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import RightNav from './Nav';
-import '../assets/scss/layout/global.scss'
+
 
 
 const StyledBurger = styled.div`

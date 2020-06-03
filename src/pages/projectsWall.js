@@ -7,7 +7,6 @@ import '../assets/scss/layout/projects.scss'
 import api from '../images/API-min.jpg'
 import elevation from '../images/elevation shot-min.png'
 import aztech from '../images/aztech-min.jpg'
-import '../assets/scss/layout/global.scss'
 
 
 

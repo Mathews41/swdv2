@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import '../assets/scss/layout/projects.scss'
-import '../assets/scss/layout/global.scss'
+
 
 
 const Ul = styled.a`

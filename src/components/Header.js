@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import icon1 from '../images/icon3.png'
 import {Link} from 'gatsby'
-import '../assets/scss/layout/global.scss'
 
 import Dropdown from 'react-bootstrap/Dropdown'
 import DropdownButton from 'react-bootstrap/DropdownButton'

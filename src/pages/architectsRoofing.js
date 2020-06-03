@@ -1,5 +1,4 @@
 import React from 'react'
-import '../assets/scss/layout/global.scss'
 
 import Accordion from 'react-bootstrap/Accordion'
 import Card from 'react-bootstrap/Card'
