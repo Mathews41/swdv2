@@ -53,8 +53,8 @@
 		}
 		.car-img {
 			position: inherit;
-			height: 100%;
-			width: 100%;
+			height: 50vh;
+			width: 100vw;
 			margin-top: 10vh;
 		}
 		.carousel-control-next {
@@ -78,7 +78,6 @@
 			height: 100%;
 			width: 100%;
 			background: white;
-			overflow: hidden;
 		}
 		.secondaryimg {
 			width: 100%;
@@ -214,8 +213,8 @@
 		}
 		.lpImgContainer {
 			width: 100%;
-			height: 50%;
-			margin-top: 10%;
+			height: 40%;
+			margin-top: 0%;
 			display: flex;
 			flex-direction: column;
 			justify-content: flex-end;
