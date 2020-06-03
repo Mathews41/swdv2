@@ -175,7 +175,7 @@ class IndexPage extends React.Component {
               <div className='videoCont'>
             <iframe width="424" height="238" src="https://www.youtube.com/embed/PzoNv7RF-Kc?allowfullscreen=true" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <iframe width="1280" height="720" src="https://www.youtube.com/embed/pMJPh2sd-uc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe width="270" height="152" src="https://www.youtube.com/embed/DsgfZ3lC6XY" frameborder="0" allowfullscreen></iframe>
+            <iframe width="270" height="152" src="https://www.youtube.com/embed/zbXsn2G9VEE" frameborder="0" allowfullscreen='1' allow='autoplay'></iframe>
             </div>
             </div>
             <Header/>
