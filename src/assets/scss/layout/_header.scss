@@ -2539,17 +2539,18 @@ a {
     transform: scale(1.1);
   }
   .subtext {
-    width: 100%;
+    width: 30%;
     top: 0;
-    margin-left: 100%;
-    margin-top: 20%;
+    margin-top: 3%;
+    margin-left: 3%;
     position: absolute;
+    font-size: 18pt;
     justify-content: center;
   }
   .subsubtext {
     color: black;
     font-style: italic;
-    font-size: 16pt;
+    font-size: 14pt;
     top: -.6rem;
   
   }
@@ -3028,10 +3029,10 @@ a {
       transform: scale(1.1);
     }
     .subtext {
-      width: 100%;
+      width: 30%;
       top: 0;
-      margin-left: 100%;
-      margin-top: 20%;
+      margin-left: 3%;
+      margin-top: 3%;
       position: absolute;
       justify-content: center;
     }
