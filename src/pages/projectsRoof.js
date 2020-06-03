@@ -1,12 +1,13 @@
 import React from 'react'
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 import bg from '../images/bg-min.jpg'
 import asu from '../images/ASU-min.jpg'
 import uofahonors from '../images/uofahonors-min.png'
 import '../assets/scss/layout/projects.scss'
 import api from '../images/API-min.jpg'
 import elevation from '../images/elevation shot-min.png'
-import aztech from '../images/aztech-min.jpg'
+import aztech from '../images/ua-tech-park-hero-min.jpg'
 
 
 
@@ -30,7 +31,7 @@ export default function projects() {
       <div class="card-body1">
         <h3 class="card-title">University of Arizona Honors Student Housing</h3>
         <h4 class="card-subtitle">
-            University of Arizona Honors Student Housing
+          
             Tucson AZ
         </h4>
         <button className='cardButton'>Read Full Study</button>
@@ -60,7 +61,8 @@ export default function projects() {
   </div>
 </div>
 <div>
-        </div> 
+        </div>
+        <Footer/> 
         </div>
     )
 }

@@ -112,11 +112,11 @@ export default function details() {
 
                 <div className='wallInsulation'>
                     <Accordion className='accordian1' defaultActiveKey="0">
-                        <h4>Wall Insulation</h4>
+                        <h4>Wall Insulation Details</h4>
                     
                             <Card className='card1'>
                                 <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="1">
-                                    <h3>Ceiling Details </h3>
+                                    <h3>Ceiling </h3>
                                     <Icon.ChevronDown color='blue' size={45} />
                                 </Accordion.Toggle>
                                 <Accordion.Collapse className='collapse1' eventKey="1">
@@ -152,7 +152,7 @@ export default function details() {
                         </Card>
                         <Card className='card1'>
                                 <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="2">
-                                    <h3> Floor Details </h3>
+                                    <h3> Floor </h3>
                                     <Icon.ChevronDown color='blue' size={45} />
                                 </Accordion.Toggle>
                                 <Accordion.Collapse className='collapse1' eventKey="2">
@@ -238,7 +238,7 @@ export default function details() {
                         </Card>
                         <Card className='card1'>
                                 <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="3">
-                                    <h3>Wall Details</h3>
+                                    <h3>Wall</h3>
                                     <Icon.ChevronDown color='blue' size={45} />
                                 </Accordion.Toggle>
                                 <Accordion.Collapse className='collapse1' eventKey="3">
@@ -346,7 +346,7 @@ export default function details() {
                         </Card>
                         <Card className='card1'>
                                 <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="4">
-                                    <h3>Plan View Details </h3>
+                                    <h3>Plan View </h3>
                                     <Icon.ChevronDown color='blue' size={45} />
                                 </Accordion.Toggle>
                                 <Accordion.Collapse className='collapse1' eventKey="4">
@@ -399,7 +399,7 @@ export default function details() {
                                 </div>
                                 <div className='Roofing'>
                                 <Accordion className='accordian1' defaultActiveKey="0">
-                                    <h4>Roofing</h4>
+                                    <h4>Roofing Details</h4>
                                 
                             
                     <Card className='card1'>
@@ -607,7 +607,7 @@ export default function details() {
             </Card>
             <Card className='card1'>
                     <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="5">
-                        <h3>Flashing Details </h3>
+                        <h3>Flashing </h3>
                         <Icon.ChevronDown color='blue' size={45} />
                     </Accordion.Toggle>
                     <Accordion.Collapse className='collapse1' eventKey="5">
@@ -637,7 +637,7 @@ export default function details() {
             </Card>
             <Card className='card1'>
                     <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="6">
-                        <h3>Wall and Parapet Details </h3>
+                        <h3>Wall and Parapet </h3>
                         <Icon.ChevronDown color='blue' size={45} />
                     </Accordion.Toggle>
                     <Accordion.Collapse className='collapse1' eventKey="6">

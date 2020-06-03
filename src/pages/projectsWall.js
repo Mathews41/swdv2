@@ -7,6 +7,8 @@ import '../assets/scss/layout/projects.scss'
 import api from '../images/API-min.jpg'
 import elevation from '../images/elevation shot-min.png'
 import aztech from '../images/aztech-min.jpg'
+import Footer from '../components/Footer'
+
 
 
 
@@ -58,6 +60,7 @@ Wilmington, NC</h4>
 </div>
 <div>
         </div> 
+        <Footer/>
         </div>
     )
 }

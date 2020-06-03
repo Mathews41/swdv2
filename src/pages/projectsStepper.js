@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button'
 import CardDeck from 'react-bootstrap/CardDeck'
 import '../assets/scss/layout/architectsStepper.scss'
 import bg2 from '../images/bg2-min.jpg'
-import img2 from '../images/Roofing_Edited_10-min.jpg'
+import img2 from '../images/Roofing_Edited_17-min.jpg'
 import { Link } from 'gatsby'
 import bgimg from '../images/bg-min.jpg'
 import pic1 from '../images/QS106_Edited_3-min.jpg'
@@ -33,7 +33,7 @@ export default function architectsStepper() {
                     <Card className='stepperCard'>
                         <Card.Img className='cardImg' variant="top" src={pic1} />
                         <Card.Body id='cardBody'>
-                            <Card.Title id='cardTitle'>Insulation
+                            <Card.Title id='cardTitle'>Insulation Projects
                             <Icon.ExternalLink className='insulLink'/>
                             </Card.Title>
                                 <Card.Text id='cardText'>
@@ -47,7 +47,7 @@ export default function architectsStepper() {
                         <Card.Img className='cardImg'  variant="top" src={img2} />
                         <Card.Body id='cardBody'>
                             <Card.Title id='cardTitle'>
-                                Roofing
+                                Roofing Projects
                             <Icon.ExternalLink className='insulLink'/>
                             </Card.Title>
                                 <Card.Text id='cardText'>
