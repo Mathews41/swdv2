@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import '../assets/scss/layout/projects.scss'
+import '../assets/scss/layout/global.scss'
+
 
 const Ul = styled.a`
 @media (min-width: 0px) and (max-width: 360px){

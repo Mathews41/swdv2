@@ -17,6 +17,8 @@ import abaa from '../images/abaa.svg'
 import icon2 from '../images/icon2.png'
 import greenbuilding from '../images/greenbuilding.png'
 import masterSpec from '../images/images.png'
+import '../assets/scss/layout/global.scss'
+
 
 
 export default function architectsStepper() {

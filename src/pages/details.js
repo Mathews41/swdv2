@@ -6,6 +6,8 @@ import * as Icon from 'react-feather'
 import '../assets/scss/layout/details.scss'
 import Header from '../components/Header'
 import uofahero from '../images/ua-tech-park-hero-min.jpg'
+import '../assets/scss/layout/global.scss'
+
 
 // files
 import QSW001Ceil from '../images/QSW-001 Ceiling - Cathedral with Skylight.pdf'
