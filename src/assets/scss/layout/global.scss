@@ -20,3 +20,9 @@ time, mark, audio, video {
     vertical-align: baseline;
     font-family: 'eurostile';
 }
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+    selector { 
+        property:value; 
+    }
+}}

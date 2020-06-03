@@ -73,7 +73,7 @@ export default function architectsInsulation() {
                 <div>
                     <a href='/projects/'>
                 <img className='buildings'src={elevation}></img></a>
-                <sub className='pictext'>University of North Carolina at Wilmington continuous insulation application</sub>
+                <sub className='pictext'>University of North Carolina at Wilmington</sub>
                 </div>
                 <div className='upperText1'>
             <h1 className='htitle'>Wall Foam Insulation </h1>
