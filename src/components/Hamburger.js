@@ -144,6 +144,9 @@ const StyledBurger = styled.div`
     }
   }
 }
+@media (min-width: 1281px){
+  display: none;
+}
 `
   
   

@@ -147,7 +147,9 @@ const Ul = styled.a`
       color: black;
     
   }
-
+  @media (min-width: 1281px){
+    display: none;
+  }
 `;
 
 const RightNav = ({ open }) => {
