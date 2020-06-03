@@ -31,7 +31,7 @@ export default function Header() {
                 </div>
                 <div id="navbar-brand">
                   <a href='/'>
-                    <img className='icon1' src={icon1} alt="swd logo"/>
+                    <img className='icon1' src={icon1} alt="swd logo" href='/'/>
                   </a>
                   <div className='subtext'>
                     <h3 className='icon-text'to='/'>
