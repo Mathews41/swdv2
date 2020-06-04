@@ -2538,14 +2538,15 @@ a {
       position: relative;
       width: 90px;
       height: 90px;
-  
-  }
-  .icon1:hover {
-    transition-duration: .1s;
-    transform: scale(1.1);
-  }
-  .subtext {
-    width: 25%;
+      
+    }
+    .icon1:hover {
+      transition-duration: .1s;
+      transform: scale(1.1);
+    }
+    .subtext {
+      width: 25%;
+      flex-shrink: 0;
     top: 0;
     margin-top: 3%;
     margin-left: 6%;
@@ -2556,7 +2557,7 @@ a {
   .subsubtext {
     color: black;
     font-style: italic;
-    margin-right: 10%;
+    margin-left: -7%;
     font-size: 14pt;
     top: -.6rem;
   
@@ -3068,16 +3069,18 @@ a {
       width: 25%;
       top: 0;
       margin-left: 5%;
-      margin-top: 3%;
+      margin-top: 2.5%;
       position: absolute;
       justify-content: center;
+      flex-shrink: 0;
     }
     .subsubtext {
       width: 100%;
       color: black;
+      flex-shrink: 0;
       font-style: italic;
       font-size: 16pt;
-      top: -.6rem;
+      top: 0rem;
       margin-right: 19%;
     
     }
