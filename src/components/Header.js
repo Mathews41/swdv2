@@ -80,10 +80,10 @@ export default function Header() {
                       <a className='linkProj' href='/projectsStepper/'>
                         Projects
                         </a>
-                        <div className='architectsMenu'>
+                        <div className='projectsMenu'>
                           <ul>
                             <li>
-                              <Link className='archLink' to='/projectsWall/'>Wall Insulation Projects</Link>
+                              <Link className='archLink' to='/projectsWall/'>Insulation Projects</Link>
                             </li>
                             <li className='roofList'>
                             <Link className='roofLink' to='/projectsRoof/'>Roofing Projects</Link>
