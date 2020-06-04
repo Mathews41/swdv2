@@ -1278,6 +1278,7 @@
 			z-index: 2;
 			padding: 0%;
 			text-align: center;
+
 			margin-top: 3%;
 		}
 		.lp2 > h3 {
@@ -1369,7 +1370,6 @@
 		}
 }
 @include breakpoint(xxlarge){
-	-webkit-appearance:none;
 	@keyframes slideUpAnimation {
 		0% {
 			transform: translate(0,1000px);

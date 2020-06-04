@@ -6,6 +6,8 @@ import Main from '../components/Main'
 import Footer from '../components/Footer'
 import { graphql } from 'gatsby'
 import { Carousel } from 'react-bootstrap'
+import '../assets/scss/layout/global.scss'
+import 'normalize.css';
 
 //images
 import bg1 from '../images/bg1-min.jpg'
@@ -177,7 +179,6 @@ class IndexPage extends React.Component {
             </div>
             </div>
             <Header/>
-            <Main/>
             <Footer/>
           </div>
         </div>
