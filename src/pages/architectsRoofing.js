@@ -26,6 +26,7 @@ import api from '../images/API-min.jpg'
 import ASU from '../images/ASU-min.jpg'
 import roofingpic from '../images/Roofing_Edited_5-min.jpg'
 import {Link} from 'gatsby'
+import '../assets/scss/layout/global.scss'
 
 
 

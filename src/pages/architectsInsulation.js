@@ -9,6 +9,7 @@ import Header from '../components/Header'
 import arch from '../images/Arch Wall Photo-min.png'
 import '../assets/scss/layout/architectsStepper.scss'
 import Footer from '../components/Footer'
+import '../assets/scss/layout/global.scss'
 
 
 // Brochure
@@ -69,7 +70,7 @@ export default function architectsInsulation() {
                 <img className='split-img11' src={img2}/>
             </div>
             <div className='upperText'>
-                <div>
+                <div id='upperTextArch'>
                     <a href='/projects/'>
                 <img className='buildings'src={elevation}></img></a>
                 <sub className='pictext'>University of North Carolina at Wilmington</sub>
@@ -96,7 +97,7 @@ export default function architectsInsulation() {
                     </li>
                 </ul>
                 </div>
-                <div>
+                <div id='upperTextArch'>
                     <a href='/projects/'>
                 <img className='buildings2'src={arch}></img></a>
                 <sub className='pictext1'>API Training Center continuous insulation application</sub>

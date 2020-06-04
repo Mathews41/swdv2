@@ -8,7 +8,7 @@ import bg2 from '../images/bg2-min.jpg'
 import img2 from '../images/Roofing_Edited_11-min.jpg'
 import { Link } from 'gatsby'
 import bgimg from '../images/bg-min.jpg'
-import pic1 from '../images/QS106_Edited_3-min.jpg'
+import pic1 from '../images/QS112_Edited_6-min (2).jpg'
 import * as Icon from 'react-feather'
 import '../assets/scss/layout/_main.scss'
 

@@ -474,6 +474,9 @@ card-body2 > p {
     padding-top: 30px;
     
 }
+.upperText > div {
+    flex-shrink: 1;
+}
 .upperText1 {
     display: flex;
     width: 50%;
@@ -497,6 +500,7 @@ card-body2 > p {
     flex-direction: column;
     padding: 10px;
     border-radius: 10px;
+    flex-shrink: 0;
     
 }
 .lowerbox2 {
@@ -602,6 +606,9 @@ card-body2 > p {
     margin-right: 3%;
 
     
+}
+#upperTextArch {
+    flex-shrink: 0;
 }
 .pictext {
     width: 460px;
