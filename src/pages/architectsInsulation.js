@@ -320,6 +320,19 @@ export default function architectsInsulation() {
                     Light Commercial 
                     </li>
                 </ul>
+                <h2 className='htiltle'>Contact Us</h2>
+                <ul className='lowerList1'>
+                    <li>
+                    Sue Murtey 
+                    </li>
+                    <li>
+                    Sue.murtey@swdurethane.com
+
+                    </li>
+                    <li>
+                    800-828-1394 ext 510 
+                    </li>
+                </ul>
                 </div>
                 <div className='lowerbox2'>
                 <h1 className='htiltle'>Closed-Cell</h1>
