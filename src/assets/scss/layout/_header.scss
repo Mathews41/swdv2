@@ -2021,8 +2021,8 @@ Link {
   }
   .icon1 {
     position: relative;
-    width:70px;
-    height: 70px;
+    width:80px;
+    height: 80px;
     padding-bottom: 15px;
 
 }
@@ -2038,12 +2038,14 @@ Link {
   margin-top: 20%;
   position: absolute;
   justify-content: center;
+  display: none;
 }
 .subsubtext {
   color: black;
   font-style: italic;
   font-size: 16pt;
   top: -.6rem;
+  display: none;
 
 }
 

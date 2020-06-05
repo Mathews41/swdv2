@@ -576,12 +576,15 @@
   .logoContainer {
     display: flex;
     flex-direction: column;
-    width: 15%;
+    width: 30%;
     height: 100%;
     align-items: center;
     background:rgb(235, 235, 235);
   
     color: black;
+  }
+  .logoContainer > sub {
+    flex-wrap: wrap;
   }
   .logoContainer > a {
     color: blue;
