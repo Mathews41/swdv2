@@ -142,6 +142,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-shrink: 0;
+        
     }
     .bgimg {
         width: 100%;
@@ -161,7 +163,7 @@
     }
     #cardDeck {
         width: 100%;
-        height: 40%;
+        height: 70%;
         z-index: 2;
         position: absolute;
         display: flex;
@@ -170,11 +172,12 @@
         margin: 0;
         justify-content: center;
         animation: fadeInAnimation 1s  0s 1 normal ;
-        bottom: 30%;
+        bottom: 18%;
         flex-shrink: 0;
     }
     .stepperCard {
         width: 70vw;
+        flex-shrink: 0;
         
     }
     .stepperCard:hover {
@@ -208,7 +211,7 @@
     .isoBand {
         width: 78.5vw;
         background: white;
-        height: 60px;
+        height: 100px;
         z-index: 4;
         overflow: hidden;
         position: absolute;
@@ -221,8 +224,8 @@
         border-radius: 10px;
     }
     .ISO {
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
         display: flex;
     }
     .isoBand1 {
@@ -239,13 +242,13 @@
         border-radius: 10px;
     }
     .ISO1 {
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
         display: flex;
     }
     .ISO11 {
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
         margin-top: 15px;
         border-radius: 10px;
     }
