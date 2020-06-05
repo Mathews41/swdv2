@@ -157,6 +157,7 @@
         z-index: 1;
         display: flex;
         align-items: flex-start;
+        flex-shrink: 0;
     }
     #cardDeck {
         width: 100%;
@@ -170,6 +171,7 @@
         justify-content: center;
         animation: fadeInAnimation 1s  0s 1 normal ;
         bottom: 30%;
+        flex-shrink: 0;
     }
     .stepperCard {
         width: 70vw;
