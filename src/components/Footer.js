@@ -76,7 +76,7 @@ export default function Footer() {
         </ul>
       </div>
       <div className='footerQuestions'>
-        <h3>Questions? Call Us.</h3>
+        <h3 className='questionsTitle'>Questions? Call Us.</h3>
         <p>We’re here to help. Call us and speak with a foam specialist who will answer any questions you might have.</p>
         <h3 className='number'>800-828-1394</h3>
       </div>

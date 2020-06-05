@@ -429,8 +429,9 @@
 }
 @include breakpoint(medium){
   .footer {
+    
     width: 100vw;
-    height: 50vh;
+    height: 100%;
     background:rgb(235, 235, 235);
     display: flex;
     flex-direction: row;
@@ -444,26 +445,33 @@
   .logoContainer {
     display: flex;
     flex-direction: column;
-    width: 15%;
+    width: 20%;
     height: 100%;
     align-items: center;
     background:rgb(235, 235, 235);
   
     color: black;
   }
+  .logoContainer > sub {
+    flex-wrap: wrap;
+    display: none;
+  }
+  .logoContainer > span {
+    text-align: center;
+  }
   .logoContainer > a {
     color: blue;
   }
   .footerLogo {
-    width: 100px;
-    height: 100px;
+    width: 65px;
+    height: 65px;
     display: flex;
     margin-bottom: 5%;
     z-index: 1;
   }
   .google {
-    width: 150px;
-    height: 50px;
+    width: 100px;
+    height: 30px;
     margin-bottom: 5px;
   }
   .footerMain {
@@ -474,9 +482,11 @@
   }
   .footerMain > ul {
     list-style-type: disc;
+    font-size: 12pt;
   }
   .footerMain > ul > h3 {
     padding-bottom: 3%;
+    font-size: 15pt;
   }
   .footerMain > ul > li > a {
     color: blue;
@@ -485,9 +495,11 @@
     color: black;
     width: 12%;
     height: 100%;
+    display: none;
   }
   .footerAbout > ul {
     list-style-type: disc;
+    font-size: 12pt;
   }
   .footerAbout > ul > li > a {
     color: blue;
@@ -495,6 +507,16 @@
   .footerQuestions {
     width: 16%;
     color: black;
+    font-size: 12pt;
+  }
+  .questionsTitle {
+    font-size: 14pt;
+    bottom: 0%;
+    z-index: 100;
+  }
+  .number {
+    color: blue;
+    font-size: 12pt;
   }
   .footerQuestions > p {
     width: 90%;
@@ -502,14 +524,15 @@
     line-height: normal;
     font-style: italic;
     margin-bottom: 20px;
+    display: none;
   }
   .ogLogoContainer {
-    width: 35%;
+    width: 15%;
     display: flex;
     flex-direction: column;
   }
   .logosContainer {
-    width: 60%;
+    width: 80%;
     height: 70%;
     display: flex;
     flex-direction: row;
@@ -523,14 +546,14 @@
   
   }
   .socialLogo {
-    width: 65px;
-    height: 65px;
+    width: 45px;
+    height: 45px;
     margin: 5px;
     background:rgb(214, 214, 214);
   }
   .socialLogo1 {
-    width: 65px;
-    height: 65px;
+    width: 45px;
+    height: 45px;
     margin: 5px;
     border-radius: 10px;
     background: white;
@@ -562,7 +585,7 @@
   .footer {
     
     width: 100vw;
-    height: 35vh;
+    height: 100%;
     background:rgb(235, 235, 235);
     display: flex;
     flex-direction: row;

@@ -1973,7 +1973,7 @@ Link {
 }
 #header {
   width: 100vw;
-  height: 11vh;
+  height: 12vh;
   z-index: 150;
   position: fixed; top:0;
   text-align: center;
@@ -2012,18 +2012,16 @@ Link {
     position: relative;
     // overflow: hidden;
 }
-.navbar-brand {
+  #navbar-brand {
     position: relative;
     width: 7%;
     height: 100%;
     margin: 0;
-    padding-bottom: 20px;
   }
   .icon1 {
     position: relative;
-    width:80px;
-    height: 80px;
-    padding-bottom: 15px;
+    width:70px;
+    height: 70px;
 
 }
 .icon1:hover {
