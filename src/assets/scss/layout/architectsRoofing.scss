@@ -684,18 +684,18 @@
     }
     .img-container1 > span {
         width: 100%;
-        height: 30.5%;
+        height: 20.5%;
         position: absolute;
-        font-size: 48pt;
+        font-size: 28pt;
         background: rgba(2, 43, 85, 0.623);
         color: rgb(252, 252, 252);
-        padding-top: 8%;
+        padding-top: 10%;
         // box-shadow: 10px 10px 10px black;
         text-shadow: 5px 5px 5px black;
     }
     .split-img11 {
         width: 50%;
-        height: 30vh;
+        height: 20vh;
         margin: 0;
         padding: 0;
     }
@@ -704,8 +704,9 @@
         height: auto;
         position: relative;
         display: flex;
-        justify-content: space-evenly;
-        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
         animation: fadeInAnimation1 1s  0s 1 normal ;
         margin-bottom: 10px;
     }
@@ -720,7 +721,7 @@
     }
     .accordian1 {
         box-shadow: 10px 10px 20px 5px black;
-        width: 60%;
+        width: 90%;
         height: 100%;
         background: rgba(2, 43, 85, 0.897);
         z-index: 2;
@@ -728,6 +729,7 @@
         text-align: center;
         border-radius: 10px;;
         flex-shrink: 1;
+        margin-bottom: 5%;
         
     }
     .drawingContainer {
@@ -739,10 +741,10 @@
         align-self: center;
     }
     .drawButton {
-        width: 300px;
+        width: 250px;
         background: rgb(255, 255, 255);
         color: rgb(0, 0, 0);
-        font-size: 18pt;
+        font-size: 16pt;
         margin: 1%;
         padding: 1%;
         text-align: center;
@@ -1043,10 +1045,11 @@
     .lowerContent {
         width: 100%;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-evenly;
         margin-top: 1%;
-        text-align: start;
+        align-items: center;
+        text-align: flex-start;
         padding-top: 1%;
         
         
@@ -1075,24 +1078,24 @@
         padding-top: 4px;
     }
     .lowerList1 {
-        font-size: 14pt;
+        font-size: 12pt;
         color: black;
         width: 100%;
         height: 100%;
-        padding: 10px;
+        padding: 5px;
         text-align: center;
     }
     .lowerList3 {
         color: black;
     }
     .rtside-lower > ul {
-        width: 30%;
+        width: 50%;
         list-style-type: disc;
         padding: 30px;
-        font-size: 18pt;
+        font-size: 16pt;
     }
     .rtside-lower1 > p {
-        font-size: 14pt;
+        font-size: 12pt;
         padding: 30px;
     }
     .abaa {
@@ -1126,7 +1129,7 @@
     }
     .upperText1 {
         display: flex;
-        width: 50%;
+        width: 80%;
         // background-image: linear-gradient(rgba(2, 43, 85, 0.836) 70%, rgb(255, 255, 255));
         flex-direction: column;
         align-items: center;
@@ -1135,13 +1138,13 @@
     }
     .htiltle {
         width: 100%;
-        font-size: 18pt;
+        font-size: 16pt;
         text-align: center;
         color: rgb(0, 0, 0);
         letter-spacing: 0.35rem;
     }
     .lowerbox1 {
-        width: 42%;
+        width: 90%;
         background: rgb(255, 255, 255);
         display: flex;
         flex-direction: column;
@@ -1150,8 +1153,12 @@
         flex-shrink: 0;
         
     }
+    .lowerbox1 > p {
+        font-size: 14pt;
+
+    }
     .lowerbox2 {
-        width: 42%;
+        width: 90%;
         display: flex;
         background: rgb(255, 255, 255);
         flex-direction: column;
@@ -1160,6 +1167,7 @@
     }
     .lowerbox2 > p {
         margin-bottom: 13%;
+        font-size: 14pt;
     }
     .lowerbox2 > img {
         width: 300px;
@@ -1179,7 +1187,7 @@
     }
     .lowerList > p {
         width: 100%;
-        font-size: 16pt;
+        font-size: 12pt;
         margin: 0;
     }
     .ullist {
@@ -1243,6 +1251,8 @@
         border-radius: 20px;
         padding: 10px;
         margin-left: 3%;
+        display: none;
+
         
     }
     .buildings2 {
@@ -1251,6 +1261,8 @@
         border-radius: 20px;
         padding: 10px;
         margin-right: 3%;
+        display: none;
+
     
         
     }
@@ -1267,6 +1279,8 @@
         justify-content: center;
         margin-left: 0rem;
         font-style: italic;
+        display: none;
+
     
     }
     .pictext1 {
@@ -1278,6 +1292,8 @@
         padding-right: 40px;
         justify-content: center;
         font-style: italic;
+        display: none;
+
     }
     .lowerPicText {
         width: 460px;
@@ -1287,7 +1303,6 @@
         justify-content: center;
         margin-left: 3rem;
     }
-    
     
 }
 @media (min-width: 481px) and (max-width: 736px){
@@ -1350,8 +1365,9 @@
         height: auto;
         position: relative;
         display: flex;
-        justify-content: space-evenly;
-        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
         animation: fadeInAnimation1 1s  0s 1 normal ;
         margin-bottom: 10px;
     }
@@ -1366,7 +1382,7 @@
     }
     .accordian1 {
         box-shadow: 10px 10px 20px 5px black;
-        width: 50%;
+        width: 90%;
         height: 100%;
         background: rgba(2, 43, 85, 0.897);
         z-index: 2;
@@ -1374,6 +1390,7 @@
         text-align: center;
         border-radius: 10px;;
         flex-shrink: 1;
+        margin-bottom: 5%;
         
     }
     .drawingContainer {
@@ -1721,11 +1738,11 @@
         padding-top: 4px;
     }
     .lowerList1 {
-        font-size: 14pt;
+        font-size: 12pt;
         color: black;
         width: 100%;
         height: 100%;
-        padding: 10px;
+        padding: 5px;
         text-align: center;
     }
     .lowerList3 {
