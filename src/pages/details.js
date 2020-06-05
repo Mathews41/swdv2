@@ -571,41 +571,6 @@ export default function details() {
             </Accordion.Collapse>
             </Card>
             <Card className='card1'>
-                    <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="4">
-                        <h3>Fire Rated Assemblies </h3>
-                        <Icon.ChevronDown color='blue' size={45} />
-                    </Accordion.Toggle>
-                    <Accordion.Collapse className='collapse1' eventKey="4">
-                    <Card.Body className='body1'>
-                        <Media className='media1'>
-                            <Media.Body className='media-body1'>   
-                            <ul className='ullist'>
-                            <li>
-                                    <a href={QSW143r} target='_blank'>
-                                    QSR-143 - Class A Metal Fluted Deck with Tape
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href={QSW144r} targer='_blank'>
-                                    QSR-144 - Class B Roof on Combustible Deck
-                                    </a>
-                                </li><li>
-                                    <a href={QSW145r} target='_blank'>
-                                    QSR-145 - Polyiso Board
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href={QSW147r} targer='_blank'>
-                                    QSR-147 - Class A Roof on Combustible Deck with Cementitious Coating
-                                    </a>
-                                </li>
-                            </ul>
-                        </Media.Body>
-                    </Media>
-                </Card.Body>
-            </Accordion.Collapse>
-            </Card>
-            <Card className='card1'>
                     <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="5">
                         <h3>Flashing </h3>
                         <Icon.ChevronDown color='blue' size={45} />
@@ -675,6 +640,41 @@ export default function details() {
                                 </li><li>
                                     <a href={QSW165r} target='_blank'>
                                     QSR-165 - Mansard Wall Top and Bottom
+                                    </a>
+                                </li>
+                            </ul>
+                        </Media.Body>
+                    </Media>
+                </Card.Body>
+            </Accordion.Collapse>
+            </Card>
+            <Card className='card1'>
+                    <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="4">
+                        <h3>Fire Rated Assemblies </h3>
+                        <Icon.ChevronDown color='blue' size={45} />
+                    </Accordion.Toggle>
+                    <Accordion.Collapse className='collapse1' eventKey="4">
+                    <Card.Body className='body1'>
+                        <Media className='media1'>
+                            <Media.Body className='media-body1'>   
+                            <ul className='ullist'>
+                            <li>
+                                    <a href={QSW143r} target='_blank'>
+                                    QSR-143 - Class A Metal Fluted Deck with Tape
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href={QSW144r} targer='_blank'>
+                                    QSR-144 - Class B Roof on Combustible Deck
+                                    </a>
+                                </li><li>
+                                    <a href={QSW145r} target='_blank'>
+                                    QSR-145 - Polyiso Board
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href={QSW147r} targer='_blank'>
+                                    QSR-147 - Class A Roof on Combustible Deck with Cementitious Coating
                                     </a>
                                 </li>
                             </ul>

@@ -700,7 +700,6 @@
 @include breakpoint(xlarge){
   .footer {
     width: auto;
-    height: 350px;
     background:rgb(235, 235, 235);
     display: flex;
     flex-direction: row;
@@ -830,7 +829,6 @@
 @include breakpoint(xxlarge){
   .footer {
     width: 100vw;
-    height: 350px;
     background:rgb(235, 235, 235);
     display: flex;
     flex-direction: row;

@@ -519,36 +519,52 @@
     
     }
     #header {
-      width: 100%;
+      width: 100vw;
       height: 10vh;
       z-index: 150;
-      position: fixed; 
-      top:0;
+      position: fixed; top:0;
       text-align: center;
       background: rgb(255, 255, 255);
       padding: 0;
+      > * {
+        @include vendor('transition', 'opacity #{_duration(article)} ease-in-out');
+        position: relative;
     
+        &:before {
+          display: block;
+          position: absolute;
+          top: calc(-3.5rem - 1px);
+          left: calc(50% - #{_size(border-width) * 1});
+          width: _size(border-width);
+          height: calc(3.5rem + 1px);
+          background: _palette(border);
+        }
+      }
+    
+      > :first-child {
+        margin-top: 0;
+    
+        &:before {
+          display: none;
+        }
+      }
       .navbar {
         width: 100%;
+        height: 100%;
         align-items: center;
         z-index: 3;
-        padding: 0;
-        top: 0;
-        position: relative;
         // overflow: hidden;
     }
-    .navbar-brand {
-        width: 70px;
-        height: 70px;
-        position: absolute;
+    #navbar-brand {
+        position: relative;
+        width: 7%;
+        height: 100%;
         margin: 0;
-        display: flex;
       }
       .icon1 {
-        position: absolute;
-        width:70px;
-        height: 70px;
-        left: 3%;
+        position: relative;
+        width:60px;
+        height: 60px;
     
     }
     .icon1:hover {
@@ -567,7 +583,7 @@
     .subsubtext {
       color: black;
       font-style: italic;
-      font-size: 8pt;
+      font-size: 16pt;
       top: -.6rem;
     
     }
@@ -575,32 +591,29 @@
       right: 0;
     }
     .hamburger:focus .top-nav-list {
-      height: 50px;
+      height: 100px;
       display: block;
       animation: menuSlide .5s 0s 1 normal;
-    }
-    .top-nav-cont {
-      height: 100px;
-      width: 100px;
     }
     .top-nav-list {
         // width: 70%;
         height: 100%;
-        display: none;
-        flex-direction: column;
+        display: flex;
+        flex-direction: row;
         align-items: center;
         list-style: none;
-        background: blue;
         margin: 0;
-        font-size: 16pt;
+        font-size: 18pt;
         z-index: 1000;
-        position: absolute;
+        position: relative;
+        display: none;
         
       }
       .top-nav-list > li {
         display: flex;
         padding: 20px;
         height: 100%;
+        display: none;
       }
       
       .top-header {
@@ -633,7 +646,7 @@
         font-size: 14pt;
       }
       .superheaderContainer {
-        height: 10%;
+        height: 20%;
         width: 100%;
         display: flex;
         align-items: flex-start;
@@ -652,7 +665,7 @@
         height: 20%;
         color: black;
         text-align: end;
-        font-size: 8pt;
+        font-size: 15pt;
         background: white;
         padding-right: 20px;
         padding-left: 20px;
@@ -845,7 +858,6 @@
       }
     
       @include breakpoint(xsmall) {
-        padding: 1.5rem 0;
     
         .content {
           .inner {
@@ -974,21 +986,6 @@
     .dropdownBtns {
       color: black;
     }
-    .linkProd {
-      color: white;
-    }
-    .linkCont {
-      color: white;
-    }
-    .linkProj {
-      color: white;
-    }
-    .linkInd {
-      color: white;
-    }
-    .linkAbout {
-      color: white;
-    }
     }
 
   @include breakpoint(small){
@@ -1007,7 +1004,7 @@
     }
     #header {
       width: 100vw;
-      height: 14vh;
+      height: 10vh;
       z-index: 150;
       position: fixed; top:0;
       text-align: center;
@@ -1041,19 +1038,18 @@
         align-items: center;
         z-index: 3;
         // overflow: hidden;
+        margin: 0;
     }
     .navbar-brand {
         position: relative;
         width: 7%;
         height: 100%;
         margin: 0;
-        padding-bottom: 20px;
       }
       .icon1 {
         position: relative;
-        width:100px;
-        height: 100px;
-        padding-bottom: 15px;
+        width:50px;
+        height: 50px;
     
     }
     .icon1:hover {
@@ -1087,12 +1083,14 @@
         font-size: 18pt;
         z-index: 1000;
         position: relative;
+        display: none;
         
       }
       .top-nav-list > li {
         display: flex;
         padding: 20px;
         height: 100%;
+        display: none;
       }
       
       .top-header {
@@ -1131,6 +1129,7 @@
         align-items: flex-start;
         justify-content: flex-end;
         color: black;
+        display: none;
       }
       .superheaderContainer > h5 {
         padding-right: 20px;
@@ -1148,12 +1147,10 @@
         padding-right: 20px;
         padding-left: 20px;
         display: flex;
+        display: none;
         
       }
-      .superheader:hover {
-          transform: scale(1.1);
-          color: #1F3F77;
-      }
+      
       .content {
         border-style: solid;
         border-color: _palette(border);
@@ -1498,7 +1495,7 @@
   }
   #header {
     width: 100vw;
-    height: 14vh;
+    height: 10vh;
     z-index: 150;
     position: fixed; top:0;
     text-align: center;
@@ -1538,13 +1535,12 @@
       width: 7%;
       height: 100%;
       margin: 0;
-      padding-bottom: 20px;
+      margin-bottom: 10px;
     }
     .icon1 {
       position: relative;
       width:50px;
       height: 50px;
-      padding-bottom: 15px;
   
   }
   .icon1:hover {
@@ -1578,12 +1574,14 @@
       font-size: 18pt;
       z-index: 1000;
       position: relative;
+      display: none;
       
     }
     .top-nav-list > li {
       display: flex;
       padding: 20px;
       height: 100%;
+      display: none;
     }
     
     .top-header {
@@ -1622,6 +1620,7 @@
       align-items: flex-start;
       justify-content: flex-end;
       color: black;
+      display: none;
     }
     .superheaderContainer > h5 {
       padding-right: 20px;
@@ -1956,21 +1955,6 @@
   .dropdownBtns {
     color: black;
   }
-  .linkProd {
-    color: white;
-  }
-  .linkCont {
-    color: white;
-  }
-  .linkProj {
-    color: white;
-  }
-  .linkInd {
-    color: white;
-  }
-  .linkAbout {
-    color: white;
-  }
   }
   
   @include breakpoint(large){
@@ -1989,7 +1973,7 @@ Link {
 }
 #header {
   width: 100vw;
-  height: 13vh;
+  height: 11vh;
   z-index: 150;
   position: fixed; top:0;
   text-align: center;
@@ -2037,8 +2021,8 @@ Link {
   }
   .icon1 {
     position: relative;
-    width:75px;
-    height: 75px;
+    width:70px;
+    height: 70px;
     padding-bottom: 15px;
 
 }
@@ -2093,6 +2077,7 @@ Link {
     display: flex;
     padding: 20px;
     height: 100%;
+    display: none;
   }
   
   .top-header {
@@ -2131,6 +2116,7 @@ Link {
     align-items: flex-start;
     justify-content: flex-end;
     color: black;
+    display: none;
   }
   .superheaderContainer > h5 {
     padding-right: 20px;

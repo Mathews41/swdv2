@@ -8,6 +8,8 @@ import '../assets/scss/layout/projects.scss'
 import api from '../images/API-min.jpg'
 import elevation from '../images/elevation shot-min.png'
 import aztech from '../images/ua-tech-park-hero-min.jpg'
+import ppASU from '../images/Project Profile - ASU Greek Village.pdf'
+
 
 
 
@@ -37,16 +39,16 @@ export default function projects() {
         <button className='cardButton'>Read Full Study</button>
       </div>
     </div>
-    <div id='card' >
+    <a href={ppASU} target='_blank' id='card' >
       <img class="card-img-top1"  src={asu} alt="Card image top"/>
       <div class="card-body1">
         <h3 class="card-title">Arizona State University </h3>
         <h4 class="card-subtitle">
             Greek Leadership Student Housing Tempe, AZ
 </h4>
-        <button className='cardButton'>Read Full Study</button>
+        <button href={ppASU} target='_blank' className='cardButton'>Read Full Study</button>
       </div>
-    </div>
+    </a>
     <div id='card' >
       <img class="card-img-top1"  src={aztech} alt="Card image top"/>
       <div class="card-body1">

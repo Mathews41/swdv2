@@ -157,12 +157,11 @@
         z-index: 1;
         display: flex;
         align-items: flex-start;
-        margin-top: 8%;
-        margin-bottom: 30px;
+        margin-top: 10%;
     }
     #cardDeck {
         width: 100%;
-        height: 60%;
+        height: 30%;
         z-index: 2;
         position: absolute;
         display: flex;
@@ -171,7 +170,7 @@
         animation: fadeInAnimation 1s  0s 1 normal ;
     }
     .stepperCard {
-        width: 50vw;
+        width: 42.5vw;
         
     }
     .stepperCard:hover {
@@ -180,13 +179,10 @@
         transform: scale(1.05);
     }
     .cardImg {
-        height: 13rem;
-    }
-    .cardLink:hover {
-        color: inherit;
+        height: 8rem;
     }
     .cardLink {
-        width: 40%;
+        width: 45%;
         height: 100%;
         display: flex;
         flex-direction: row;
@@ -195,10 +191,11 @@
     }
     
     #cardTitle {
-     font-size: 22pt;
+     font-size: 12pt;
     }
     #cardText {
-        font-size: 12pt;
+        font-size: 8pt;
+        display: none;
     }
     #cardBody {
         padding: 15px;
@@ -206,7 +203,7 @@
     .isoBand {
         width: 78.5vw;
         background: white;
-        height: 150px;
+        height: 60px;
         z-index: 4;
         overflow: hidden;
         position: absolute;
@@ -219,14 +216,14 @@
         border-radius: 10px;
     }
     .ISO {
-        width: 140px;
-        height: 140px;
+        width: 40px;
+        height: 40px;
         display: flex;
     }
     .isoBand1 {
         width: 100%;
         background: white;
-        height: 140px;
+        height: 70px;
         z-index: 4;
         bottom: 0;
         display: flex;
@@ -237,18 +234,20 @@
         border-radius: 10px;
     }
     .ISO1 {
-        width: 140px;
-        height: 140px;
+        width: 40px;
+        height: 40px;
         display: flex;
     }
     .ISO11 {
-        width: 150px;
-        height: 140px;
+        width: 40px;
+        height: 40px;
         margin-top: 15px;
         border-radius: 10px;
     }
     .insulLink {
         margin-left: 10px;
+        width: 20%;
+        height: 20%;
     
     }
     
@@ -285,11 +284,10 @@
         display: flex;
         align-items: flex-start;
         margin-top: 8%;
-        margin-bottom: 30px;
     }
     #cardDeck {
         width: 100%;
-        height: 60%;
+        height: 70%;
         z-index: 2;
         position: absolute;
         display: flex;
@@ -298,22 +296,16 @@
         animation: fadeInAnimation 1s  0s 1 normal ;
     }
     .stepperCard {
-        width: 50vw;
+        width: 40vw;
         
     }
-    .stepperCard:hover {
-        background: rgb(167, 167, 167);
-        transition-duration: .3s;
-        transform: scale(1.05);
-    }
+    
     .cardImg {
-        height: 13rem;
+        height: 9rem;
     }
-    .cardLink:hover {
-        color: inherit;
-    }
+    
     .cardLink {
-        width: 40%;
+        width: 45%;
         height: 100%;
         display: flex;
         flex-direction: row;
@@ -322,10 +314,10 @@
     }
     
     #cardTitle {
-     font-size: 22pt;
+     font-size: 14pt;
     }
     #cardText {
-        font-size: 12pt;
+        font-size: 8.3pt;
     }
     #cardBody {
         padding: 15px;
@@ -333,7 +325,7 @@
     .isoBand {
         width: 78.5vw;
         background: white;
-        height: 150px;
+        height: 80px;
         z-index: 4;
         overflow: hidden;
         position: absolute;
@@ -346,8 +338,8 @@
         border-radius: 10px;
     }
     .ISO {
-        width: 140px;
-        height: 140px;
+        width: 60px;
+        height: 60px;
         display: flex;
     }
     .isoBand1 {
@@ -364,13 +356,13 @@
         border-radius: 10px;
     }
     .ISO1 {
-        width: 140px;
-        height: 140px;
+        width: 60px;
+        height: 60px;
         display: flex;
     }
     .ISO11 {
-        width: 150px;
-        height: 140px;
+        width: 60px;
+        height: 60px;
         margin-top: 15px;
         border-radius: 10px;
     }
@@ -407,16 +399,15 @@
     }
     .stepperPage {
         width: 100%;
-        height: 80%;
+        height: 60%;
         z-index: 1;
         display: flex;
         align-items: flex-start;
-        margin-top: 8%;
-        margin-bottom: 30px;
+        margin-top: -10%;
     }
     #cardDeck {
         width: 100%;
-        height: 60%;
+        height: 70%;
         z-index: 2;
         position: absolute;
         display: flex;
@@ -434,13 +425,13 @@
         transform: scale(1.05);
     }
     .cardImg {
-        height: 13rem;
+        height: 9rem;
     }
     .cardLink:hover {
         color: inherit;
     }
     .cardLink {
-        width: 40%;
+        width: 50%;
         height: 100%;
         display: flex;
         flex-direction: row;
@@ -449,10 +440,10 @@
     }
     
     #cardTitle {
-     font-size: 22pt;
+     font-size: 18pt;
     }
     #cardText {
-        font-size: 12pt;
+        font-size: 10pt;
     }
     #cardBody {
         padding: 15px;
@@ -460,7 +451,7 @@
     .isoBand {
         width: 78.5vw;
         background: white;
-        height: 150px;
+        height: 80px;
         z-index: 4;
         overflow: hidden;
         position: absolute;
@@ -473,8 +464,8 @@
         border-radius: 10px;
     }
     .ISO {
-        width: 140px;
-        height: 140px;
+        width: 70px;
+        height: 70px;
         display: flex;
     }
     .isoBand1 {
@@ -491,13 +482,13 @@
         border-radius: 10px;
     }
     .ISO1 {
-        width: 140px;
-        height: 140px;
+        width: 70px;
+        height: 70px;
         display: flex;
     }
     .ISO11 {
-        width: 150px;
-        height: 140px;
+        width: 70px;
+        height: 70px;
         margin-top: 15px;
         border-radius: 10px;
     }
@@ -538,28 +529,22 @@
         z-index: 1;
         display: flex;
         align-items: flex-start;
-        margin-top: 8%;
+        margin-top: 5%;
         margin-bottom: 30px;
     }
     #cardDeck {
         width: 100%;
-        height: 60%;
+        height: 70%;
         z-index: 2;
         position: absolute;
         display: flex;
         margin: 0;
-        margin-top: 3%;
+        margin-top: 2%;
         justify-content: center;
         animation: fadeInAnimation 1s  0s 1 normal ;
     }
     .stepperCard {
-        width: 40vw;
-        
-    }
-    .stepperCard:hover {
-        background: rgb(167, 167, 167);
-        transition-duration: .3s;
-        transform: scale(1.05);
+        width:35vw;
     }
     .cardImg {
         height: 10rem;
@@ -577,7 +562,7 @@
     }
     
     #cardTitle {
-     font-size: 18pt;
+     font-size: 16pt;
     }
     #cardText {
         font-size: 10pt;
@@ -588,7 +573,7 @@
     .isoBand {
         width: 78.5vw;
         background: white;
-        height: 150px;
+        height: 100px;
         z-index: 4;
         overflow: hidden;
         position: absolute;
@@ -601,14 +586,14 @@
         border-radius: 10px;
     }
     .ISO {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
         display: flex;
     }
     .isoBand1 {
         width: 100%;
         background: white;
-        height: 140px;
+        height: 100px;
         z-index: 4;
         bottom: 0;
         display: flex;
@@ -619,13 +604,13 @@
         border-radius: 10px;
     }
     .ISO1 {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
         display: flex;
     }
     .ISO11 {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
         margin-top: 15px;
         border-radius: 10px;
     }
@@ -715,7 +700,7 @@
     .isoBand {
         width: 78.5vw;
         background: white;
-        height: 150px;
+        height: 130px;
         z-index: 4;
         overflow: hidden;
         position: absolute;
@@ -728,14 +713,14 @@
         border-radius: 10px;
     }
     .ISO {
-        width: 140px;
-        height: 140px;
+        width: 120px;
+        height: 120px;
         display: flex;
     }
     .isoBand1 {
         width: 100%;
         background: white;
-        height: 140px;
+        height: 120px;
         z-index: 4;
         bottom: 0;
         display: flex;
@@ -746,13 +731,13 @@
         border-radius: 10px;
     }
     .ISO1 {
-        width: 140px;
-        height: 140px;
+        width: 120px;
+        height: 120px;
         display: flex;
     }
     .ISO11 {
-        width: 150px;
-        height: 140px;
+        width: 120px;
+        height: 120px;
         margin-top: 15px;
         border-radius: 10px;
     }

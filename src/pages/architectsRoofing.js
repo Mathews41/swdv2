@@ -14,7 +14,7 @@ import eval125 from '../images/evalreport125.pdf'
 import test from '../images/test.pdf'
 import eval155 from '../images/ESR155.pdf'
 import roofrating155 from '../images/roofRating155.pdf'
-import TDS15525 from '../images/TDS155-2.5.pdf'
+import TDS15525 from '../images/TDS-QS-155-2.5.pdf'
 import spec155 from '../images/spec155.pdf'
 import '../assets/scss/layout/architectsStepper.scss'
 import greenbuilding from '../images/greenbuilding.png'
@@ -303,6 +303,19 @@ export default function architectsInsulation() {
                             Retail Developments 
                             </li>
                         </ul>
+                        <h2 className='htiltle'>Contact Us</h2>
+                <ul className='lowerList1'>
+                    <li>
+                    Ron Stas 
+                    </li>
+                    <li>
+                    Ron.Stas@swdurethane.com
+
+                    </li>
+                    <li>
+                    +1(602-568-5274) 
+                    </li>
+                </ul>
                     </div>
                     </div>
                         <div className='isoBand1'>

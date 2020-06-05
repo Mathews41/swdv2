@@ -161,7 +161,7 @@ const RightNav = ({ open }) => {
       <li><a id='sideNav' href='/projectsStepper/'>Projects</a></li>
       <li><a id='sideNav' href='/industrial/'>Industrial</a></li>
       <li><a id='sideNav' href='/about/'>About</a></li>
-
+      <li><a id='sideNav' href='/contact/'>Contact Us</a></li>
     </Ul>
   )
 }

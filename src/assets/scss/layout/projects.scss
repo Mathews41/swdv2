@@ -1,173 +1,1012 @@
-@keyframes growAnimation1 {
-    0% {
-        transform: translate(-3000px,0);
+@media (min-width: 0px) and (max-width: 360px){
+    @keyframes growAnimation1 {
+        0% {
+            transform: translate(-3000px,0);
+        }
+        100% {
+            transform: translate(0,0);
+            
+        }
     }
-    100% {
-        transform: translate(0,0);
+    @keyframes SlideAnimation2 {
+        0% {
+            transform: translate(0px,1000px);
+        }
+        100% {
+            transform: translate(0,0px);
+            
+        }
+    }
+    .container-proj {
+        width: 90%;
+        height: 100%;
+        margin: 0;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    
+    }
+    .container {
+        width: 100%;
+        height: 100%;
+    
+    }
+    #section_0 {
+        width: 100%;
+        height: auto;
+        padding-top: 10%;
+    }
+    .scrollspyTitle {
+        color: rgb(2, 43, 85);
+        font-size: 20pt;
+    }
+    .scrollspyTitle:hover {
+        color: rgb(0, 0, 0);
         
     }
-}
-@keyframes SlideAnimation2 {
-    0% {
-        transform: translate(0px,1000px);
+    #section_1 {
+        width: 100%;
+        height: auto;
+        padding-top: 10%;
     }
-    100% {
-        transform: translate(0,0px);
+    .ccTitle {
+        width: 100%;
+        letter-spacing: .5rem;
+        font-size: 24pt;
+        margin-left: 5%;
+    }
+    .card-body1 {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background: white;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .card-body1 > h3{
+        width: 100%;
+        height: 20%;
+        color: black;
+        background: white;
+        font-size: 15pt;
+        text-align: start;
+    }
+    .card-body1 > h4 {
+        width: 100%;
+        height: 55%;
+        color: black;
+        background: white;
+        text-align: start;
+        font-size: 10pt;
+        word-wrap: wrap;
+        margin-top: 15px;
+        font-weight: normal;
+        font-style: italic;
+    }
+    .cardButton{
+        position:relative;
+        transition: .5s ease;
+        width: 60%;
+        font-size: 10pt;
+        bottom: 0px;
+        align-self: center;
+        background: rgb(2, 43, 85);
+    }
+    .cardButton:hover {
+        background: black;
+    }
+    .content-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .scrollspy1 {
+        width: 13%;
+        height: 200px;
+        text-align: center;
+        background: white;
+        margin-left: 1%;
+        animation: growAnimation1 1s  0s 1 normal ;
+        box-shadow: 10px 10px 10px 5px black;
+        position: fixed;
+        border-radius: 10px;
+        left: 0;
+        margin-top: 10%;
+        padding: 0;
+    
+    }
+    .scrollspy1 > li{
+        padding: 30px;
+    }
+    .scrollspy1:hover {
+        transition-duration: .3s;
+        transform: scale(1.1);
+    }
+    .scrollspy-content1 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        z-index: 0;
+        // padding-top: 150px;
+        text-align: center;
+        margin-top: 0;
         
     }
-}
-.container-proj {
-    width: 90%;
-    height: 100%;
-    margin: 0;
-    margin-left: 10%;
-    margin-bottom: 5%;
-
-}
-.container {
-    width: 100%;
-    height: 100%;
-
-}
-#section_0 {
-    width: 100%;
-    height: auto;
-    padding-top: 10%;
-}
-.scrollspyTitle {
-    color: rgb(2, 43, 85);
-    font-size: 20pt;
-}
-.scrollspyTitle:hover {
-    color: rgb(0, 0, 0);
+    .card-columns {
+        width: 100%;
+        height: 70vh;
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    #card {
+        width: 400px;
+        height: 70%;
+        margin: 1%;
+        border-radius: 1%;
+        box-shadow: 10px 10px 10px 5px black;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        animation: SlideAnimation2 1s  0s 1 normal ;
     
+    }
+    .carTag {
+        color: black;
+        font-size: 14pt;
+    }
+    #card:hover {
+        transition-duration: .3s;
+        transform: scale(1.05);
+    }
+    .card-img-top1 {
+        width: 100%;
+        height: 225px;
+    }
+    .dropdownArch {
+        display: none;
+    }
+    #sideNav {
+        color: white;
+    }
 }
-#section_1 {
-    width: 100%;
-    height: auto;
-    padding-top: 10%;
-}
-.ccTitle {
-    width: 100%;
-    letter-spacing: .5rem;
-    font-size: 24pt;
-    margin-left: 5%;
-}
-.card-body1 {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    background: white;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-}
-.card-body1 > h3{
-    width: 100%;
-    height: 20%;
-    color: black;
-    background: white;
-    font-size: 15pt;
-    text-align: start;
-}
-.card-body1 > h4 {
-    width: 100%;
-    height: 55%;
-    color: black;
-    background: white;
-    text-align: start;
-    font-size: 10pt;
-    word-wrap: wrap;
-    margin-top: 15px;
-    font-weight: normal;
-    font-style: italic;
-}
-.cardButton{
-    position:relative;
-    transition: .5s ease;
-    width: 60%;
-    font-size: 10pt;
-    bottom: 0px;
-    align-self: center;
-    background: rgb(2, 43, 85);
-}
-.cardButton:hover {
-    background: black;
-}
-.content-container {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-.scrollspy1 {
-    width: 13%;
-    height: 200px;
-    text-align: center;
-    background: white;
-    margin-left: 1%;
-    animation: growAnimation1 1s  0s 1 normal ;
-    box-shadow: 10px 10px 10px 5px black;
-    position: fixed;
-    border-radius: 10px;
-    left: 0;
-    margin-top: 10%;
-    padding: 0;
-
-}
-.scrollspy1 > li{
-    padding: 30px;
-}
-.scrollspy1:hover {
-    transition-duration: .3s;
-    transform: scale(1.1);
-}
-.scrollspy-content1 {
-    width: 100%;
-    height: auto;
-    display: flex;
-    z-index: 0;
-    // padding-top: 150px;
-    text-align: center;
-    margin-top: 0;
+@media (min-width: 361px) and (max-width: 480px){
+    @keyframes growAnimation1 {
+        0% {
+            transform: translate(-3000px,0);
+        }
+        100% {
+            transform: translate(0,0);
+            
+        }
+    }
+    @keyframes SlideAnimation2 {
+        0% {
+            transform: translate(0px,1000px);
+        }
+        100% {
+            transform: translate(0,0px);
+            
+        }
+    }
+    .container-proj {
+        width: 90%;
+        height: 100%;
+        margin: 0;
+        margin-left: 10%;
+        margin-bottom: 5%;
     
+    }
+    .container {
+        width: 100%;
+        height: 100%;
+    
+    }
+    #section_0 {
+        width: 100%;
+        height: auto;
+        padding-top: 10%;
+    }
+    .scrollspyTitle {
+        color: rgb(2, 43, 85);
+        font-size: 20pt;
+    }
+    .scrollspyTitle:hover {
+        color: rgb(0, 0, 0);
+        
+    }
+    #section_1 {
+        width: 100%;
+        height: auto;
+        padding-top: 10%;
+    }
+    .ccTitle {
+        width: 100%;
+        letter-spacing: .5rem;
+        font-size: 24pt;
+        margin-left: 5%;
+    }
+    .card-body1 {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background: white;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .card-body1 > h3{
+        width: 100%;
+        height: 20%;
+        color: black;
+        background: white;
+        font-size: 15pt;
+        text-align: start;
+    }
+    .card-body1 > h4 {
+        width: 100%;
+        height: 55%;
+        color: black;
+        background: white;
+        text-align: start;
+        font-size: 10pt;
+        word-wrap: wrap;
+        margin-top: 15px;
+        font-weight: normal;
+        font-style: italic;
+    }
+    .cardButton{
+        position:relative;
+        transition: .5s ease;
+        width: 60%;
+        font-size: 10pt;
+        bottom: 0px;
+        align-self: center;
+        background: rgb(2, 43, 85);
+    }
+    .cardButton:hover {
+        background: black;
+    }
+    .content-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .scrollspy1 {
+        width: 13%;
+        height: 200px;
+        text-align: center;
+        background: white;
+        margin-left: 1%;
+        animation: growAnimation1 1s  0s 1 normal ;
+        box-shadow: 10px 10px 10px 5px black;
+        position: fixed;
+        border-radius: 10px;
+        left: 0;
+        margin-top: 10%;
+        padding: 0;
+    
+    }
+    .scrollspy1 > li{
+        padding: 30px;
+    }
+    .scrollspy1:hover {
+        transition-duration: .3s;
+        transform: scale(1.1);
+    }
+    .scrollspy-content1 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        z-index: 0;
+        // padding-top: 150px;
+        text-align: center;
+        margin-top: 0;
+        
+    }
+    .card-columns {
+        width: 100%;
+        height: 70vh;
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    #card {
+        width: 400px;
+        height: 70%;
+        margin: 1%;
+        border-radius: 1%;
+        box-shadow: 10px 10px 10px 5px black;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        animation: SlideAnimation2 1s  0s 1 normal ;
+    
+    }
+    .carTag {
+        color: black;
+        font-size: 14pt;
+    }
+    #card:hover {
+        transition-duration: .3s;
+        transform: scale(1.05);
+    }
+    .card-img-top1 {
+        width: 100%;
+        height: 225px;
+    }
+    .dropdownArch {
+        display: none;
+    }
+    #sideNav {
+        color: white;
+    }
 }
-.card-columns {
-    width: 100%;
-    height: 70vh;
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+@media (min-width: 481px) and (max-width: 736px){
+    @keyframes growAnimation1 {
+        0% {
+            transform: translate(-3000px,0);
+        }
+        100% {
+            transform: translate(0,0);
+            
+        }
+    }
+    @keyframes SlideAnimation2 {
+        0% {
+            transform: translate(0px,1000px);
+        }
+        100% {
+            transform: translate(0,0px);
+            
+        }
+    }
+    .container-proj {
+        width: 90%;
+        height: 100%;
+        margin: 0;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    
+    }
+    .container {
+        width: 100%;
+        height: 100%;
+    
+    }
+    #section_0 {
+        width: 100%;
+        height: auto;
+        padding-top: 10%;
+    }
+    .scrollspyTitle {
+        color: rgb(2, 43, 85);
+        font-size: 20pt;
+    }
+    .scrollspyTitle:hover {
+        color: rgb(0, 0, 0);
+        
+    }
+    #section_1 {
+        width: 100%;
+        height: auto;
+        padding-top: 10%;
+    }
+    .ccTitle {
+        width: 100%;
+        letter-spacing: .5rem;
+        font-size: 24pt;
+        margin-left: 5%;
+    }
+    .card-body1 {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background: white;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .card-body1 > h3{
+        width: 100%;
+        height: 20%;
+        color: black;
+        background: white;
+        font-size: 15pt;
+        text-align: start;
+    }
+    .card-body1 > h4 {
+        width: 100%;
+        height: 55%;
+        color: black;
+        background: white;
+        text-align: start;
+        font-size: 10pt;
+        word-wrap: wrap;
+        margin-top: 15px;
+        font-weight: normal;
+        font-style: italic;
+    }
+    .cardButton{
+        position:relative;
+        transition: .5s ease;
+        width: 60%;
+        font-size: 10pt;
+        bottom: 0px;
+        align-self: center;
+        background: rgb(2, 43, 85);
+    }
+    .cardButton:hover {
+        background: black;
+    }
+    .content-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .scrollspy1 {
+        width: 13%;
+        height: 200px;
+        text-align: center;
+        background: white;
+        margin-left: 1%;
+        animation: growAnimation1 1s  0s 1 normal ;
+        box-shadow: 10px 10px 10px 5px black;
+        position: fixed;
+        border-radius: 10px;
+        left: 0;
+        margin-top: 10%;
+        padding: 0;
+    
+    }
+    .scrollspy1 > li{
+        padding: 30px;
+    }
+    .scrollspy1:hover {
+        transition-duration: .3s;
+        transform: scale(1.1);
+    }
+    .scrollspy-content1 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        z-index: 0;
+        // padding-top: 150px;
+        text-align: center;
+        margin-top: 0;
+        
+    }
+    .card-columns {
+        width: 100%;
+        height: 70vh;
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    #card {
+        width: 400px;
+        height: 70%;
+        margin: 1%;
+        border-radius: 1%;
+        box-shadow: 10px 10px 10px 5px black;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        animation: SlideAnimation2 1s  0s 1 normal ;
+    
+    }
+    .carTag {
+        color: black;
+        font-size: 14pt;
+    }
+    #card:hover {
+        transition-duration: .3s;
+        transform: scale(1.05);
+    }
+    .card-img-top1 {
+        width: 100%;
+        height: 225px;
+    }
+    .dropdownArch {
+        display: none;
+    }
+    #sideNav {
+        color: white;
+    }
 }
-#card {
-    width: 400px;
-    height: 70%;
-    margin: 1%;
-    border-radius: 1%;
-    box-shadow: 10px 10px 10px 5px black;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    animation: SlideAnimation2 1s  0s 1 normal ;
+@media (min-width: 737px) and (max-width: 980px){
+    @keyframes growAnimation1 {
+        0% {
+            transform: translate(-3000px,0);
+        }
+        100% {
+            transform: translate(0,0);
+            
+        }
+    }
+    @keyframes SlideAnimation2 {
+        0% {
+            transform: translate(0px,1000px);
+        }
+        100% {
+            transform: translate(0,0px);
+            
+        }
+    }
+    .container-proj {
+        width: 90%;
+        height: 100%;
+        margin: 0;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    
+    }
+    .container {
+        width: 100%;
+        height: 100%;
+    
+    }
+    #section_0 {
+        width: 100%;
+        height: auto;
+        padding-top: 10%;
+    }
+    .scrollspyTitle {
+        color: rgb(2, 43, 85);
+        font-size: 20pt;
+    }
+    .scrollspyTitle:hover {
+        color: rgb(0, 0, 0);
+        
+    }
+    #section_1 {
+        width: 100%;
+        height: auto;
+        padding-top: 10%;
+    }
+    .ccTitle {
+        width: 100%;
+        letter-spacing: .5rem;
+        font-size: 24pt;
+        margin-left: 5%;
+    }
+    .card-body1 {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background: white;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .card-body1 > h3{
+        width: 100%;
+        height: 20%;
+        color: black;
+        background: white;
+        font-size: 15pt;
+        text-align: start;
+    }
+    .card-body1 > h4 {
+        width: 100%;
+        height: 55%;
+        color: black;
+        background: white;
+        text-align: start;
+        font-size: 10pt;
+        word-wrap: wrap;
+        margin-top: 15px;
+        font-weight: normal;
+        font-style: italic;
+    }
+    .cardButton{
+        position:relative;
+        transition: .5s ease;
+        width: 60%;
+        font-size: 10pt;
+        bottom: 0px;
+        align-self: center;
+        background: rgb(2, 43, 85);
+    }
+    .cardButton:hover {
+        background: black;
+    }
+    .content-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .scrollspy1 {
+        width: 13%;
+        height: 200px;
+        text-align: center;
+        background: white;
+        margin-left: 1%;
+        animation: growAnimation1 1s  0s 1 normal ;
+        box-shadow: 10px 10px 10px 5px black;
+        position: fixed;
+        border-radius: 10px;
+        left: 0;
+        margin-top: 10%;
+        padding: 0;
+    
+    }
+    .scrollspy1 > li{
+        padding: 30px;
+    }
+    .scrollspy1:hover {
+        transition-duration: .3s;
+        transform: scale(1.1);
+    }
+    .scrollspy-content1 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        z-index: 0;
+        // padding-top: 150px;
+        text-align: center;
+        margin-top: 0;
+        
+    }
+    .card-columns {
+        width: 100%;
+        height: 70vh;
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    #card {
+        width: 400px;
+        height: 70%;
+        margin: 1%;
+        border-radius: 1%;
+        box-shadow: 10px 10px 10px 5px black;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        animation: SlideAnimation2 1s  0s 1 normal ;
+    
+    }
+    .carTag {
+        color: black;
+        font-size: 14pt;
+    }
+    #card:hover {
+        transition-duration: .3s;
+        transform: scale(1.05);
+    }
+    .card-img-top1 {
+        width: 100%;
+        height: 225px;
+    }
+    .dropdownArch {
+        display: none;
+    }
+    #sideNav {
+        color: white;
+    }
+}
+@media (min-width: 981px) and (max-width: 1280px){
+    @keyframes growAnimation1 {
+        0% {
+            transform: translate(-3000px,0);
+        }
+        100% {
+            transform: translate(0,0);
+            
+        }
+    }
+    @keyframes SlideAnimation2 {
+        0% {
+            transform: translate(0px,1000px);
+        }
+        100% {
+            transform: translate(0,0px);
+            
+        }
+    }
+    .container-proj {
+        width: 90%;
+        height: 100%;
+        margin: 0;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    
+    }
+    .container {
+        width: 100%;
+        height: 100%;
+    
+    }
+    #section_0 {
+        width: 100%;
+        height: auto;
+        padding-top: 10%;
+    }
+    #section_1 {
+        width: 100%;
+        height: auto;
+        padding-top: 10%;
+    }
+    .ccTitle {
+        width: 100%;
+        letter-spacing: .5rem;
+        font-size: 24pt;
+        margin-left: 5%;
+    }
+    .card-body1 {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background: white;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .card-body1 > h3{
+        width: 100%;
+        height: 20%;
+        color: black;
+        background: white;
+        font-size: 15pt;
+        text-align: start;
+    }
+    .card-body1 > h4 {
+        width: 100%;
+        height: 55%;
+        color: black;
+        background: white;
+        text-align: start;
+        font-size: 10pt;
+        word-wrap: wrap;
+        margin-top: 15px;
+        font-weight: normal;
+        font-style: italic;
+    }
+    .cardButton{
+        position:relative;
+        transition: .5s ease;
+        width: 60%;
+        font-size: 10pt;
+        bottom: 0px;
+        align-self: center;
+        background: rgb(2, 43, 85);
+    }
+    .cardButton:hover {
+        background: black;
+    }
+    .content-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        flex-shrink: 0;
+    }
 
+    .card-columns {
+        width: 100%;
+        height: 70vh;
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    #card {
+        width: 400px;
+        height: 70%;
+        margin: 1%;
+        border-radius: 1%;
+        box-shadow: 10px 10px 10px 5px black;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        animation: SlideAnimation2 1s  0s 1 normal ;
+    
+    }
+    .carTag {
+        color: black;
+        font-size: 14pt;
+    }
+    #card:hover {
+        transition-duration: .3s;
+        transform: scale(1.05);
+    }
+    .card-img-top1 {
+        width: 100%;
+        height: 225px;
+    }
+    .dropdownArch {
+        display: none;
+    }
+    #sideNav {
+        color: white;
+    }
 }
-.carTag {
-    color: black;
-    font-size: 14pt;
-}
-#card:hover {
-    transition-duration: .3s;
-    transform: scale(1.05);
-}
-.card-img-top1 {
-    width: 100%;
-    height: 225px;
-}
-.dropdownArch {
-    display: none;
-}
-#sideNav {
-    color: white;
+@media (min-width: 1281px) and (max-width: 1680px){
+    @keyframes growAnimation1 {
+        0% {
+            transform: translate(-3000px,0);
+        }
+        100% {
+            transform: translate(0,0);
+            
+        }
+    }
+    @keyframes SlideAnimation2 {
+        0% {
+            transform: translate(0px,1000px);
+        }
+        100% {
+            transform: translate(0,0px);
+            
+        }
+    }
+    .container-proj {
+        width: 90%;
+        height: 100%;
+        margin: 0;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    
+    }
+    .container {
+        width: 100%;
+        height: 100%;
+    
+    }
+    #section_0 {
+        width: 100%;
+        height: auto;
+        padding-top: 10%;
+    }
+    .scrollspyTitle {
+        color: rgb(2, 43, 85);
+        font-size: 20pt;
+    }
+    .scrollspyTitle:hover {
+        color: rgb(0, 0, 0);
+        
+    }
+    #section_1 {
+        width: 100%;
+        height: auto;
+        padding-top: 10%;
+    }
+    .ccTitle {
+        width: 100%;
+        letter-spacing: .5rem;
+        font-size: 24pt;
+        margin-left: 5%;
+    }
+    .card-body1 {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background: white;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .card-body1 > h3{
+        width: 100%;
+        height: 20%;
+        color: black;
+        background: white;
+        font-size: 15pt;
+        text-align: start;
+    }
+    .card-body1 > h4 {
+        width: 100%;
+        height: 55%;
+        color: black;
+        background: white;
+        text-align: start;
+        font-size: 10pt;
+        word-wrap: wrap;
+        margin-top: 15px;
+        font-weight: normal;
+        font-style: italic;
+    }
+    .cardButton{
+        position:relative;
+        transition: .5s ease;
+        width: 60%;
+        font-size: 10pt;
+        bottom: 0px;
+        align-self: center;
+        background: rgb(2, 43, 85);
+    }
+    .cardButton:hover {
+        background: black;
+    }
+    .content-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .scrollspy1 {
+        width: 13%;
+        height: 200px;
+        text-align: center;
+        background: white;
+        margin-left: 1%;
+        animation: growAnimation1 1s  0s 1 normal ;
+        box-shadow: 10px 10px 10px 5px black;
+        position: fixed;
+        border-radius: 10px;
+        left: 0;
+        margin-top: 10%;
+        padding: 0;
+    
+    }
+    .scrollspy1 > li{
+        padding: 30px;
+    }
+    .scrollspy1:hover {
+        transition-duration: .3s;
+        transform: scale(1.1);
+    }
+    .scrollspy-content1 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        z-index: 0;
+        // padding-top: 150px;
+        text-align: center;
+        margin-top: 0;
+        
+    }
+    .card-columns {
+        width: 100%;
+        height: 70vh;
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    #card {
+        width: 400px;
+        height: 70%;
+        margin: 1%;
+        border-radius: 1%;
+        box-shadow: 10px 10px 10px 5px black;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        animation: SlideAnimation2 1s  0s 1 normal ;
+    
+    }
+    .carTag {
+        color: black;
+        font-size: 14pt;
+    }
+    #card:hover {
+        transition-duration: .3s;
+        transform: scale(1.05);
+    }
+    .card-img-top1 {
+        width: 100%;
+        height: 225px;
+    }
+    .dropdownArch {
+        display: none;
+    }
+    #sideNav {
+        color: white;
+    }
 }
