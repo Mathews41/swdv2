@@ -18,7 +18,8 @@ import TDS15525 from '../images/TDS155-2.5.pdf'
 import silicone from '../images/silicone.pdf'
 import {Link} from 'gatsby'
 //Footer
-// import Footer from '../pages/Landing/Footer'
+import Footer from '../components/Footer'
+
 
 //Technical Data Sheets
 import TDS1881 from '../images/TDS-QS-1881.pdf'
@@ -586,6 +587,8 @@ export default function products() {
             </Card>
                     </Accordion>
                     </div>
+                    <Footer/>
         </div>
+
     )
 }

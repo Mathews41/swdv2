@@ -28,7 +28,7 @@ export default function about() {
                 <div className='aboutPg1'>
                     <img className='aboutImg' src={img7}/>
                     <div className='psection'>
-                    <h2 className='pfs'>Call to Action</h2>
+                    <h2 className='pfs'></h2>
                     <p className='aboutP'>
                     We were started by spray foam contractors over 45 years ago, who needed roofing and insulation solutions that traditional polyurethane suppliers could not provide. Our past experience gives us the unique understanding of how to partner with you to help grow your business effectively and profitably.
                     </p>
@@ -36,7 +36,7 @@ export default function about() {
                 </div>
                 <div className='aboutPg1'>
                 <div className='psection'>
-                <h2 className='pfs'>Location Location Location</h2>
+                <h2 className='pfs'></h2>
                     <p className='aboutP'>
                     Located in Mesa, Arizona, SWD has grown to providing breakthrough polyurethane systems for a number of industries around the globe including both construction and industrial products. As a systems house, SWD has an exceptional lab processing team that gives us the ability to develop solutions based upon your specific needs. Unlike commodity providers, SWD will work with you to develop best-result solutions.
                     </p>
