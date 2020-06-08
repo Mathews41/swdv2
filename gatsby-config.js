@@ -26,6 +26,13 @@ module.exports = {
            trackingId: "UA-168691058-1",
         },
   },
+  {
+    resolve: `gatsby-plugin-purgecss`,
+    options: {
+      color: `teal`,
+      showSpinner: false
+    }
+  },
     
     'gatsby-plugin-sass',
     'gatsby-plugin-sitemap'
