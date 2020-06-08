@@ -125,7 +125,7 @@ const StyledBurger = styled.div`
   right: 5%;
   z-index: 20;
   div {
-    width: 2rem;
+    width: 3rem;
     height: 0.25rem;
     background-color: ${({ open }) => open ? '#ccc' : '#1F3F77'};
     border-radius: 10px;

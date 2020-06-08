@@ -520,7 +520,7 @@
     }
     #header {
       width: 100vw;
-      height: 11vh;
+      height: 10vh;
       z-index: 150;
       position: fixed; 
       top:0;
@@ -1540,8 +1540,8 @@
     }
     .icon1 {
       position: relative;
-      width:50px;
-      height: 50px;
+      width:70px;
+      height: 70px;
   
   }
   .icon1:hover {
@@ -1974,7 +1974,7 @@ Link {
 }
 #header {
   width: 100vw;
-  height: 12vh;
+  height: 10%;
   z-index: 150;
   position: fixed; top:0;
   text-align: center;
@@ -2021,8 +2021,8 @@ Link {
   }
   .icon1 {
     position: relative;
-    width:70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
 
 }
 .icon1:hover {
@@ -2124,6 +2124,7 @@ Link {
     border-right: 1px solid grey;
     font-size: 15pt;
     padding-left: 20px;
+    display: none;
   }
   .superheader {
     width: 18%;
@@ -2135,12 +2136,9 @@ Link {
     padding-right: 20px;
     padding-left: 20px;
     display: flex;
-    
+    display: none;
   }
-  .superheader:hover {
-      transform: scale(1.1);
-      color: #1F3F77;
-  }
+  
   .content {
     border-style: solid;
     border-color: _palette(border);

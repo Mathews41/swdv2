@@ -150,7 +150,7 @@
 @include breakpoint(xsmall){
   .footer {
     width: 100vw;
-    height: 50vh;
+    height: auto;
     background:rgb(235, 235, 235);
     display: flex;
     flex-direction: row;
@@ -300,7 +300,7 @@
    .footer {
     
     width: 100vw;
-    height: 100%;
+    height: 30vh;
     background:rgb(235, 235, 235);
     display: flex;
     flex-direction: row;
@@ -450,566 +450,165 @@
     background:rgb(214, 214, 214);
   }
 }
-@include breakpoint(large){
-  .footer {
-    
-    width: 100vw;
-    height: 100%;
-    background:rgb(235, 235, 235);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 2%;
-    margin-top: 1%;
-    border-top: 5px solid #1F3F77;
-  
-  
-  }
-  .logoContainer {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    height: 100%;
-    align-items: center;
-    background:rgb(235, 235, 235);
-  
-    color: black;
-  }
-  .logoContainer > sub {
-    flex-wrap: wrap;
-  }
-  .logoContainer > a {
-    color: blue;
-  }
-  .footerLogo {
-    width: 75px;
-    height: 75px;
-    display: flex;
-    margin-bottom: 5%;
-    z-index: 1;
-  }
-  .google {
-    width: 100px;
-    height: 30px;
-    margin-bottom: 5px;
-  }
-  .footerMain {
-    color: black;
-    width: 10%;
-    height: 100%;
-  
-  }
-  .footerMain > ul {
-    list-style-type: disc;
-    font-size: 12pt;
-  }
-  .footerMain > ul > h3 {
-    padding-bottom: 3%;
-  }
-  .footerMain > ul > li > a {
-    color: blue;
-  }
-  .footerAbout {
-    color: black;
-    width: 12%;
-    height: 100%;
-  }
-  .footerAbout > ul {
-    list-style-type: disc;
-    font-size: 12pt;
-  }
-  .footerAbout > ul > li > a {
-    color: blue;
-  }
-  .footerQuestions {
-    width: 16%;
-    color: black;
-    font-size: 12pt;
-  }
-  .number {
-    font-size: 11pt;
-    font-weight: bold;
-  }
-  .footerQuestions > p {
-    width: 90%;
-    padding-top: 3%;
-    line-height: normal;
-    font-style: italic;
-    margin-bottom: 20px;
-  }
-  .ogLogoContainer {
-    width: 15%;
-    display: flex;
-    flex-direction: column;
-  }
-  .logosContainer {
-    width: 80%;
-    height: 70%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-    align-self: center;
-    padding: 20px;
-    text-align: center;
-    background:rgb(235, 235, 235);
-  
-  }
-  .socialLogo {
-    width: 45px;
-    height: 45px;
-    margin: 5px;
-    background:rgb(214, 214, 214);
-  }
-  .socialLogo1 {
-    width: 45px;
-    height: 45px;
-    margin: 5px;
-    border-radius: 10px;
-    background: white;
-  }
-  .logosContainer1 {
-    width: 80%;
-    height: 50%;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    bottom: 0;
-    align-self: center;
-    background:rgb(214, 214, 214);
-  }
-  .qual {
-    width: 80px;
-    height: 80px;
-    margin: 10px;
-  }
-  .qual1 {
-    width: 110px;
-    height: 110px;
-  }
-  .google {
-    background:rgb(214, 214, 214);
-  }
-}
-@include breakpoint(xlarge){
-  .footer {
-    width: auto;
-    background:rgb(235, 235, 235);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 2%;
-    margin-top: 1.5%;
-    border-top: 5px solid #1F3F77;
-  
-  
-  }
-  .logoContainer {
-    display: flex;
-    flex-direction: column;
-    width: 15%;
-    height: 100%;
-    align-items: center;
-    background:rgb(235, 235, 235);
-  
-    color: black;
-  }
-  .logoContainer > a {
-    color: blue;
-  }
-  .footerLogo {
-    width: 100px;
-    height: 100px;
-    display: flex;
-    margin-bottom: 5%;
-    z-index: 1;
-  }
-  .google {
-    width: 150px;
-    height: 50px;
-    margin-bottom: 5px;
-  }
-  .footerMain {
-    color: black;
-    width: 10%;
-    height: 100%;
-  
-  }
-  .footerMain > ul {
-    list-style-type: disc;
-  }
-  .footerMain > ul > h3 {
-    padding-bottom: 3%;
-  }
-  .footerMain > ul > li > a {
-    color: blue;
-  }
-  .footerAbout {
-    color: black;
-    width: 12%;
-    height: 100%;
-  }
-  .footerAbout > ul {
-    list-style-type: disc;
-  }
-  .footerAbout > ul > li > a {
-    color: blue;
-  }
-  .footerQuestions {
-    width: 16%;
-    color: black;
-  }
-  .footerQuestions > p {
-    width: 90%;
-    padding-top: 3%;
-    line-height: normal;
-    font-style: italic;
-    margin-bottom: 20px;
-  }
-  .ogLogoContainer {
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-  }
-  .logosContainer {
-    height: 70%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-    align-self: center;
-    padding: 20px;
-    text-align: center;
-    background:rgb(235, 235, 235);
-  
-  }
-  .socialLogo {
-    width: 65px;
-    height: 65px;
-    margin: 5px;
-    background:rgb(214, 214, 214);
-  }
-  .socialLogo1 {
-    width: 65px;
-    height: 65px;
-    margin: 5px;
-    border-radius: 10px;
-    background: white;
-  }
-  .logosContainer1 {
-    width: 80%;
-    height: 50%;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    bottom: 0;
-    align-self: center;
-    background:rgb(214, 214, 214);
-  }
-  .qual {
-    width: 80px;
-    height: 80px;
-    margin: 10px;
-  }
-  .qual1 {
-    width: 110px;
-    height: 110px;
-  }
-  .google {
-    background:rgb(214, 214, 214);
-  }
-}
-@include breakpoint(xxlarge){
-  .footer {
-    width: 100vw;
-    background:rgb(235, 235, 235);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 2%;
-    margin-top: 1.5%;
-    border-top: 5px solid #1F3F77;
-  
-  
-  }
-  .logoContainer {
-    display: flex;
-    flex-direction: column;
-    width: 15%;
-    height: 100%;
-    align-items: center;
-    background:rgb(235, 235, 235);
-  
-    color: black;
-  }
-  .logoContainer > a {
-    color: blue;
-  }
-  .footerLogo {
-    width: 100px;
-    height: 100px;
-    display: flex;
-    margin-bottom: 5%;
-    z-index: 1;
-  }
-  .google {
-    width: 150px;
-    height: 50px;
-    margin-bottom: 5px;
-  }
-  .footerMain {
-    color: black;
-    width: 10%;
-    height: 100%;
-  
-  }
-  .footerMain > ul {
-    list-style-type: disc;
-  }
-  .footerMain > ul > h3 {
-    padding-bottom: 3%;
-  }
-  .footerMain > ul > li > a {
-    color: blue;
-  }
-  .footerAbout {
-    color: black;
-    width: 12%;
-    height: 100%;
-  }
-  .footerAbout > ul {
-    list-style-type: disc;
-  }
-  .footerAbout > ul > li > a {
-    color: blue;
-  }
-  .footerQuestions {
-    width: 16%;
-    color: black;
-  }
-  .footerQuestions > p {
-    width: 90%;
-    padding-top: 3%;
-    line-height: normal;
-    font-style: italic;
-    margin-bottom: 20px;
-  }
-  .ogLogoContainer {
-    width: 35%;
-    display: flex;
-    flex-direction: column;
-  }
-  .logosContainer {
-    width: 60%;
-    height: 70%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-    align-self: center;
-    padding: 20px;
-    text-align: center;
-    background:rgb(235, 235, 235);
-  
-  }
-  .socialLogo {
-    width: 65px;
-    height: 65px;
-    margin: 5px;
-    background:rgb(214, 214, 214);
-  }
-  .socialLogo1 {
-    width: 65px;
-    height: 65px;
-    margin: 5px;
-    border-radius: 10px;
-    background: white;
-  }
-  .logosContainer1 {
-    width: 80%;
-    height: 50%;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    bottom: 0;
-    align-self: center;
-    background:rgb(214, 214, 214);
-  }
-  .qual {
-    width: 80px;
-    height: 80px;
-    margin: 10px;
-  }
-  .qual1 {
-    width: 110px;
-    height: 110px;
-  }
-  .google {
-    background:rgb(214, 214, 214);
-  }
-}
 @include breakpoint(medium){
   .footer {
-    
-    width: 100vw;
-    height: 100%;
-    background:rgb(235, 235, 235);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 2%;
-    margin-top: 1%;
-    border-top: 5px solid #1F3F77;
-  
-  
-  }
-  .logoContainer {
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-    height: 100%;
-    align-items: center;
-    background:rgb(235, 235, 235);
-  
-    color: black;
-  }
-  .logoContainer > sub {
-    flex-wrap: wrap;
-    display: none;
-  }
-  .logoContainer > span {
-    text-align: center;
-  }
-  .logoContainer > a {
-    color: blue;
-  }
-  .footerLogo {
-    width: 65px;
-    height: 65px;
-    display: flex;
-    margin-bottom: 5%;
-    z-index: 1;
-  }
-  .google {
-    width: 100px;
-    height: 30px;
-    margin-bottom: 5px;
-  }
-  .footerMain {
-    color: black;
-    width: 10%;
-    height: 100%;
-  
-  }
-  .footerMain > ul {
-    list-style-type: disc;
-    font-size: 12pt;
-  }
-  .footerMain > ul > h3 {
-    padding-bottom: 3%;
-    font-size: 15pt;
-  }
-  .footerMain > ul > li > a {
-    color: blue;
-  }
-  .footerAbout {
-    color: black;
-    width: 12%;
-    height: 100%;
-    display: none;
-  }
-  .footerAbout > ul {
-    list-style-type: disc;
-    font-size: 12pt;
-  }
-  .footerAbout > ul > li > a {
-    color: blue;
-  }
-  .footerQuestions {
-    width: 16%;
-    color: black;
-    font-size: 12pt;
-  }
-  .questionsTitle {
-    font-size: 14pt;
-    bottom: 0%;
-    z-index: 100;
-  }
-  .number {
-    color: blue;
-    font-size: 12pt;
-  }
-  .footerQuestions > p {
-    width: 90%;
-    padding-top: 3%;
-    line-height: normal;
-    font-style: italic;
-    margin-bottom: 20px;
-    display: none;
-  }
-  .ogLogoContainer {
-    width: 15%;
-    display: flex;
-    flex-direction: column;
-  }
-  .logosContainer {
-    width: 80%;
-    height: 70%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-    align-self: center;
-    padding: 20px;
-    text-align: center;
-    background:rgb(235, 235, 235);
-  
-  }
-  .socialLogo {
-    width: 45px;
-    height: 45px;
-    margin: 5px;
-    background:rgb(214, 214, 214);
-  }
-  .socialLogo1 {
-    width: 45px;
-    height: 45px;
-    margin: 5px;
-    border-radius: 10px;
-    background: white;
-  }
-  .logosContainer1 {
-    width: 80%;
-    height: 50%;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    bottom: 0;
-    align-self: center;
-    background:rgb(214, 214, 214);
-  }
-  .qual {
-    width: 80px;
-    height: 80px;
-    margin: 10px;
-  }
-  .qual1 {
-    width: 110px;
-    height: 110px;
-  }
-  .google {
-    background:rgb(214, 214, 214);
-  }
+   
+   width: 100vw;
+   height: 30vh;
+   background:rgb(235, 235, 235);
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   padding: 2%;
+   margin-top: 1%;
+   border-top: 5px solid #1F3F77;
+ 
+ 
+ }
+ .logoContainer {
+   display: flex;
+   flex-direction: column;
+   width: 20%;
+   height: 100%;
+   align-items: center;
+   background:rgb(235, 235, 235);
+ 
+   color: black;
+ }
+ .logoContainer > sub {
+   flex-wrap: wrap;
+   display: none;
+ }
+ .logoContainer > span {
+   text-align: center;
+ }
+ .logoContainer > a {
+   color: blue;
+ }
+ .footerLogo {
+   width: 55px;
+   height: 55px;
+   display: flex;
+   margin-bottom: 5%;
+   z-index: 1;
+ }
+ .google {
+   width: 90px;
+   height: 30px;
+   margin-bottom: 5px;
+ }
+ .footerMain {
+   color: black;
+   width: 10%;
+   height: 100%;
+ 
+ }
+ .footerMain > ul {
+   list-style-type: disc;
+   font-size: 12pt;
+ }
+ .footerMain > ul > h3 {
+   padding-bottom: 3%;
+   font-size: 13pt;
+ }
+ .footerMain > ul > li > a {
+   color: blue;
+ }
+ .footerAbout {
+   color: black;
+   width: 12%;
+   height: 100%;
+   display: none;
+ }
+ .footerAbout > ul {
+   list-style-type: disc;
+   font-size: 12pt;
+ }
+ .footerAbout > ul > li > a {
+   color: blue;
+ }
+ .footerQuestions {
+   width: 16%;
+   color: black;
+   font-size: 12pt;
+ }
+ .questionsTitle {
+   font-size: 9pt;
+   bottom: 0%;
+   z-index: 100;
+ }
+ .number {
+   color: blue;
+   font-size: 8pt;
+ }
+ .footerQuestions > p {
+   width: 90%;
+   padding-top: 3%;
+   line-height: normal;
+   font-style: italic;
+   margin-bottom: 20px;
+   display: none;
+ }
+ .ogLogoContainer {
+   width: 15%;
+   display: flex;
+   flex-direction: column;
+ }
+ .logosContainer {
+   width: 80%;
+   height: 70%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: flex-start;
+   justify-content: center;
+   align-self: center;
+   padding: 20px;
+   text-align: center;
+   background:rgb(235, 235, 235);
+ 
+ }
+ .socialLogo {
+   width: 45px;
+   height: 45px;
+   margin: 5px;
+   background:rgb(214, 214, 214);
+ }
+ .socialLogo1 {
+   width: 45px;
+   height: 45px;
+   margin: 5px;
+   border-radius: 10px;
+   background: white;
+ }
+ .logosContainer1 {
+   width: 80%;
+   height: 50%;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-end;
+   bottom: 0;
+   align-self: center;
+   background:rgb(214, 214, 214);
+ }
+ .qual {
+   width: 80px;
+   height: 80px;
+   margin: 10px;
+ }
+ .qual1 {
+   width: 110px;
+   height: 110px;
+ }
+ .google {
+   background:rgb(214, 214, 214);
+ }
 }
 @include breakpoint(large){
   .footer {
     
     width: 100vw;
-    height: 100%;
+    height: 25vh;
     background:rgb(235, 235, 235);
     display: flex;
     flex-direction: row;
@@ -1406,4 +1005,3 @@
     background:rgb(214, 214, 214);
   }
 }
-

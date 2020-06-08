@@ -284,9 +284,9 @@
 		}
 		.car-img {
 			position: inherit;
-			height: 50vh;
+			height: 40vh;
 			width: 100vw;
-			margin-top: 10vh;
+			margin-top: 10%;
 		}
 		.carousel-control-next {
 			width: 20px;
@@ -306,7 +306,7 @@
 			bottom: 0;
 		}
 		.carousel {
-			height: 100%;
+			height: 40%;
 			width: 100%;
 			background: white;
 		}
@@ -368,7 +368,7 @@
 			z-index: 2;
 			padding: 0%;
 			text-align: center;
-			margin-top: 40%;
+			margin-top: 5%;
 		}
 		.lp2 > h3 {
 			font-size: 10pt;
@@ -376,7 +376,7 @@
 		}
 		.videoCont {
 			width: 100%;
-			height: 100%;
+			height: 80%;
 			display: flex;
 			flex-direction: column;
 			justify-content: space-evenly;
@@ -386,8 +386,8 @@
 	
 		}
 		.videoCont > iframe {
-			width: 200px;
-			height: 100px;
+			width: 275px;
+			height: 125px;
 			border-radius: 10px;
 			margin-top: 5%;
 		}
@@ -455,8 +455,8 @@
 		}
 		.lplogo {
 			position: absolute;
-			width: 50px;
-			height: 50px;
+			width: 100px;
+			height: 100px;
 			display: flex;
 			z-index: 10;
 			padding-bottom: 5px;;
@@ -698,221 +698,226 @@
 			
 		}
 	}
-		.body {
-			height: 100vh;
-			width: 100vw;
-			background: white;
+	.body {
+		height: 100vh;
+		width: 100vw;
+		background: white;
+	}
+
+	#wrapper {
+		@include vendor('display', 'flex');
+		@include vendor('flex-direction', 'column');
+		@include vendor('align-items', 'center');
+		@include vendor('justify-content', 'space-between');
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		padding: 0;
+		z-index: 3;
+		display: flex;
+		overflow-x: hidden;
+
+		
+
+		&:before {
+			content: '';
+			display: block;
 		}
-	
-		#wrapper {
-			@include vendor('display', 'flex');
-			@include vendor('flex-direction', 'column');
-			@include vendor('align-items', 'center');
-			@include vendor('justify-content', 'space-between');
-			position: absolute;
-			height: 100%;
-			width: 100%;
-			padding: 0;
-			z-index: 3;
-			display: flex;
-			overflow-x: hidden;
-	
-			
-	
-			&:before {
-				content: '';
-				display: block;
-			}
-	
-			@include breakpoint(xlarge) {
-				// padding: 3rem 2rem;
-			}
-	
-			@include breakpoint(small) {
-				padding: 2rem 1rem;
-			}
-	
-			@include breakpoint(xsmall) {
-				padding: 1rem;
-			}
-	
-			&.page {
-				@include vendor('justify-content', 'flex-start');
-			}
-			
+
+		@include breakpoint(xlarge) {
+			// padding: 3rem 2rem;
 		}
-		.car-img {
-			position: inherit;
-			height: 80vh;
-			width: 100%;
-			margin-top: 10vh;
+
+		@include breakpoint(small) {
+			padding: 2rem 1rem;
 		}
-		.carousel-control-next {
-			width: 100px;
+
+		@include breakpoint(xsmall) {
+			padding: 1rem;
 		}
-		.carousel-control-next-icon {
-			color: blue;
+
+		&.page {
+			@include vendor('justify-content', 'flex-start');
 		}
-		.carousel-indicators {
-			height: 0%;
-			z-index: 0;
-			top: 0;
-			margin-bottom: 0;
-		}
-		.carousel-control-prev {
-			width: 100px;
-			display: flex; 
-			bottom: 0;
-		}
-		.carousel {
-			width: 60%;
-			background: white;
-			overflow: hidden;
-		}
-		.secondaryimg {
-			width: 100%;
-			height: 100%;
-			z-index: 3;
-		}
-		.carContainer {
-			width: 100%;
-			height: 90%;
-			display: flex;
-			flex-direction: row-reverse;
-			justify-content: space-between;
-			margin-top: 2%;
-	
-	
-		}
-		.caption {
-			height: 130px;
-			background: rgba(255, 255, 255, 0.925);
-			border-radius: 10px 10px 0px 0px;
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			animation: slideUpAnimation 1s  0s 1 normal ;
-	
-		}
-		.caption > h3 {
-			font-size: 12pt;
-		}
-		#button {
-			background: #1F3F77;
-			width: 200px;
-			height: 2rem;
-			font-size: 10pt;
-			text-align: center;
-			justify-content: center;
-			align-items: center;
-			margin-top: 0px;
-			border-radius: 10px;
-		}
-		#button:hover {
-			background: black;
-		}
-		#button > h3 {
-			color: white;
-			font-size: 12pt;
-		}
-		.lp2 {
-			width: 100%;
-			height: 40vh;
-			background: white;
-			display: flex;
-			flex-direction: column;
-			z-index: 2;
-			padding: 0%;
-			text-align: center;
-			margin-top: 3%;
-		}
-		.lp2 > h3 {
-			font-size: 20pt;
-			margin-bottom: 30px;
-			margin-top: 1%;
-		}
-		.videoCont {
-			width: 100%;
-			height: 100%;
-			display: flex;
-			flex-direction: row;
-			justify-content: space-evenly;
-			padding: 10px;
-			
-	
-		}
-		.videoCont > iframe {
-			width: 400px;
-			height: 250px;
-			border-radius: 10px;
-		}
-		.carousel-inner {
-			height: fit-content;
-		}
-		.button {
-			background: #1F3F77;
-			padding: 0;
-		}
-		.isoContainer {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			bottom: 0;
-			position: fixed;
-			// overflow: hidden;
-			z-index: 5;
-			color: black;
-		}
-		.iso {
-			width: 100px;
-			height: 100px;
-			bottom: 0;
-			margin: 5px;
-		}
-		.lp {
-			width: 30%;
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-			border-radius: 10px;
-			box-shadow: 10px 10px 10px 5px black;
-			margin-top: 4%;
-			padding: 10px;
-		}
-		.lp1 {
-			width: 100%;
-		}
-		.lp1  > h3 {
-			text-align: center;
-			font-size: 24pt;
-			color: #1F3F77;
-		}
-		.lp1 > p {
-			width: 100%;
-			color: black;
-			font-size: 18pt;
-			padding: 10px;
-		}
-		.lp > button {
-			width: 60%;
-			background: #1F3F77;
-		}
-		.lpImgContainer {
-			width: 40%;
-			display: flex;
-			flex-direction: column;
-			justify-content: flex-end;
-			align-items: center;
-		}
-		.lplogo {
-			position: absolute;
-			width: 150px;
-			height: 150px;
-			display: flex;
-			z-index: 10;
-			padding-bottom: 5px;;
-		}
+		
+	}
+	.car-img {
+		position: inherit;
+		height: 40vh;
+		width: 100%;
+		margin-top: 10vh;
+		z-index: 0;
+	}
+	.carousel-control-next {
+		width: 100px;
+	}
+	.carousel-control-next-icon {
+		color: blue;
+	}
+	.carousel-indicators {
+		height: 0%;
+		z-index: 0;
+		top: 0;
+		margin-bottom: 0;
+	}
+	.carousel-control-prev {
+		width: 100px;
+		display: flex; 
+		bottom: 0;
+	}
+	.carousel {
+		width: 60%;
+		background: white;
+		overflow: hidden;
+	}
+	.secondaryimg {
+		width: 100%;
+		height: 100%;
+		z-index: 3;
+	}
+	.carContainer {
+		width: 100%;
+		height: 50%;
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		margin-top: 0%;
+
+
+	}
+	.caption {
+		height: 140px;
+		background: rgba(255, 255, 255, 0.925);
+		border-radius: 10px 10px 0px 0px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		animation: slideUpAnimation 1s  0s 1 normal ;
+
+	}
+	.caption > h3 {
+		font-size: 8pt;
+	}
+	.caption > h5 {
+		font-size: 10pt;
+	}
+	#button {
+		background: #1F3F77;
+		width: 150px;
+		height: 2rem;
+		font-size: 10pt;
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		margin-top: 0px;
+		border-radius: 10px;
+	}
+	#button:hover {
+		background: black;
+	}
+	#button > h3 {
+		color: white;
+		font-size: 10pt;
+	}
+	.lp2 {
+		width: 100%;
+		height: 30%;
+		background: white;
+		display: flex;
+		flex-direction: column;
+		z-index: 2;
+		padding: 0%;
+		text-align: center;
+		margin-top: 3%;
+	}
+	.lp2 > h3 {
+		font-size: 20pt;
+		margin-bottom: 30px;
+		margin-top: 1%;
+	}
+	.videoCont {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		padding: 10px;
+		
+
+	}
+	.videoCont > iframe {
+		width: 200px;
+		height: 150px;
+		border-radius: 10px;
+	}
+	.carousel-inner {
+		height: fit-content;
+	}
+	.button {
+		background: #1F3F77;
+		padding: 0;
+	}
+	.isoContainer {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		bottom: 0;
+		position: fixed;
+		// overflow: hidden;
+		z-index: 5;
+		color: black;
+	}
+	.iso {
+		width: 100px;
+		height: 100px;
+		bottom: 0;
+		margin: 5px;
+	}
+	.lp {
+		width: 30%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border-radius: 10px;
+		box-shadow: 10px 10px 10px 5px black;
+		margin-top: 4%;
+		padding: 10px;
+	}
+	.lp1 {
+		width: 100%;
+	}
+	.lp1  > h3 {
+		text-align: center;
+		font-size: 24pt;
+		color: #1F3F77;
+	}
+	.lp1 > p {
+		width: 100%;
+		color: black;
+		font-size: 18pt;
+		padding: 10px;
+	}
+	.lp > button {
+		width: 60%;
+		background: #1F3F77;
+	}
+	.lpImgContainer {
+		width: 40%;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	.lplogo {
+		position: absolute;
+		width: 150px;
+		height: 150px;
+		display: flex;
+		z-index: 10;
+		padding-bottom: 5px;;
+	}
 }
 @include breakpoint(large){
 	@keyframes slideUpAnimation {
@@ -969,7 +974,7 @@
 		}
 		.car-img {
 			position: inherit;
-			height: 80vh;
+			height: 40vh;
 			width: 100%;
 			margin-top: 10vh;
 			z-index: 0;
@@ -1003,16 +1008,16 @@
 		}
 		.carContainer {
 			width: 100%;
-			height: 90%;
+			height: 50%;
 			display: flex;
 			flex-direction: row-reverse;
 			justify-content: space-between;
-			margin-top: 2%;
+			margin-top: 0%;
 	
 	
 		}
 		.caption {
-			height: 130px;
+			height: 140px;
 			background: rgba(255, 255, 255, 0.925);
 			border-radius: 10px 10px 0px 0px;
 			display: flex;
@@ -1022,13 +1027,14 @@
 	
 		}
 		.caption > h3 {
-			font-size: 12pt;
+			font-size: 10pt;
 		}
 		#button {
 			background: #1F3F77;
-			width: 200px;
+			width: 150px;
 			height: 2rem;
 			font-size: 10pt;
+			display: flex;
 			text-align: center;
 			justify-content: center;
 			align-items: center;
@@ -1040,11 +1046,11 @@
 		}
 		#button > h3 {
 			color: white;
-			font-size: 12pt;
+			font-size: 10pt;
 		}
 		.lp2 {
 			width: 100%;
-			height: 40vh;
+			height: 30%;
 			background: white;
 			display: flex;
 			flex-direction: column;
@@ -1069,8 +1075,8 @@
 	
 		}
 		.videoCont > iframe {
-			width: 400px;
-			height: 250px;
+			width: 300px;
+			height: 200px;
 			border-radius: 10px;
 		}
 		.carousel-inner {
