@@ -3,6 +3,7 @@ module.exports = {
     title: 'SWD',
     author: 'Mark Mathews',
     description: 'Swd urethane polyurethane technologies provides spray foam roofing systems and spray foam wall insulation',
+    siteUrl: 'https://swdurethane.com/'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -25,9 +26,16 @@ module.exports = {
            trackingId: "UA-168691058-1",
         },
   },
-      
+  {
+    resolve: `gatsby-plugin-purgecss`,
+    options: {
+      color: `teal`,
+      showSpinner: true
+    }
+  },
     
     'gatsby-plugin-sass',
+    'gatsby-plugin-sitemap'
     
   ],
   
