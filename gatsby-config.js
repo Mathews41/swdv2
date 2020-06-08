@@ -22,4 +22,13 @@ module.exports = {
     'gatsby-plugin-sass',
     
   ],
+  plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+        trackingId: "G-SPP7VKQVGV",
+      },
+    },
+  ],
 }
