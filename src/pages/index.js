@@ -17,6 +17,8 @@ import icon2 from '../images/icon2.png'
 import ASU from '../images/ASU-min.jpg'
 import uofahonors from '../../src/images/uofahonors-min.png'
 
+//project profiles
+
 
 import PropTypes from 'prop-types'
 
