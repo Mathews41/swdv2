@@ -43,6 +43,94 @@ export default function projects() {
         <button className='cardButton'>Read Full Study</button>
       </div>
     </div>
+    <div id='card' >
+      <img class="card-img-top1"  src={bg} alt="Card image top"/>
+      <div class="card-body1">
+        <h3 class="card-title">Yullman Stadium</h3>
+        <h4 class="card-subtitle">
+            Tulane University Yulman Stadium
+            New Orleans LA
+        </h4>
+        <button className='cardButton'>Read Full Study</button>
+      </div>
+    </div>
+    <div id='card' >
+      <img class="card-img-top1"  src={bg} alt="Card image top"/>
+      <div class="card-body1">
+        <h3 class="card-title">Yullman Stadium</h3>
+        <h4 class="card-subtitle">
+            Tulane University Yulman Stadium
+            New Orleans LA
+        </h4>
+        <button className='cardButton'>Read Full Study</button>
+      </div>
+    </div>
+    <div id='card' >
+      <img class="card-img-top1"  src={bg} alt="Card image top"/>
+      <div class="card-body1">
+        <h3 class="card-title">Yullman Stadium</h3>
+        <h4 class="card-subtitle">
+            Tulane University Yulman Stadium
+            New Orleans LA
+        </h4>
+        <button className='cardButton'>Read Full Study</button>
+      </div>
+    </div>
+    <div id='card' >
+      <img class="card-img-top1"  src={bg} alt="Card image top"/>
+      <div class="card-body1">
+        <h3 class="card-title">Yullman Stadium</h3>
+        <h4 class="card-subtitle">
+            Tulane University Yulman Stadium
+            New Orleans LA
+        </h4>
+        <button className='cardButton'>Read Full Study</button>
+      </div>
+    </div>
+    <div id='card' >
+      <img class="card-img-top1"  src={bg} alt="Card image top"/>
+      <div class="card-body1">
+        <h3 class="card-title">Yullman Stadium</h3>
+        <h4 class="card-subtitle">
+            Tulane University Yulman Stadium
+            New Orleans LA
+        </h4>
+        <button className='cardButton'>Read Full Study</button>
+      </div>
+    </div>
+    <div id='card' >
+      <img class="card-img-top1"  src={bg} alt="Card image top"/>
+      <div class="card-body1">
+        <h3 class="card-title">Yullman Stadium</h3>
+        <h4 class="card-subtitle">
+            Tulane University Yulman Stadium
+            New Orleans LA
+        </h4>
+        <button className='cardButton'>Read Full Study</button>
+      </div>
+    </div>
+    <div id='card' >
+      <img class="card-img-top1"  src={bg} alt="Card image top"/>
+      <div class="card-body1">
+        <h3 class="card-title">Yullman Stadium</h3>
+        <h4 class="card-subtitle">
+            Tulane University Yulman Stadium
+            New Orleans LA
+        </h4>
+        <button className='cardButton'>Read Full Study</button>
+      </div>
+    </div>
+    <div id='card' >
+      <img class="card-img-top1"  src={bg} alt="Card image top"/>
+      <div class="card-body1">
+        <h3 class="card-title">Yullman Stadium</h3>
+        <h4 class="card-subtitle">
+            Tulane University Yulman Stadium
+            New Orleans LA
+        </h4>
+        <button className='cardButton'>Read Full Study</button>
+      </div>
+    </div>
     <a href={ppUofNC} target='_blank' id='card' >
       <img class="card-img-top1"  src={elevation} alt="Card image top"/>
       <div class="card-body1">
