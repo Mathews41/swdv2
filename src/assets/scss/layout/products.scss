@@ -14,7 +14,45 @@
 
 }
 @media (min-width: 1281px) and (max-width: 1680px){
-    
+    .accordianProd {
+        box-shadow: 10px 10px 20px 5px black;
+        width: 40%;
+        height: 100%;
+        background: rgb(2, 43, 85);
+        z-index: 2;
+        margin: 1%;
+        text-align: center;
+        border-radius: 10px;;
+        flex-shrink: 1;
+    }
+    .accordianProdSub {
+        box-shadow: 10px 10px 20px 5px black;
+        width: 100%;
+        height: 100%;
+        background: rgb(2, 43, 85);
+        z-index: 2;
+        margin: 1%;
+        text-align: center;
+        border-radius: 10px;;
+        flex-shrink: 1;
+    }
+    .accordian-containerProd {
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+        animation: fadeInAnimation1 1s  0s 1 normal ;
+        margin-bottom: 10px;
+    }
+    .accordianProd > h4 {
+        color: white;
+    }
+    .accordianProdSub > h4 {
+        color: white;
+    }
 }
 @media (min-width: 1681px){
     

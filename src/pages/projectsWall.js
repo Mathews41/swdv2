@@ -12,6 +12,7 @@ import ppUofNC from '../images/Project Profile - University of North Carolina.pd
 import ppAPI from '../images/Project Profile - SPF Continuous Insulation.pdf'
 import ppCola from '../images/Project Profile - Coca-Cola Warehouse Office.pdf'
 import ppWood from '../images/Project Profile - Woodville Farms.pdf'
+import cola from '../images/coca cola.jpg'
 
 
 

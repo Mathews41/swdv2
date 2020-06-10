@@ -10,6 +10,7 @@ import Menu from 'react-bootstrap/DropdownMenu'
 import DropdownMenu from 'react-bootstrap/DropdownMenu'
 import * as Icon from 'react-feather'
 import Burger from './Hamburger'
+import LOGO from '../images/SWDlogo.png'
 
 
 
@@ -32,17 +33,9 @@ export default function Header() {
                 </div>
                 <div id="navbar-brand">
                   <a href='/'>
-                    <img className='icon1' src={icon1} alt="swd logo" href='/'/>
+                    <img className='icon1' src={LOGO} alt="swd logo" href='/'/>
                   </a>
-                  <div className='subtext'>
-                    <h3 className='icon-text'to='/'>
-                      <a href='/'>Polyurethane Technologies
-                      </a>
-                    </h3>
-                    <sub className='subsubtext'>
-                    Industrial and Construction Products
-                    </sub>
-                  </div>
+                  
                 </div>
                     <Burger/>
                   <ul className='top-nav-list' >

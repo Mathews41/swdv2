@@ -35,8 +35,51 @@ import TDS2000 from '../images/TDS-QS-2000.pdf'
 import TDS2100 from '../images/TDS-QS-2100.pdf'
 import TDS1000 from '../images/TDS-QS-1000.pdf'
 import TDS1020 from '../images/TDS-QS-1020.pdf'
-// import TDS1030 from '../images/TDS-QS-1030.pdf'
-// import TDS2120 from '../images/TDS-QS-2120.pdf'
+
+// Brochure
+import qs118b from '../images/QS118B.pdf'
+import qs118xcb from '../images/QS118XCB.pdf'
+import qs112xcb from '../images/QS112XCB.pdf'
+import qs112b from '../images/QS112B.pdf'
+import qs106b from '../images/QS106B.pdf'
+import qs108b from '../images/QS108B.pdf'
+import qs104b from '../images/QS104B.pdf'
+import qs108ymb from '../images/QS108YMB.pdf'
+
+//Images
+import elevation from '../images/elevation shot-min.png'
+import img2 from '../images/Roofing_Edited_5-min.jpg'
+import greenbuilding from '../images/greenbuilding.png'
+import masterSpec from '../images/images.png'
+import icon2 from '../images/icon2.png'
+import abaa from '../images/abaa.svg'
+import greenguard from '../images/greenguard logo (1).png'
+import cabin from '../images/DSC04667-min.jpg'
+
+//DOCS
+import ccrr108 from '../images/CCRR-108.pdf'
+import gold from '../images/GREENGUARD-Gold-Certification-2020.pdf'
+import TDS108 from '../images/TDS-QS-108YM.pdf'
+import spec108 from '../images/Spec108.pdf'
+import TDS112xc from '../images/TDS-QS-112XC.pdf'
+import TDS112 from '../images/TDS-QS-112.pdf'
+import cr104 from '../images/cr104.pdf'
+import spec106 from '../images/106spec.pdf'
+import TDS118xc from '../images/TDS-QS-118XC.pdf'
+import TDS450 from '../images/PDS-QS450.pdf'
+import VOC118 from '../images/qs118Voc.pdf'
+import VOC112 from '../images/qs112Voc.pdf'
+import ccrr118 from '../images/CCRR-1093.pdf'
+import ccrr450 from '../images/CCRR-1011.pdf'
+import ccrr112 from '../images/CCRR-1011.pdf'
+import TDS118 from '../images/TDS-QS-118.pdf'
+import qs112 from '../images/QS112.pdf'
+import qs118 from '../images/QS118.pdf'
+import TDS104 from '../images/TDS104.pdf'
+import eval106 from '../images/VOC106.pdf'
+import roofrating106 from '../images/CR106.pdf'
+import TDS106 from '../images/TDS106.pdf'
+import Oem from '../images/OEM-Booklet-Website.pdf'
 
 
 
@@ -50,12 +93,24 @@ export default function products() {
             <div className='header-container-cont'>
                 <h1>Products</h1>
             <p>
-            When you do business with SWD, you don’t just get great products and service, you get an outstanding partnership experience that you don’t get from any other manufacturer. Our partner support programs provide greater value to you.
+            We strive to provide a partnership experience unmatched by our competitors.
             </p>
             
             </div>   
-            <div className='accordian-container1'>
-                <Accordion className='accordian1' defaultActiveKey="0">
+            <div className='accordian-containerProd'>
+                <Accordion className='accordianProd' defaultActiveKey="0">
+                    <h4>QUIK-SHIELD® Roofing Products</h4>
+            <Card className='card1'>
+                <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="1">
+                    <h3>Spray Foam</h3>
+                    <Icon.ChevronDown color='blue' size={45} />
+
+                </Accordion.Toggle>
+                    <Accordion.Collapse className='collapse1' eventKey="1">
+                        <Card.Body className='body1'>
+                        <Media className='media1'>
+                                <Media.Body className='media-body1'>
+                                <Accordion className='accordianProdSub' defaultActiveKey="0">
                     <h4>QUIK-SHIELD® Spray Foam</h4>
             <Card className='card1'>
                 <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="1">
@@ -79,14 +134,23 @@ export default function products() {
                         </Card.Body>
                     </Accordion.Collapse>
             </Card>
-            <div className='drawingContainer'>
-            <Link className='drawButton' to='/details/'>
-                Details & Drawings
-                <Icon.ExternalLink className='externalLink'/>
-                </Link>
-                </div>
                     </Accordion>
-                    <Accordion className='accordian1' defaultActiveKey="0">
+                            </Media.Body>
+                        </Media>
+                        </Card.Body>
+                    </Accordion.Collapse>
+            </Card>
+            <Card className='card1'>
+                <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="2">
+                    <h3>Roofing Systems</h3>
+                    <Icon.ChevronDown color='blue' size={45} />
+
+                </Accordion.Toggle>
+                    <Accordion.Collapse className='collapse1' eventKey="2">
+                        <Card.Body className='body1'>
+                        <Media className='media1'>
+                                <Media.Body className='media-body1'>
+                                <Accordion className='accordianProdSub' defaultActiveKey="0">
                     <h4>Quik-Shield® Roofing Systems</h4>
                 
             <Card className='card1'>
@@ -225,7 +289,22 @@ export default function products() {
            
             
                     </Accordion>
-                    <Accordion className='accordian1' defaultActiveKey="0">
+                            </Media.Body>
+                        </Media>
+                        </Card.Body>
+                    </Accordion.Collapse>
+            </Card>
+            <Card className='card1'>
+                <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="3">
+                    <h3>Coating Products</h3>
+                    <Icon.ChevronDown color='blue' size={45} />
+
+                </Accordion.Toggle>
+                    <Accordion.Collapse className='collapse1' eventKey="3">
+                        <Card.Body className='body1'>
+                        <Media className='media1'>
+                                <Media.Body className='media-body1'>
+                                <Accordion className='accordianProdSub' defaultActiveKey="0">
                     <h4>QUIK-SHIELD® Coating Products</h4>
                 
             <Card className='card2'>
@@ -586,6 +665,362 @@ export default function products() {
                     </Accordion.Collapse>
             </Card>
                     </Accordion>
+                            </Media.Body>
+                        </Media>
+                        </Card.Body>
+                    </Accordion.Collapse>
+            </Card>
+                    </Accordion>
+                    <Accordion className='accordianProd' defaultActiveKey="0">
+                    <h4>QUIK-SHIELD® Wall Insulation Products</h4>
+            <Card className='card1'>
+                <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="1">
+                    <h3>Open Cell</h3>
+                    <Icon.ChevronDown color='blue' size={45} />
+
+                </Accordion.Toggle>
+                    <Accordion.Collapse className='collapse1' eventKey="1">
+                        <Card.Body className='body1'>
+                        <Media className='media1'>
+                                <Media.Body className='media-body1'>
+                                <Accordion className='accordianProdSub' defaultActiveKey="0">
+                    <h4>Open Cell</h4>
+                    <Card className='card1'>
+                <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="1">
+                <h3>QUIK-SHIELD® 104</h3>
+                    <h6 className='accordian-subtext1'>
+                    QUIK-SHIELD® 104 is an integral component of an energy efficient building envelope that does not require mixing.
+ 
+                    </h6>
+                    <Icon.ChevronDown color='blue' size={45} />
+
+                </Accordion.Toggle>
+                    <Accordion.Collapse className='collapse1' eventKey="1">
+                        <Card.Body className='body1'>
+                            <Media className='media1'>
+                                    <Media.Body className='media-body1'>   
+                                    <a href={TDS104}target='_blank' >QUIK-SHIELD® 104 Technical Data Sheet </a>  
+                                    <a href={cr104}target='_blank' >QUIK-SHIELD® 104 Code Report</a>  
+                                    <a href={qs104b}
+                                    target='_blank'>QUIK-SHIELD® 104 Brochure</a>  
+                                    {/* <a href={TDS104}target='_blank' >QUIK-SHIELD® 104 VOC </a>   */}
+                                    
+                                                                               
+                                    </Media.Body>
+                            </Media>
+                        </Card.Body>
+                    </Accordion.Collapse>
+            </Card><Card className='card1'>
+                <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="2">
+                <h3>QUIK-SHIELD® 106 </h3>
+                        <h6 className='accordian-subtext1'>
+                        QUIK-SHIELD® 106 is a 1st generation 1-hour re-entry open cell foam insulation with no ignition barrier required in un-vented attics.
+                    </h6>
+                    <Icon.ChevronDown color='blue' size={45} />
+
+                </Accordion.Toggle>
+                    <Accordion.Collapse className='collapse1' eventKey="2">
+                        <Card.Body className='body1'>
+                        <Media className='media1'>
+                                <Media.Body className='media-body1'>
+                                    <a href={TDS106} 
+                                    target='_blank'>QUIK-SHIELD® 106 Technical Data Sheet </a>  
+                                    <a href={spec106} target='_blank'>QUIK-SHIELD® 106 Specification (Download)</a>  
+                                    <a href={roofrating106}
+                                    target='_blank' >QUIK-SHIELD® 106 Code Report</a>  
+                                    <a href={eval106}
+                                    target='_blank' >QUIK-SHIELD® 106 VOC </a>
+                                    <a href={qs106b}
+                                    target='_blank'>QUIK-SHIELD® 106 Brochure</a> 
+                                    
+                            </Media.Body>
+                        </Media>
+                        </Card.Body>
+                    </Accordion.Collapse>
+            </Card>
+            <Card className='card1'>
+                <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="3">
+               <h3>QUIK-SHIELD® 108YM</h3>
+                        <h6 className='accordian-subtext1'>
+                        QUIK-SHIELD® 108YM, the “Yield Monster”, is the 2nd generation Ultra-Low-Density formula with the lowest cost installed of any spray foam product on the market. Also has a 1 hour re-entry time.
+                    </h6>
+                    <Icon.ChevronDown color='blue' size={45} />
+
+                </Accordion.Toggle>
+                    <Accordion.Collapse className='collapse1' eventKey="3">
+                        <Card.Body className='body1'>
+                        <Media className='media1'>
+                                <Media.Body className='media-body1'>
+                                    <a href={TDS108}
+                                    target='_blank' >QUIK-SHIELD® 108YM Technical Data Sheet </a>  
+                                    <a href={spec108} target='_blank'>QUIK-SHIELD® 108 Specification(Download)</a>  
+                                    <a href={ccrr108}
+                                    target='_blank' >QUIK-SHIELD® 108YM Code Report</a>  
+                                    <a href={gold}
+                                    target='_blank'>QUIK-SHIELD® 108YM VOC </a>
+                                    <a href={qs108b}
+                                    target='_blank'>QUIK-SHIELD® 108YM Brochure</a> 
+                                    
+                            </Media.Body>
+                        </Media>
+                        </Card.Body>
+                    </Accordion.Collapse>
+            </Card>
+                    </Accordion>
+                            </Media.Body>
+                        </Media>
+                        </Card.Body>
+                    </Accordion.Collapse>
+            </Card>
+            <Card className='card1'>
+                <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="3">
+                    <h3>Closed Cell</h3>
+                    <Icon.ChevronDown color='blue' size={45} />
+
+                </Accordion.Toggle>
+                    <Accordion.Collapse className='collapse1' eventKey="3">
+                        <Card.Body className='body1'>
+                        <Media className='media1'>
+                                <Media.Body className='media-body1'>
+                                <Accordion className='accordianProdSub' defaultActiveKey="0">
+                    <h4>Closed Cell Products</h4>
+            <Card className='card2'>
+                <Accordion.Toggle className='toggle2' as={Card.Header} eventKey="4">
+                <h3>QUIK-SHIELD® 112</h3>
+                    <h6 className='accordian-subtext2'>
+                    QUIK-SHIELD® 112 is a 1st generation Closed Cell spray foam with an industry leading 1-hour re-entry time that can be sprayed up to a 4” lift.
+                    Air Barrier Association of America Approved.
+                    </h6>
+                    <Icon.ChevronDown color='blue' size={45} />
+
+                </Accordion.Toggle>
+                    <Accordion.Collapse className='collapse2' eventKey="4">
+                        <Card.Body className='body2'>
+                            <Media className='media2'>
+                            <Media.Body className='media-body1'>
+                                    <a href={TDS112}
+                                    target='_blank' >QUIK-SHIELD® 112 Technical Data Sheet </a>  
+                                    <a href={TDS112xc}
+                                    target='_blank' >QUIK-SHIELD® 112XC Technical Data Sheet </a>
+                                    <a href={qs112} target='_blank'>QUIK-SHIELD® 112 Specification(Download)</a>  
+                                    <a href={ccrr112}
+                                    target='_blank' >QUIK-SHIELD® 112 Code Report</a>  
+                                    <a href={VOC112}
+                                    target='_blank'>QUIK-SHIELD® 112 VOC </a>
+                                    <a href={qs112b}
+                                    target='_blank'>QUIK-SHIELD® 112 Brochure</a> 
+                                    
+                            </Media.Body>
+                            </Media>
+                        </Card.Body>
+                    </Accordion.Collapse>
+            </Card>
+            <Card className='card2'>
+                <Accordion.Toggle className='toggle2' as={Card.Header} eventKey="5">
+                <h3>QUIK-SHIELD® 118/118XC</h3>
+                <h6 className='accordian-subtext2'>
+                QUIK-SHIELD® 118 and 118XC  is a 2nd generation spray foam that delivers Ultra Low Density and can spray up to an 8” lift eliminating the need to spray  multiple lifts. Also available in Cold-Weather Foam Formula for extreme cold application conditions.
+                    </h6>
+                    <Icon.ChevronDown color='blue' size={45} />
+
+                </Accordion.Toggle>
+                    <Accordion.Collapse className='collapse2' eventKey="5">
+                        <Card.Body className='body2'>
+                        <Media className='media2'>
+                        <Media.Body className='media-body1'>
+                                    <a href={TDS118}
+                                    target='_blank' >QUIK-SHIELD® 118 Technical Data Sheet </a>  
+                                    <a href={TDS118xc}
+                                    target='_blank' >QUIK-SHIELD® 118XC Technical Data Sheet </a> 
+                                    <a href={qs118} target='_blank'>QUIK-SHIELD® 118 Specification(Download)</a>  
+                                    <a href={ccrr118}
+                                    target='_blank' >QUIK-SHIELD® 118 Code Report</a>  
+                                    <a href={VOC118}
+                                    target='_blank'>QUIK-SHIELD® 118 VOC </a>
+                                     <a href={qs118b}
+                                    target='_blank'>QUIK-SHIELD® 118 Brochure</a>
+                                     <a href={qs118xcb}
+                                    target='_blank'>QUIK-SHIELD® 118XC Brochure</a>  
+                                    
+                            </Media.Body>
+                        </Media>
+                        </Card.Body>
+                    </Accordion.Collapse>
+            </Card>
+            <Card className='card2'>
+                <Accordion.Toggle className='toggle2' as={Card.Header} eventKey="6">
+                <h3>QUIK-SHIELD® 450 </h3>
+                <h6 className='accordian-subtext2'>
+                2 lb density, rigid, closed cell, polyurethane pour foam system. Which creates a seamless water resistant barrier and provides for exceptional insulation values.
+                    </h6>
+                    <Icon.ChevronDown color='blue' size={45} />
+
+                </Accordion.Toggle>
+                    <Accordion.Collapse className='collapse2' eventKey="6">
+                        <Card.Body className='body2'>
+                        <Media className='media2'>
+                        <Media.Body className='media-body1'>
+                                    <a href={TDS450}
+                                    target='_blank' >QUIK-SHIELD® 450 Technical Data Sheet </a> 
+                                    <a href={ccrr450}
+                                    target='_blank' >QUIK-SHIELD® 450 Code Report</a>  
+                                    
+                            </Media.Body>
+                        </Media>
+                        </Card.Body>
+                    </Accordion.Collapse>
+            </Card>
+            <div className='drawingContainer'>
+            <Link className='drawa' to='/details/'>
+                Details & Drawings
+                <Icon.ExternalLink className='externalLink'/>
+                </Link>
+                </div>
+                    </Accordion>
+                            </Media.Body>
+                        </Media>
+                        </Card.Body>
+                    </Accordion.Collapse>
+            </Card>
+                    </Accordion>
+                    <Accordion className='accordianProd' defaultActiveKey="0">
+                    <h4>Industrial Products</h4>
+            <Card className='card1'>
+                <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="1">
+                    <h3>OEM</h3>
+                    <Icon.ChevronDown color='blue' size={45} />
+
+                </Accordion.Toggle>
+                    <Accordion.Collapse className='collapse1' eventKey="1">
+                        <Card.Body className='body1'>
+                        <Media className='media1'>
+                                <Media.Body className='media-body1'>
+                                <Accordion className='accordianProdSub' defaultActiveKey="0">
+                                <h4>OEM Products</h4>
+                            
+                        <Card className='card1'>
+                            <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="1">
+                            <h3>Flexible Foam</h3>
+                                <Icon.ChevronDown color='blue' size={45} />
+
+                            </Accordion.Toggle>
+                                <Accordion.Collapse className='collapse1' eventKey="1">
+                                    <Card.Body className='body1'>
+                                        <Media className='media1'>
+                                                <Media.Body className='media-body1'>   
+                                                <h3>Moldable & Responsive</h3>
+                                                <p>
+                                                The Quik-Works line of flexible systems have a wide range of densities and firmness. Formulations can be customized to meet your specific needs to ultimately deliver the total solution.
+                                                </p>
+                                                <a href={Oem} target='_blank'id='oemButton'>Learn More</a>
+                                                </Media.Body>
+                                        </Media>
+                                    </Card.Body>
+                                </Accordion.Collapse>
+                        </Card>
+                        <Card className='card1'>
+                            <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="2">
+                            <h3>Rigid Foam</h3>
+                                <Icon.ChevronDown color='blue' size={45} />
+
+                            </Accordion.Toggle>
+                                <Accordion.Collapse className='collapse1' eventKey="2">
+                                    <Card.Body className='body1'>
+                                    <Media className='media1'>
+                                            <Media.Body className='media-body1'>
+                                            <h3>Light-Weight & Reliable</h3>
+                                                <p>
+                                                Our Quik-Works rigid polyurethane systems are easily customizable to produce a finished product that can meet a variety of specifications. Foams are available in a wide range of densities and reactivity profiles. Our formulations have the ability to reduce weight compared to alternative materials and can be processed using a variety of methods.
+                                                </p>
+                                                <a target='_blank' href={Oem}id='oemButton'>Learn More</a>
+                                        </Media.Body>
+                                    </Media>
+                                    </Card.Body>
+                                </Accordion.Collapse>
+                        </Card>
+                        <Card className='card1'>
+                            <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="3">
+                            <h3>Elastomers</h3>
+                                <Icon.ChevronDown color='blue' size={45} />
+
+                            </Accordion.Toggle>
+                                <Accordion.Collapse className='collapse1' eventKey="3">
+                                    <Card.Body className='body1'>
+                                        <Media className='media1'>
+                                                <Media.Body className='media-body1'>   
+                                                <h3>Strong & Durable</h3>
+                                                <p>
+                                                Quik-Works Elastomers are an excellent replacement material for manufacturing parts traditionally molded from plaster, rubber, or fiberglass, providing a cost-effective alternative for many applications. They can be engineered with high load bearing capabilities, as well as abrasion, impact, and tear resistance.
+                                                </p>  
+                                                <a href={Oem} target='_blank'id='oemButton'>Learn More</a> 
+                                                </Media.Body>
+                                        </Media>
+                                    </Card.Body>
+                                </Accordion.Collapse>
+                        </Card>
+                        <Card className='card1'>
+                            <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="4">
+                            <h3>Toll Blending</h3>
+                                <Icon.ChevronDown color='blue' size={45} />
+
+                            </Accordion.Toggle>
+                                <Accordion.Collapse className='collapseind' eventKey="4">
+                                    <Card.Body className='body1'>
+                                        <Media className='media1'>
+                                                <Media.Body className='media-body1'>   
+                                                <p>
+                                                We offer toll blending to help you avoid the difficulties and pitfalls of in-house production. Our capabilities are wide ranging and can help you create the perfect formula. If you are interested in learning more please fill out the contact form.
+                                                </p> 
+                                                </Media.Body>
+                                        </Media>
+                                    </Card.Body>
+                                </Accordion.Collapse>
+                        </Card>
+                                </Accordion>
+                            </Media.Body>
+                        </Media>
+                        </Card.Body>
+                    </Accordion.Collapse>
+            </Card>
+            <Card className='card1'>
+                <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="3">
+                    <h3>QUIK-SHOT®</h3>
+                    <Icon.ChevronDown color='blue' size={45} />
+
+                </Accordion.Toggle>
+                    <Accordion.Collapse className='collapse1' eventKey="3">
+                        <Card.Body className='body1'>
+                        <Media className='media1'>
+                                <Media.Body className='media-body1'>
+                                
+                            </Media.Body>
+                        </Media>
+                        </Card.Body>
+                    </Accordion.Collapse>
+            </Card>
+                    </Accordion>
+                    <Accordion className='accordianProd' defaultActiveKey="0">
+                    <h4>Parts & Equipment</h4>
+            <Card className='card1'>
+                <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="1">
+                    <h3> Spray Gun Diagram</h3>
+                    <Icon.ChevronDown color='blue' size={45} />
+
+                </Accordion.Toggle>
+                    <Accordion.Collapse className='collapse1' eventKey="1">
+                        <Card.Body className='body1'>
+                        <Media className='media1'>
+                                <Media.Body className='media-body1'>
+                                
+                            </Media.Body>
+                        </Media>
+                        </Card.Body>
+                    </Accordion.Collapse>
+            </Card>
+                    </Accordion>
+                    
+                    
+                    
                     </div>
                     <Footer/>
         </div>
