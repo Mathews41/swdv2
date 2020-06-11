@@ -3382,7 +3382,7 @@ a {
     }
     .productsMenu {
       width: 1000px;
-      height: 500px;
+      height: 20%;
       display: flex;
       flex-direction: row;
       align-items: flex-start;
@@ -3407,7 +3407,7 @@ a {
       border-left: solid black;
     }
     .dropdown {
-      width: 100px;
+      width: auto;
       height: 50px;
     }
     .architectsMenu {
@@ -3446,8 +3446,14 @@ a {
     
     }
     .industrialMenu {
-      width: 100%;
+      width: 250px;
+      height: 20%;
+      margin-right: 10%;
       display: none;
+      position: absolute;
+      box-shadow: 1px 1px 2px 2px black;
+      z-index: 10;
+      border-radius: 10px 10px 10px 10px;
     }
     .archLink {
       color: #1F3F77;
