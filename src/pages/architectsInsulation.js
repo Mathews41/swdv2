@@ -55,6 +55,7 @@ import TDS104 from '../images/TDS104.pdf'
 import eval106 from '../images/VOC106.pdf'
 import roofrating106 from '../images/CR106.pdf'
 import TDS106 from '../images/TDS106.pdf'
+import clickLogo from '../images/clicklogo.svg'
 
 
 
@@ -76,24 +77,18 @@ export default function architectsInsulation() {
                 <sub className='pictext'>University of North Carolina at Wilmington</sub>
                 </div>
                 <div className='upperText1'>
-            <h1 className='htitle'>Wall Foam Insulation </h1>
+            <h1 className='htitle'>Spray Foam Insulation </h1>
                 <ul className='lowerList'>
                     <li>
-                    Superior Energy Performance Excellent
-                    insulation efficiency of SPF can reduce
-                    heating and cooling usage dramatically.
+                    Quik Shield Spray Polyurethane Foam (SPF) offers superior energy performance and excellent insulation efficiency.
                     </li>
                     <li>
-                    Effective Air and Moisture Barrier SPF
-                    reduces the infiltration of outside air
-                    pollutants and soil gases. </li>
+                    Effective Air and Moisture Barrier </li>
                     <li>
-                    SPF can reduce
-                    moisture condensation and mold growth.
+                    Seals all cavities and crevices
                     </li>
                     <li>
-                    Provides a higher Thermal Value
-                    then other forms of insulation.
+                    Higher tensile and bond strength
                     </li>
                 </ul>
                 </div>
@@ -114,7 +109,9 @@ export default function architectsInsulation() {
                     QUIK-SHIELD® 104 is an integral component of an energy efficient building envelope that does not require mixing.
  
                     </h6>
-                    <Icon.ChevronDown color='blue' size={45} />
+                                      <Icon.ChevronDown color='blue' size={45} />
+                                       <h6>Tech Info Click Here</h6>
+
 
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse1' eventKey="1">
@@ -138,7 +135,9 @@ export default function architectsInsulation() {
                         <h6 className='accordian-subtext1'>
                         QUIK-SHIELD® 106 is a 1st generation 1-hour re-entry open cell foam insulation with no ignition barrier required in un-vented attics.
                     </h6>
-                    <Icon.ChevronDown color='blue' size={45} />
+                                      <Icon.ChevronDown color='blue' size={45} />
+                                       <h6>Tech Info Click Here</h6>
+
 
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse1' eventKey="2">
@@ -166,7 +165,9 @@ export default function architectsInsulation() {
                         <h6 className='accordian-subtext1'>
                         QUIK-SHIELD® 108YM, the “Yield Monster”, is the 2nd generation Ultra-Low-Density formula with the lowest cost installed of any spray foam product on the market. Also has a 1 hour re-entry time.
                     </h6>
-                    <Icon.ChevronDown color='blue' size={45} />
+                                      <Icon.ChevronDown color='blue' size={45} />
+                                       <h6>Tech Info Click Here</h6>
+
 
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse1' eventKey="3">
@@ -205,6 +206,8 @@ export default function architectsInsulation() {
                     Air Barrier Association of America Approved.
                     </h6>
                     <Icon.ChevronDown color='blue' size={45} />
+                     <h6>Tech Info Click Here</h6>
+
 
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse2' eventKey="4">
@@ -235,6 +238,7 @@ export default function architectsInsulation() {
                 QUIK-SHIELD® 118 and 118XC  is a 2nd generation spray foam that delivers Ultra Low Density and can spray up to an 8” lift eliminating the need to spray  multiple lifts. Also available in Cold-Weather Foam Formula for extreme cold application conditions.
                     </h6>
                     <Icon.ChevronDown color='blue' size={45} />
+                     <h6>Tech Info Click Here</h6>
 
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse2' eventKey="5">
@@ -266,7 +270,9 @@ export default function architectsInsulation() {
                 <h6 className='accordian-subtext2'>
                 2 lb density, rigid, closed cell, polyurethane pour foam system. Which creates a seamless water resistant barrier and provides for exceptional insulation values.
                     </h6>
-                    <Icon.ChevronDown color='blue' size={45} />
+                                      <Icon.ChevronDown color='blue' size={45} />
+                                       <h6>Tech Info Click Here</h6>
+
 
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse2' eventKey="6">
@@ -337,10 +343,7 @@ export default function architectsInsulation() {
                 <div className='lowerbox2'>
                 <h1 className='htiltle'>Closed-Cell</h1>
                 <p>
-                Closed cell foam is much denser than open cell foam. Closed
-                cell foam has a density starting at 1.75 pounds per cubic foot
-                or more. Closed Cell Foam has a higher R Value than open cell
-                foam. (Typically specified for climate zones 5 and above) 
+                Closed cell foam has a density starting at 1.75 pounds per cubic foot or more. Closed Cell Foam has a higher R Value than open cell foam and can perform as a vapor barrier in a wall assembly application. (Typically specified for climate zones 5 and above) 
                 </p>
                 {/* <img src={ccimg}/> */}
                 <h1 className='htiltle'>Closed-Cell Building Applications</h1>

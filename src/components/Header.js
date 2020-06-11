@@ -59,7 +59,7 @@ export default function Header() {
                         <div className='architectsMenu'>
                           <ul>
                             <li>
-                              <Link className='archLink' to='/architectsInsulation/'>Wall Insulation</Link>
+                              <Link className='archLink' to='/architectsInsulation/'>Spray Foam Insulation</Link>
                             </li>
                             <li className='roofList'>
                             <Link className='roofLink' to='/architectsRoofing/'>Roofing Systems</Link>

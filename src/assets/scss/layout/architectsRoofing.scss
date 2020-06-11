@@ -3321,6 +3321,10 @@
         margin-bottom: 10px;
         
     }
+    .clicklogo {
+        width: 10%;
+        height: 10%;
+    }
     .accordian-container2 {
         width: 100%;
         height: auto;
@@ -3976,6 +3980,19 @@
         flex-direction: row;
         animation: fadeInAnimation1 1s  0s 1 normal ;
         margin-bottom: 10px;
+    }
+    .clicklogo {
+        width: 10%;
+        height: 10%;
+    }
+    .accordianButton {
+        display: flex;
+        width: 40%;
+        background: #294568;
+        color: white;
+        align-self: center;
+        border-radius:5%;
+        padding: 2%;
     }
     .accordian-container2 {
         width: 100%;

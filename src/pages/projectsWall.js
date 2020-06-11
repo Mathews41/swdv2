@@ -30,7 +30,7 @@ export default function projects() {
                 <div className='content-container'>
 
                     <div id='section_0' style={{"height": "auto"}}>
-                        <h1 className='ccTitle'>Wall Insulation Projects</h1>
+                        <h1 className='ccTitle'>Spray Foam Insulation Projects</h1>
                     <div class="container-proj">
   <div class="card-columns">
   <div id='card' >

@@ -32,11 +32,18 @@ export default function architectsStepper() {
                     <Card className='stepperCard'>
                         <Card.Img className='cardImg' variant="top" src={pic1} />
                         <Card.Body id='cardBody'>
-                            <Card.Title id='cardTitle'>Wall Insulation
+                            <Card.Title id='cardTitle'>Spray Foam Insulation
                             <Icon.ExternalLink className='insulLink'/>
                             </Card.Title>
                                 <Card.Text id='cardText'>
-                                QUIK-SHIELD® Spray Foam insulation is the most effective way to insulate any type of building. Whether using an open-cell foam or a two pound closed-cell foam, spray foam creates an unsurpassed air barrier insulation system. This air barrier not only delivers thermal resistance against conduction (R-value) that surpasses batt and cellulose, it also dramatically reduces energy loss through convection.
+                                Quik Shield Spray Foam Insulation is the most effective way to insulate the building envelope.
+                                Available in 1/2lb open cell or 2lb closed cell insulation. 
+                                <ul className='cardTextList'>
+                                <div className='cardTextListTitle'>Benefits Include:</div>
+                                    <li>Air-sealing and eliminating thermal shorts</li>
+                                    <li>Superior energy performance</li>
+                                    <li>Seamless air barrier</li>
+                                </ul>
                                 </Card.Text>
                         </Card.Body>
                     </Card>
@@ -49,9 +56,16 @@ export default function architectsStepper() {
                                 Roofing Systems
                             <Icon.ExternalLink className='insulLink'/>
                             </Card.Title>
-                                <Card.Text id='cardText'>
-                                QUIK-SHIELD® Seamless Monolithic Urethane Foam Roof System
-From roof edge to roof edge QUIK-SHIELD® urethane foam provides a seamless roof with no mechanical fasteners, providing the building with an unsurpassed air barrier and increased thermal resistance. QUIK-SHIELD® also provides self-flashing around HVAC curbs, vents, and skylights, adding additional protection against moisture and air infiltration through otherwise failed metal flashings.
+                            <Card.Text id='cardText'>
+                            Quik Shield Spray Foam Roofing provides a seamless system from roof edge to roof edge.
+                                <ul className='cardTextList'>
+                                <div className='cardTextListTitle'>Benefits Include:</div>
+                                    <li className='cardTextList'>Air Barrier</li>
+                                    <li className='cardTextList'>Self- flashing around penetrations</li>
+                                    <li className='cardTextList'>Thermal resistance</li>
+                                    <li className='cardTextList'>No mechanical fasteners</li>
+                                    <li className='cardTextList'>Cool Roof- reduces expansion and contraction</li>
+                                </ul>
                                 </Card.Text>
                         </Card.Body>
                     </Card>

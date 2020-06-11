@@ -70,6 +70,7 @@ export default function contractors() {
                      a closed-cell, spray–applied polyurethane roofing foam and is a LOW GLOBAL WARMING POTENTIAL product.
                     </h6>
                     <Icon.ChevronDown color='blue' size={45} />
+                     <h6>Tech Info Click Here</h6>
 
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse1' eventKey="1">
@@ -102,6 +103,7 @@ export default function contractors() {
                         5 year Warranty available
                     </h6>
                     <Icon.ChevronDown color='blue' size={45} />
+                     <h6>Tech Info Click Here</h6>
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse1' eventKey="16">
                         <Card.Body className='body1'>
@@ -144,6 +146,7 @@ export default function contractors() {
                         10 year Warranty available
                     </h6>
                     <Icon.ChevronDown color='blue' size={45} />
+                     <h6>Tech Info Click Here</h6>
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse1' eventKey="17">
                         <Card.Body className='body1'>
@@ -190,6 +193,7 @@ export default function contractors() {
                         20 year Warranty available
                     </h6>
                     <Icon.ChevronDown color='blue' size={45} />
+                     <h6>Tech Info Click Here</h6>
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse1' eventKey="18">
                         <Card.Body className='body1'>
@@ -249,6 +253,7 @@ export default function contractors() {
                     
                     </h6>
                     <Icon.ChevronDown color='blue' size={45} />
+                     <h6>Tech Info Click Here</h6>
 
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse2' eventKey="2">
@@ -261,6 +266,7 @@ export default function contractors() {
                 QUIK-SHIELD® 1929F - Flame Retardant
                 <h1></h1>    
                     <Icon.ChevronDown color='blue' size={45} />
+                     <h6>Tech Info Click Here</h6>
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse2' eventKey="3">
                         <Card.Body className='body2'>
@@ -280,6 +286,7 @@ export default function contractors() {
                 QUIK-SHIELD® 1929R
                 <h1></h1>    
                     <Icon.ChevronDown color='blue' size={45} />
+                     <h6>Tech Info Click Here</h6>
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse2' eventKey="4">
                         <Card.Body className='body2'>
@@ -297,6 +304,7 @@ export default function contractors() {
                 QUIK-SHIELD® 1939 - High-Performance
                 <h1></h1>    
                     <Icon.ChevronDown color='blue' size={45} />
+                     <h6>Tech Info Click Here</h6>
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse2' eventKey="5">
                         <Card.Body className='body2'>
@@ -314,6 +322,7 @@ export default function contractors() {
                 QUIK-SHIELD® 1940 - Bleed Blocking
                 <h1></h1>    
                     <Icon.ChevronDown color='blue' size={45} />
+                     <h6>Tech Info Click Here</h6>
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse2' eventKey="6">
                         <Card.Body className='body2'>
@@ -331,6 +340,7 @@ export default function contractors() {
                 QUIK-SHIELD® 1881 - Acrylic Patching Compound
                 <h1></h1>    
                     <Icon.ChevronDown color='blue' size={45} />
+                     <h6>Tech Info Click Here</h6>
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse2' eventKey="7">
                         <Card.Body className='body2'>
@@ -359,6 +369,7 @@ export default function contractors() {
                     
                     </h6>
                     <Icon.ChevronDown color='blue' size={45} />
+                     <h6>Tech Info Click Here</h6>
 
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse2' eventKey="13">
@@ -372,6 +383,7 @@ export default function contractors() {
                 QUIK-SHIELD® 2020 - Cementitious Roof Coating
                 <h1></h1>
                                 <Icon.ChevronDown color='blue' size={45} />
+                                 <h6>Tech Info Click Here</h6>
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse2' eventKey="14">
                         <Card.Body className='body2'>
@@ -399,6 +411,7 @@ export default function contractors() {
                     
                     </h6>
                     <Icon.ChevronDown color='blue' size={45} />
+                     <h6>Tech Info Click Here</h6>
 
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse2' eventKey="20">
@@ -411,6 +424,7 @@ export default function contractors() {
                 Quik-Shield® 1000 - Fast Drying Primer
                 <h1></h1>
                     <Icon.ChevronDown color='blue' size={45} />
+                     <h6>Tech Info Click Here</h6>
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse2' eventKey="3">
                         <Card.Body className='body2'>
@@ -429,6 +443,7 @@ export default function contractors() {
                 Quik-Shield® 1020 - Acrylic Primer
                 <h1></h1>    
                     <Icon.ChevronDown color='blue' size={45} />
+                     <h6>Tech Info Click Here</h6>
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse2' eventKey="4">
                         <Card.Body className='body2'>
@@ -445,6 +460,7 @@ export default function contractors() {
                 <Accordion.Toggle className='toggle2' as={Card.Header} eventKey="5">
                 Quik-Shield® 2000 - Low VOC Primer                <h1></h1>    
                     <Icon.ChevronDown color='blue' size={45} />
+                     <h6>Tech Info Click Here</h6>
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse2' eventKey="5">
                         <Card.Body className='body2'>
@@ -461,6 +477,7 @@ export default function contractors() {
                 <Accordion.Toggle className='toggle2' as={Card.Header} eventKey="6">
                 Quik-Shield® 1030 - Rust Inhibiting Primer                <h1></h1>    
                     <Icon.ChevronDown color='blue' size={45} />
+                     <h6>Tech Info Click Here</h6>
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse2' eventKey="6">
                         <Card.Body className='body2'>
@@ -476,6 +493,7 @@ export default function contractors() {
                 <Accordion.Toggle className='toggle2' as={Card.Header} eventKey="7">
                 Quik-Shield® 1040 - Single-Ply Primer                <h1></h1>    
                     <Icon.ChevronDown color='blue' size={45} />
+                     <h6>Tech Info Click Here</h6>
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse2' eventKey="7">
                         <Card.Body className='body2'>
@@ -492,6 +510,7 @@ export default function contractors() {
                 <Accordion.Toggle className='toggle2' as={Card.Header} eventKey="8">
                 Quik-Shield® 2100 - Etching Wash Primer             <h1></h1>    
                     <Icon.ChevronDown color='blue' size={45} />
+                     <h6>Tech Info Click Here</h6>
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse2' eventKey="8">
                         <Card.Body className='body2'>
@@ -518,6 +537,7 @@ export default function contractors() {
 
                     </h6>
                                     <Icon.ChevronDown color='blue' size={45} />
+                                     <h6>Tech Info Click Here</h6>
 
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse2' eventKey="8">
@@ -531,6 +551,7 @@ export default function contractors() {
                 QUIK-SHIELD® 2120 - High Solids Silicone Roof Coating          
                 <h5> a high solids, moisture cure, fluid applied silicone coating.</h5>    
                 <Icon.ChevronDown color='blue' size={45} />
+                 <h6>Tech Info Click Here</h6>
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse2' eventKey="9">
                         <Card.Body className='body2'>
@@ -548,6 +569,7 @@ export default function contractors() {
                 QUIK-SHIELD® 2110 - Silicone Roof Coating  
                 <h1></h1>    
                 <Icon.ChevronDown color='blue' size={45} />
+                 <h6>Tech Info Click Here</h6>
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse2' eventKey="10">
                         <Card.Body className='body2'>
@@ -565,6 +587,7 @@ export default function contractors() {
                 QUIK-SHIELD® 1891 - Silicone Patching Compound      
                 <h1></h1>
                 <Icon.ChevronDown color='blue' size={45} />
+                 <h6>Tech Info Click Here</h6>
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse2' eventKey="11">
                         <Card.Body className='body2'>
@@ -582,6 +605,7 @@ export default function contractors() {
                 QUIK-SHIELD® 2122 - High Solids Walkway Coating               
                 <h1></h1>    
                 <Icon.ChevronDown color='blue' size={45} />
+                 <h6>Tech Info Click Here</h6>
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse2' eventKey="12">
                         <Card.Body className='body2'>

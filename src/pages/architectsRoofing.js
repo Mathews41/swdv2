@@ -50,6 +50,8 @@ import TDS1000 from '../images/TDS-QS-1000.pdf'
 import TDS1020 from '../images/TDS-QS-1020.pdf'
 import TDS1030 from '../images/TDS-QS-1030.pdf'
 import TDS2120 from '../images/TDS-QS-2120.pdf'
+import clickLogo from '../images/clicklogo.svg'
+
 
 
 
@@ -89,8 +91,7 @@ export default function architectsInsulation() {
             <h1 className='htitle'>QUIK-SHIELD® Foam Coated Roofing Systems</h1>
                 <ul className='lowerList'>
                     <p>
-                        Enhances your building envelope while also increasing your projects energy efficiency.
-                        Not only is it cost effective, but penetrations are easily sealed thus eliminating any potential water leakeage. It is also low maintenance, weather resistant, and requires no mechanical fasteners. Low Global Warming potential product.(Low GWP)
+                    Enhances your building envelope while also increasing your energy efficiency.  QUIK-SHIELD foam roofing systems are not only cost effective, but penetrations are easily sealed, thus eliminating any potential water leakage. Foam roofing systems are also low maintenance, weather resistant, and eliminates the need for mechanical fasteners. Low Global Warming potential product.
                         </p>
                 </ul>
                 </div>
@@ -116,6 +117,7 @@ export default function architectsInsulation() {
                         5 year warranty available
                     </h6>
                     <Icon.ChevronDown color='blue' size={45} />
+                     <h6>Tech Info Click Here</h6>
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse1' eventKey="16">
                         <Card.Body className='body1'>
@@ -165,6 +167,7 @@ export default function architectsInsulation() {
                         10 year Warranty available
                     </h6>
                     <Icon.ChevronDown color='blue' size={45} />
+                     <h6>Tech Info Click Here</h6>
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse1' eventKey="17">
                         <Card.Body className='body1'>
@@ -218,6 +221,7 @@ export default function architectsInsulation() {
                         20 year warranty available
                     </h6>
                     <Icon.ChevronDown color='blue' size={45} />
+                     <h6>Tech Info Click Here</h6>
                 </Accordion.Toggle>
                     <Accordion.Collapse className='collapse1' eventKey="18">
                         <Card.Body className='body1'>
