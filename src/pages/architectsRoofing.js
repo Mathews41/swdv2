@@ -108,7 +108,7 @@ export default function architectsInsulation() {
                 
             <Card className='card1'>
                 <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="16">
-                <h3>Quik Shield®Roofing System #1
+                <h3>QS Roofing System #1
                 </h3> 
                 <h3>
                   (most cost effective)  
@@ -126,7 +126,7 @@ export default function architectsInsulation() {
                                     <ul className='ullist'>
                                         <li>
                                         <h4>
-                                        Quik Shield® 155-2.5lb
+                                        QS  155-2.5lb
                                         </h4>
                                         <h5>
                                         Minimum of 1” of Spray Polyurethane Foam applied over substrate
@@ -135,7 +135,7 @@ export default function architectsInsulation() {
                                         </li>
                                         <li>
                                         <h4>
-                                        Quik Shield® 1929F
+                                        QS  1929F
                                         </h4>
                                        <h5> Flame Retardant Acrylic Coating-Two gallons per 100/sq.ft</h5>
                                         </li>
@@ -162,7 +162,7 @@ export default function architectsInsulation() {
             </Card>
             <Card className='card1'>
                 <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="17">
-                <h3>QUIK-SHIELD®Roofing System #2 </h3> <h3>(most specified)</h3>
+                <h3>QS Roofing System #2 </h3> <h3>(most specified)</h3>
                     <h6 className='accordian-subtext1'>
                         10 year Warranty available
                     </h6>
@@ -176,7 +176,7 @@ export default function architectsInsulation() {
                                     <ul className='ullist'>
                                         <li>
                                         <h4>
-                                        Quik Shield® 155-2.5lb
+                                        QS  155-2.5lb
                                         </h4>
                                         <h5>
                                         Minimum of 1” of Spray Foam applied over substrate</h5>
@@ -184,7 +184,7 @@ export default function architectsInsulation() {
                                         </li>
                                         <li>
                                         <h4>
-                                        Quik Shield® 1929F
+                                        QS  1929F
                                         </h4>
                                         <h5>
                                         Flame Retardant Acrylic Coating-Three gallons per 100/sq.ft
@@ -215,7 +215,7 @@ export default function architectsInsulation() {
             </Card>
             <Card className='card1'>
                 <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="18">
-                    <h3>QUIK-SHIELD®Roofing System-Class A roof assembly #3 </h3>
+                    <h3>QS Roofing System-Class A roof assembly #3 </h3>
                     <h3>(Most Durable)</h3>
                     <h6 className='accordian-subtext1'>
                         20 year warranty available
@@ -230,7 +230,7 @@ export default function architectsInsulation() {
                                     <ul className='ullist'>
                                         <li>
                                         <h4>
-                                        Quik Shield® 155-2.5lb Foam
+                                        QS  155-2.5lb Foam
                                         </h4>
                                         <h5>
                                         Minimum of 1” of Spray Foam applied over substrate
@@ -239,7 +239,7 @@ export default function architectsInsulation() {
                                         </li>
                                         <li>
                                         <h4>
-                                        Quik Shield® 1929F Coating
+                                        QS  1929F Coating
                                         </h4>
                                         <h5>
                                         Flame Retardant Acrylic Coating-Three gallons per 100/sq.ft
@@ -251,7 +251,7 @@ export default function architectsInsulation() {
                                         </li>
                                         <li>
                                         <h4>
-                                        Quik Shield® 2020-Cementitious  top coat
+                                        QS  2020-Cementitious  top coat
                                         </h4> 
                                         <a href={TDS2020}target='_blank' >QUIK-SHIELD® 2020 Technical Data Sheet</a>
                                         </li>

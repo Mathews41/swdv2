@@ -115,10 +115,10 @@ export default function products() {
                         <Media className='media1'>
                                 <Media.Body className='media-body1'>
                                 <Accordion className='accordianProdSub' defaultActiveKey="0">
-                    <h4>QUIK-SHIELD® Spray Foam</h4>
+                    <h4>QS Spray Foam</h4>
             <Card className='card1'>
                 <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="1">
-                    <h3>QUIK-SHIELD® 155</h3> Roofing Spray Foam
+                    <h3>QS 155</h3> Roofing Spray Foam
                         <h6 className='accordian-subtext1'>
                      a closed-cell, spray–applied polyurethane roofing foam and is a LOW GLOBAL WARMING POTENTIAL product.
                     </h6>
@@ -161,7 +161,7 @@ export default function products() {
                 
             <Card className='card1'>
                 <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="16">
-                <h3>Quik Shield®Roofing System Our most specified roofing system </h3>
+                <h3>QS Roofing System Our most specified roofing system </h3>
                     <h6 className='accordian-subtext1'>
                         5 year Warranty available
                     </h6>
@@ -175,7 +175,7 @@ export default function products() {
                                     <ul className='ullist'>
                                         <li>
                                         <h4>
-                                        Quik Shield® 155-2.5lb
+                                        QS 155-2.5lb
                                         </h4>
                                         <h5>
                                         1” of Spray Polyurethane Foam applied over substrate
@@ -184,7 +184,7 @@ export default function products() {
                                         </li>
                                         <li>
                                         <h4>
-                                        Quik Shield® 1929F
+                                        QS 1929F
                                         </h4>
                                        <h5> Flame Retardant Acrylic Coating-Two gallons per 100/sq.ft</h5>
                                         </li>
@@ -216,7 +216,7 @@ export default function products() {
                                     <ul className='ullist'>
                                         <li>
                                         <h4>
-                                        Quik Shield® 155-2.5lb
+                                        QS 155-2.5lb
                                         </h4>
                                         <h5>
                                         1” of Spray Foam applied over substrate</h5>
@@ -224,7 +224,7 @@ export default function products() {
                                         </li>
                                         <li>
                                         <h4>
-                                        Quik Shield® 1929F
+                                        QS 1929F
                                         </h4>
                                         <h5>
                                         Flame Retardant Acrylic Coating-Three gallons per 100/sq.ft
@@ -245,7 +245,7 @@ export default function products() {
             </Card>
             <Card className='card1'>
                 <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="18">
-                    <h3>QUIK-SHIELD®Roofing System-Class A roof assembly #3</h3>
+                    <h3>QS Roofing System-Class A roof assembly #3</h3>
                     <h6 className='accordian-subtext1'>
                         20 year Warranty available
                     </h6>
@@ -259,7 +259,7 @@ export default function products() {
                                     <ul className='ullist'>
                                         <li>
                                         <h4>
-                                        Quik Shield® 155-2.5lb
+                                        QS 155-2.5lb
                                         </h4>
                                         <h5>
                                         1” of Spray Foam applied over substrate
@@ -268,7 +268,7 @@ export default function products() {
                                         </li>
                                         <li>
                                         <h4>
-                                        Quik Shield® 1929F
+                                        QS 1929F
                                         </h4>
                                         <h5>
                                         Flame Retardant Acrylic Coating-Three gallons per 100/sq.ft
@@ -277,7 +277,7 @@ export default function products() {
                                         </li>
                                         <li>
                                         <h4>
-                                        Quik Shield® 2020-Cementitious  top coat
+                                        QS 2020-Cementitious  top coat
                                         </h4> 
                                         <h5>
                                         #6 Limestone granules blended in with acrylic top coat

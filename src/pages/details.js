@@ -118,6 +118,7 @@ export default function details() {
                                 <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="1">
                                     <h3>Ceiling </h3>
                                     <Icon.ChevronDown color='blue' size={45} />
+                                    <h6>Tech Info Click Here</h6>
                                 </Accordion.Toggle>
                                 <Accordion.Collapse className='collapse1' eventKey="1">
                                 <Card.Body className='body1'>
@@ -154,6 +155,7 @@ export default function details() {
                                 <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="2">
                                     <h3> Floor </h3>
                                     <Icon.ChevronDown color='blue' size={45} />
+                                    <h6>Tech Info Click Here</h6>
                                 </Accordion.Toggle>
                                 <Accordion.Collapse className='collapse1' eventKey="2">
                                 <Card.Body className='body1'>
@@ -240,6 +242,7 @@ export default function details() {
                                 <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="3">
                                     <h3>Wall</h3>
                                     <Icon.ChevronDown color='blue' size={45} />
+                                    <h6>Tech Info Click Here</h6>
                                 </Accordion.Toggle>
                                 <Accordion.Collapse className='collapse1' eventKey="3">
                                 <Card.Body className='body1'>
@@ -348,6 +351,7 @@ export default function details() {
                                 <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="4">
                                     <h3>Plan View </h3>
                                     <Icon.ChevronDown color='blue' size={45} />
+                                    <h6>Tech Info Click Here</h6>
                                 </Accordion.Toggle>
                                 <Accordion.Collapse className='collapse1' eventKey="4">
                                 <Card.Body className='body1'>
@@ -406,6 +410,7 @@ export default function details() {
                     <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="1">
                         <h3>Curb & Equipment & other Misc Details </h3>
                         <Icon.ChevronDown color='blue' size={45} />
+                        <h6>Tech Info Click Here</h6>
                     </Accordion.Toggle>
                     <Accordion.Collapse className='collapse1' eventKey="1">
                     <Card.Body className='body1'>
@@ -497,6 +502,7 @@ export default function details() {
                     <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="2">
                         <h3>Drains & Scuppers </h3>
                         <Icon.ChevronDown color='blue' size={45} />
+                        <h6>Tech Info Click Here</h6>
                     </Accordion.Toggle>
                     <Accordion.Collapse className='collapse1' eventKey="2">
                     <Card.Body className='body1'>
@@ -548,6 +554,7 @@ export default function details() {
                     <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="3">
                         <h3>Expansion Joints and Penetrations </h3>
                         <Icon.ChevronDown color='blue' size={45} />
+                        <h6>Tech Info Click Here</h6>
                     </Accordion.Toggle>
                     <Accordion.Collapse className='collapse1' eventKey="3">
                     <Card.Body className='body1'>
@@ -574,6 +581,7 @@ export default function details() {
                     <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="5">
                         <h3>Flashing </h3>
                         <Icon.ChevronDown color='blue' size={45} />
+                        <h6>Tech Info Click Here</h6>
                     </Accordion.Toggle>
                     <Accordion.Collapse className='collapse1' eventKey="5">
                     <Card.Body className='body1'>
@@ -604,6 +612,7 @@ export default function details() {
                     <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="6">
                         <h3>Wall and Parapet </h3>
                         <Icon.ChevronDown color='blue' size={45} />
+                        <h6>Tech Info Click Here</h6>
                     </Accordion.Toggle>
                     <Accordion.Collapse className='collapse1' eventKey="6">
                     <Card.Body className='body1'>
@@ -652,6 +661,7 @@ export default function details() {
                     <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="4">
                         <h3>Fire Rated Assemblies </h3>
                         <Icon.ChevronDown color='blue' size={45} />
+                        <h6>Tech Info Click Here</h6>
                     </Accordion.Toggle>
                     <Accordion.Collapse className='collapse1' eventKey="4">
                     <Card.Body className='body1'>

@@ -100,13 +100,13 @@ export default function architectsInsulation() {
                 </div>
             <div className='accordian-container1'>
                 <Accordion className='accordian1' defaultActiveKey="0">
-                    <h4>Open Cell Products</h4>
+                    <h4>QUIK-SHIELD® Open Cell Products</h4>
                 
             <Card className='card1'>
                 <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="1">
-                <h3>QUIK-SHIELD® 104</h3>
+                <h3>QS 104</h3>
                     <h6 className='accordian-subtext1'>
-                    QUIK-SHIELD® 104 is an integral component of an energy efficient building envelope that does not require mixing.
+                    QS 104 is an integral component of an energy efficient building envelope that does not require mixing.
  
                     </h6>
                                       <Icon.ChevronDown color='blue' size={45} />
@@ -118,11 +118,11 @@ export default function architectsInsulation() {
                         <Card.Body className='body1'>
                             <Media className='media1'>
                                     <Media.Body className='media-body1'>   
-                                    <a href={TDS104}target='_blank' >QUIK-SHIELD® 104 Technical Data Sheet </a>  
-                                    <a href={cr104}target='_blank' >QUIK-SHIELD® 104 Code Report</a>  
+                                    <a href={TDS104}target='_blank' >QS 104 Technical Data Sheet </a>  
+                                    <a href={cr104}target='_blank' >QS 104 Code Report</a>  
                                     <a href={qs104b}
-                                    target='_blank'>QUIK-SHIELD® 104 Brochure</a>  
-                                    {/* <a href={TDS104}target='_blank' >QUIK-SHIELD® 104 VOC </a>   */}
+                                    target='_blank'>QS 104 Brochure</a>  
+                                    {/* <a href={TDS104}target='_blank' >QS 104 VOC </a>   */}
                                     
                                                                                
                                     </Media.Body>
@@ -131,9 +131,9 @@ export default function architectsInsulation() {
                     </Accordion.Collapse>
             </Card><Card className='card1'>
                 <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="2">
-                <h3>QUIK-SHIELD® 106 </h3>
+                <h3>QS 106 </h3>
                         <h6 className='accordian-subtext1'>
-                        QUIK-SHIELD® 106 is a 1st generation 1-hour re-entry open cell foam insulation with no ignition barrier required in un-vented attics.
+                        QS 106 is a 1st generation 1-hour re-entry open cell foam insulation with no ignition barrier required in un-vented attics.
                     </h6>
                                       <Icon.ChevronDown color='blue' size={45} />
                                        <h6>Tech Info Click Here</h6>
@@ -145,14 +145,14 @@ export default function architectsInsulation() {
                         <Media className='media1'>
                                 <Media.Body className='media-body1'>
                                     <a href={TDS106} 
-                                    target='_blank'>QUIK-SHIELD® 106 Technical Data Sheet </a>  
-                                    <a href={spec106} target='_blank'>QUIK-SHIELD® 106 Specification (Download)</a>  
+                                    target='_blank'>QS 106 Technical Data Sheet </a>  
+                                    <a href={spec106} target='_blank'>QS 106 Specification (Download)</a>  
                                     <a href={roofrating106}
-                                    target='_blank' >QUIK-SHIELD® 106 Code Report</a>  
+                                    target='_blank' >QS 106 Code Report</a>  
                                     <a href={eval106}
-                                    target='_blank' >QUIK-SHIELD® 106 VOC </a>
+                                    target='_blank' >QS 106 VOC </a>
                                     <a href={qs106b}
-                                    target='_blank'>QUIK-SHIELD® 106 Brochure</a> 
+                                    target='_blank'>QS 106 Brochure</a> 
                                     
                             </Media.Body>
                         </Media>
@@ -161,9 +161,9 @@ export default function architectsInsulation() {
             </Card>
             <Card className='card1'>
                 <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="3">
-               <h3>QUIK-SHIELD® 108YM</h3>
+               <h3>QS 108YM</h3>
                         <h6 className='accordian-subtext1'>
-                        QUIK-SHIELD® 108YM, the “Yield Monster”, is the 2nd generation Ultra-Low-Density formula with the lowest cost installed of any spray foam product on the market. Also has a 1 hour re-entry time.
+                        QS 108YM, the “Yield Monster”, is the 2nd generation Ultra-Low-Density formula with the lowest cost installed of any spray foam product on the market. Also has a 1 hour re-entry time.
                     </h6>
                                       <Icon.ChevronDown color='blue' size={45} />
                                        <h6>Tech Info Click Here</h6>
@@ -175,14 +175,14 @@ export default function architectsInsulation() {
                         <Media className='media1'>
                                 <Media.Body className='media-body1'>
                                     <a href={TDS108}
-                                    target='_blank' >QUIK-SHIELD® 108YM Technical Data Sheet </a>  
-                                    <a href={spec108} target='_blank'>QUIK-SHIELD® 108 Specification(Download)</a>  
+                                    target='_blank' >QS 108YM Technical Data Sheet </a>  
+                                    <a href={spec108} target='_blank'>QS 108 Specification(Download)</a>  
                                     <a href={ccrr108}
-                                    target='_blank' >QUIK-SHIELD® 108YM Code Report</a>  
+                                    target='_blank' >QS 108YM Code Report</a>  
                                     <a href={gold}
-                                    target='_blank'>QUIK-SHIELD® 108YM VOC </a>
+                                    target='_blank'>QS 108YM VOC </a>
                                     <a href={qs108b}
-                                    target='_blank'>QUIK-SHIELD® 108YM Brochure</a> 
+                                    target='_blank'>QS 108YM Brochure</a> 
                                     
                             </Media.Body>
                         </Media>
@@ -197,12 +197,12 @@ export default function architectsInsulation() {
                 </div>
                     </Accordion>
                     <Accordion className='accordian1' defaultActiveKey="0">
-                    <h4>Closed Cell Products</h4>
+                    <h4>QUIK-SHIELD® Closed Cell Products</h4>
             <Card className='card2'>
                 <Accordion.Toggle className='toggle2' as={Card.Header} eventKey="4">
-                <h3>QUIK-SHIELD® 112</h3>
+                <h3>QS 112</h3>
                     <h6 className='accordian-subtext2'>
-                    QUIK-SHIELD® 112 is a 1st generation Closed Cell spray foam with an industry leading 1-hour re-entry time that can be sprayed up to a 4” lift.
+                    QS 112 is a 1st generation Closed Cell spray foam with an industry leading 1-hour re-entry time that can be sprayed up to a 4” lift.
                     Air Barrier Association of America Approved.
                     </h6>
                     <Icon.ChevronDown color='blue' size={45} />
@@ -215,16 +215,16 @@ export default function architectsInsulation() {
                             <Media className='media2'>
                             <Media.Body className='media-body1'>
                                     <a href={TDS112}
-                                    target='_blank' >QUIK-SHIELD® 112 Technical Data Sheet </a>  
+                                    target='_blank' >QS 112 Technical Data Sheet </a>  
                                     <a href={TDS112xc}
-                                    target='_blank' >QUIK-SHIELD® 112XC Technical Data Sheet </a>
-                                    <a href={qs112} target='_blank'>QUIK-SHIELD® 112 Specification(Download)</a>  
+                                    target='_blank' >QS 112XC Technical Data Sheet </a>
+                                    <a href={qs112} target='_blank'>QS 112 Specification(Download)</a>  
                                     <a href={ccrr112}
-                                    target='_blank' >QUIK-SHIELD® 112 Code Report</a>  
+                                    target='_blank' >QS 112 Code Report</a>  
                                     <a href={VOC112}
-                                    target='_blank'>QUIK-SHIELD® 112 VOC </a>
+                                    target='_blank'>QS 112 VOC </a>
                                     <a href={qs112b}
-                                    target='_blank'>QUIK-SHIELD® 112 Brochure</a> 
+                                    target='_blank'>QS 112 Brochure</a> 
                                     
                             </Media.Body>
                             </Media>
@@ -233,9 +233,9 @@ export default function architectsInsulation() {
             </Card>
             <Card className='card2'>
                 <Accordion.Toggle className='toggle2' as={Card.Header} eventKey="5">
-                <h3>QUIK-SHIELD® 118/118XC</h3>
+                <h3>QS 118/118XC</h3>
                 <h6 className='accordian-subtext2'>
-                QUIK-SHIELD® 118 and 118XC  is a 2nd generation spray foam that delivers Ultra Low Density and can spray up to an 8” lift eliminating the need to spray  multiple lifts. Also available in Cold-Weather Foam Formula for extreme cold application conditions.
+                QS 118 and 118XC  is a 2nd generation spray foam that delivers Ultra Low Density and can spray up to an 8” lift eliminating the need to spray  multiple lifts. Also available in Cold-Weather Foam Formula for extreme cold application conditions.
                     </h6>
                     <Icon.ChevronDown color='blue' size={45} />
                      <h6>Tech Info Click Here</h6>
@@ -246,18 +246,18 @@ export default function architectsInsulation() {
                         <Media className='media2'>
                         <Media.Body className='media-body1'>
                                     <a href={TDS118}
-                                    target='_blank' >QUIK-SHIELD® 118 Technical Data Sheet </a>  
+                                    target='_blank' >QS 118 Technical Data Sheet </a>  
                                     <a href={TDS118xc}
-                                    target='_blank' >QUIK-SHIELD® 118XC Technical Data Sheet </a> 
-                                    <a href={qs118} target='_blank'>QUIK-SHIELD® 118 Specification(Download)</a>  
+                                    target='_blank' >QS 118XC Technical Data Sheet </a> 
+                                    <a href={qs118} target='_blank'>QS 118 Specification(Download)</a>  
                                     <a href={ccrr118}
-                                    target='_blank' >QUIK-SHIELD® 118 Code Report</a>  
+                                    target='_blank' >QS 118 Code Report</a>  
                                     <a href={VOC118}
-                                    target='_blank'>QUIK-SHIELD® 118 VOC </a>
+                                    target='_blank'>QS 118 VOC </a>
                                      <a href={qs118b}
-                                    target='_blank'>QUIK-SHIELD® 118 Brochure</a>
+                                    target='_blank'>QS 118 Brochure</a>
                                      <a href={qs118xcb}
-                                    target='_blank'>QUIK-SHIELD® 118XC Brochure</a>  
+                                    target='_blank'>QS 118XC Brochure</a>  
                                     
                             </Media.Body>
                         </Media>
@@ -266,7 +266,7 @@ export default function architectsInsulation() {
             </Card>
             <Card className='card2'>
                 <Accordion.Toggle className='toggle2' as={Card.Header} eventKey="6">
-                <h3>QUIK-SHIELD® 450 </h3>
+                <h3>QS 450 </h3>
                 <h6 className='accordian-subtext2'>
                 2 lb density, rigid, closed cell, polyurethane pour foam system. Which creates a seamless water resistant barrier and provides for exceptional insulation values.
                     </h6>
@@ -280,9 +280,9 @@ export default function architectsInsulation() {
                         <Media className='media2'>
                         <Media.Body className='media-body1'>
                                     <a href={TDS450}
-                                    target='_blank' >QUIK-SHIELD® 450 Technical Data Sheet </a> 
+                                    target='_blank' >QS 450 Technical Data Sheet </a> 
                                     <a href={ccrr450}
-                                    target='_blank' >QUIK-SHIELD® 450 Code Report</a>  
+                                    target='_blank' >QS 450 Code Report</a>  
                                     
                             </Media.Body>
                         </Media>
