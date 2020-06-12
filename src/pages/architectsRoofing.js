@@ -127,7 +127,7 @@ export default function architectsInsulation() {
                                     <ul className='ullist'>
                                         <li>
                                         <h4>
-                                        QS  155-2.5lb
+                                        QS  155-2.5lb Foam
                                         </h4>
                                         <h5>
                                         Minimum of 1” of Spray Polyurethane Foam applied over substrate
@@ -136,7 +136,7 @@ export default function architectsInsulation() {
                                         </li>
                                         <li>
                                         <h4>
-                                        QS  1929F
+                                        QS  1929F Coating
                                         </h4>
                                        <h5> Flame Retardant Acrylic Coating-Two gallons per 100/sq.ft</h5>
                                         <a href={TDS1929f}target='_blank'>QUIK-SHIELD® 1929F Technical Data Sheet</a> 
@@ -173,7 +173,7 @@ export default function architectsInsulation() {
                                     <ul className='ullist'>
                                         <li>
                                         <h4>
-                                        QS  155-2.5lb
+                                        QS  155-2.5lb Foam
                                         </h4>
                                         <h5>
                                         Minimum of 1” of Spray Foam applied over substrate</h5>
@@ -181,7 +181,7 @@ export default function architectsInsulation() {
                                         </li>
                                         <li>
                                         <h4>
-                                        QS  1929F
+                                        QS  1929F Coating
                                         </h4>
                                         <h5>
                                         Flame Retardant Acrylic Coating-Three gallons per 100/sq.ft

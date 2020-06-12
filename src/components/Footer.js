@@ -82,11 +82,21 @@ export default function Footer() {
       </div>
       <div className='ogLogoContainer'>
       <div className='logosContainer'>
-        <img className='google' src={appstore}></img>
-        <img className='google' src={googleplay}></img>
-        <img className='socialLogo' src={facebook}></img>
-        <img className='socialLogo1' src={youtube}></img>
-        <img className='socialLogo' src={linkedin}></img>
+        <a href='https://apps.apple.com/us/app/swd-urethane-quik-shield/id1111843502'>
+          <img className='google' src={appstore}></img>
+        </a>
+        <a href='https://play.google.com/store/apps/details?id=com.dysonk.SWDUrethane'>
+          <img className='google' src={googleplay}></img>
+        </a>
+        <a href='https://www.youtube.com/channel/UChAwoFSfTCE5gv5YCUR-6VA' target='_blank rel='noreferrer>
+          <img className='socialLogo1' src={youtube}></img>
+        </a>
+        <a href='https://www.facebook.com/swdurethane/' target='_blank' rel='noreferrer'>
+          <img className='socialLogo'src={facebook}></img>
+        </a>
+        <a href='https://www.linkedin.com/company/swd-urethane/?viewAsMember=true'target='_blank' rel='noreferrer'>
+          <img className='socialLogo' src={linkedin}></img>
+        </a>
         </div>
         </div>
     </div>

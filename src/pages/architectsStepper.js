@@ -36,7 +36,7 @@ export default function architectsStepper() {
                             <Icon.ExternalLink className='insulLink'/>
                             </Card.Title>
                                 <Card.Text id='cardText'>
-                                Quik Shield Spray Foam Insulation is the most effective way to insulate the building envelope.
+                                QUIK-SHIELD® Spray Foam Insulation is the most effective way to insulate the building envelope.
                                 Available in 1/2lb open cell or 2lb closed cell insulation. 
                                 <ul className='cardTextList'>
                                 <div className='cardTextListTitle'>Benefits Include:</div>
@@ -57,7 +57,7 @@ export default function architectsStepper() {
                             <Icon.ExternalLink className='insulLink'/>
                             </Card.Title>
                             <Card.Text id='cardText'>
-                            Quik Shield Spray Foam Roofing provides a seamless system from roof edge to roof edge.
+                            QUIK-SHIELD® Spray Foam Roofing provides a seamless system from roof edge to roof edge.
                                 <ul className='cardTextList'>
                                 <div className='cardTextListTitle'>Benefits Include:</div>
                                     <li className='cardTextList'>Air Barrier</li>

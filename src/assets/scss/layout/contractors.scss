@@ -253,7 +253,7 @@
 }
 @media (min-width: 1681px){
     #page-contractor {
-        width: fit-content;
+        width: auto;
         height: auto;
         margin: 0;
         padding: 0;
@@ -262,6 +262,12 @@
         justify-content: center;
         align-items: center;
         background: white;
+    }
+    .contPage > h3 {
+        display: flex;
+        align-self: center;
+        font-size: 20pt;
+        margin-bottom: 5%;
     }
     .cont-bg {
         width: 100%;
@@ -288,6 +294,7 @@
         width: 60%;
         margin-top: 7%;
         padding: 1%;
+        margin-bottom: 5%;
         display: flex;
         flex-direction: column;
         color: black;
@@ -303,6 +310,20 @@
     .header-container-cont > p {
         font-size: 16pt;
         text-align: center;
+    }
+    .contImg {
+        width: 40%;
+        height: 60%;
+    }
+    .contcont {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .contcont > p {
+        width: 60%;
     }
     
     

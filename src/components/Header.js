@@ -10,7 +10,7 @@ import Menu from 'react-bootstrap/DropdownMenu'
 import DropdownMenu from 'react-bootstrap/DropdownMenu'
 import * as Icon from 'react-feather'
 import Burger from './Hamburger'
-import LOGO from '../images/SWDlogo.png'
+import LOGO from '../images/SWDlogo.svg'
 
 
 

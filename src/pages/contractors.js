@@ -23,6 +23,8 @@ import masterSpec from '../images/images.png'
 import icon2 from '../images/icon2.png'
 import abaa from '../images/abaa.svg'
 import greenguard from '../images/greenguard logo (1).png'
+import wallspray from '../images/wallspray.jpg'
+import roofspray from '../images/IMG_0534.jpg'
 import {Link} from 'gatsby'
 //Footer
 import Footer from '../components/Footer'
@@ -60,8 +62,8 @@ export default function contractors() {
             </p>
             </div>   
             <div className='contPage'>
-                <div >
-                    <h4>Spray Foam Coalition</h4>
+                    <h3>Spray Foam Coalition</h3>
+                <div className='contcont' >
                     <p className='contParagraph'>SWD Urethane has been a member of the Spray Foam Coalition since its inception and closely adheres to its guiding principles.
 
                     The Spray Foam Coalition (SFC) was formed under the Center for Polyurethanes Industry (CPI). The SFC is a dynamic organization of companies that produce and sell polyurethane spray foam insulation systems and the chemicals and equipment necessary for their use.
@@ -69,13 +71,15 @@ export default function contractors() {
                     The SFC Code of Conduct provides a framework to drive continuous improvement in health and safety and product stewardship. This Code of Conduct begins with a commitment to a culture of product safety by the members that manufacture SPF systems. Each systems house member will adhere to the six commitments set forth in this Code of Conduct.
 
                     Quik-Shield spray foam insulation products deliver exceptional job site value that will ultimately help build repeat business and your own bottom line. Quik-Shield products are designed to be technically superior and provide benefits that will save you, the contractor, both time and money. All Quik-Shield products are code approved so you know you will be using products that meet tough building standards.</p>
+                <img className='contImg'src={wallspray}/>
                 </div>
-                <div>
                     <h3>Spray Foam Growth and Opportunity</h3>
+                <div className='contcont'>
+                <img className='contImg'src={roofspray}/>
                     <p className='contParagraph'>Spray foam is one of the fastest growing segments in the construction industry, and presents a great opportunity for contractors looking to get into the business. With its superior benefits spray foam is increasingly becoming the product of choice for creating energy-efficient building envelopes, and better living environments. Come partner with us and see how SWD can position you to take advantage of this opportunity.</p>
                 </div>
-                <div>
                     <h3 >SWD Partnership</h3>
+                <div className='contcont'>
                     <p className='contParagraph'> SWD Urethane was started by spray foam contractors, 40 years ago. We know what it is like being a contractor and we know what it takes to help you grow your business effectively and profitably. We have been where you are and can help you get where you want to be.
 
                     <p>We work with you to help educate and identify needs and opportunities, find solutions to your problems and position you for success. From product training, to equipment troubleshooting, to marketing and sales support, to working with code officials, we provide you with a full range of support you need.</p>

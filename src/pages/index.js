@@ -18,6 +18,8 @@ import ASU from '../images/ASU-min.jpg'
 import uofahonors from '../../src/images/uofahonors-min.png'
 
 //project profiles
+import ppASU from '../images/Project Profile - ASU Greek Village.pdf'
+
 
 
 import PropTypes from 'prop-types'
@@ -155,7 +157,7 @@ class IndexPage extends React.Component {
                 <Carousel.Caption className='caption'>
                   <h3>Arizona State University Greek Leadership Student Housing </h3>
                   <h5 className='carTag'>Tempe, Arizona</h5>
-                  <button href='/projects/' id='button'><h3>Learn More</h3></button>
+                  <button href={ppASU} id='button'><h3 >Learn More</h3></button>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item className='item'>

@@ -1047,7 +1047,7 @@ export default function products() {
                     <h4>Parts & Equipment</h4>
             <Card className='card1'>
                 <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="1">
-                    <h3> Spray Gun Diagram</h3>
+                    <h3> Spray Gun </h3>
                     <Icon.ChevronDown color='blue' size={45} />
                      <h6>Tech Info Click Here</h6>
 
