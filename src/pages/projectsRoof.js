@@ -29,7 +29,7 @@ export default function projects() {
                     <div class="container-proj">
   <div class="card-columns">
     <a href={ppASU} target='_blank' id='card' >
-      <img class="card-img-top1"  src={asu} alt="Card image top"/>
+      <img alt='roof' class="card-img-top1"  src={asu} alt="Card image top"/>
       <div class="card-body1">
         <h3 class="card-title">Arizona State University </h3>
         <h4 class="card-subtitle">
@@ -39,7 +39,7 @@ export default function projects() {
         <button href={ppASU} target='_blank' className='cardButton'>Read Full Study</button>
     </a>
   <div id='card' >
-      <img class="card-img-top1"  src={uofahonors} alt="Card image top"/>
+      <img alt='roof' class="card-img-top1"  src={uofahonors} alt="Card image top"/>
       <div class="card-body1">
         <h3 class="card-title">University of Arizona Honors Student Housing</h3>
         <h4 class="card-subtitle">
@@ -50,7 +50,7 @@ export default function projects() {
         <button className='cardButton'>Read Full Study</button>
     </div>
     <div id='card' >
-      <img class="card-img-top1"  src={aztech} alt="Card image top"/>
+      <img alt='roof' class="card-img-top1"  src={aztech} alt="Card image top"/>
       <div class="card-body1">
         <h3 class="card-title">University of Arizona</h3>
         <h4 class="card-subtitle">Arizona Science and Technology Park</h4>

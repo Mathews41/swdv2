@@ -24,7 +24,7 @@ export default function architectsStepper() {
     return (
         <div className='page'>
             <Header/>
-        <img className='bgimg' src={bgimg} fluid></img>
+        <img alt='arch stepper' className='bgimg' src={bgimg} fluid></img>
         <div className='archStepper'>
             <div className='stepperPage' >
             <CardDeck id='cardDeck'>
@@ -73,11 +73,11 @@ export default function architectsStepper() {
             </CardDeck>
         </div>
         <div className='isoBand'>
-            <img className='ISO1' src={abaa}></img>
-            <img className='ISO1' src={greenguard}></img>
-            <img className='ISO' src={icon2}></img>
-            <img className='ISO11' src={masterSpec}></img>
-            <img className='ISO1' src={greenbuilding}></img>
+            <img alt='arch stepper' className='ISO1' src={abaa}></img>
+            <img alt='arch stepper' className='ISO1' src={greenguard}></img>
+            <img alt='arch stepper' className='ISO' src={icon2}></img>
+            <img alt='arch stepper' className='ISO11' src={masterSpec}></img>
+            <img alt='arch stepper' className='ISO1' src={greenbuilding}></img>
 
         </div>
         </div>

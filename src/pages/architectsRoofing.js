@@ -8,10 +8,7 @@ import * as Icon from 'react-feather'
 import elevation from '../images/elevation shot-min.png'
 import img2 from '../images/Roofing_Edited_5-min.jpg'
 import Header from '../components/Header'
-import img5 from '../images/Roofing_Edited_1-min.jpg'
-import img4 from '../images/Roofing_Edited_4-min.jpg'
-import eval125 from '../images/evalreport125.pdf'
-import test from '../images/test.pdf'
+
 import eval155 from '../images/ESR155.pdf'
 import roofrating155 from '../images/roofRating155.pdf'
 import TDS15525 from '../images/TDS-QS-155-2.5.pdf'
@@ -36,22 +33,10 @@ import pic65 from '../images/065.jpg'
 import Footer from '../components/Footer'
 
 //Technical Data Sheets
-import TDS1881 from '../images/TDS-QS-1881.pdf'
-import TDS1891 from '../images/TDS-QS-1891.pdf'
+
 import TDS1929f from '../images/TDS-QS-1929F.pdf'
-import TDS1929r from '../images/TDS-QS-1929R.pdf'
-import TDS1939 from '../images/TDS-QS-1939.pdf'
-import TDS1940 from '../images/TDS-QS-1940.pdf'
+
 import TDS2020 from '../images/TDS-QS-2020.pdf'
-import TDS2110 from '../images/TDS-QS-2110.pdf'
-import TDS2122 from '../images/TDS-QS2122.pdf'
-import TDS2000 from '../images/TDS-QS-2000.pdf'
-import TDS2100 from '../images/TDS-QS-2100.pdf'
-import TDS1000 from '../images/TDS-QS-1000.pdf'
-import TDS1020 from '../images/TDS-QS-1020.pdf'
-import TDS1030 from '../images/TDS-QS-1030.pdf'
-import TDS2120 from '../images/TDS-QS-2120.pdf'
-import clickLogo from '../images/clicklogo.svg'
 
 
 
@@ -77,15 +62,15 @@ export default function architectsInsulation() {
         <div className='arch-page'>
         <Header/>
             <div className='img-container1'>
-                <img className='split-img11' src={elevation}/>
+                <img alt='roofing' className='split-img11' src={elevation}/>
                 <span className='headspan'>Architects/Specifiers</span>
                 <sub></sub>
-                <img className='split-img11' src={img2}/>
+                <img alt='roofing' className='split-img11' src={img2}/>
             </div>
             <div className='upperText'>
             <div>
                     <a href='/projects/'>
-                <img className='buildings'src={pic65}></img></a>
+                <img alt='roofing' className='buildings'src={pic65}></img></a>
                 <sub className='pictext'>Quik-Shield® 155 Coated Foam Roof</sub>
                 </div>
             <div className='upperText1'>
@@ -98,7 +83,7 @@ export default function architectsInsulation() {
                 </div>
                 <div>
                     <a href='/projects/'>
-                <img className='buildings2'src={ASU}></img></a>
+                <img alt='roofing' className='buildings2'src={ASU}></img></a>
                 <sub className='pictext1'>Arizona State University Greek Leadership Housing</sub>
                 </div>
                 </div>
@@ -132,23 +117,23 @@ export default function architectsInsulation() {
                                         <h5>
                                         Minimum of 1” of Spray Polyurethane Foam applied over substrate
                                         </h5>
-                                        <a href={TDS15525} target='_blank'>QUIK-SHIELD® 155 Technical Data Sheet</a>
+                                        <a href={TDS15525} target='_blank' rel='noreferrer'>QUIK-SHIELD® 155 Technical Data Sheet</a>
                                         </li>
                                         <li>
                                         <h4>
                                         QS  1929F Coating
                                         </h4>
                                        <h5> Flame Retardant Acrylic Coating-Two gallons per 100/sq.ft</h5>
-                                        <a href={TDS1929f}target='_blank'>QUIK-SHIELD® 1929F Technical Data Sheet</a> 
+                                        <a href={TDS1929f}target='_blank' rel='noreferrer'>QUIK-SHIELD® 1929F Technical Data Sheet</a> 
                                         </li>
                                         <h4>
                                         Specification
                                         </h4>
-                                        <a href={spec155}target='_blank' >Division 07 57 00 Specification (Download)</a>
+                                        <a href={spec155}target='_blank' rel='noreferrer' >Division 07 57 00 Specification (Download)</a>
                                         <h4 className='htag'>
                                         Code Report
                                         </h4>
-                                        <a href={eval155}target='_blank' >ESR-2532</a>
+                                        <a href={eval155}target='_blank' rel='noreferrer' >ESR-2532</a>
                                         
                                         
                                     </ul>
@@ -177,7 +162,7 @@ export default function architectsInsulation() {
                                         </h4>
                                         <h5>
                                         Minimum of 1” of Spray Foam applied over substrate</h5>
-                                        <a href={TDS15525} target='_blank'>QUIK-SHIELD® 155 Technical Data Sheet</a>
+                                        <a href={TDS15525} target='_blank' rel='noreferrer'>QUIK-SHIELD® 155 Technical Data Sheet</a>
                                         </li>
                                         <li>
                                         <h4>
@@ -186,7 +171,7 @@ export default function architectsInsulation() {
                                         <h5>
                                         Flame Retardant Acrylic Coating-Three gallons per 100/sq.ft
                                         </h5>
-                                        <a href={TDS1929f}target='_blank'>QUIK-SHIELD® 1929F Technical Data Sheet</a>
+                                        <a href={TDS1929f}target='_blank' rel='noreferrer'>QUIK-SHIELD® 1929F Technical Data Sheet</a>
                                         </li>
                                         <li>
                                         #9 Limestone granules blended in with acrylic top coat (optional)
@@ -194,11 +179,11 @@ export default function architectsInsulation() {
                                         <h4>
                                         Specification
                                         </h4>
-                                        <a href={spec155}target='_blank' >Division 07 57 00 Specification (Download)</a>
+                                        <a href={spec155}target='_blank' rel='noreferrer' >Division 07 57 00 Specification (Download)</a>
                                         <h4 className='htag'>
                                         Code Report
                                         </h4>
-                                        <a href={eval155}target='_blank' >ESR-2532</a>
+                                        <a href={eval155}target='_blank' rel='noreferrer' >ESR-2532</a>
                                     
                                     </ul>
                                     </Media.Body>
@@ -228,7 +213,7 @@ export default function architectsInsulation() {
                                         <h5>
                                         Minimum of 1” of Spray Foam applied over substrate
                                         </h5>
-                                        <a href={TDS15525} target='_blank'>QUIK-SHIELD® 155 Technical Data Sheet</a>
+                                        <a href={TDS15525} target='_blank' rel='noreferrer'>QUIK-SHIELD® 155 Technical Data Sheet</a>
                                         </li>
                                         <li>
                                         <h4>
@@ -240,22 +225,22 @@ export default function architectsInsulation() {
                                         #6 Limestone granules blended in with acrylic top coat
                                         </h5>
                                         </h5>
-                                        <a href={TDS1929f}target='_blank'>QUIK-SHIELD® 1929F Technical Data Sheet</a>
+                                        <a href={TDS1929f}target='_blank' rel='noreferrer'>QUIK-SHIELD® 1929F Technical Data Sheet</a>
                                         </li>
                                         <li>
                                         <h4>
                                         QS  2020-Cementitious  top coat
                                         </h4> 
-                                        <a href={TDS2020}target='_blank' >QUIK-SHIELD® 2020 Technical Data Sheet</a>
+                                        <a href={TDS2020}target='_blank' rel='noreferrer' >QUIK-SHIELD® 2020 Technical Data Sheet</a>
                                         </li>
                                         <h4>
                                         Specification
                                         </h4>
-                                        <a href={spec155}target='_blank' >Division 07 57 00 Specification (Download)</a>
+                                        <a href={spec155}target='_blank' rel='noreferrer' >Division 07 57 00 Specification (Download)</a>
                                         <h4 className='htag'>
                                         Code Report
                                         </h4>
-                                        <a href={eval155}target='_blank' >ESR-2532</a>
+                                        <a href={eval155}target='_blank' rel='noreferrer' >ESR-2532</a>
                                     </ul>
                                     </Media.Body>
                         </Media>
@@ -312,11 +297,11 @@ export default function architectsInsulation() {
                     </div>
                     </div>
                         <div className='isoBand1'>
-            <img className='ISO11' src={abaa}></img>
-            <img className='ISO11' src={greenguard}></img>
-            <img className='ISO1' src={icon2}></img>
-            <img className='ISO11' src={masterSpec}></img>
-            <img className='ISO11' src={greenbuilding}></img>
+            <img alt='roofing' className='ISO11' src={abaa}></img>
+            <img alt='roofing' className='ISO11' src={greenguard}></img>
+            <img alt='roofing' className='ISO1' src={icon2}></img>
+            <img alt='roofing' className='ISO11' src={masterSpec}></img>
+            <img alt='roofing' className='ISO11' src={greenbuilding}></img>
 
         </div>
                 </div>

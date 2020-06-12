@@ -2,12 +2,6 @@ import React, { useState } from 'react'
 import icon1 from '../images/icon3.png'
 import {Link} from 'gatsby'
 
-import Dropdown from 'react-bootstrap/Dropdown'
-import DropdownButton from 'react-bootstrap/DropdownButton'
-import Toggle from 'react-bootstrap/DropdownToggle'
-import Item from 'react-bootstrap/DropdownItem'
-import Menu from 'react-bootstrap/DropdownMenu'
-import DropdownMenu from 'react-bootstrap/DropdownMenu'
 import * as Icon from 'react-feather'
 import Burger from './Hamburger'
 import LOGO from '../images/SWDlogo.png'
@@ -62,7 +56,7 @@ export default function Header() {
                               <Link className='archLink' to='/architectsInsulation/'>Spray Foam Insulation</Link>
                             </li>
                             <li className='roofList'>
-                            <Link className='roofLink' to='/architectsRoofing/'>Roofing Systems</Link>
+                            <Link className='roofLink' to='/architectsRoofing/'>Spray Foam Roofing Systems</Link>
                             </li>
                           </ul>
                         </div>
@@ -76,10 +70,10 @@ export default function Header() {
                         <div className='projectsMenu'>
                           <ul>
                             <li>
-                              <Link className='archLink' to='/projectsWall/'>Insulation Projects</Link>
+                              <Link className='archLink' to='/projectsWall/'>Spray Foam Insulation Projects</Link>
                             </li>
                             <li className='roofList'>
-                            <Link className='roofLink' to='/projectsRoof/'>Roofing Projects</Link>
+                            <Link className='roofLink' to='/projectsRoof/'>Spray Foam Roofing Projects</Link>
                             </li>
                           </ul>
                         </div>

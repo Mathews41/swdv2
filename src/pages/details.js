@@ -97,7 +97,7 @@ export default function details() {
     return (
         <div className='page'>
             <Header/>
-            <img className='detailsImg' src={uofahero}/>
+            <img alt='details' className='detailsImg' src={uofahero}/>
             <div className='detailsPg'>
             <div className='detailsheader'>
                 <h1>Details & Drawings</h1>
@@ -126,22 +126,22 @@ export default function details() {
                                     <Media.Body className='media-body1'>   
                                     <ul className='ullist'>
                                     <li>
-                                            <a href={QSW001Ceil} target='_blank'>
+                                            <a href={QSW001Ceil} target='_blank' rel='noreferrer'>
                                             QSW-001 Ceiling - Cathedral with Skylight
                                             </a>
                                             </li>
                                             <li>
-                                            <a href={QSW012Ceil} target='_blank'>
+                                            <a href={QSW012Ceil} target='_blank' rel='noreferrer'>
                                             QSW-012 Two Story Wood Construction
                                             </a>
                                             </li>
                                             <li>
-                                            <a href={QSW013Ceil} target='_blank'>
+                                            <a href={QSW013Ceil} target='_blank' rel='noreferrer'>
                                             QSW-013 Unvented Attic
                                             </a> 
                                             </li>
                                             <li>
-                                            <a href={QSW103Ceil} target='_blank'>
+                                            <a href={QSW103Ceil} target='_blank' rel='noreferrer'>
                                             QSW-103 Parapet Wall and Roof Detail
                                             </a> 
                                             </li>
@@ -163,72 +163,72 @@ export default function details() {
                                     <Media.Body className='media-body1'>   
                                     <ul className='ullist'>
                                             <li>
-                                            <a href={QSW002} target='_blank'>
+                                            <a href={QSW002} target='_blank' rel='noreferrer'>
                                             QSW-002 Basement - Finished Internal Insulation
                                             </a> 
                                             </li>
                                     <li>
-                                            <a href={QSW004} target='_blank'>
+                                            <a href={QSW004} target='_blank' rel='noreferrer'>
                                             QSW-004 Basement - Unconditioned
                                             </a>
                                             </li>
                                             <li>
-                                            <a href={QSW0042} target='_blank'>
+                                            <a href={QSW0042} target='_blank' rel='noreferrer'>
                                             QSW-004 Basement - Unconditioned2
                                             </a>
                                             </li>
                                             <li>
-                                            <a href={QSW003} target='_blank'>
+                                            <a href={QSW003} target='_blank' rel='noreferrer'>
                                             QSW-003 Basement - Finished External Insulation
                                             </a> 
                                             </li>
                                             <li>
-                                            <a href={QSW0032} target='_blank'>
+                                            <a href={QSW0032} target='_blank' rel='noreferrer'>
                                             QSW-003 Basement - Finished External Insulation2
                                             </a> 
                                             </li>
                                             <li>
-                                            <a href={Qs005 } target='_blank'>
+                                            <a href={Qs005 } target='_blank' rel='noreferrer'>
                                             QSW-005 Crawlspace - Vented
                                             </a>
                                             </li>
                                             <li>
-                                            <a href={QSW006} target='_blank'>
+                                            <a href={QSW006} target='_blank' rel='noreferrer'>
                                             QSW-006 Crawlspace - Unvented
                                             </a>
                                             </li>
                                             <li>
-                                            <a href={QSW007} target='_blank'>
+                                            <a href={QSW007} target='_blank' rel='noreferrer'>
                                             QSW-007 Crawlspace - Unvented with Termite Inspection
                                             </a> 
                                             </li>
                                             <li>
-                                            <a href={QSW008} target='_blank'>
+                                            <a href={QSW008} target='_blank' rel='noreferrer'>
                                             QSW-008 Floor - Cantilevered
                                             </a> 
                                             </li>
                                             <li>
-                                            <a href={QSW0082} target='_blank'>
+                                            <a href={QSW0082} target='_blank' rel='noreferrer'>
                                             QSW-008 Floor - Cantilevered2
                                             </a>
                                             </li>
                                             <li>
-                                            <a href={QSW009} target='_blank'>
+                                            <a href={QSW009} target='_blank' rel='noreferrer'>
                                             QSW-009 Foundation Detail - Frame Construction
                                             </a>
                                             </li>
                                             <li>
-                                            <a href={QSW101} target='_blank'>
+                                            <a href={QSW101} target='_blank' rel='noreferrer'>
                                             QSW-101 Floor Transition - Metal Frame Concrete Floor
                                             </a> 
                                             </li>
                                             <li>
-                                            <a href={QSW102} target='_blank'>
+                                            <a href={QSW102} target='_blank' rel='noreferrer'>
                                             QSW-102 Floor Transistion - Metal Frame Metal Floor
                                             </a>
                                             </li>
                                             <li>
-                                            <a href={QSW201} target='_blank'>
+                                            <a href={QSW201} target='_blank' rel='noreferrer'>
                                             QSW-201 Foundation Detail - Masonry
                                             </a>
                                             </li>
@@ -250,95 +250,95 @@ export default function details() {
                                     <Media.Body className='media-body1'>   
                                     <ul className='ullist'>
                                         <li>
-                                            <a href={QSW010} target='_blank'>
+                                            <a href={QSW010} target='_blank' rel='noreferrer'>
                                             QSW-010 Garage - Wall Connection with Conditioned Interior
                                             </a>
                                             </li>
                                             <li>
-                                            <a href={QSW0102} target='_blank'>
+                                            <a href={QSW0102} target='_blank' rel='noreferrer'>
                                             QSW-010 Garage - Wall Connection with Conditioned Interior2
                                             </a>
                                             </li>
                                             <li>
-                                            <a href={QSW011} target='_blank'>
+                                            <a href={QSW011} target='_blank' rel='noreferrer'>
                                             QSW-011 Sound Attenuation Wall
                                             </a> 
                                             </li>
                                             <li>
-                                            <a href={QSW012} target='_blank'>
+                                            <a href={QSW012} target='_blank' rel='noreferrer'>
                                             QSW-012 Two Story Wood Construction
                                             </a> 
                                             </li><li>
-                                            <a href={QSW0122} target='_blank'>
+                                            <a href={QSW0122} target='_blank' rel='noreferrer'>
                                             QSW-012 Two Story Wood Construction2
                                             </a> 
                                             </li><li>
-                                            <a href={QSW0123} target='_blank'>
+                                            <a href={QSW0123} target='_blank' rel='noreferrer'>
                                             QSW-012 Two Story Wood Construction3
                                             </a> 
                                             </li> <li>
-                                            <a href={QSW014} target='_blank'>
+                                            <a href={QSW014} target='_blank' rel='noreferrer'>
                                             QSW-014 Window Unit - Wood Frame
                                             </a>
                                             </li><li>
-                                            <a href={QSW051} target='_blank'>
+                                            <a href={QSW051} target='_blank' rel='noreferrer'>
                                             QSW-051 Wood Wall Assembly - Face Sealed
                                             </a> 
                                             </li> <li>
-                                            <a href={QSW051a} target='_blank'>
+                                            <a href={QSW051a} target='_blank' rel='noreferrer'>
                                             QSW-051A Wood Wall Assembly - Face Sealed (Top View)
                                             </a> 
                                            </li><li>
-                                            <a href={QSW052} target='_blank'>
+                                            <a href={QSW052} target='_blank' rel='noreferrer'>
                                             QSW-052 Wood Wall Assembly - Drainage Plane
                                             </a>
                                             </li>  <li>
-                                            <a href={QSW052a} target='_blank'>
+                                            <a href={QSW052a} target='_blank' rel='noreferrer'>
                                             QSW-052A Wood Wall Assembly - Drainage Plane (Top View)
                                             </a> 
                                            </li><li>
-                                            <a href={QSW053} target='_blank'>
+                                            <a href={QSW053} target='_blank' rel='noreferrer'>
                                             QSW-053 Wood Wall Assembly - Drained Screened
                                             </a>
                                             </li> <li>
-                                            <a href={QSW053a} target='_blank'>
+                                            <a href={QSW053a} target='_blank' rel='noreferrer'>
                                             QSW-053A Wood Wall Assembly - Drained Screened (Top View)
                                             </a> 
                                            </li><li>
-                                            <a href={QSW0104} target='_blank'>
+                                            <a href={QSW0104} target='_blank' rel='noreferrer'>
                                             QSW-104 Steel Framing Construction with Conditioned Interior
                                             </a> </li><li>
-                                            <a href={QSW0153} target='_blank'>
+                                            <a href={QSW0153} target='_blank' rel='noreferrer'>
                                             QSW-153 Steel Wall Assembly - Drained Screened
                                             </a> </li><li>
-                                            <a href={QSW0153a} target='_blank'>
+                                            <a href={QSW0153a} target='_blank' rel='noreferrer'>
                                             QSW-153A Steel Wall Assembly - Drained Screened (Top View)
                                             </a> </li><li>
-                                            <a href={QSW202} target='_blank'>
+                                            <a href={QSW202} target='_blank' rel='noreferrer'>
                                             QSW-202  Window Unit - Masonry
                                             </a></li><li>
-                                            <a href={QSW0251} target='_blank'>
+                                            <a href={QSW0251} target='_blank' rel='noreferrer'>
                                             QSW-251 Masonry or Concrete Wall - Face Sealed
                                             </a> </li><li>
-                                            <a href={QSW0251a} target='_blank'>
+                                            <a href={QSW0251a} target='_blank' rel='noreferrer'>
                                             QSW-251A Masonry or Concrete Wall - Face Sealed (Top View)
                                             </a> </li><li>
-                                            <a href={QSW0253} target='_blank'>
+                                            <a href={QSW0253} target='_blank' rel='noreferrer'>
                                             QSW-253 Masonry or Concrete Wall - Drained Screened
                                             </a> </li><li>
-                                            <a href={QSW0253a} target='_blank'>
+                                            <a href={QSW0253a} target='_blank' rel='noreferrer'>
                                             QSW-253A Masonry or Concrete Wall - Drained Screened (Top View)
                                             </a> </li><li>
-                                            <a href={QSW0261} target='_blank'>
+                                            <a href={QSW0261} target='_blank' rel='noreferrer'>
                                             QSW-261 Masonry Wall (CMU) - Pour Foam Insulation Face Sealed
                                             </a> </li><li>
-                                            <a href={QSW0261a} target='_blank'>
+                                            <a href={QSW0261a} target='_blank' rel='noreferrer'>
                                             QSW-261A Masonry Wall (CMU) - Pour Foam Insulation Face Sealed (Top View)
                                             </a> </li><li>
-                                            <a href={QSW0263} target='_blank'>
+                                            <a href={QSW0263} target='_blank' rel='noreferrer'>
                                             QSW-263 Masonry Wall (CMU) - Pour Foam Insulation Drained Screened
                                             </a> </li><li>
-                                            <a href={QSW0263a} target='_blank'>
+                                            <a href={QSW0263a} target='_blank' rel='noreferrer'>
                                             QSW-263A Masonry Wall (CMU) - Pour Foam Insulation Drained Screened (Top View
                                             </a> </li>
                                     </ul>
@@ -359,37 +359,37 @@ export default function details() {
                                     <Media.Body className='media-body1'>   
                                     <ul className='ullist'>
                                     <li>
-                                            <a href={QSW051a} target='_blank'>
+                                            <a href={QSW051a} target='_blank' rel='noreferrer'>
                                             QSW-051A Wood Wall Assembly - Face Sealed (Top View)
                                             </a>           
                                         </li>
                                         <li>
-                                            <a href={QSW052a} target='_blank'>
+                                            <a href={QSW052a} target='_blank' rel='noreferrer'>
                                             QSW-052A Wood Wall Assembly - Drainage Plane (Top View)
                                             </a>           
                                         </li>
                                         <li>
-                                            <a href={QSW053a} target='_blank'>
+                                            <a href={QSW053a} target='_blank' rel='noreferrer'>
                                             QSW-053A Wood Wall Assembly - Drained Screened (Top View)
                                             </a>           
                                         </li>
                                         <li>
-                                            <a href={QSW0153a} target='_blank'>
+                                            <a href={QSW0153a} target='_blank' rel='noreferrer'>
                                             QSW-153A Steel Wall Assembly - Drained Screened (Top View)
                                             </a>           
                                         </li>
                                         <li>
-                                            <a href={QSW0251a} target='_blank'>
+                                            <a href={QSW0251a} target='_blank' rel='noreferrer'>
                                             QSW-251A Masonry or Concrete Wall - Face Sealed (Top View)
                                             </a>           
                                         </li>
                                         <li>
-                                            <a href={QSW0261a} target='_blank'>
+                                            <a href={QSW0261a} target='_blank' rel='noreferrer'>
                                             QSW-261A Masonry Wall (CMU) - Pour Foam Insulation Face Sealed (Top View)
                                             </a>           
                                         </li>
                                         <li>
-                                            <a href={QSW0263a} target='_blank'>
+                                            <a href={QSW0263a} target='_blank' rel='noreferrer'>
                                             QSW-263A Masonry Wall (CMU) - Pour Foam Insulation Drained Screened (Top View)
                                             </a>           
                                         </li>
@@ -418,77 +418,77 @@ export default function details() {
                             <Media.Body className='media-body1'>   
                             <ul className='ullist'>
                                 <li>
-                                    <a href={QSW008ar} target='_blank'>
+                                    <a href={QSW008ar} target='_blank' rel='noreferrer'>
                                     QSR-008A - Typical Existing Area Divider
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={QSW010r} target='_blank' >
+                                    <a href={QSW010r} target='_blank' rel='noreferrer' >
                                     QSR-010 - Mechanical Equipment Support New and Remedial
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={QSW011r} target='_blank'>
+                                    <a href={QSW011r} target='_blank' rel='noreferrer'>
                                     QSR-011 - Equipment Support Stand
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={QSW013r} target='_blank'>
+                                    <a href={QSW013r} target='_blank' rel='noreferrer'>
                                     QSR-013 - Prefabricated Metal Curb
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={QSW014r} target='_blank'>
+                                    <a href={QSW014r} target='_blank' rel='noreferrer'>
                                     QSR-014 - Wood Raised Curb
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={QSW020r} target='_blank'>
+                                    <a href={QSW020r} target='_blank' rel='noreferrer'>
                                     QSR-020 - Roof Drain With Fastener
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={QSW020rr} target='_blank'>
+                                    <a href={QSW020rr} target='_blank' rel='noreferrer'>
                                     QSR-020A - Roof Drain Without Fastener
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={QSW131r} target='_blank'>
+                                    <a href={QSW131r} target='_blank' rel='noreferrer'>
                                     QSR-131 - Remedial Air Conditioner Treatment
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={QSW132r} target='_blank'>
+                                    <a href={QSW132r} target='_blank' rel='noreferrer'>
                                     QSR-132 - Existing Pitch Pan
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={QSW133r} target='_blank'>
+                                    <a href={QSW133r} target='_blank' rel='noreferrer'>
                                     QSR-133 - Equipment Support on Existing Stand
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={QSW134r} target='_blank'>
+                                    <a href={QSW134r} target='_blank' rel='noreferrer'>
                                     QSR-134 - Roof Equipment Protective Wall
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={QSW135r} target='_blank'>
+                                    <a href={QSW135r} target='_blank' rel='noreferrer'>
                                     QSR-135 - AC Duct Elbow
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={QSW151r} target='_blank'>
+                                    <a href={QSW151r} target='_blank' rel='noreferrer'>
                                     QSR-151 - Roof Hatch
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={QSW152r} target='_blank'>
+                                    <a href={QSW152r} target='_blank' rel='noreferrer'>
                                     QSR-152 - Raised Curb for Skylight
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={QSW153r} target='_blank'>
+                                    <a href={QSW153r} target='_blank' rel='noreferrer'>
                                     QSR-153 - Raised Curb for Down Draft Equipment
                                     </a>
                                 </li>
@@ -510,37 +510,37 @@ export default function details() {
                             <Media.Body className='media-body1'>   
                             <ul className='ullist'>
                                 <li>
-                                    <a href={QSW001Ceil} target='_blank'>
+                                    <a href={QSW001Ceil} target='_blank' rel='noreferrer'>
                                     AIA Certificate - Roofing System Paul Simonsen DIGITAL
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={QSW020r} target='_blank'>
+                                    <a href={QSW020r} target='_blank' rel='noreferrer'>
                                     QSR-020 ROOF DRAIN WITH MECHANICAL FASTENER
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={drain} target='_blank'>
+                                    <a href={drain} target='_blank' rel='noreferrer'>
                                     QSR-020 ROOF DRAIN
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={QSW021r} target='_blank'>
+                                    <a href={QSW021r} target='_blank' rel='noreferrer'>
                                     QSR-021 SCUPPER DETAIL AT PARAPET WALL
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={QSW022r} target='_blank'>
+                                    <a href={QSW022r} target='_blank' rel='noreferrer'>
                                     QSR-022 OVERFLOW SCUPPER AT PARAPET WALL
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={QSW121r} target='_blank'>
+                                    <a href={QSW121r} target='_blank' rel='noreferrer'>
                                     QSR-121 SLOPED ROOF AND CRICKETS
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={QSW122r} target='_blank'>
+                                    <a href={QSW122r} target='_blank' rel='noreferrer'>
                                     QSR-122 SLOPE TO DRAIN
                                     </a>
                                 </li>
@@ -562,7 +562,7 @@ export default function details() {
                             <Media.Body className='media-body1'>   
                             <ul className='ullist'>
                                 <li>
-                                    <a href={QSW015r} target='_blank'>
+                                    <a href={QSW015r} target='_blank' rel='noreferrer'>
                                     QSR-015 - Structural Member through Roof Deck
                                     </a>
                                 </li>
@@ -589,7 +589,7 @@ export default function details() {
                             <Media.Body className='media-body1'>   
                             <ul className='ullist'>
                             <li>
-                                    <a href={QSW003r} target='_blank'>
+                                    <a href={QSW003r} target='_blank' rel='noreferrer'>
                                     QSR-003 - Base Flashing For Wall-Supported Deck
                                     </a>
                                 </li>
@@ -598,7 +598,7 @@ export default function details() {
                                     QSR-003A - Base Flashing Wall-Supported Deck Tall Wall
                                     </a>
                                 </li><li>
-                                    <a href={QSW163r} target='_blank'>
+                                    <a href={QSW163r} target='_blank' rel='noreferrer'>
                                     QSR-163 - New Flashing Wall-Supported Deck
                                     </a>
                                 </li>
@@ -620,7 +620,7 @@ export default function details() {
                             <Media.Body className='media-body1'>   
                             <ul className='ullist'>
                             <li>
-                                    <a href={QSW001r} target='_blank'>
+                                    <a href={QSW001r} target='_blank' rel='noreferrer'>
                                     QSR-001 - New Metal Parapet Cap
                                     </a>
                                 </li>
@@ -629,7 +629,7 @@ export default function details() {
                                     QSR-021 - Scupper Detail at Parapet Wall
                                     </a>
                                 </li><li>
-                                    <a href={QSW022r} target='_blank'>
+                                    <a href={QSW022r} target='_blank' rel='noreferrer'>
                                     QSR-022 - Overflow Scupper at Parapet Wall
                                     </a>
                                 </li>
@@ -638,7 +638,7 @@ export default function details() {
                                     QSR-161 - Parapet Wall Detail
                                     </a>
                                 </li><li>
-                                    <a href={QSW162r} target='_blank'>
+                                    <a href={QSW162r} target='_blank' rel='noreferrer'>
                                     QSR-162 - Foam and Coating Short Parapet Wall
                                     </a>
                                 </li>
@@ -647,7 +647,7 @@ export default function details() {
                                     QSR-164 - Stucco Finish on Parapet Wall
                                     </a>
                                 </li><li>
-                                    <a href={QSW165r} target='_blank'>
+                                    <a href={QSW165r} target='_blank' rel='noreferrer'>
                                     QSR-165 - Mansard Wall Top and Bottom
                                     </a>
                                 </li>
@@ -669,7 +669,7 @@ export default function details() {
                             <Media.Body className='media-body1'>   
                             <ul className='ullist'>
                             <li>
-                                    <a href={QSW143r} target='_blank'>
+                                    <a href={QSW143r} target='_blank' rel='noreferrer'>
                                     QSR-143 - Class A Metal Fluted Deck with Tape
                                     </a>
                                 </li>
@@ -678,7 +678,7 @@ export default function details() {
                                     QSR-144 - Class B Roof on Combustible Deck
                                     </a>
                                 </li><li>
-                                    <a href={QSW145r} target='_blank'>
+                                    <a href={QSW145r} target='_blank' rel='noreferrer'>
                                     QSR-145 - Polyiso Board
                                     </a>
                                 </li>

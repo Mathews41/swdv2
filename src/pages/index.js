@@ -136,7 +136,7 @@ class IndexPage extends React.Component {
             <div className='carContainer'>
             <Carousel data-pause='false' className='carousel'>
               <Carousel.Item className='item'>
-                <img className='car-img' src={bg1} alt= 'this is the first slide'/>
+                <img alt='landing page image' className='car-img' src={bg1} alt= 'this is the first slide'/>
                 <Carousel.Caption className='caption'>
                   <h3>St. Joseph Hospital</h3>
                   <h5 className='carTag'>Denver, Colorado</h5>
@@ -144,7 +144,7 @@ class IndexPage extends React.Component {
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item className='item'>
-                <img className='car-img' src={uofahonors} alt= 'this is the first slide'/>
+                <img alt='landing page image' className='car-img' src={uofahonors} alt= 'this is the first slide'/>
                 <Carousel.Caption className='caption'>
                   <h3> University of Arizona Honors Student Housing
                   </h3>
@@ -153,7 +153,7 @@ class IndexPage extends React.Component {
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item className='item'>
-                <img className='car-img' src={ASU} alt= 'this is the first slide'/>
+                <img alt='landing page image' className='car-img' src={ASU} alt= 'this is the first slide'/>
                 <Carousel.Caption className='caption'>
                   <h3>Arizona State University Greek Leadership Student Housing </h3>
                   <h5 className='carTag'>Tempe, Arizona</h5>
@@ -161,7 +161,7 @@ class IndexPage extends React.Component {
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item className='item'>
-              <img className='car-img' src={bg4} alt= 'this is the second slide'/>
+              <img alt='landing page image' className='car-img' src={bg4} alt= 'this is the second slide'/>
               <Carousel.Caption className='caption'>
               <h3>The Church of Jesus Christ of Latter-day Saints Temple</h3>
               <h5 className='carTag'>Gilbert, Arizona</h5>
@@ -170,8 +170,8 @@ class IndexPage extends React.Component {
               </Carousel.Item>
             </Carousel>
             <div className='lpImgContainer'>
-            <img alt='swd chemical lab shot'className='secondaryimg' src={labshot}/>
-            <img className='lplogo' src={icon2}/>
+            <img alt='landing page image' alt='swd chemical lab shot'className='secondaryimg' src={labshot}/>
+            <img alt='landing page image' className='lplogo' src={icon2}/>
             </div>
             </div>
             <div className='lp2'>

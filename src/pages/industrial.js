@@ -33,7 +33,7 @@ export default function industrial() {
                 <div className='scrollspy-contentind'>
                     <div id='section_01'>
                         <div className='indLogo'>
-                            <img src={indLogo}></img>
+                            <img alt='industrial image' src={indLogo}></img>
                             <sub className='logotag'>Our Cool Stuff Makes Your Cool Stuff</sub>
                         </div>
                         <div className='centerSection'>
@@ -159,8 +159,8 @@ export default function industrial() {
                         </div>
                     </div>
                     <div id="section_02" offset={100} >
-                        <img className='indLogo1' src={quikshot}/>
-                            <img  src={Quikimg}/>
+                        <img alt='industrial image' className='indLogo1' src={quikshot}/>
+                            <img alt='industrial image'  src={Quikimg}/>
                         <div className='qcklft'>
                             <p>The QUIK-SHOT low-pressure, heated, fluid-applied system has two features that provide material and labor cost savings to users spraying SPF, Polyurea, or Epoxy:</p>
                             <ul>

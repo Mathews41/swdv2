@@ -26,6 +26,12 @@ module.exports = {
            trackingId: "UA-168691058-1",
         },
   },
+  {
+    resolve: `gatsby-plugin-styled-components`,
+    options: {
+      // Add any options here
+    },
+  },
     
     'gatsby-plugin-sass',
     'gatsby-plugin-sitemap'

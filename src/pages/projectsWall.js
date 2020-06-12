@@ -35,41 +35,41 @@ export default function projects() {
   <div class="card-columns">
     
     
-    <a href={ppUofNC} target='_blank' id='card' >
-      <img class="card-img-top1"  src={elevation} alt="Card image top"/>
+    <a href={ppUofNC} target='_blank' rel='noreferrer' id='card' >
+      <img alt='insulation' class="card-img-top1"  src={elevation} alt="Card image top"/>
       <div class="card-body1">
         <h3 class="card-title">University of North Carolina</h3>
         <h4 class="card-subtitle">University of North Carolina at
 Wilmington, NC</h4>
+        <button href={ppUofNC} target='_blank' rel='noreferrer' className='cardButton'>Read Full Study</button>
       </div>
-        <button href={ppUofNC} target='_blank' className='cardButton'>Read Full Study</button>
     </a>
-    {/* <a href={ppAPI} target='_blank' id='card' >
-      <img class="card-img-top1"  src={api} alt="Card image top"/>
+    {/* <a href={ppAPI} target='_blank' rel='noreferrer' id='card' >
+      <img alt='insulation' class="card-img-top1"  src={api} alt="Card image top"/>
       <div class="card-body1">
       <h3 class="card-title">API Training Center</h3>
       <h4 class="card-subtitle">Brighton, MN</h4>
-      <button href={ppAPI} target='_blank' className='cardButton'>Read Full Study</button>
+      <button href={ppAPI} target='_blank' rel='noreferrer' className='cardButton'>Read Full Study</button>
       </div>
     </a> */}
-    {/* <a href={ppCola} target='_blank' id='card' >
-      <img class="card-img-top1"  src={api} alt="Card image top"/>
+    {/* <a href={ppCola} target='_blank' rel='noreferrer' id='card' >
+      <img alt='insulation' class="card-img-top1"  src={api} alt="Card image top"/>
       <div class="card-body1">
       <h3 class="card-title">Coca-Cola Warehouse</h3>
       <h4 class="card-subtitle">Montgomery, AL</h4>
-      <button href={cola} target='_blank' className='cardButton'>Read Full Study</button>
+      <button href={cola} target='_blank' rel='noreferrer' className='cardButton'>Read Full Study</button>
       </div>
     </a> */}
-    <a href={ppAPI} target='_blank' id='card' >
-      <img class="card-img-top1"  src={api} alt="Card image top"/>
+    <a href={ppAPI} target='_blank' rel='noreferrer' id='card' >
+      <img alt='insulation' class="card-img-top1"  src={api} alt="Card image top"/>
       <div class="card-body1">
         <h3 class="card-title">API Training Center</h3>
         <h4 class="card-subtitle">New Brighton, MN</h4>
       </div>
-        <button href={ppAPI} target='_blank' className='cardButton'>Read Full Study</button>
+        <button href={ppAPI} target='_blank' rel='noreferrer' className='cardButton'>Read Full Study</button>
     </a>
     <div id='card' >
-      <img class="card-img-top1"  src={bg} alt="Card image top"/>
+      <img alt='insulation' class="card-img-top1"  src={bg} alt="Card image top"/>
       <div class="card-body1">
         <h3 class="card-title">Yullman Stadium</h3>
         <h4 class="card-subtitle">

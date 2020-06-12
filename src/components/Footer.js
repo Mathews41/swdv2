@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 import logo from '../images/icon3.png'
 import appstore from '../images/appstore-min.png'
@@ -6,12 +6,7 @@ import googleplay from '../images/googleplay.png'
 import facebook from '../images/facebook.jpeg'
 import linkedin from '../images/linkedin.png'
 import youtube from '../images/youtube.png'
-import Button from 'react-bootstrap/Button'
-import Modal from 'react-bootstrap/Modal'
-import greenguard from '../images/greenguard logo (1).png'
-import icon2 from '../images/icon2.png'
-import greenbuilding from '../images/greenbuilding.png'
-import abaa from '../images/abaa.svg'
+
 
 
 

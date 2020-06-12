@@ -47,15 +47,6 @@ import qs108b from '../images/QS108B.pdf'
 import qs104b from '../images/QS104B.pdf'
 import qs108ymb from '../images/QS108YMB.pdf'
 
-//Images
-import elevation from '../images/elevation shot-min.png'
-import img2 from '../images/Roofing_Edited_5-min.jpg'
-import greenbuilding from '../images/greenbuilding.png'
-import masterSpec from '../images/images.png'
-import icon2 from '../images/icon2.png'
-import abaa from '../images/abaa.svg'
-import greenguard from '../images/greenguard logo (1).png'
-import cabin from '../images/DSC04667-min.jpg'
 
 //DOCS
 import ccrr108 from '../images/CCRR-108.pdf'
@@ -92,8 +83,8 @@ export default function products() {
     return (
         <div id='page-contractor'>
             <Header/>
-            <img alt='contractors background image' className='cont-bg' src={bgimg}></img>
-            <div className='header-container-cont'>
+            <img alt='contractors background' className='cont-bg' src={bgimg}></img>
+            <div className='header-container-cont1'>
                 <h1>Products</h1>
             <p>
             We strive to provide a partnership experience unmatched by our competitors.
@@ -130,10 +121,10 @@ export default function products() {
                         <Card.Body className='body1'>
                         <Media className='media1'>
                                 <Media.Body className='media-body1'>
-                                    <a href={Spec} target='_blank' rel="noopener noreferrer" >QUIK-SHIELD® 155 Specification (Download)</a>  
-                                    <a href={roofrating155} target='_blank' rel="noopener noreferrer" >QUIK-SHIELD® 155 UL Report</a>  
-                                    <a href={TDS15525} target='_blank' rel="noopener noreferrer">QUIK-SHIELD® 155 Technical Data Sheet</a>  
-                                    <a href={eval155} target='_blank' rel="noopener noreferrer" >QUIK-SHIELD® 155 Evaluation Report (ESR)</a> 
+                                    <a href={Spec} target='_blank'  rel="noopener noreferrer" >QUIK-SHIELD® 155 Specification (Download)</a>  
+                                    <a href={roofrating155} target='_blank'  rel="noopener noreferrer" >QUIK-SHIELD® 155 UL Report</a>  
+                                    <a href={TDS15525} target='_blank'  rel="noopener noreferrer">QUIK-SHIELD® 155 Technical Data Sheet</a>  
+                                    <a href={eval155} target='_blank'  rel="noopener noreferrer" >QUIK-SHIELD® 155 Evaluation Report (ESR)</a> 
                             </Media.Body>
                         </Media>
                         </Card.Body>
@@ -180,7 +171,7 @@ export default function products() {
                                         <h5>
                                         1” of Spray Polyurethane Foam applied over substrate
                                         </h5>
-                                        <a href={TDS15525} target='_blank' rel="noopener noreferrer">QUIK-SHIELD® 155 Technical Data Sheet</a>
+                                        <a href={TDS15525} target='_blank'  rel="noopener noreferrer">QUIK-SHIELD® 155 Technical Data Sheet</a>
                                         </li>
                                         <li>
                                         <h4>
@@ -188,10 +179,10 @@ export default function products() {
                                         </h4>
                                        <h5> Flame Retardant Acrylic Coating-Two gallons per 100/sq.ft</h5>
                                         </li>
-                                        <a href={TDS1929f}target='_blank' rel="noopener noreferrer">QUIK-SHIELD® 1929F Technical Data Sheet</a> 
+                                        <a href={TDS1929f}target='_blank'  rel="noopener noreferrer">QUIK-SHIELD® 1929F Technical Data Sheet</a> 
                                         
-                                        <a href={Spec}target='_blank' rel="noopener noreferrer" >Division 07 57 00 Specification (Download)</a>
-                                        <a href={eval155}target='_blank' rel="noopener noreferrer" >ESR-2532</a>
+                                        <a href={Spec}target='_blank'  rel="noopener noreferrer" >Division 07 57 00 Specification (Download)</a>
+                                        <a href={eval155}target='_blank'  rel="noopener noreferrer" >ESR-2532</a>
                                         
                                         
                                     </ul>
@@ -220,7 +211,7 @@ export default function products() {
                                         </h4>
                                         <h5>
                                         1” of Spray Foam applied over substrate</h5>
-                                        <a href={TDS15525} target='_blank' rel="noopener noreferrer">QUIK-SHIELD® 155 Technical Data Sheet</a>
+                                        <a href={TDS15525} target='_blank'  rel="noopener noreferrer">QUIK-SHIELD® 155 Technical Data Sheet</a>
                                         </li>
                                         <li>
                                         <h4>
@@ -229,14 +220,14 @@ export default function products() {
                                         <h5>
                                         Flame Retardant Acrylic Coating-Three gallons per 100/sq.ft
                                         </h5>
-                                        <a href={TDS1929f}target='_blank' rel="noopener noreferrer">QUIK-SHIELD® 1929F Technical Data Sheet</a>
+                                        <a href={TDS1929f}target='_blank'  rel="noopener noreferrer">QUIK-SHIELD® 1929F Technical Data Sheet</a>
                                         </li>
                                         <li>
                                         #9 Limestone granules blended in with acrylic top coat
                                         </li>
-                                        <a href={Spec}target='_blank' rel="noopener noreferrer">
+                                        <a href={Spec}target='_blank'  rel="noopener noreferrer">
                                         Division 07 57 00 Specification (Download)</a>
-                                        <a href={eval125}target='_blank' rel="noopener noreferrer" >ESR-2532</a>
+                                        <a href={eval125}target='_blank'  rel="noopener noreferrer" >ESR-2532</a>
                                     </ul>
                                     </Media.Body>
                             </Media>
@@ -264,7 +255,7 @@ export default function products() {
                                         <h5>
                                         1” of Spray Foam applied over substrate
                                         </h5>
-                                        <a href={TDS15525} target='_blank' rel="noopener noreferrer">QUIK-SHIELD® 155 Technical Data Sheet</a>
+                                        <a href={TDS15525} target='_blank'  rel="noopener noreferrer">QUIK-SHIELD® 155 Technical Data Sheet</a>
                                         </li>
                                         <li>
                                         <h4>
@@ -273,7 +264,7 @@ export default function products() {
                                         <h5>
                                         Flame Retardant Acrylic Coating-Three gallons per 100/sq.ft
                                         </h5>
-                                        <a href={TDS1929f}target='_blank' rel="noopener noreferrer">QUIK-SHIELD® 1929F Technical Data Sheet</a>
+                                        <a href={TDS1929f}target='_blank'  rel="noopener noreferrer">QUIK-SHIELD® 1929F Technical Data Sheet</a>
                                         </li>
                                         <li>
                                         <h4>
@@ -282,13 +273,13 @@ export default function products() {
                                         <h5>
                                         #6 Limestone granules blended in with acrylic top coat
                                         </h5>
-                                        <a href={TDS2020}target='_blank' rel="noopener noreferrer" >QUIK-SHIELD® 2020 Technical Data Sheet</a>
+                                        <a href={TDS2020}target='_blank'  rel="noopener noreferrer" >QUIK-SHIELD® 2020 Technical Data Sheet</a>
                                         </li>
                                        
-                                        <a href={Spec}target='_blank' rel="noopener noreferrer">
+                                        <a href={Spec}target='_blank'  rel="noopener noreferrer">
                                         Division 07 57 00 Specification (Download) 
                                         </a>
-                                        <a href={eval125}target='_blank' rel="noopener noreferrer" >ESR-2532</a>
+                                        <a href={eval125}target='_blank'  rel="noopener noreferrer" >ESR-2532</a>
                                     </ul>
                                     </Media.Body>
                         </Media>
@@ -343,10 +334,10 @@ export default function products() {
                         <Card.Body className='body2'>
                             <Media className='media2'>
                                     <Media.Body className='media-body2'>   
-                                    <a href='SWD07-57-00.docx'target='_blank' rel="noopener noreferrer"
+                                    <a href='SWD07-57-00.docx'target='_blank'  rel="noopener noreferrer"
                                     download='SWD07-57-00.docx' 
                                     >QUIK-SHIELD® 1929F Specification (Download)</a>  
-                                    <a href={TDS1929f}target='_blank' rel="noopener noreferrer" >QUIK-SHIELD® 1929F Technical Data Sheet</a>  
+                                    <a href={TDS1929f}target='_blank'  rel="noopener noreferrer" >QUIK-SHIELD® 1929F Technical Data Sheet</a>  
                                     </Media.Body>
                             </Media>
                         </Card.Body>
@@ -363,8 +354,8 @@ export default function products() {
                         <Card.Body className='body2'>
                             <Media className='media2'>
                                     <Media.Body className='media-body2'>   
-                                    <a href={Spec}target='_blank' rel="noopener noreferrer">QUIK-SHIELD® 1929R Specification (Download)</a>  
-                                    <a href={TDS1929r}target='_blank' rel="noopener noreferrer">QUIK-SHIELD® 1929R Technical Data Sheet</a> 
+                                    <a href={Spec}target='_blank'  rel="noopener noreferrer">QUIK-SHIELD® 1929R Specification (Download)</a>  
+                                    <a href={TDS1929r}target='_blank'  rel="noopener noreferrer">QUIK-SHIELD® 1929R Technical Data Sheet</a> 
                                     </Media.Body>
                             </Media>
                         </Card.Body>
@@ -381,8 +372,8 @@ export default function products() {
                         <Card.Body className='body2'>
                             <Media className='media2'>
                                     <Media.Body className='media-body2'>   
-                                    <a href={Spec}target='_blank' rel="noopener noreferrer" >QUIK-SHIELD® 1939 Specification (Download)</a>  
-                                    <a href={TDS1939}target='_blank' rel="noopener noreferrer" >QQUIK-SHIELD® 1939 Technical Data Sheet</a>  
+                                    <a href={Spec}target='_blank'  rel="noopener noreferrer" >QUIK-SHIELD® 1939 Specification (Download)</a>  
+                                    <a href={TDS1939}target='_blank'  rel="noopener noreferrer" >QQUIK-SHIELD® 1939 Technical Data Sheet</a>  
                                     </Media.Body>
                             </Media>
                         </Card.Body>
@@ -399,8 +390,8 @@ export default function products() {
                         <Card.Body className='body2'>
                             <Media className='media2'>
                                     <Media.Body className='media-body2'>   
-                                    <a href={Spec}target='_blank' rel="noopener noreferrer" >QUIK-SHIELD® 1940 Specification (Download)</a>  
-                                    <a href={TDS1940}target='_blank' rel="noopener noreferrer" > QUIK-SHIELD® 1940 Technical Data Sheet</a> 
+                                    <a href={Spec}target='_blank'  rel="noopener noreferrer" >QUIK-SHIELD® 1940 Specification (Download)</a>  
+                                    <a href={TDS1940}target='_blank'  rel="noopener noreferrer" > QUIK-SHIELD® 1940 Technical Data Sheet</a> 
                                     </Media.Body>
                             </Media>
                         </Card.Body>
@@ -418,7 +409,7 @@ export default function products() {
                             <Media className='media2'>
                                     <Media.Body className='media-body2'>   
                                     
-                                    <a href={TDS1881}target='_blank' rel="noopener noreferrer" >QUIK-SHIELD® 1881 Technical Data Sheet</a>
+                                    <a href={TDS1881}target='_blank'  rel="noopener noreferrer" >QUIK-SHIELD® 1881 Technical Data Sheet</a>
                                     </Media.Body>
                             </Media>
                         </Card.Body>
@@ -460,7 +451,7 @@ export default function products() {
                         <Card.Body className='body2'>
                             <Media className='media2'>
                                     <Media.Body className='media-body2'>
-                                    <a href={TDS2020}target='_blank' rel="noopener noreferrer" >QUIK-SHIELD® 2020 Technical Data Sheet</a>
+                                    <a href={TDS2020}target='_blank'  rel="noopener noreferrer" >QUIK-SHIELD® 2020 Technical Data Sheet</a>
                                     </Media.Body>
                             </Media>
                         </Card.Body>
@@ -501,9 +492,9 @@ export default function products() {
                         <Card.Body className='body2'>
                             <Media className='media2'>
                                     <Media.Body className='media-body2'>   
-                                    <a href={Spec}target='_blank' rel="noopener noreferrer" 
+                                    <a href={Spec}target='_blank'  rel="noopener noreferrer" 
                                     >QUIK-SHIELD® 1000 Specification (Download)</a>  
-                                    <a href={TDS1000}target='_blank' rel="noopener noreferrer" >QUIK-SHIELD® 1000 Technical Data Sheet</a>  
+                                    <a href={TDS1000}target='_blank'  rel="noopener noreferrer" >QUIK-SHIELD® 1000 Technical Data Sheet</a>  
                                     </Media.Body>
                             </Media>
                         </Card.Body>
@@ -520,8 +511,8 @@ export default function products() {
                         <Card.Body className='body2'>
                             <Media className='media2'>
                                     <Media.Body className='media-body2'>   
-                                    <a href={Spec}target='_blank' rel="noopener noreferrer">QUIK-SHIELD® 1020 Specification (Download)</a>  
-                                    <a href={TDS1020}target='_blank' rel="noopener noreferrer">QUIK-SHIELD® 1020 Technical Data Sheet</a> 
+                                    <a href={Spec}target='_blank'  rel="noopener noreferrer">QUIK-SHIELD® 1020 Specification (Download)</a>  
+                                    <a href={TDS1020}target='_blank'  rel="noopener noreferrer">QUIK-SHIELD® 1020 Technical Data Sheet</a> 
                                     </Media.Body>
                             </Media>
                         </Card.Body>
@@ -537,8 +528,8 @@ export default function products() {
                         <Card.Body className='body2'>
                             <Media className='media2'>
                                     <Media.Body className='media-body2'>   
-                                    <a href={Spec}target='_blank' rel="noopener noreferrer" >QUIK-SHIELD® 2000 Specification (Download)</a>  
-                                    <a href={TDS2000}target='_blank' rel="noopener noreferrer" >QQUIK-SHIELD® 2000 Technical Data Sheet</a>  
+                                    <a href={Spec}target='_blank'  rel="noopener noreferrer" >QUIK-SHIELD® 2000 Specification (Download)</a>  
+                                    <a href={TDS2000}target='_blank'  rel="noopener noreferrer" >QQUIK-SHIELD® 2000 Technical Data Sheet</a>  
                                     </Media.Body>
                             </Media>
                         </Card.Body>
@@ -554,7 +545,7 @@ export default function products() {
                         <Card.Body className='body2'>
                             <Media className='media2'>
                                     <Media.Body className='media-body2'>   
-                                    <a href={Spec}target='_blank' rel="noopener noreferrer" >QUIK-SHIELD® 1030 Specification (Download)</a>   
+                                    <a href={Spec}target='_blank'  rel="noopener noreferrer" >QUIK-SHIELD® 1030 Specification (Download)</a>   
                                     </Media.Body>
                             </Media>
                         </Card.Body>
@@ -571,7 +562,7 @@ export default function products() {
                             <Media className='media2'>
                                     <Media.Body className='media-body2'>   
                                     
-                                    <a href={Spec}target='_blank' rel="noopener noreferrer" >QUIK-SHIELD® 1040 Specification (Download)</a>   
+                                    <a href={Spec}target='_blank'  rel="noopener noreferrer" >QUIK-SHIELD® 1040 Specification (Download)</a>   
                                     </Media.Body>
                             </Media>
                         </Card.Body>
@@ -587,8 +578,8 @@ export default function products() {
                         <Card.Body className='body2'>
                             <Media className='media2'>
                                     <Media.Body className='media-body2'>   
-                                    <a href={Spec}target='_blank' rel="noopener noreferrer" >QUIK-SHIELD® 2100 Specification (Download)</a> 
-                                    <a href={TDS2100}target='_blank' rel="noopener noreferrer" >QUIK-SHIELD® 2100 Technical Data Sheet</a>
+                                    <a href={Spec}target='_blank'  rel="noopener noreferrer" >QUIK-SHIELD® 2100 Specification (Download)</a> 
+                                    <a href={TDS2100}target='_blank'  rel="noopener noreferrer" >QUIK-SHIELD® 2100 Technical Data Sheet</a>
                                     </Media.Body>
                             </Media>
                         </Card.Body>
@@ -646,7 +637,7 @@ export default function products() {
                         <Card.Body className='body2'>
                             <Media className='media2'>
                                     <Media.Body className='media-body2'>
-                                    <a href={TDS2110}target='_blank' rel="noopener noreferrer" >QUIK-SHIELD® 2110 Technical Data Sheet</a>
+                                    <a href={TDS2110}target='_blank'  rel="noopener noreferrer" >QUIK-SHIELD® 2110 Technical Data Sheet</a>
                                     </Media.Body>
                             </Media>
                         </Card.Body>
@@ -664,7 +655,7 @@ export default function products() {
                         <Card.Body className='body2'>
                             <Media className='media2'>
                                     <Media.Body className='media-body2'>  
-                                    <a href={TDS1891}target='_blank' rel="noopener noreferrer" >QUIK-SHIELD® 1891 Technical Data Sheet</a>
+                                    <a href={TDS1891}target='_blank'  rel="noopener noreferrer" >QUIK-SHIELD® 1891 Technical Data Sheet</a>
                                     </Media.Body>
                             </Media>
                         </Card.Body>
@@ -682,7 +673,7 @@ export default function products() {
                         <Card.Body className='body2'>
                             <Media className='media2'>
                                     <Media.Body className='media-body2'>  
-                                    <a href={TDS2122}target='_blank' rel="noopener noreferrer" >QUIK-SHIELD® 2122 Technical Data Sheet</a>
+                                    <a href={TDS2122}target='_blank'  rel="noopener noreferrer" >QUIK-SHIELD® 2122 Technical Data Sheet</a>
                                     </Media.Body>
                             </Media>
                         </Card.Body>
@@ -731,11 +722,11 @@ export default function products() {
                         <Card.Body className='body1'>
                             <Media className='media1'>
                                     <Media.Body className='media-body1'>   
-                                    <a href={TDS104}target='_blank' >QUIK-SHIELD® 104 Technical Data Sheet </a>  
-                                    <a href={cr104}target='_blank' >QUIK-SHIELD® 104 Code Report</a>  
+                                    <a href={TDS104}target='_blank' rel='noreferrer'  >QUIK-SHIELD® 104 Technical Data Sheet </a>  
+                                    <a href={cr104}target='_blank' rel='noreferrer'  >QUIK-SHIELD® 104 Code Report</a>  
                                     <a href={qs104b}
-                                    target='_blank'>QUIK-SHIELD® 104 Brochure</a>  
-                                    {/* <a href={TDS104}target='_blank' >QUIK-SHIELD® 104 VOC </a>   */}
+                                    target='_blank' rel='noreferrer' >QUIK-SHIELD® 104 Brochure</a>  
+                                    {/* <a href={TDS104}target='_blank' rel='noreferrer'  >QUIK-SHIELD® 104 VOC </a>   */}
                                     
                                                                                
                                     </Media.Body>
@@ -757,14 +748,14 @@ export default function products() {
                         <Media className='media1'>
                                 <Media.Body className='media-body1'>
                                     <a href={TDS106} 
-                                    target='_blank'>QUIK-SHIELD® 106 Technical Data Sheet </a>  
-                                    <a href={spec106} target='_blank'>QUIK-SHIELD® 106 Specification (Download)</a>  
+                                    target='_blank' rel='noreferrer' >QUIK-SHIELD® 106 Technical Data Sheet </a>  
+                                    <a href={spec106} target='_blank' rel='noreferrer' >QUIK-SHIELD® 106 Specification (Download)</a>  
                                     <a href={roofrating106}
-                                    target='_blank' >QUIK-SHIELD® 106 Code Report</a>  
+                                    target='_blank' rel='noreferrer'  >QUIK-SHIELD® 106 Code Report</a>  
                                     <a href={eval106}
-                                    target='_blank' >QUIK-SHIELD® 106 VOC </a>
+                                    target='_blank' rel='noreferrer'  >QUIK-SHIELD® 106 VOC </a>
                                     <a href={qs106b}
-                                    target='_blank'>QUIK-SHIELD® 106 Brochure</a> 
+                                    target='_blank' rel='noreferrer' >QUIK-SHIELD® 106 Brochure</a> 
                                     
                             </Media.Body>
                         </Media>
@@ -786,14 +777,14 @@ export default function products() {
                         <Media className='media1'>
                                 <Media.Body className='media-body1'>
                                     <a href={TDS108}
-                                    target='_blank' >QUIK-SHIELD® 108YM Technical Data Sheet </a>  
-                                    <a href={spec108} target='_blank'>QUIK-SHIELD® 108 Specification(Download)</a>  
+                                    target='_blank' rel='noreferrer'  >QUIK-SHIELD® 108YM Technical Data Sheet </a>  
+                                    <a href={spec108} target='_blank' rel='noreferrer' >QUIK-SHIELD® 108 Specification(Download)</a>  
                                     <a href={ccrr108}
-                                    target='_blank' >QUIK-SHIELD® 108YM Code Report</a>  
+                                    target='_blank' rel='noreferrer'  >QUIK-SHIELD® 108YM Code Report</a>  
                                     <a href={gold}
-                                    target='_blank'>QUIK-SHIELD® 108YM VOC </a>
+                                    target='_blank' rel='noreferrer' >QUIK-SHIELD® 108YM VOC </a>
                                     <a href={qs108b}
-                                    target='_blank'>QUIK-SHIELD® 108YM Brochure</a> 
+                                    target='_blank' rel='noreferrer' >QUIK-SHIELD® 108YM Brochure</a> 
                                     
                             </Media.Body>
                         </Media>
@@ -835,16 +826,16 @@ export default function products() {
                             <Media className='media2'>
                             <Media.Body className='media-body1'>
                                     <a href={TDS112}
-                                    target='_blank' >QUIK-SHIELD® 112 Technical Data Sheet </a>  
+                                    target='_blank' rel='noreferrer'  >QUIK-SHIELD® 112 Technical Data Sheet </a>  
                                     <a href={TDS112xc}
-                                    target='_blank' >QUIK-SHIELD® 112XC Technical Data Sheet </a>
-                                    <a href={qs112} target='_blank'>QUIK-SHIELD® 112 Specification(Download)</a>  
+                                    target='_blank' rel='noreferrer'  >QUIK-SHIELD® 112XC Technical Data Sheet </a>
+                                    <a href={qs112} target='_blank' rel='noreferrer' >QUIK-SHIELD® 112 Specification(Download)</a>  
                                     <a href={ccrr112}
-                                    target='_blank' >QUIK-SHIELD® 112 Code Report</a>  
+                                    target='_blank' rel='noreferrer'  >QUIK-SHIELD® 112 Code Report</a>  
                                     <a href={VOC112}
-                                    target='_blank'>QUIK-SHIELD® 112 VOC </a>
+                                    target='_blank' rel='noreferrer' >QUIK-SHIELD® 112 VOC </a>
                                     <a href={qs112b}
-                                    target='_blank'>QUIK-SHIELD® 112 Brochure</a> 
+                                    target='_blank' rel='noreferrer' >QUIK-SHIELD® 112 Brochure</a> 
                                     
                             </Media.Body>
                             </Media>
@@ -866,18 +857,18 @@ export default function products() {
                         <Media className='media2'>
                         <Media.Body className='media-body1'>
                                     <a href={TDS118}
-                                    target='_blank' >QUIK-SHIELD® 118 Technical Data Sheet </a>  
+                                    target='_blank' rel='noreferrer'  >QUIK-SHIELD® 118 Technical Data Sheet </a>  
                                     <a href={TDS118xc}
-                                    target='_blank' >QUIK-SHIELD® 118XC Technical Data Sheet </a> 
-                                    <a href={qs118} target='_blank'>QUIK-SHIELD® 118 Specification(Download)</a>  
+                                    target='_blank' rel='noreferrer'  >QUIK-SHIELD® 118XC Technical Data Sheet </a> 
+                                    <a href={qs118} target='_blank' rel='noreferrer' >QUIK-SHIELD® 118 Specification(Download)</a>  
                                     <a href={ccrr118}
-                                    target='_blank' >QUIK-SHIELD® 118 Code Report</a>  
+                                    target='_blank' rel='noreferrer'  >QUIK-SHIELD® 118 Code Report</a>  
                                     <a href={VOC118}
-                                    target='_blank'>QUIK-SHIELD® 118 VOC </a>
+                                    target='_blank' rel='noreferrer' >QUIK-SHIELD® 118 VOC </a>
                                      <a href={qs118b}
-                                    target='_blank'>QUIK-SHIELD® 118 Brochure</a>
+                                    target='_blank' rel='noreferrer' >QUIK-SHIELD® 118 Brochure</a>
                                      <a href={qs118xcb}
-                                    target='_blank'>QUIK-SHIELD® 118XC Brochure</a>  
+                                    target='_blank' rel='noreferrer' >QUIK-SHIELD® 118XC Brochure</a>  
                                     
                             </Media.Body>
                         </Media>
@@ -899,9 +890,9 @@ export default function products() {
                         <Media className='media2'>
                         <Media.Body className='media-body1'>
                                     <a href={TDS450}
-                                    target='_blank' >QUIK-SHIELD® 450 Technical Data Sheet </a> 
+                                    target='_blank' rel='noreferrer'  >QUIK-SHIELD® 450 Technical Data Sheet </a> 
                                     <a href={ccrr450}
-                                    target='_blank' >QUIK-SHIELD® 450 Code Report</a>  
+                                    target='_blank' rel='noreferrer'  >QUIK-SHIELD® 450 Code Report</a>  
                                     
                             </Media.Body>
                         </Media>
@@ -952,7 +943,7 @@ export default function products() {
                                                 <p>
                                                 The Quik-Works line of flexible systems have a wide range of densities and firmness. Formulations can be customized to meet your specific needs to ultimately deliver the total solution.
                                                 </p>
-                                                <a href={Oem} target='_blank'id='oemButton'>Learn More</a>
+                                                <a href={Oem} target='_blank' rel='noreferrer' id='oemButton'>Learn More</a>
                                                 </Media.Body>
                                         </Media>
                                     </Card.Body>
@@ -973,7 +964,7 @@ export default function products() {
                                                 <p>
                                                 Our Quik-Works rigid polyurethane systems are easily customizable to produce a finished product that can meet a variety of specifications. Foams are available in a wide range of densities and reactivity profiles. Our formulations have the ability to reduce weight compared to alternative materials and can be processed using a variety of methods.
                                                 </p>
-                                                <a target='_blank' href={Oem}id='oemButton'>Learn More</a>
+                                                <a target='_blank' rel='noreferrer'  href={Oem}id='oemButton'>Learn More</a>
                                         </Media.Body>
                                     </Media>
                                     </Card.Body>
@@ -994,7 +985,7 @@ export default function products() {
                                                 <p>
                                                 Quik-Works Elastomers are an excellent replacement material for manufacturing parts traditionally molded from plaster, rubber, or fiberglass, providing a cost-effective alternative for many applications. They can be engineered with high load bearing capabilities, as well as abrasion, impact, and tear resistance.
                                                 </p>  
-                                                <a href={Oem} target='_blank'id='oemButton'>Learn More</a> 
+                                                <a href={Oem} target='_blank' rel='noreferrer' id='oemButton'>Learn More</a> 
                                                 </Media.Body>
                                         </Media>
                                     </Card.Body>

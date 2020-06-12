@@ -65,15 +65,15 @@ export default function architectsInsulation() {
         <div className='arch-page'>
         <Header/>
             <div className='img-container1'>
-                <img className='split-img11' src={cabin}/>
+                <img alt='insulation image' className='split-img11' src={cabin}/>
                 <span>Architects/Specifiers</span>
                 <sub></sub>
-                <img className='split-img11' src={img2}/>
+                <img alt='insulation image' className='split-img11' src={img2}/>
             </div>
             <div className='upperText'>
                 <div id='upperTextArch'>
                     <a href='/projects/'>
-                <img className='buildings'src={elevation}></img></a>
+                <img alt='insulation image' className='buildings'src={elevation}></img></a>
                 <sub className='pictext'>University of North Carolina at Wilmington</sub>
                 </div>
                 <div className='upperText1'>
@@ -94,7 +94,7 @@ export default function architectsInsulation() {
                 </div>
                 <div id='upperTextArch'>
                     <a href='/projects/'>
-                <img className='buildings2'src={arch}></img></a>
+                <img alt='insulation image' className='buildings2'src={arch}></img></a>
                 <sub className='pictext1'>API Training Center continuous insulation application</sub>
                 </div>
                 </div>
@@ -118,11 +118,11 @@ export default function architectsInsulation() {
                         <Card.Body className='body1'>
                             <Media className='media1'>
                                     <Media.Body className='media-body1'>   
-                                    <a href={TDS104}target='_blank' >QS 104 Technical Data Sheet </a>  
-                                    <a href={cr104}target='_blank' >QS 104 Code Report</a>  
+                                    <a href={TDS104}target='_blank' rel='noreferrer' >QS 104 Technical Data Sheet </a>  
+                                    <a href={cr104}target='_blank' rel='noreferrer' >QS 104 Code Report</a>  
                                     <a href={qs104b}
-                                    target='_blank'>QS 104 Brochure</a>  
-                                    {/* <a href={TDS104}target='_blank' >QS 104 VOC </a>   */}
+                                    target='_blank' rel='noreferrer'>QS 104 Brochure</a>  
+                                    {/* <a href={TDS104}target='_blank' rel='noreferrer' >QS 104 VOC </a>   */}
                                     
                                                                                
                                     </Media.Body>
@@ -145,14 +145,14 @@ export default function architectsInsulation() {
                         <Media className='media1'>
                                 <Media.Body className='media-body1'>
                                     <a href={TDS106} 
-                                    target='_blank'>QS 106 Technical Data Sheet </a>  
-                                    <a href={spec106} target='_blank'>QS 106 Specification (Download)</a>  
+                                    target='_blank' rel='noreferrer'>QS 106 Technical Data Sheet </a>  
+                                    <a href={spec106} target='_blank' rel='noreferrer'>QS 106 Specification (Download)</a>  
                                     <a href={roofrating106}
-                                    target='_blank' >QS 106 Code Report</a>  
+                                    target='_blank' rel='noreferrer' >QS 106 Code Report</a>  
                                     <a href={eval106}
-                                    target='_blank' >QS 106 VOC </a>
+                                    target='_blank' rel='noreferrer' >QS 106 VOC </a>
                                     <a href={qs106b}
-                                    target='_blank'>QS 106 Brochure</a> 
+                                    target='_blank' rel='noreferrer'>QS 106 Brochure</a> 
                                     
                             </Media.Body>
                         </Media>
@@ -175,14 +175,14 @@ export default function architectsInsulation() {
                         <Media className='media1'>
                                 <Media.Body className='media-body1'>
                                     <a href={TDS108}
-                                    target='_blank' >QS 108YM Technical Data Sheet </a>  
-                                    <a href={spec108} target='_blank'>QS 108 Specification(Download)</a>  
+                                    target='_blank' rel='noreferrer' >QS 108YM Technical Data Sheet </a>  
+                                    <a href={spec108} target='_blank' rel='noreferrer'>QS 108 Specification(Download)</a>  
                                     <a href={ccrr108}
-                                    target='_blank' >QS 108YM Code Report</a>  
+                                    target='_blank' rel='noreferrer' >QS 108YM Code Report</a>  
                                     <a href={gold}
-                                    target='_blank'>QS 108YM VOC </a>
+                                    target='_blank' rel='noreferrer'>QS 108YM VOC </a>
                                     <a href={qs108b}
-                                    target='_blank'>QS 108YM Brochure</a> 
+                                    target='_blank' rel='noreferrer'>QS 108YM Brochure</a> 
                                     
                             </Media.Body>
                         </Media>
@@ -215,16 +215,16 @@ export default function architectsInsulation() {
                             <Media className='media2'>
                             <Media.Body className='media-body1'>
                                     <a href={TDS112}
-                                    target='_blank' >QS 112 Technical Data Sheet </a>  
+                                    target='_blank' rel='noreferrer' >QS 112 Technical Data Sheet </a>  
                                     <a href={TDS112xc}
-                                    target='_blank' >QS 112XC Technical Data Sheet </a>
-                                    <a href={qs112} target='_blank'>QS 112 Specification(Download)</a>  
+                                    target='_blank' rel='noreferrer' >QS 112XC Technical Data Sheet </a>
+                                    <a href={qs112} target='_blank' rel='noreferrer'>QS 112 Specification(Download)</a>  
                                     <a href={ccrr112}
-                                    target='_blank' >QS 112 Code Report</a>  
+                                    target='_blank' rel='noreferrer' >QS 112 Code Report</a>  
                                     <a href={VOC112}
-                                    target='_blank'>QS 112 VOC </a>
+                                    target='_blank' rel='noreferrer'>QS 112 VOC </a>
                                     <a href={qs112b}
-                                    target='_blank'>QS 112 Brochure</a> 
+                                    target='_blank' rel='noreferrer'>QS 112 Brochure</a> 
                                     
                             </Media.Body>
                             </Media>
@@ -246,18 +246,18 @@ export default function architectsInsulation() {
                         <Media className='media2'>
                         <Media.Body className='media-body1'>
                                     <a href={TDS118}
-                                    target='_blank' >QS 118 Technical Data Sheet </a>  
+                                    target='_blank' rel='noreferrer' >QS 118 Technical Data Sheet </a>  
                                     <a href={TDS118xc}
-                                    target='_blank' >QS 118XC Technical Data Sheet </a> 
-                                    <a href={qs118} target='_blank'>QS 118 Specification(Download)</a>  
+                                    target='_blank' rel='noreferrer' >QS 118XC Technical Data Sheet </a> 
+                                    <a href={qs118} target='_blank' rel='noreferrer'>QS 118 Specification(Download)</a>  
                                     <a href={ccrr118}
-                                    target='_blank' >QS 118 Code Report</a>  
+                                    target='_blank' rel='noreferrer' >QS 118 Code Report</a>  
                                     <a href={VOC118}
-                                    target='_blank'>QS 118 VOC </a>
+                                    target='_blank' rel='noreferrer'>QS 118 VOC </a>
                                      <a href={qs118b}
-                                    target='_blank'>QS 118 Brochure</a>
+                                    target='_blank' rel='noreferrer'>QS 118 Brochure</a>
                                      <a href={qs118xcb}
-                                    target='_blank'>QS 118XC Brochure</a>  
+                                    target='_blank' rel='noreferrer'>QS 118XC Brochure</a>  
                                     
                             </Media.Body>
                         </Media>
@@ -280,9 +280,9 @@ export default function architectsInsulation() {
                         <Media className='media2'>
                         <Media.Body className='media-body1'>
                                     <a href={TDS450}
-                                    target='_blank' >QS 450 Technical Data Sheet </a> 
+                                    target='_blank' rel='noreferrer' >QS 450 Technical Data Sheet </a> 
                                     <a href={ccrr450}
-                                    target='_blank' >QS 450 Code Report</a>  
+                                    target='_blank' rel='noreferrer' >QS 450 Code Report</a>  
                                     
                             </Media.Body>
                         </Media>
@@ -300,7 +300,7 @@ export default function architectsInsulation() {
                    </div> 
                 <div className='rtside-lower'>
                     <div className='imgsContainer11'>
-                    {/* <img className='imgsLower' src={img5}/> */}
+                    {/* <img alt='insulation image' className='imgsLower' src={img5}/> */}
                     </div>
                     <div className='lowerContent'>
                 <div className='lowerbox1'>
@@ -313,7 +313,7 @@ export default function architectsInsulation() {
                     structure gives some flexibility to the hardened foam.
                     R-Values start at 3.6 per inch. Open Cell has superior sound absorbtion quality. (Typically specified in climate zones 1-4)
                 </p>
-                {/* <img src={diagram}></img> */}
+                {/* <img alt='insulation image' src={diagram}></img> */}
                 <h1 className='htiltle'>Open-Cell Building Applications</h1>
                 <ul className='lowerList1'>
                     <li>
@@ -345,7 +345,7 @@ export default function architectsInsulation() {
                 <p>
                 Closed cell foam has a density starting at 1.75 pounds per cubic foot or more. Closed Cell Foam has a higher R Value than open cell foam and can perform as a vapor barrier in a wall assembly application. (Typically specified for climate zones 5 and above) 
                 </p>
-                {/* <img src={ccimg}/> */}
+                {/* <img alt='insulation image' src={ccimg}/> */}
                 <h1 className='htiltle'>Closed-Cell Building Applications</h1>
                 <ul className='lowerList1'>
                     <li>
@@ -373,16 +373,16 @@ export default function architectsInsulation() {
                     Manufacturing Buildings 
                     </li>
                 </ul>
-                    {/* <img className='imgsLower2' src={img4}/> */}
+                    {/* <img alt='insulation image' className='imgsLower2' src={img4}/> */}
                 </div>
                 </div>
                 </div>
                 <div className='isoBand1'>
-            <img className='ISO11' src={abaa}></img>
-            <img className='ISO11' src={greenguard}></img>
-            <img className='ISO1' src={icon2}></img>
-            <img className='ISO11' src={masterSpec}></img>
-            <img className='ISO11' src={greenbuilding}></img>
+            <img alt='insulation image' className='ISO11' src={abaa}></img>
+            <img alt='insulation image' className='ISO11' src={greenguard}></img>
+            <img alt='insulation image' className='ISO1' src={icon2}></img>
+            <img alt='insulation image' className='ISO11' src={masterSpec}></img>
+            <img alt='insulation image' className='ISO11' src={greenbuilding}></img>
 
         </div>
     
