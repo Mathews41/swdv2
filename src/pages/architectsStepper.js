@@ -53,7 +53,7 @@ export default function architectsStepper() {
                         <Card.Img className='cardImg'  variant="top" src={img2} />
                         <Card.Body id='cardBody'>
                             <Card.Title id='cardTitle'>
-                                Roofing Systems
+                                Spray Foam Roofing Systems
                             <Icon.ExternalLink className='insulLink'/>
                             </Card.Title>
                             <Card.Text id='cardText'>

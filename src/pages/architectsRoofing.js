@@ -27,6 +27,7 @@ import ASU from '../images/ASU-min.jpg'
 import roofingpic from '../images/Roofing_Edited_5-min.jpg'
 import {Link} from 'gatsby'
 import '../assets/scss/layout/global.scss'
+import pic65 from '../images/065.jpg'
 
 
 
@@ -84,11 +85,11 @@ export default function architectsInsulation() {
             <div className='upperText'>
             <div>
                     <a href='/projects/'>
-                <img className='buildings'src={roofingpic}></img></a>
+                <img className='buildings'src={pic65}></img></a>
                 <sub className='pictext'>Quik-Shield® 155 Coated Foam Roof</sub>
                 </div>
             <div className='upperText1'>
-            <h1 className='htitle'>QUIK-SHIELD® Foam Coated Roofing Systems</h1>
+            <h1 className='htitle'>QUIK-SHIELD® Spray Foam Coated Roofing Systems</h1>
                 <ul className='lowerList'>
                     <p>
                     Enhances your building envelope while also increasing your energy efficiency.  QUIK-SHIELD foam roofing systems are not only cost effective, but penetrations are easily sealed, thus eliminating any potential water leakage. Foam roofing systems are also low maintenance, weather resistant, and eliminates the need for mechanical fasteners. Low Global Warming potential product.
@@ -104,7 +105,7 @@ export default function architectsInsulation() {
             <div className='accordian-container1'>
                
                     <Accordion className='accordian1' defaultActiveKey="0">
-                    <h4>Quik-Shield® Roofing Systems</h4>
+                    <h4>Quik-Shield® Spray Foam Roofing Systems</h4>
                 
             <Card className='card1'>
                 <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="16">
@@ -138,19 +139,15 @@ export default function architectsInsulation() {
                                         QS  1929F
                                         </h4>
                                        <h5> Flame Retardant Acrylic Coating-Two gallons per 100/sq.ft</h5>
-                                        </li>
                                         <a href={TDS1929f}target='_blank'>QUIK-SHIELD® 1929F Technical Data Sheet</a> 
-                                        <li>
+                                        </li>
                                         <h4>
                                         Specification
                                         </h4>
-                                        </li>
                                         <a href={spec155}target='_blank' >Division 07 57 00 Specification (Download)</a>
-                                        <li>
-                                        <h4>
+                                        <h4 className='htag'>
                                         Code Report
                                         </h4>
-                                        </li>
                                         <a href={eval155}target='_blank' >ESR-2532</a>
                                         
                                         
@@ -192,19 +189,15 @@ export default function architectsInsulation() {
                                         <a href={TDS1929f}target='_blank'>QUIK-SHIELD® 1929F Technical Data Sheet</a>
                                         </li>
                                         <li>
-                                        #9 Limestone granules blended in with acrylic top coat
+                                        #9 Limestone granules blended in with acrylic top coat (optional)
                                         </li>
-                                        <li>
                                         <h4>
                                         Specification
                                         </h4>
-                                        </li>
                                         <a href={spec155}target='_blank' >Division 07 57 00 Specification (Download)</a>
-                                        <li>
-                                        <h4>
+                                        <h4 className='htag'>
                                         Code Report
                                         </h4>
-                                        </li>
                                         <a href={eval155}target='_blank' >ESR-2532</a>
                                     
                                     </ul>
@@ -255,17 +248,13 @@ export default function architectsInsulation() {
                                         </h4> 
                                         <a href={TDS2020}target='_blank' >QUIK-SHIELD® 2020 Technical Data Sheet</a>
                                         </li>
-                                        <li>
                                         <h4>
                                         Specification
                                         </h4>
-                                        </li>
                                         <a href={spec155}target='_blank' >Division 07 57 00 Specification (Download)</a>
-                                        <li>
-                                        <h4>
+                                        <h4 className='htag'>
                                         Code Report
                                         </h4>
-                                        </li>
                                         <a href={eval155}target='_blank' >ESR-2532</a>
                                     </ul>
                                     </Media.Body>

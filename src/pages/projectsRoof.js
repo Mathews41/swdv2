@@ -25,9 +25,19 @@ export default function projects() {
 
                     
   <div id='section_1' style={{"height": "auto"}}>
-                        <h1 className='ccTitle'>Roofing Systems</h1>
+                        <h1 className='ccTitle'>Spray Foam Roofing Systems</h1>
                     <div class="container-proj">
   <div class="card-columns">
+    <a href={ppASU} target='_blank' id='card' >
+      <img class="card-img-top1"  src={asu} alt="Card image top"/>
+      <div class="card-body1">
+        <h3 class="card-title">Arizona State University </h3>
+        <h4 class="card-subtitle">
+            Greek Leadership Student Housing Tempe, AZ
+</h4>
+      </div>
+        <button href={ppASU} target='_blank' className='cardButton'>Read Full Study</button>
+    </a>
   <div id='card' >
       <img class="card-img-top1"  src={uofahonors} alt="Card image top"/>
       <div class="card-body1">
@@ -36,26 +46,16 @@ export default function projects() {
           
             Tucson AZ
         </h4>
+      </div>
         <button className='cardButton'>Read Full Study</button>
-      </div>
     </div>
-    <a href={ppASU} target='_blank' id='card' >
-      <img class="card-img-top1"  src={asu} alt="Card image top"/>
-      <div class="card-body1">
-        <h3 class="card-title">Arizona State University </h3>
-        <h4 class="card-subtitle">
-            Greek Leadership Student Housing Tempe, AZ
-</h4>
-        <button href={ppASU} target='_blank' className='cardButton'>Read Full Study</button>
-      </div>
-    </a>
     <div id='card' >
       <img class="card-img-top1"  src={aztech} alt="Card image top"/>
       <div class="card-body1">
         <h3 class="card-title">University of Arizona</h3>
         <h4 class="card-subtitle">Arizona Science and Technology Park</h4>
-        <button className='cardButton'>Read Full Study</button>
       </div>
+        <button className='cardButton'>Read Full Study</button>
     </div>
     
     </div>

@@ -3348,6 +3348,7 @@
     }
     .accordian1 > h4 {
         color: white;
+        text-align: center;
     }
     .drawingContainer {
         width: 100%;
@@ -4011,7 +4012,7 @@
         z-index: 2;
         margin: 1%;
         text-align: center;
-        border-radius: 10px;;
+        border-radius: 10px;
         flex-shrink: 1;
         
     }
@@ -4189,6 +4190,7 @@
     }
     .accordian1 > h4 {
         color: white;
+        text-align: center;
     }
     .accordian2 > h4 {
         color: white;
@@ -4491,6 +4493,9 @@
         text-align: start;
         font-size: 13pt;
         color: red;
+    }
+    .htag {
+        text-align: flex-start;
     }
     .h4sub {
         font-style: inherit;

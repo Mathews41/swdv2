@@ -1068,7 +1068,7 @@
     }
     .card-body1 {
         width: 100%;
-        height: 100%;
+        height: 150px;
         position: relative;
         background: white;
         padding: 10px;
@@ -1077,7 +1077,7 @@
     }
     .card-body1 > h3{
         width: 100%;
-        height: 20%;
+        height: 50px;
         color: black;
         background: white;
         font-size: 15pt;
@@ -1085,11 +1085,12 @@
     }
     .card-body1 > h4 {
         width: 100%;
-        height: 55%;
         color: black;
         background: white;
+        height: 100px;
         text-align: start;
         font-size: 10pt;
+        bottom: 0;
         word-wrap: wrap;
         margin-top: 15px;
         font-weight: normal;
@@ -1106,6 +1107,9 @@
     }
     .cardButton:hover {
         background: black;
+    }
+    .card-subtitle {
+        height: 100px;
     }
     .content-container {
         width: 100%;
