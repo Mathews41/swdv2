@@ -117,7 +117,7 @@ const Ul = styled.a`
     right: 0;
     height: 100vh;
     width: 300px;
-    font-size: 22pt;
+    font-size: 20pt;
     padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
     li {
