@@ -46,7 +46,7 @@ const Ul = styled.a`
     height: 100vh;
     width: 300px;
     font-size: 22pt;
-    padding-top: 3.5rem;
+    padding-top: 2.5rem;
     transition: transform 0.3s ease-in-out;
     li {
       color: black;
@@ -155,6 +155,7 @@ const Ul = styled.a`
 const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
+      <li><a id='sideNav' href='/'>Home</a></li>
       <li><a id='sideNav' href='/products/'>Products</a></li>
       <li><a id='sideNav' href='/contractors/'>Contractors</a></li>
       <li><a id='sideNav' href='/architectsStepper/'>Architects</a></li>
