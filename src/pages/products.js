@@ -83,7 +83,6 @@ export default function products() {
     return (
         <div id='page-contractor'>
             <Header/>
-            <img alt='contractors background' className='cont-bg' src={bgimg}></img>
             <div className='header-container-cont1'>
                 <h1>Products</h1>
             <p>
