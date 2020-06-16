@@ -73,6 +73,19 @@ import roofrating106 from '../images/CR106.pdf'
 import TDS106 from '../images/TDS106.pdf'
 import Oem from '../images/OEM-Booklet-Website.pdf'
 import clickLogo from '../images/clicklogo.svg'
+import sds104 from '../images/SDS-QS104-AB.pdf'
+import sds106 from '../images/SDS-QS106-AB.pdf'
+import sds108 from '../images/SDS-QS108YM-AB.pdf'
+import sds112 from '../images/SDS-QS112XC-AB.pdf'
+import sds118 from '../images/SDS-QS118-AB.pdf'
+import sds118xc from '../images/SDS-QS118XC-AB.pdf'
+import sds450 from '../images/SDS-QS450-AB.pdf'
+import sds232 from '../images/SDS-QS232-AB.pdf'
+import sds252 from '../images/SDS-QS252-AB.pdf'
+import TDS232 from '../images/PDS-QS232.pdf'
+import TDS252 from '../images/TDS-QS-252.pdf'
+
+
 
 
 
@@ -105,7 +118,6 @@ export default function products() {
                         <Media className='media1'>
                                 <Media.Body className='media-body1'>
                                 <Accordion className='accordianProdSub' defaultActiveKey="0">
-                    <h4>QS Spray Foam</h4>
             <Card className='card1'>
                 <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="1">
                     <h3>QS 155</h3> Roofing Spray Foam
@@ -705,7 +717,7 @@ export default function products() {
                         <Media className='media1'>
                                 <Media.Body className='media-body1'>
                                 <Accordion className='accordianProdSub' defaultActiveKey="0">
-                    <h4>Open Cell</h4>
+
                     <Card className='card1'>
                 <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="1">
                 <h3>QUIK-SHIELD® 104</h3>
@@ -726,6 +738,8 @@ export default function products() {
                                     <a href={qs104b}
                                     target='_blank' rel='noreferrer' >QUIK-SHIELD® 104 Brochure</a>  
                                     {/* <a href={TDS104}target='_blank' rel='noreferrer'  >QUIK-SHIELD® 104 VOC </a>   */}
+                                    <a href={sds104}
+                                    target='_blank' rel='noreferrer'  >QUIK-SHIELD® 104 SDS</a>  
                                     
                                                                                
                                     </Media.Body>
@@ -755,6 +769,8 @@ export default function products() {
                                     target='_blank' rel='noreferrer'  >QUIK-SHIELD® 106 VOC </a>
                                     <a href={qs106b}
                                     target='_blank' rel='noreferrer' >QUIK-SHIELD® 106 Brochure</a> 
+                                    <a href={sds106}
+                                    target='_blank' rel='noreferrer'  >QUIK-SHIELD® 106 SDS</a>  
                                     
                             </Media.Body>
                         </Media>
@@ -784,6 +800,8 @@ export default function products() {
                                     target='_blank' rel='noreferrer' >QUIK-SHIELD® 108YM VOC </a>
                                     <a href={qs108b}
                                     target='_blank' rel='noreferrer' >QUIK-SHIELD® 108YM Brochure</a> 
+                                    <a href={sds108}
+                                    target='_blank' rel='noreferrer'  >QUIK-SHIELD® 108YM SDS</a>  
                                     
                             </Media.Body>
                         </Media>
@@ -808,7 +826,6 @@ export default function products() {
                         <Media className='media1'>
                                 <Media.Body className='media-body1'>
                                 <Accordion className='accordianProdSub' defaultActiveKey="0">
-                    <h4>Closed Cell Products</h4>
             <Card className='card2'>
                 <Accordion.Toggle className='toggle2' as={Card.Header} eventKey="4">
                 <h3>QUIK-SHIELD® 112</h3>
@@ -835,6 +852,8 @@ export default function products() {
                                     target='_blank' rel='noreferrer' >QUIK-SHIELD® 112 VOC </a>
                                     <a href={qs112b}
                                     target='_blank' rel='noreferrer' >QUIK-SHIELD® 112 Brochure</a> 
+                                    <a href={sds112}
+                                    target='_blank' rel='noreferrer'  >QUIK-SHIELD® 112 SDS</a>  
                                     
                             </Media.Body>
                             </Media>
@@ -866,8 +885,12 @@ export default function products() {
                                     target='_blank' rel='noreferrer' >QUIK-SHIELD® 118 VOC </a>
                                      <a href={qs118b}
                                     target='_blank' rel='noreferrer' >QUIK-SHIELD® 118 Brochure</a>
+                                    <a href={sds118}
+                                    target='_blank' rel='noreferrer'  >QUIK-SHIELD® 118 SDS</a>   
                                      <a href={qs118xcb}
                                     target='_blank' rel='noreferrer' >QUIK-SHIELD® 118XC Brochure</a>  
+                                    <a href={sds118xc}
+                                    target='_blank' rel='noreferrer'  >QUIK-SHIELD® 118XC SDS</a> 
                                     
                             </Media.Body>
                         </Media>
@@ -891,19 +914,69 @@ export default function products() {
                                     <a href={TDS450}
                                     target='_blank' rel='noreferrer'  >QUIK-SHIELD® 450 Technical Data Sheet </a> 
                                     <a href={ccrr450}
-                                    target='_blank' rel='noreferrer'  >QUIK-SHIELD® 450 Code Report</a>  
+                                    target='_blank' rel='noreferrer'  >QUIK-SHIELD® 450 Code Report</a> 
+                                    <a href={sds450}
+                                    target='_blank' rel='noreferrer'  >QUIK-SHIELD® 450 SDS</a>  
                                     
                             </Media.Body>
                         </Media>
                         </Card.Body>
                     </Accordion.Collapse>
             </Card>
-            <div className='drawingContainer'>
-            <Link className='drawa' to='/details/'>
-                Details & Drawings
-                <Icon.ExternalLink className='externalLink'/>
-                </Link>
-                </div>
+            <Card className='card2'>
+                <Accordion.Toggle className='toggle2' as={Card.Header} eventKey="7">
+                <h3>QUIK-SHIELD® 232 Slab Jacking </h3>
+                <h6 className='accordian-subtext2'>
+                    Slab jacking foam is a rigid,
+                    closed-cell, two component foam that is specifically
+                    engineered to increase the bearing capacity of the
+                    ground beneath a foundation or substrate.
+                    </h6>
+                    <Icon.ChevronDown color='blue' size={45} />
+                     <h6>Tech Info Click Here</h6>
+
+                </Accordion.Toggle>
+                    <Accordion.Collapse className='collapse2' eventKey="7">
+                        <Card.Body className='body2'>
+                        <Media className='media2'>
+                        <Media.Body className='media-body1'>
+                            <a href={TDS232}
+                            target='_blank' rel='noreferrer'  >QUIK-SHIELD® 232 Technical Data Sheet</a>  
+                                    <a href={sds232}
+                                    target='_blank' rel='noreferrer'  >QUIK-SHIELD® 232 Safety Data Sheet </a> 
+                                    
+                            </Media.Body>
+                        </Media>
+                        </Card.Body>
+                    </Accordion.Collapse>
+            </Card>
+            <Card className='card2'>
+                <Accordion.Toggle className='toggle2' as={Card.Header} eventKey="9">
+                <h3>QUIK-SHIELD® 252 High Performance Tank Foam  </h3>
+                <h6 className='accordian-subtext2'>
+                    A low viscosity, two component, closed-cell, spray-applied, rigid polyurethane foam insulation. The high
+                    performance foam is specifically created for continuous extreme in-service temperatures ranging -60-250˚F (-51-121˚C) on tanks,
+                    pipelines, and other storage devices. QUIK-SHIELD 252 is formaldehyde free and is low VOC. 
+                    </h6>
+                    <Icon.ChevronDown color='blue' size={45} />
+                     <h6>Tech Info Click Here</h6>
+
+                </Accordion.Toggle>
+                    <Accordion.Collapse className='collapse2' eventKey="9">
+                        <Card.Body className='body2'>
+                        <Media className='media2'>
+                        <Media.Body className='media-body1'>
+                                    <a href={TDS252}
+                                    target='_blank' rel='noreferrer'  >QUIK-SHIELD® 252 Technical Data Sheet</a>  
+                                    <a href={sds252}
+                                    target='_blank' rel='noreferrer'  >QUIK-SHIELD® 252 Safety Data Sheet </a> 
+                                    
+                            </Media.Body>
+                        </Media>
+                        </Card.Body>
+                    </Accordion.Collapse>
+            </Card>
+           
                     </Accordion>
                             </Media.Body>
                         </Media>
