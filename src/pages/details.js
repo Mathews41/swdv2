@@ -567,7 +567,7 @@ export default function details() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={QSW018r} targer='_blank'>
+                                    <a href={QSW018r} target='_blank'>
                                     QSR-018 - Deck Supported Penetration
                                     </a>
                                 </li>
@@ -594,7 +594,7 @@ export default function details() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={QSW003ar} targer='_blank'>
+                                    <a href={QSW003ar} target='_blank'>
                                     QSR-003A - Base Flashing Wall-Supported Deck Tall Wall
                                     </a>
                                 </li><li>
@@ -625,7 +625,7 @@ export default function details() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={QSW021r} targer='_blank'>
+                                    <a href={QSW021r} target='_blank'>
                                     QSR-021 - Scupper Detail at Parapet Wall
                                     </a>
                                 </li><li>
@@ -634,7 +634,7 @@ export default function details() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={QSW161r} targer='_blank'>
+                                    <a href={QSW161r} target='_blank'>
                                     QSR-161 - Parapet Wall Detail
                                     </a>
                                 </li><li>
@@ -643,7 +643,7 @@ export default function details() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={QSW164r} targer='_blank'>
+                                    <a href={QSW164r} target='_blank'>
                                     QSR-164 - Stucco Finish on Parapet Wall
                                     </a>
                                 </li><li>
@@ -674,7 +674,7 @@ export default function details() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={QSW144r} targer='_blank'>
+                                    <a href={QSW144r} target='_blank'>
                                     QSR-144 - Class B Roof on Combustible Deck
                                     </a>
                                 </li><li>
@@ -683,7 +683,7 @@ export default function details() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={QSW147r} targer='_blank'>
+                                    <a href={QSW147r} target='_blank'>
                                     QSR-147 - Class A Roof on Combustible Deck with Cementitious Coating
                                     </a>
                                 </li>
