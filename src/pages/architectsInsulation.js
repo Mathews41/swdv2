@@ -56,6 +56,9 @@ import eval106 from '../images/VOC106.pdf'
 import roofrating106 from '../images/CR106.pdf'
 import TDS106 from '../images/TDS106.pdf'
 import clickLogo from '../images/clicklogo.svg'
+import ppUofNC from '../images/Project Profile - University of North Carolina.pdf'
+import ppAPI from '../images/Project Profile - SPF Continuous Insulation.pdf'
+
 
 
 
@@ -72,7 +75,7 @@ export default function architectsInsulation() {
             </div>
             <div className='upperText'>
                 <div id='upperTextArch'>
-                    <a href='/projects/'>
+                    <a href={ppUofNC}>
                 <img alt='insulation image' className='buildings'src={elevation}></img></a>
                 <sub className='pictext'>University of North Carolina at Wilmington</sub>
                 </div>
@@ -93,7 +96,7 @@ export default function architectsInsulation() {
                 </ul>
                 </div>
                 <div id='upperTextArch'>
-                    <a href='/projects/'>
+                    <a href={ppAPI}>
                 <img alt='insulation image' className='buildings2'src={arch}></img></a>
                 <sub className='pictext1'>API Training Center continuous insulation application</sub>
                 </div>
