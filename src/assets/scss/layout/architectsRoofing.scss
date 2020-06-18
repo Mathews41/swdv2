@@ -27,15 +27,7 @@
         height: auto;
         background: rgb(255, 255, 255);
     }
-    .img-container1 {
-        width: 100%;
-        height: 13.3%;
-        display: flex;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        
-    }
+   
     .img-container1 > span {
         width: 100%;
         height: 30.5%;
@@ -672,15 +664,7 @@
         height: auto;
         background: rgb(255, 255, 255);
     }
-    .img-container1 {
-        width: 100%;
-        height: 13.3%;
-        display: flex;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        
-    }
+   
     .img-container1 > span {
         width: 100%;
         height: 10vh;
@@ -1022,83 +1006,7 @@
         align-items: center;
         margin: 0;
     }
-    .rtside-lower1 {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        border-radius: 10px;
-        align-items: center;
-        text-align: center;
-        
-        
-        
-        
-    }
-    .rtside-lower {
-        width: 100%;
-        background: white;
-        color: black;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
-    }
-    .lowerContent {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        margin-top: 1%;
-        align-items: center;
-        text-align: flex-start;
-        padding-top: 1%;
-        
-        
-        
-    }
-    .lowerContent > p {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        
-    }
-    .rtside-lower1 > h1 {
-        color: rgb(0, 0, 0);
-        font-size: 24pt;
-    }
-    .lowerList {
-        width: 100%;
-        list-style-type: disc;
-        font-size: 14pt;
-        display: flex;
-        color: rgb(2, 2, 2);
-        flex-direction: column;
-        margin-left: 50px;
-        margin-right: 50px;
-        padding: 0;
-        padding-top: 4px;
-    }
-    .lowerList1 {
-        font-size: 12pt;
-        color: black;
-        width: 100%;
-        height: 100%;
-        padding: 5px;
-        text-align: center;
-    }
-    .lowerList3 {
-        color: black;
-    }
-    .rtside-lower > ul {
-        width: 50%;
-        list-style-type: disc;
-        padding: 30px;
-        font-size: 16pt;
-    }
-    .rtside-lower1 > p {
-        font-size: 12pt;
-        padding: 30px;
-    }
+   
     .abaa {
         width: 12%;
         
@@ -1114,82 +1022,6 @@
         width: 100%;
         font-size: 20pt;
         text-align: center;
-    }
-    .upperText {
-        display: flex;
-        width: 100%;
-        // background-image: linear-gradient(rgba(2, 43, 85, 0.836) 70%, rgb(255, 255, 255));
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-        padding-top: 30px;
-        
-    }
-    .upperText > div {
-        flex-shrink: 1;
-    }
-    .upperText1 {
-        display: flex;
-        width: 80%;
-        // background-image: linear-gradient(rgba(2, 43, 85, 0.836) 70%, rgb(255, 255, 255));
-        flex-direction: column;
-        align-items: center;
-        padding-top: 30px;
-        
-    }
-    .htiltle {
-        width: 100%;
-        font-size: 16pt;
-        text-align: center;
-        color: rgb(0, 0, 0);
-        letter-spacing: 0.35rem;
-    }
-    .lowerbox1 {
-        width: 90%;
-        background: rgb(255, 255, 255);
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-        border-radius: 10px;
-        flex-shrink: 0;
-        
-    }
-    .lowerbox1 > p {
-        font-size: 14pt;
-
-    }
-    .lowerbox2 {
-        width: 90%;
-        display: flex;
-        background: rgb(255, 255, 255);
-        flex-direction: column;
-        padding: 10px;
-        border-radius: 10px;
-    }
-    .lowerbox2 > p {
-        margin-bottom: 13%;
-        font-size: 14pt;
-    }
-    .lowerbox2 > img {
-        width: 300px;
-        height: 300px;
-    
-    }
-    .lowerbox3 {
-        width: 100%;
-        padding: 10px;
-        display: flex;
-        bottom:0;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border-radius: 10px;
-        
-    }
-    .lowerList > p {
-        width: 100%;
-        font-size: 12pt;
-        margin: 0;
     }
     .ullist {
         list-style-type: decimal;
@@ -1335,15 +1167,7 @@
         height: auto;
         background: rgb(255, 255, 255);
     }
-    .img-container1 {
-        width: 100%;
-        height: 13.3%;
-        display: flex;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        
-    }
+   
     .img-container1 > span {
         width: 100%;
         height: 13.3%;
@@ -1990,15 +1814,7 @@
         height: auto;
         background: rgb(255, 255, 255);
     }
-    .img-container1 {
-        width: 100%;
-        height: 13.3%;
-        display: flex;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        
-    }
+   
     .img-container1 > span {
         width: 100%;
         height: 10vh;
@@ -3279,33 +3095,14 @@
         width: 100%;
         height: auto;
         background: rgb(255, 255, 255);
+        margin-top: 10%;
     }
-    .img-container1 {
-        width: 100%;
-        height: 13.3%;
-        display: flex;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        
-    }
-    .img-container1 > span {
-        width: 100%;
-        height: 15vh;
-        position: absolute;
-        font-size: 48pt;
-        background: rgba(2, 43, 85, 0.623);
-        color: rgb(252, 252, 252);
-        margin-top: 4%;
-        text-shadow: 5px 5px 5px black;
-    }
-    .split-img11 {
-        width: 50%;
-        height: 15vh;
-        margin: 0;
-        padding: 0;
-        margin-top: 8%;
-    }
+   .img-container1 {
+       color: black;
+       font-size: 48pt;
+       text-align: center;
+   }
+  
     .accordian-container1 {
         width: 100%;
         height: auto;
@@ -3941,35 +3738,14 @@
         width: 100%;
         height: auto;
         background: rgb(255, 255, 255);
+        margin-top: 10%;
     }
-    .img-container1 {
-        width: 100%;
-        height: 13.3%;
-        display: flex;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        
-    }
-    .img-container1 > span {
-        width: 100%;
-        height: 15vh;
-        position: absolute;
-        font-size: 48pt;
-        background: rgba(2, 43, 85, 0.623);
-        color: rgb(252, 252, 252);
-        // box-shadow: 10px 10px 10px black;
-        text-shadow: 5px 5px 5px black;
-        margin-top: 4%;
-
-    }
-    .split-img11 {
-        width: 50%;
-        height: 15vh;
-        margin: 0;
-        padding: 0;
-        margin-top: 8%;
-    }
+   .img-container1 {
+       color: black;
+       font-size: 48pt;
+       text-align: center;
+   }
+  
     .accordian-container1 {
         width: 100%;
         height: auto;
@@ -3979,19 +3755,11 @@
         flex-direction: row;
         animation: fadeInAnimation1 1s  0s 1 normal ;
         margin-bottom: 10px;
+        
     }
     .clicklogo {
         width: 10%;
         height: 10%;
-    }
-    .accordianButton {
-        display: flex;
-        width: 40%;
-        background: #294568;
-        color: white;
-        align-self: center;
-        border-radius:5%;
-        padding: 2%;
     }
     .accordian-container2 {
         width: 100%;
@@ -4009,9 +3777,13 @@
         z-index: 2;
         margin: 1%;
         text-align: center;
-        border-radius: 10px;
+        border-radius: 10px;;
         flex-shrink: 1;
         
+    }
+    .accordian1 > h4 {
+        color: white;
+        text-align: center;
     }
     .drawingContainer {
         width: 100%;
@@ -4157,6 +3929,13 @@
         color: rgb(59,0,255);
         
     }
+    #oemButton {
+        background: blue;
+        color: white;
+        display: flex;  
+        align-items: center;
+        justify-content: center;
+    }
     .productSpecs > li {
         font-size: 14pt;
         color: green;
@@ -4185,10 +3964,7 @@
         width: 14%;
         word-wrap: break-word;
     }
-    .accordian1 > h4 {
-        color: white;
-        text-align: center;
-    }
+   
     .accordian2 > h4 {
         color: white;
     }
@@ -4208,6 +3984,9 @@
         justify-content: flex-start;
         align-items: center;
         
+    }
+    .toggle1 > h6 {
+        font-size: 12pt;
     }
     .imgsLower {
         width: 20%;
@@ -4491,9 +4270,6 @@
         font-size: 13pt;
         color: red;
     }
-    .htag {
-        text-align: flex-start;
-    }
     .h4sub {
         font-style: inherit;
         font-size: inherit;
@@ -4518,62 +4294,7 @@
     .redli {
         color: red;
     }
-    .building {
-        width: 600px;
-        height: 315px; 
-        border-radius: 20px;
-        padding: 10px;
-    }
-    .buildings {
-        width: 400px;
-        height: 200px; 
-        border-radius: 20px;
-        padding: 10px;
-        margin-left: 3%;
-        
-    }
-    .buildings2 {
-        width: 400px;
-        height: 200px; 
-        border-radius: 20px;
-        padding: 10px;
-        margin-right: 3%;
     
-        
-    }
-    #upperTextArch {
-        flex-shrink: 0;
-    }
-    .pictext {
-        width: 460px;
-        color: black;
-        display: flex;
-        font-size: 11pt;
-        padding-right: 10px;
-        text-align: center;
-        justify-content: center;
-        margin-left: 0rem;
-        font-style: italic;
-    
-    }
-    .pictext1 {
-        width: 460px;
-        color: black;
-        display: flex;
-        font-size: 11pt;
-        text-align: center;
-        padding-right: 40px;
-        justify-content: center;
-        font-style: italic;
-    }
-    .lowerPicText {
-        width: 460px;
-        color: black;
-        display: flex;
-        font-size: 11pt;
-        justify-content: center;
-        margin-left: 3rem;
-    }
     
     
 }

@@ -7,7 +7,6 @@ import Accordion from 'react-bootstrap/Accordion'
 import Card from 'react-bootstrap/Card'
 import Media from 'react-bootstrap/Media'
 import * as Icon from 'react-feather'
-import '../assets/scss/layout/contractors.scss'
 import '../assets/scss/layout/architectsRoofing.scss'
 import bgimg from '../images/bg1-min.jpg'
 

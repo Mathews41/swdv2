@@ -95,9 +95,8 @@ import drain from '../images/Drain.pdf'
 
 export default function details() {
     return (
-        <div className='page'>
+        <div className='detailspage'>
             <Header/>
-            <img alt='details' className='detailsImg' src={uofahero}/>
             <div className='detailsPg'>
             <div className='detailsheader'>
                 <h1>Details & Drawings</h1>

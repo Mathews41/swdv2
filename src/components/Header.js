@@ -26,25 +26,14 @@ export default function Header() {
                   
                 </div>
                 <div id="navbar-brand">
-                  <a href='/'>
-                    <img className='icon1' src={LOGO} alt="swd logo" href='/'/>
+                  <a href='/architectsStepper/'>
+                    <img className='icon1' src={LOGO} alt="swd logo" href='/architectsStepper'/>
                   </a>
                   
                 </div>
                     <Burger/>
                   <ul className='top-nav-list' >
-                    <li>
-                      <div className='products'>
-                      <a 
-                      className='linkProd' href='/products/'
-                      > Products
-                      </a>
-                        </div>
-                    </li>
-                    <li>
-                      <a className='linkCont' href='/contractors/'
-                      >Contractors</a>
-                    </li>
+                   
                     <li>
                       <div className='dropdown'>
                       <a className='linkArch' href='/architectsStepper/'>
@@ -58,6 +47,12 @@ export default function Header() {
                             <li className='roofList'>
                             <Link className='roofLink' to='/architectsRoofing/'>Spray Foam Roofing Systems</Link>
                             </li>
+                            <li className='roofList'>
+                            <Link className='roofLink' to='/details/'>Details & Drawings</Link>
+                            </li>
+                            {/* <li className='roofList'>
+                            <Link className='roofLink' to='/details/'>Wall & Roof Assemblies</Link>
+                            </li> */}
                           </ul>
                         </div>
                         </div>
@@ -79,15 +74,7 @@ export default function Header() {
                         </div>
                         </div>
                     </li>
-                    <li>
-                      <Link className='linkInd' to='/industrial/'>Industrial</Link>
-                    </li>
-                    <li>
-                      <Link className='linkAbout' to='/about/'>About</Link>
-                    </li>
-                    <li>
-                      <Link className='linkAbout' to='/contact/'>Contact Us</Link>
-                    </li>
+                   
                   </ul>
               </nav>
         </header>

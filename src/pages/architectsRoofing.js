@@ -62,31 +62,9 @@ export default function architectsInsulation() {
         <div className='arch-page'>
         <Header/>
             <div className='img-container1'>
-                <img alt='roofing' className='split-img11' src={elevation}/>
                 <span className='headspan'>Architects/Specifiers</span>
-                <sub></sub>
-                <img alt='roofing' className='split-img11' src={img2}/>
-            </div>
-            <div className='upperText'>
-            <div>
-                    <a href='/projects/'>
-                <img alt='roofing' className='buildings'src={pic65}></img></a>
-                <sub className='pictext'>Quik-Shield® 155 Coated Foam Roof</sub>
-                </div>
-            <div className='upperText1'>
-            <h1 className='htitle'>QUIK-SHIELD® Spray Foam Coated Roofing Systems</h1>
-                <ul className='lowerList'>
-                    <p>
-                    Enhances your building envelope while also increasing your energy efficiency.  QUIK-SHIELD foam roofing systems are not only cost effective, but penetrations are easily sealed, thus eliminating any potential water leakage. Foam roofing systems are also low maintenance, weather resistant, and eliminates the need for mechanical fasteners. Low Global Warming potential product.
-                        </p>
-                </ul>
-                </div>
-                <div>
-                    <a href='/projects/'>
-                <img alt='roofing' className='buildings2'src={ASU}></img></a>
-                <sub className='pictext1'>Arizona State University Greek Leadership Housing</sub>
-                </div>
-                </div>
+
+               </div>
             <div className='accordian-container1'>
                
                     <Accordion className='accordian1' defaultActiveKey="0">
@@ -256,46 +234,7 @@ export default function architectsInsulation() {
         </Accordion>
                     
                    </div> 
-                <div className='rtside-lower1'>
-                    <div className='lowerbox3'>
-                        <h1 className='htilte'>
-                            Building Applications
-                        </h1>
-                        <ul className='lowerList1'>
-                            <li>
-                            Multi-Dwelling 
-                            </li>
-                            <li>
-                            Commercial Buildings
-                            </li>
-                            <li>
-                            Industrial Facilities 
-                            </li>
-                            <li>
-                            Agricultural Structure
-                            </li>
-                            <li>
-                            Homes (residential) 
-                            </li>
-                            <li>
-                            Retail Developments 
-                            </li>
-                        </ul>
-                        <h2 className='htiltle'>Contact Us</h2>
-                <ul className='lowerList1'>
-                    <li>
-                    Ron Stas 
-                    </li>
-                    <li>
-                    Ron.Stas@swdurethane.com
-
-                    </li>
-                    <li>
-                    +1(602-568-5274) 
-                    </li>
-                </ul>
-                    </div>
-                    </div>
+                
                         <div className='isoBand1'>
             <img alt='roofing' className='ISO11' src={abaa}></img>
             <img alt='roofing' className='ISO11' src={greenguard}></img>

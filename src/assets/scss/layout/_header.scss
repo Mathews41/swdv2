@@ -2538,7 +2538,7 @@ a {
     }
     .icon1 {
       position: relative;
-      width: 380px;
+      width: 350px;
       height: 80px;
       
     }
@@ -2580,7 +2580,7 @@ a {
       height: 100%;
       display: flex;
       flex-direction: row;
-      align-items: center;
+      align-items: flex-start;
       list-style: none;
       margin: 0;
       font-size: 18pt;
@@ -2892,8 +2892,8 @@ a {
   }
   .architectsMenu {
     width: 300px;
-    height: 25%;
-    margin-right: 10%;
+    height: 30%;
+    margin-right: 100px;
     display: none;
     position: absolute;
     text-align: flex-start;
@@ -2916,7 +2916,7 @@ a {
     margin-left: 3%
   }
   .dropdown:hover .architectsMenu {
-    height: 100px;
+    height: 155px;
     display: block;
     background: rgb(255, 255, 255);
     animation: menuSlide .5s  0s 1 normal ;
@@ -3062,7 +3062,7 @@ a {
       }
       .icon1 {
         position: relative;
-        width:500px;
+        width:400px;
         height: 100px;
     
     }
