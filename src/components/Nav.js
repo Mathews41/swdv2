@@ -155,14 +155,13 @@ const Ul = styled.a`
 const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
-      <li><a id='sideNav' href='/'>Home</a></li>
-      <li><a id='sideNav' href='/products/'>Products</a></li>
-      <li><a id='sideNav' href='/contractors/'>Contractors</a></li>
-      <li><a id='sideNav' href='/architectsStepper/'>Architects</a></li>
+      <li><a id='sideNav' href='/architectsStepper'>Home</a></li>
+      <li><a id='sideNav' href='/architectsInsulation/'>Insulation</a></li>
+      <li><a id='sideNav' href='/architectsRoofing/'>Roofing</a></li>
       <li><a id='sideNav' href='/projectsStepper/'>Projects</a></li>
-      <li><a id='sideNav' href='/industrial/'>Industrial</a></li>
-      <li><a id='sideNav' href='/about/'>About</a></li>
-      <li><a id='sideNav' href='/contact/'>Contact Us</a></li>
+      <li><a id='sideNav' href='/projectsStepper/'>Details & Drawings</a></li>
+
+
     </Ul>
   )
 }

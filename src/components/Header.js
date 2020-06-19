@@ -33,30 +33,21 @@ export default function Header() {
                 </div>
                     <Burger/>
                   <ul className='top-nav-list' >
-                   
-                    <li>
-                      <div className='dropdown'>
-                      <a className='linkArch' href='/architectsStepper/'>
-                        Architects
+                  <li>
+                   <a className='linkArch' href='/architectsStepper/'>
+                        Home
                         </a>
-                        <div className='architectsMenu'>
-                          <ul>
-                            <li>
-                              <Link className='archLink' to='/architectsInsulation/'>Spray Foam Insulation</Link>
-                            </li>
-                            <li className='roofList'>
-                            <Link className='roofLink' to='/architectsRoofing/'>Spray Foam Roofing Systems</Link>
-                            </li>
-                            <li className='roofList'>
-                            <Link className='roofLink' to='/details/'>Details & Drawings</Link>
-                            </li>
-                            {/* <li className='roofList'>
-                            <Link className='roofLink' to='/details/'>Wall & Roof Assemblies</Link>
-                            </li> */}
-                          </ul>
-                        </div>
-                        </div>
-                    </li>
+                   </li>
+                   <li>
+                   <a className='linkArch' href='/architectsInsulation/'>
+                        Insulation
+                        </a>
+                   </li>
+                   <li>
+                   <a className='linkArch' href='/architectsRoofing/'>
+                        Roofing
+                        </a>
+                   </li>
                     <li>
                     <div className='dropdown'>
                       <a className='linkProj' href='/projectsStepper/'>
@@ -65,15 +56,21 @@ export default function Header() {
                         <div className='projectsMenu'>
                           <ul>
                             <li>
-                              <Link className='archLink' to='/projectsWall/'>Spray Foam Insulation Projects</Link>
+                              <Link className='archLink' to='/projectsWall/'> Insulation Projects</Link>
                             </li>
                             <li className='roofList'>
-                            <Link className='roofLink' to='/projectsRoof/'>Spray Foam Roofing Projects</Link>
+                            <Link className='roofLink' to='/projectsRoof/'>Roofing Projects</Link>
                             </li>
                           </ul>
                         </div>
                         </div>
                     </li>
+                    <li>
+                      <a className='linkArch' href='/details/'>
+                        Details & Drawings
+                        </a>
+                    </li>
+                    
                    
                   </ul>
               </nav>

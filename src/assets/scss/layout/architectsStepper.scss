@@ -919,7 +919,9 @@
         animation: fadeInAnimation 1s  0s 1 normal ;
     }
     .stepperCard {
-        width: 10vw;
+        width: 50vw;
+        background: white;
+        border: 2px solid #294568;
         
     }
     .stepperCard:hover {
@@ -964,9 +966,11 @@
     }
     #cardTitle {
      font-size: 22pt;
+     color: black;
     }
     #cardText {
         font-size: 13pt;
+        color: black;
     }
     #cardBody {
         padding: 10px;

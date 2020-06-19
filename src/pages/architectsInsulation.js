@@ -91,8 +91,11 @@ export default function architectsInsulation() {
                         <Card.Body className='body1'>
                         <Media className='media1'>
                                 <Media.Body className='media-body1'>
-                                   
-                                    
+                                <a href={TDS108}
+                                    target='_blank' rel='noreferrer' >QS 108YM Technical Data Sheet </a>  
+                                    <a href={spec108}
+                                    target='_blank' rel='noreferrer' >QS 108YM Specification </a>  
+
                             </Media.Body>
                         </Media>
                         </Card.Body>

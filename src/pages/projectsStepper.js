@@ -25,7 +25,6 @@ export default function architectsStepper() {
     return (
         <div className='page'>
             <Header/>
-        <img alt='stepper' className='bgimg' src={bgimg} fluid></img>
         <div className='archStepper'>
             <div className='stepperPage' >
             <CardDeck id='cardDeck'>
