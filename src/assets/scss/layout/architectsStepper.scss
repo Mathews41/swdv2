@@ -916,13 +916,13 @@
     .ArchStepperPage {
         width: auto;
         height: 100vh;
+        background: rgba(0, 0, 0, 0.589);
     }
     .stepperimg {
         width: 100%;
         z-index: -10;
         height: 100vh;
         position: fixed;
-        opacity: 80%;
     }
     .archStepper {
         width: 100%;
