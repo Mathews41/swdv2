@@ -29,7 +29,7 @@ import greenbuilding from '../images/greenbuilding.png'
 import masterSpec from '../images/images.png'
 import icon2 from '../images/icon2.png'
 import abaa from '../images/abaa.svg'
-import greenguard from '../images/GREENGUARD.png'
+import greenguard from '../images/greenguard logo (1).png'
 import cabin from '../images/DSC04667-min.jpg'
 
 //DOCS
