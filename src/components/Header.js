@@ -15,8 +15,8 @@ export default function Header() {
           <header id="header">
             <div className='superheaderContainer'>
               <Icon.Phone className='phoneIcon' size={30} color='#1F3F77'/>
-            <Link className='superheader' to="/contact/">
-              800-828-1394</Link>
+            <div className='superheader'>
+              800-828-1394</div>
             </div>
               <nav className="navbar">
                 <div className='architectsMenu'>

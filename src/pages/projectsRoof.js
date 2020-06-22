@@ -14,6 +14,7 @@ import harley from '../images/harley.jpg'
 import ppASU from '../images/Project Profile - ASU Greek Village.pdf'
 import ppHarley from '../images/Project Profile - Harley Davidson.pdf'
 import ppIBM from '../images/Project Profile - IBM - For Review.pdf'
+import azalea from '../images/Azalea (1).jpg'
 import ppAzalea from '../images/Project Prolife - Azalea Regional Shopping Center - SJP ORIGINAL EDITS (2).pdf'
 import ppTrend from '../images/Project Profile - The Trend at 51 Apartment Homes.pdf'
 
@@ -46,7 +47,7 @@ export default function projects() {
         <button href={ppASU} target='_blank' className='cardButton'>Read Full Study</button>
       </div>
     </a>
-  <a href={ppASU} target='_blank' id='card' >
+  {/* <a href={ppASU} target='_blank' id='card' >
       <img alt='roof' class="card-img-top1"  src={uofahonors} alt="Card image top"/>
       <div class="card-body1">
         <h3 class="card-title">University of Arizona Honors Student Housing</h3>
@@ -56,7 +57,7 @@ export default function projects() {
         </h4>
         <button className='cardButton'>Read Full Study</button>
       </div>
-    </a>
+    </a> */}
     <a href={ppHarley} target='_blank' id='card' >
       <img alt='roof' class="card-img-top1" src={harley}  alt="Card image top"/>
       <div class="card-body1">
@@ -81,7 +82,7 @@ export default function projects() {
       </div>
     </a>
     <a href={ppAzalea} target='_blank' id='card' >
-      <img alt='roof' class="card-img-top1"  alt="Card image top"/>
+      <img alt='roof' class="card-img-top1" src={azalea} alt="Card image top"/>
       <div class="card-body1">
         <h3 class="card-title">Azalea Regional Shopping Center</h3>
         <h4 class="card-subtitle">

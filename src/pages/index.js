@@ -4,22 +4,28 @@ import Layout from '../components/layout'
 import Header from '../components/Header'
 import Main from '../components/Main'
 import Footer from '../components/Footer'
-import { graphql } from 'gatsby'
-import { Carousel } from 'react-bootstrap'
 import '../assets/scss/layout/global.scss'
 import 'normalize.css';
+import Card from 'react-bootstrap/Card'
+import Button from 'react-bootstrap/Button'
+import CardDeck from 'react-bootstrap/CardDeck'
+import '../assets/scss/layout/architectsStepper.scss'
+import bg2 from '../images/bg2-min.jpg'
+import img2 from '../images/Roofing_Edited_10-min.jpg'
+import { Link } from 'gatsby'
+import bgimg from '../images/ASU-min.jpg'
+import pic1 from '../images/QS106_Edited_3-min.jpg'
+import * as Icon from 'react-feather'
+import '../assets/scss/layout/_main.scss'
+import uofa from '../images/uofahonors-min.png'
 
-//images
-import bg1 from '../images/bg1-min.jpg'
-import bg4 from '../images/bg4-min.jpg'
-import labshot from '../../src/images/labShot-min.jpg'
+
+
+import greenguard from '../images/greenguard logo (1).png'
+import abaa from '../images/abaa.svg'
 import icon2 from '../images/icon2.png'
-import ASU from '../images/ASU-min.jpg'
-import uofahonors from '../../src/images/uofahonors-min.png'
-
-//project profiles
-import ppASU from '../images/Project Profile - ASU Greek Village.pdf'
-
+import greenbuilding from '../images/greenbuilding.png'
+import masterSpec from '../images/images.png'
 
 
 import PropTypes from 'prop-types'
@@ -130,63 +136,69 @@ class IndexPage extends React.Component {
     console.log(width, ' px')
     const {data} = this.props;
     return (
-      <Layout location={this.props.location}>
-        <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}`}>
-          <div id="wrapper">
-            <div className='carContainer'>
-            <Carousel data-pause='false' className='carousel'>
-              <Carousel.Item className='item'>
-                <img alt='landing page image' className='car-img' src={bg1} alt= 'this is the first slide'/>
-                <Carousel.Caption className='caption'>
-                  <h3>St. Joseph Hospital</h3>
-                  <h5 className='carTag'>Denver, Colorado</h5>
-                  <button href='/projects/' id='button'><h3>Learn More</h3></button>
-                </Carousel.Caption>
-              </Carousel.Item>
-              <Carousel.Item className='item'>
-                <img alt='landing page image' className='car-img' src={uofahonors} alt= 'this is the first slide'/>
-                <Carousel.Caption className='caption'>
-                  <h3> University of Arizona Honors Student Housing
-                  </h3>
-            <h5 className='carTag'>Tuscon, Arizona</h5>
-                  <button href='/projects/' id='button'><h3>Learn More</h3></button>
-                </Carousel.Caption>
-              </Carousel.Item>
-              <Carousel.Item className='item'>
-                <img alt='landing page image' className='car-img' src={ASU} alt= 'this is the first slide'/>
-                <Carousel.Caption className='caption'>
-                  <h3>Arizona State University Greek Leadership Student Housing </h3>
-                  <h5 className='carTag'>Tempe, Arizona</h5>
-                  <button href={ppASU} id='button'><h3 >Learn More</h3></button>
-                </Carousel.Caption>
-              </Carousel.Item>
-              <Carousel.Item className='item'>
-              <img alt='landing page image' className='car-img' src={bg4} alt= 'this is the second slide'/>
-              <Carousel.Caption className='caption'>
-              <h3>The Church of Jesus Christ of Latter-day Saints Temple</h3>
-              <h5 className='carTag'>Gilbert, Arizona</h5>
-                  <button href='/projects/'id='button'><h3>Learn More</h3></button>
-                </Carousel.Caption>
-              </Carousel.Item>
-            </Carousel>
-            <div className='lpImgContainer'>
-            <img alt='landing page image' alt='swd chemical lab shot'className='secondaryimg' src={labshot}/>
-            <img alt='landing page image' className='lplogo' src={icon2}/>
-            </div>
-            </div>
-            <div className='lp2'>
-              <h3> Learn From The Polyurethane Experts On Our YouTube Channel! </h3>
-              <div className='videoCont'>
-            <iframe width="424" height="238" src="https://www.youtube.com/embed/PzoNv7RF-Kc?allowfullscreen=true" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe width="1280" height="720" src="https://www.youtube.com/embed/pMJPh2sd-uc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe width="270" height="152" src="https://www.youtube.com/embed/zbXsn2G9VEE" frameborder="0" allowfullscreen='1' allow='autoplay'></iframe>
-            </div>
-            </div>
+      <div className='ArchStepperPage'>
+                <img alt='background image' className='stepperimg' src={uofa}></img>
             <Header/>
-            <Footer/>
-          </div>
+        <div className='archStepper'>
+            <div className='stepperPage' >
+            <div className='img-containerHome'>
+                <span>Architects/Specifiers</span>
+            </div>
+            <CardDeck id='cardDeck'>
+                <a href='/architectsInsulation/'className='cardLink'>
+                    <Card className='stepperCard'>
+                        <Card.Img className='cardImg' variant="top" src={pic1} />
+                        <Card.Body id='cardBody'>
+                            <Card.Title id='cardTitle'>Spray Foam Insulation
+                            <Icon.ExternalLink className='insulLink'/>
+                            </Card.Title>
+                                <Card.Text id='cardText'>
+                                QUIK-SHIELD® Spray Foam Insulation is the most effective way to insulate the building envelope.
+                                Available in 1/2lb open cell or 2lb closed cell insulation. 
+                                <ul className='cardTextList'>
+                                <div className='cardTextListTitle'>Benefits Include:</div>
+                                    <li>Air-sealing and eliminating thermal shorts</li>
+                                    <li>Superior energy performance</li>
+                                    <li>Seamless air barrier</li>
+                                </ul>
+                                </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </a>
+                <a className='cardLink' href='/architectsRoofing/'>
+                    <Card className='stepperCard'>
+                        <Card.Img className='cardImg'  variant="top" src={img2} />
+                        <Card.Body id='cardBody'>
+                            <Card.Title id='cardTitle'>
+                                Spray Foam Roofing Systems
+                            <Icon.ExternalLink className='insulLink'/>
+                            </Card.Title>
+                            <Card.Text id='cardText'>
+                            QUIK-SHIELD® Spray Foam Roofing provides a seamless system from roof edge to roof edge.
+                                <ul className='cardTextList'>
+                                <div className='cardTextListTitle'>Benefits Include:</div>
+                                    <li className='cardTextList'>Air Barrier</li>
+                                    <li className='cardTextList'>Self- flashing around penetrations</li>
+                                    <li className='cardTextList'>Thermal resistance</li>
+                                    <li className='cardTextList'>No mechanical fasteners</li>
+                                    <li className='cardTextList'>Cool Roof- reduces expansion and contraction</li>
+                                </ul>
+                                </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </a>
+            </CardDeck>
         </div>
-      </Layout>
+        <div className='isoBand'>
+            <img alt='arch stepper' className='ISO1' src={abaa}></img>
+            <img alt='arch stepper' className='ISO12' src={greenguard}></img>
+            <img alt='arch stepper' className='ISO' src={icon2}></img>
+            <img alt='arch stepper' className='ISO11' src={masterSpec}></img>
+            <img alt='arch stepper' className='ISO1' src={greenbuilding}></img>
+
+        </div>
+        </div>
+        </div>
     )
   }
 }

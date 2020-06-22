@@ -749,6 +749,17 @@
             
         }
     }
+    .ArchStepperPage {
+        width: 100%;
+        height: 100vh;
+        background: white;
+    }
+    .stepperimg {
+        z-index: -10;
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+    }
     .archStepper {
         width: 100%;
         height: 100vh;
@@ -880,6 +891,12 @@
         margin-top: 15px;
         border-radius: 10px;
     }
+    .ISO12 {
+        width: 140px;
+        height: 140px;
+        margin-top: 15px;
+        border-radius: 10px;
+    }
     .insulLink {
         margin-left: 10px;
     
@@ -899,7 +916,13 @@
     .ArchStepperPage {
         width: auto;
         height: 100vh;
-        background: white;
+    }
+    .stepperimg {
+        width: 100%;
+        z-index: -10;
+        height: 100vh;
+        position: fixed;
+        opacity: 80%;
     }
     .archStepper {
         width: 100%;
@@ -908,18 +931,9 @@
         justify-content: center;
         align-items: center;
     }
-    .bgcontainer {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: row;
-        position: fixed;
-    }
-    .bgimg {
-        width: 100%;
-        height: 100%;
-        z-index: 0;
-        object-fit: cover;
+    .img-containerHome {
+        margin-top: 10rem;
+        z-index: 1;
     }
     .stepperPage {
         width: 100%;
@@ -944,7 +958,6 @@
         width: 50vw;
         height: max(30rem);
         background: white;
-        border: 2px solid #294568;
         
     }
     .stepperCard:hover {
