@@ -717,11 +717,18 @@
             
         }
     }
+   
+    .projPage {
+        background: white;
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
     .container-proj {
-        width: 90%;
+        width: 100%;
         height: 100%;
         margin: 0;
-        margin-left: 10%;
         margin-bottom: 5%;
     
     }
@@ -734,6 +741,14 @@
         width: 100%;
         height: auto;
         padding-top: 10%;
+    }
+    .scrollspyTitle {
+        color: rgb(2, 43, 85);
+        font-size: 20pt;
+    }
+    .scrollspyTitle:hover {
+        color: rgb(0, 0, 0);
+        
     }
     #section_1 {
         width: 100%;
@@ -757,7 +772,7 @@
     }
     .card-body1 > h3{
         width: 100%;
-        height: 20%;
+        height: 100px;
         color: black;
         background: white;
         font-size: 15pt;
@@ -765,7 +780,7 @@
     }
     .card-body1 > h4 {
         width: 100%;
-        height: 55%;
+        height: 70px;
         color: black;
         background: white;
         text-align: flex-start;
@@ -780,25 +795,23 @@
         transition: .5s ease;
         width: 60%;
         font-size: 10pt;
-        bottom: 0px;
         align-self: center;
         background: rgb(2, 43, 85);
+        z-index: 10;
     }
     .cardButton:hover {
         background: black;
     }
     .content-container {
         width: 100%;
-        height: 100%;
+        height: auto;
         display: flex;
         flex-direction: column;
         text-align: center;
-        flex-shrink: 0;
     }
-
     .card-columns {
         width: 100%;
-        height: 70vh;
+        height: auto;
         display: inline-flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -806,7 +819,7 @@
     }
     #card {
         width: 400px;
-        height: 70%;
+        height: 100%;
         margin: 1%;
         border-radius: 1%;
         box-shadow: 10px 10px 10px 5px black;

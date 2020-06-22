@@ -7,13 +7,13 @@ import '../assets/scss/layout/architectsStepper.scss'
 import bg2 from '../images/bg2-min.jpg'
 import img2 from '../images/Roofing_Edited_10-min.jpg'
 import { Link } from 'gatsby'
-import bgimg from '../images/bg-min.jpg'
+import bgimg from '../images/ASU-min.jpg'
 import pic1 from '../images/QS106_Edited_3-min.jpg'
 import * as Icon from 'react-feather'
 import '../assets/scss/layout/_main.scss'
 
 
-import greenguard from '../images/greenguard logo (1).png'
+import greenguard from '../images/GREENGUARD.png'
 import abaa from '../images/abaa.svg'
 import icon2 from '../images/icon2.png'
 import greenbuilding from '../images/greenbuilding.png'
@@ -22,7 +22,7 @@ import masterSpec from '../images/images.png'
 
 export default function architectsStepper() {
     return (
-        <div className='page'>
+        <div className='ArchStepperPage'>
             <Header/>
         <div className='archStepper'>
             <div className='stepperPage' >
@@ -73,7 +73,7 @@ export default function architectsStepper() {
         </div>
         <div className='isoBand'>
             <img alt='arch stepper' className='ISO1' src={abaa}></img>
-            <img alt='arch stepper' className='ISO1' src={greenguard}></img>
+            <img alt='arch stepper' className='ISO12' src={greenguard}></img>
             <img alt='arch stepper' className='ISO' src={icon2}></img>
             <img alt='arch stepper' className='ISO11' src={masterSpec}></img>
             <img alt='arch stepper' className='ISO1' src={greenbuilding}></img>

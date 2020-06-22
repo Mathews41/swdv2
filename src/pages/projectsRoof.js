@@ -8,6 +8,9 @@ import '../assets/scss/layout/projects.scss'
 import api from '../images/API-min.jpg'
 import elevation from '../images/elevation shot-min.png'
 import aztech from '../images/ua-tech-park-hero-min.jpg'
+import trend from '../images/Trend.jpg'
+import harley from '../images/harley.jpg'
+
 import ppASU from '../images/Project Profile - ASU Greek Village.pdf'
 import ppHarley from '../images/Project Profile - Harley Davidson.pdf'
 import ppIBM from '../images/Project Profile - IBM - For Review.pdf'
@@ -55,7 +58,7 @@ export default function projects() {
       </div>
     </a>
     <a href={ppHarley} target='_blank' id='card' >
-      <img alt='roof' class="card-img-top1"   alt="Card image top"/>
+      <img alt='roof' class="card-img-top1" src={harley}  alt="Card image top"/>
       <div class="card-body1">
         <h3 class="card-title">Harley Davidson</h3>
         <h4 class="card-subtitle">
@@ -67,7 +70,7 @@ export default function projects() {
 
     </a>
     <a href={ppTrend} target='_blank' id='card' >
-      <img alt='roof' class="card-img-top1"   alt="Card image top"/>
+      <img alt='roof' class="card-img-top1" src={trend}  alt="Card image top"/>
       <div class="card-body1">
         <h3 class="card-title">The Trend at 51 Apartment Homes</h3>
         <h4 class="card-subtitle">
@@ -88,7 +91,7 @@ export default function projects() {
         <button className='cardButton' target='_blank' href={ppAzalea} >Read Full Study</button>
       </div>
     </a>
-    <a href={ppIBM} target='_blank' id='card' >
+    {/* <a href={ppIBM} target='_blank' id='card' >
       <img alt='roof' class="card-img-top1" alt="Card image top"/>
       <div class="card-body1">
         <h3 class="card-title">IBM</h3>
@@ -106,7 +109,7 @@ export default function projects() {
         <h4 class="card-subtitle">Arizona Science and Technology Park</h4>
         <button className='cardButton'>Read Full Study</button>
       </div>
-    </a>
+    </a> */}
     
     </div>
   </div>

@@ -29,7 +29,7 @@ import greenbuilding from '../images/greenbuilding.png'
 import masterSpec from '../images/images.png'
 import icon2 from '../images/icon2.png'
 import abaa from '../images/abaa.svg'
-import greenguard from '../images/greenguard logo (1).png'
+import greenguard from '../images/GREENGUARD.png'
 import cabin from '../images/DSC04667-min.jpg'
 
 //DOCS
@@ -134,7 +134,7 @@ export default function architectsInsulation() {
                                     <a href={ccrr112}
                                     target='_blank' rel='noreferrer' >QS 112 Code Report</a>  
                                     <a href={VOC112}
-                                    target='_blank' rel='noreferrer'>QS 112 VOC </a>
+                                    target='_blank' rel='noreferrer'>QS 112 GREENGUARD </a>
                                     
                             </Media.Body>
                             </Media>
@@ -163,7 +163,7 @@ export default function architectsInsulation() {
                                     <a href={ccrr118}
                                     target='_blank' rel='noreferrer' >QS 118 Code Report</a>  
                                     <a href={VOC118}
-                                    target='_blank' rel='noreferrer'>QS 118 VOC </a>
+                                    target='_blank' rel='noreferrer'>QS 118 GREENGUARD  </a>
                                     
                             </Media.Body>
                         </Media>
@@ -207,7 +207,7 @@ export default function architectsInsulation() {
                 
                 <div className='isoBand1'>
             <img alt='insulation image' className='ISO11' src={abaa}></img>
-            <img alt='insulation image' className='ISO11' src={greenguard}></img>
+            <img alt='insulation image' className='ISO12' src={greenguard}></img>
             <img alt='insulation image' className='ISO1' src={icon2}></img>
             <img alt='insulation image' className='ISO11' src={masterSpec}></img>
             <img alt='insulation image' className='ISO11' src={greenbuilding}></img>

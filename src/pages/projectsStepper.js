@@ -12,7 +12,7 @@ import pic1 from '../images/QS112_Edited_6-min (2).jpg'
 import * as Icon from 'react-feather'
 import '../assets/scss/layout/_main.scss'
 
-import greenguard from '../images/greenguard logo (1).png'
+import greenguard from '../images/GREENGUARD.png'
 import abaa from '../images/abaa.svg'
 import icon2 from '../images/icon2.png'
 import greenbuilding from '../images/greenbuilding.png'
@@ -60,7 +60,7 @@ From roof edge to roof edge QUIK-SHIELD® urethane foam provides a seamless roof
         </div>
         <div className='isoBand'>
             <img alt='stepper' className='ISO1' src={abaa}></img>
-            <img alt='stepper' className='ISO1' src={greenguard}></img>
+            <img alt='stepper' className='ISO12' src={greenguard}></img>
             <img alt='stepper' className='ISO' src={icon2}></img>
             <img alt='stepper' className='ISO11' src={masterSpec}></img>
             <img alt='stepper' className='ISO1' src={greenbuilding}></img>

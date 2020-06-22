@@ -18,7 +18,7 @@ import greenbuilding from '../images/greenbuilding.png'
 import masterSpec from '../images/images.png'
 import icon2 from '../images/icon2.png'
 import abaa from '../images/abaa.svg'
-import greenguard from '../images/greenguard logo (1).png'
+import greenguard from '../images/GREENGUARD.png'
 import api from '../images/API-min.jpg'
 import ASU from '../images/ASU-min.jpg'
 import roofingpic from '../images/Roofing_Edited_5-min.jpg'
@@ -237,7 +237,7 @@ export default function architectsInsulation() {
                 
                         <div className='isoBand1'>
             <img alt='roofing' className='ISO11' src={abaa}></img>
-            <img alt='roofing' className='ISO11' src={greenguard}></img>
+            <img alt='roofing' className='ISO12' src={greenguard}></img>
             <img alt='roofing' className='ISO1' src={icon2}></img>
             <img alt='roofing' className='ISO11' src={masterSpec}></img>
             <img alt='roofing' className='ISO11' src={greenbuilding}></img>
