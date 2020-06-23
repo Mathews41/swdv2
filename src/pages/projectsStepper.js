@@ -11,12 +11,14 @@ import bgimg from '../images/bg-min.jpg'
 import pic1 from '../images/QS112_Edited_6-min (2).jpg'
 import * as Icon from 'react-feather'
 import '../assets/scss/layout/_main.scss'
+import uofa from '../images/uofahonors-min.webp'
 
-import greenguard from '../images/greenguard logo (1).png'
+
+import greenguard from '../images/greenguard logo (1).webp'
 import abaa from '../images/abaa.svg'
 import icon2 from '../images/icon2.png'
 import greenbuilding from '../images/greenbuilding.png'
-import masterSpec from '../images/images.png'
+import masterSpec from '../images/images.webp'
 
 
 
@@ -24,6 +26,7 @@ import masterSpec from '../images/images.png'
 export default function architectsStepper() {
     return (
         <div className='page'>
+            <img alt='background image' className='stepperimg' src={uofa}></img>
             <Header/>
         <div className='archStepper'>
             <div className='stepperPage' >

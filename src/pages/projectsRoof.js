@@ -3,12 +3,12 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import bg from '../images/bg-min.jpg'
 import asu from '../images/ASU-min.jpg'
-import uofahonors from '../images/uofahonors-min.png'
+import uofahonors from '../images/uofahonors-min.webp'
 import '../assets/scss/layout/projects.scss'
-import api from '../images/API-min.jpg'
-import elevation from '../images/elevation shot-min.png'
-import aztech from '../images/ua-tech-park-hero-min.jpg'
-import trend from '../images/Trend.jpg'
+import api from '../images/API-min.webp'
+import elevation from '../images/elevation shot-min.webp'
+import aztech from '../images/ua-tech-park-hero-min.webp'
+import trend from '../images/Trend.webp'
 import harley from '../images/harley.jpg'
 
 import ppASU from '../images/Project Profile - ASU Greek Village.pdf'
@@ -82,7 +82,7 @@ export default function projects() {
       </div>
     </a>
     <a href={ppAzalea} target='_blank' id='card' >
-      <img alt='roof' class="card-img-top1" src={azalea} alt="Card image top"/>
+      <img alt='roof' class="card-img-top12" src={azalea} alt="Card image top"/>
       <div class="card-body1">
         <h3 class="card-title">Azalea Regional Shopping Center</h3>
         <h4 class="card-subtitle">

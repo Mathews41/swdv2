@@ -4,7 +4,7 @@
         width: 100vw;
         height: 100vh;
         margin-top: 7%;
-        background: rgb(0, 0, 0);
+        background: rgb(255, 255, 255);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -67,7 +67,7 @@
         width: 100vw;
         height: auto;
         margin-top: 7%;
-        background: rgb(0, 0, 0);
+        background: rgb(255, 255, 255);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -132,7 +132,7 @@
         width: 100vw;
         height: 100vh;
         margin-top: 7%;
-        background: rgb(0, 0, 0);
+        background: rgb(255, 255, 255);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -195,7 +195,7 @@
         width: 100vw;
         height: 100vh;
         margin-top: 7%;
-        background: rgb(0, 0, 0);
+        background: rgb(255, 255, 255);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -257,8 +257,8 @@
     .detailsPg {
         width: 100vw;
         height: 100vh;
-        margin-top: 7%;
-        background: rgb(0, 0, 0);
+        margin-top: 3%;
+        background: rgb(255, 255, 255);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -275,8 +275,7 @@
     .detailsheader {
         text-align: center;
         width: 40%;
-        height: 20%;
-        padding-top: 1%;
+        height: 10%;
         display: flex;
         flex-direction: column;
         background: rgba(255, 255, 255, 0.842);
@@ -285,14 +284,14 @@
     }
     .detailsheader > h1 {
         color: rgb(0, 0, 0);
-        margin-top: 4%;
+        top: 0;
     }
     .details-content {
         width: 100%;
         height: 60%;
         display: flex;
         flex-direction: row;
-        margin-top: 5%;
+        margin-top: 2%;
         justify-content: space-evenly;
         align-items: start;
         
@@ -326,14 +325,6 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
-    }
-    .detailsImg {
-        width: 100%;
-        height: 100vh;
-        position: fixed;
-        filter: brightness(50%);
-        z-index: 0;
-        
     }
     .detailsheader {
         text-align: center;

@@ -6,7 +6,7 @@ import '../assets/scss/layout/architectsRoofing.scss'
 import Media from 'react-bootstrap/Media'
 import * as Icon from 'react-feather'
 import Header from '../components/Header'
-import arch from '../images/Arch Wall Photo-min.png'
+import arch from '../images/Arch Wall Photo-min.webp'
 import '../assets/scss/layout/architectsStepper.scss'
 import Footer from '../components/Footer'
 import '../assets/scss/layout/global.scss'
@@ -23,13 +23,13 @@ import qs104b from '../images/QS104B.pdf'
 import qs108ymb from '../images/QS108YMB.pdf'
 
 //Images
-import elevation from '../images/elevation shot-min.png'
+import elevation from '../images/elevation shot-min.webp'
 import img2 from '../images/Roofing_Edited_5-min.jpg'
 import greenbuilding from '../images/greenbuilding.png'
-import masterSpec from '../images/images.png'
+import masterSpec from '../images/images.webp'
 import icon2 from '../images/icon2.png'
 import abaa from '../images/abaa.svg'
-import greenguard from '../images/greenguard logo (1).png'
+import greenguard from '../images/greenguard logo (1).webp'
 import cabin from '../images/DSC04667-min.jpg'
 
 //DOCS
@@ -68,7 +68,7 @@ export default function architectsInsulation() {
         <div className='arch-page'>
         <Header/>
             <div className='img-container1'>
-                <span>Architects/Specifiers</span>
+                <span>Spray Foam Insulation</span>
             </div>
            
             <div className='accordian-container1'>

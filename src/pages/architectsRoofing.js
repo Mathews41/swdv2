@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card'
 import '../assets/scss/layout/architectsRoofing.scss'
 import Media from 'react-bootstrap/Media'
 import * as Icon from 'react-feather'
-import elevation from '../images/elevation shot-min.png'
+import elevation from '../images/elevation shot-min.webp'
 import img2 from '../images/Roofing_Edited_5-min.jpg'
 import Header from '../components/Header'
 
@@ -15,12 +15,12 @@ import TDS15525 from '../images/TDS-QS-155-2.5.pdf'
 import spec155 from '../images/spec155.pdf'
 import '../assets/scss/layout/architectsStepper.scss'
 import greenbuilding from '../images/greenbuilding.png'
-import masterSpec from '../images/images.png'
+import masterSpec from '../images/images.webp'
 import icon2 from '../images/icon2.png'
 import abaa from '../images/abaa.svg'
-import greenguard from '../images/greenguard logo (1).png'
-import api from '../images/API-min.jpg'
-import ASU from '../images/ASU-min.jpg'
+import greenguard from '../images/greenguard logo (1).webp'
+import api from '../images/API-min.webp'
+import ASU from '../images/ASU-min.webp'
 import roofingpic from '../images/Roofing_Edited_5-min.jpg'
 import {Link} from 'gatsby'
 import '../assets/scss/layout/global.scss'
@@ -62,7 +62,7 @@ export default function architectsInsulation() {
         <div className='arch-page'>
         <Header/>
             <div className='img-container1'>
-                <span className='headspan'>Architects/Specifiers</span>
+                <span className='headspan'>Roofing Systems</span>
 
                </div>
             <div className='accordian-container1'>

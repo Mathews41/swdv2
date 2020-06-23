@@ -5,7 +5,7 @@ import Media from 'react-bootstrap/Media'
 import * as Icon from 'react-feather'
 import '../assets/scss/layout/details.scss'
 import Header from '../components/Header'
-import uofahero from '../images/ua-tech-park-hero-min.jpg'
+import uofahero from '../images/ua-tech-park-hero-min.webp'
 
 
 // files
@@ -100,7 +100,6 @@ export default function details() {
             <div className='detailsPg'>
             <div className='detailsheader'>
                 <h1>Details & Drawings</h1>
-                <p></p>
             </div>
 
             {/* Main Content */}

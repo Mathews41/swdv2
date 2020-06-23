@@ -740,6 +740,7 @@
     #section_0 {
         width: 100%;
         height: auto;
+        background: white;
         padding-top: 10%;
     }
     .scrollspyTitle {
@@ -799,6 +800,10 @@
         background: rgb(2, 43, 85);
         z-index: 10;
     }
+    .card-img-top12 {
+        width: 130%;
+        height: 225px;
+    }
     .cardButton:hover {
         background: black;
     }
@@ -821,6 +826,7 @@
         width: 400px;
         height: 100%;
         margin: 1%;
+        background: white;
         border-radius: 1%;
         box-shadow: 10px 10px 10px 5px black;
         display: flex;

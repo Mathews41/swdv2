@@ -5,7 +5,7 @@ import appstore from '../images/appstore-min.png'
 import googleplay from '../images/googleplay.png'
 import facebook from '../images/facebook.jpeg'
 import linkedin from '../images/linkedin.png'
-import youtube from '../images/youtube.png'
+import youtube from '../images/youtube.webp'
 
 
 
