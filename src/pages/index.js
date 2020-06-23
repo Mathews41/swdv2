@@ -7,13 +7,10 @@ import Footer from '../components/Footer'
 import '../assets/scss/layout/global.scss'
 import 'normalize.css';
 import Card from 'react-bootstrap/Card'
-import Button from 'react-bootstrap/Button'
 import CardDeck from 'react-bootstrap/CardDeck'
 import '../assets/scss/layout/architectsStepper.scss'
-import bg2 from '../images/bg2-min.jpg'
 import img2 from '../images/Roofing_Edited_10-min.webp'
 import { Link } from 'gatsby'
-import bgimg from '../images/ASU-min.webp'
 import pic1 from '../images/QS106_Edited_3-min.webp'
 import * as Icon from 'react-feather'
 import '../assets/scss/layout/_main.scss'
@@ -22,9 +19,9 @@ import uofa from '../images/uofahonors-min.webp'
 
 
 import greenguard from '../images/greenguard logo (1).webp'
-import abaa from '../images/abaa.svg'
-import icon2 from '../images/icon2.png'
-import greenbuilding from '../images/greenbuilding.png'
+import abaa from '../images/abaa.webp'
+import icon2 from '../images/icon2.webp'
+import greenbuilding from '../images/greenbuilding.webp'
 import masterSpec from '../images/images.webp'
 
 

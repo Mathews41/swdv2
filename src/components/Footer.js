@@ -1,10 +1,10 @@
 import React from 'react'
 
-import logo from '../images/icon3.png'
-import appstore from '../images/appstore-min.png'
-import googleplay from '../images/googleplay.png'
-import facebook from '../images/facebook.jpeg'
-import linkedin from '../images/linkedin.png'
+import logo from '../images/icon3.webp'
+import appstore from '../images/appstore-min.webp'
+import googleplay from '../images/googleplay.webp'
+import facebook from '../images/facebook.webp'
+import linkedin from '../images/linkedin.webp'
 import youtube from '../images/youtube.webp'
 
 

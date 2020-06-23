@@ -24,13 +24,13 @@ import qs108ymb from '../images/QS108YMB.pdf'
 
 //Images
 import elevation from '../images/elevation shot-min.webp'
-import img2 from '../images/Roofing_Edited_5-min.jpg'
-import greenbuilding from '../images/greenbuilding.png'
+import img2 from '../images/Roofing_Edited_5-min.webp'
+import greenbuilding from '../images/greenbuilding.webp'
 import masterSpec from '../images/images.webp'
-import icon2 from '../images/icon2.png'
+import icon2 from '../images/icon2.webp'
 import abaa from '../images/abaa.svg'
 import greenguard from '../images/greenguard logo (1).webp'
-import cabin from '../images/DSC04667-min.jpg'
+import cabin from '../images/DSC04667-min.webp'
 
 //DOCS
 import ccrr108 from '../images/CCRR-108.pdf'
@@ -55,7 +55,6 @@ import TDS104 from '../images/TDS104.pdf'
 import eval106 from '../images/VOC106.pdf'
 import roofrating106 from '../images/CR106.pdf'
 import TDS106 from '../images/TDS106.pdf'
-import clickLogo from '../images/clicklogo.svg'
 import ppUofNC from '../images/Project Profile - University of North Carolina.pdf'
 import ppAPI from '../images/Project Profile - SPF Continuous Insulation.pdf'
 

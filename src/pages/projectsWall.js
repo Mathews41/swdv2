@@ -1,18 +1,18 @@
 import React from 'react'
 import Header from '../components/Header'
-import bg from '../images/bg-min.jpg'
+import bg from '../images/bg-min.webp'
 import asu from '../images/ASU-min.webp'
 import uofahonors from '../images/uofahonors-min.webp'
 import '../assets/scss/layout/projects.scss'
 import api from '../images/API-min.webp'
 import elevation from '../images/elevation shot-min.webp'
-import aztech from '../images/aztech-min.jpg'
+import aztech from '../images/aztech-min.webp'
 import Footer from '../components/Footer'
 import ppUofNC from '../images/Project Profile - University of North Carolina.pdf'
 import ppAPI from '../images/Project Profile - SPF Continuous Insulation.pdf'
 import ppCola from '../images/Project Profile - Coca-Cola Warehouse Office.pdf'
 import ppWood from '../images/Project Profile - Woodville Farms.pdf'
-import cola from '../images/coca cola.jpg'
+import cola from '../images/coca cola.webp'
 
 
 
