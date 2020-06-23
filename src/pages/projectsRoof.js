@@ -7,14 +7,14 @@ import uofahonors from '../images/uofahonors-min.webp'
 import '../assets/scss/layout/projects.scss'
 import api from '../images/API-min.webp'
 import elevation from '../images/elevation shot-min.webp'
-import aztech from '../images/ua-tech-park-hero-min.webp'
+import aztech from '../images/techpark.webp'
 import trend from '../images/Trend.webp'
 import harley from '../images/harley.webp'
 
 import ppASU from '../images/Project Profile - ASU Greek Village.pdf'
 import ppHarley from '../images/Project Profile - Harley Davidson.pdf'
 import ppIBM from '../images/Project Profile - IBM - For Review.pdf'
-import azalea from '../images/Azalea (1).webp'
+import azalea from '../images/azalea.webp'
 import ppAzalea from '../images/Project Prolife - Azalea Regional Shopping Center - SJP ORIGINAL EDITS (2).pdf'
 import ppTrend from '../images/Project Profile - The Trend at 51 Apartment Homes.pdf'
 
@@ -82,7 +82,7 @@ export default function projects() {
       </div>
     </a>
     <a href={ppAzalea} target='_blank' id='card' >
-      <img alt='roof' class="card-img-top12" src={azalea} alt="Card image top"/>
+      <img alt='roof' class="card-img-top1" src={azalea} alt="Card image top"/>
       <div class="card-body1">
         <h3 class="card-title">Azalea Regional Shopping Center</h3>
         <h4 class="card-subtitle">
@@ -102,15 +102,15 @@ export default function projects() {
         </h4>
         <button className='cardButton' target='_blank' href={ppIBM}>Read Full Study</button>
       </div>
-    </a>
-    <a href={ppASU} target='_blank' id='card' >
+    </a> */}
+    <a href={ppIBM} target='_blank' id='card' >
       <img alt='roof' class="card-img-top1"  src={aztech} alt="Card image top"/>
       <div class="card-body1">
         <h3 class="card-title">University of Arizona</h3>
         <h4 class="card-subtitle">Arizona Science and Technology Park</h4>
-        <button className='cardButton'>Read Full Study</button>
+        <button href={ppIBM} className='cardButton'>Read Full Study</button>
       </div>
-    </a> */}
+    </a>
     
     </div>
   </div>

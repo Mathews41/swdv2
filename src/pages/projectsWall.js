@@ -13,7 +13,10 @@ import ppUofNC from '../images/Project Profile - University of North Carolina.pd
 import ppAPI from '../images/Project Profile - SPF Continuous Insulation.pdf'
 import ppCola from '../images/Project Profile - Coca-Cola Warehouse Office.pdf'
 import ppWood from '../images/Project Profile - Woodville Farms.pdf'
+import ppYulman from '../images/Project Profile - Yulman.pdf'
+
 import cola from '../images/coca cola.webp'
+import jul from '../images/yul-overall.webp'
 
 
 
@@ -37,7 +40,7 @@ export default function projects() {
     
     
     <a href={ppUofNC} target='_blank' rel='noreferrer' id='card' >
-      <img alt='insulation' class="card-img-top1"  src={elevation} alt="Card image top"/>
+      <img alt='insulation' class="card-img-top12"  src={elevation} alt="Card image top"/>
       <div class="card-body1">
         <h3 class="card-title">University of North Carolina</h3>
         <h4 class="card-subtitle">University of North Carolina at
@@ -69,25 +72,22 @@ Wilmington, NC</h4>
         <button href={ppAPI} target='_blank' rel='noreferrer' className='cardButton'>Read Full Study</button>
       </div>
     </a>
+    <a href={ppYulman} target='_blank' rel='noreferrer' id='card' >
+      <img alt='insulation' class="card-img-top1"  src={jul} alt="Card image top"/>
+      <div class="card-body1">
+        <h3 class="card-title">Woodville Farms</h3>
+        <h4 class="card-subtitle">Woodville, Ontario Canada</h4>
+        <button href={ppYulman} target='_blank' rel='noreferrer' className='cardButton'>Read Full Study</button>
+      </div>
+    </a>
     <a href={ppWood} target='_blank' rel='noreferrer' id='card' >
       <img alt='insulation' class="card-img-top12"  src={woodville} alt="Card image top"/>
       <div class="card-body1">
         <h3 class="card-title">Woodville Farms</h3>
         <h4 class="card-subtitle">Woodville, Ontario Canada</h4>
-        <button href={ppAPI} target='_blank' rel='noreferrer' className='cardButton'>Read Full Study</button>
+        <button href={ppWood} target='_blank' rel='noreferrer' className='cardButton'>Read Full Study</button>
       </div>
     </a>
-    <div id='card' >
-      <img alt='insulation' class="card-img-top1"  src={bg} alt="Card image top"/>
-      <div class="card-body1">
-        <h3 class="card-title">Yullman Stadium</h3>
-        <h4 class="card-subtitle">
-            Tulane University Yulman Stadium
-            New Orleans LA
-        </h4>
-        <button className='cardButton'>Read Full Study</button>
-      </div>
-    </div>
     </div>
   </div>
   </div>
