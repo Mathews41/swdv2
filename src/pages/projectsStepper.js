@@ -15,7 +15,7 @@ import uofa from '../images/uofahonors-min.webp'
 
 
 import greenguard from '../images/greenguard logo (1).webp'
-import abaa from '../images/abaa.webp'
+import abaa from '../images/abaa.svg'
 import icon2 from '../images/icon2.webp'
 import greenbuilding from '../images/greenbuilding.webp'
 import masterSpec from '../images/images.webp'

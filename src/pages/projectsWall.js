@@ -8,6 +8,7 @@ import api from '../images/API-min.webp'
 import elevation from '../images/elevation shot-min.webp'
 import aztech from '../images/aztech-min.webp'
 import Footer from '../components/Footer'
+import woodville from '../images/Woodville Farms.webp'
 import ppUofNC from '../images/Project Profile - University of North Carolina.pdf'
 import ppAPI from '../images/Project Profile - SPF Continuous Insulation.pdf'
 import ppCola from '../images/Project Profile - Coca-Cola Warehouse Office.pdf'
@@ -65,8 +66,16 @@ Wilmington, NC</h4>
       <div class="card-body1">
         <h3 class="card-title">API Training Center</h3>
         <h4 class="card-subtitle">New Brighton, MN</h4>
-      </div>
         <button href={ppAPI} target='_blank' rel='noreferrer' className='cardButton'>Read Full Study</button>
+      </div>
+    </a>
+    <a href={ppWood} target='_blank' rel='noreferrer' id='card' >
+      <img alt='insulation' class="card-img-top12"  src={woodville} alt="Card image top"/>
+      <div class="card-body1">
+        <h3 class="card-title">Woodville Farms</h3>
+        <h4 class="card-subtitle">Woodville, Ontario Canada</h4>
+        <button href={ppAPI} target='_blank' rel='noreferrer' className='cardButton'>Read Full Study</button>
+      </div>
     </a>
     <div id='card' >
       <img alt='insulation' class="card-img-top1"  src={bg} alt="Card image top"/>
@@ -76,8 +85,8 @@ Wilmington, NC</h4>
             Tulane University Yulman Stadium
             New Orleans LA
         </h4>
-      </div>
         <button className='cardButton'>Read Full Study</button>
+      </div>
     </div>
     </div>
   </div>
