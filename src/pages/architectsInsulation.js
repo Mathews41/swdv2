@@ -69,7 +69,31 @@ export default function architectsInsulation() {
             <div className='img-container1'>
                 <span>Spray Foam Insulation</span>
             </div>
-           
+           <div className='pros'>
+               <h1>Considerations for selecting Foam Insulation:</h1>
+               <div className='pros1'>
+               <ul>
+                   Open cell
+                   <li>Low density 0.4-0.5 lbs/ft³ polyurethane foam</li>
+                   <li>Air barrier material at specified thicknesses</li>
+                   <li>Vapor permeable-Allowsw for bi-directional drying (drying to the exterior in winter and to the interiour in summer)</li>
+                   <li>Excellent sound absorbtion</li>
+                   <li>Interior applications only</li>
+                   <li>Recommended for those applications where bi-directional drying are advangeous such as in IECC Climate Zones 1-4</li>
+
+               </ul>
+               <ul>
+                   Closed Cell
+                   <li>Medium density 2 lbs/ft³, semi-rigid polyurethane foam</li>
+                   <li>Air barrier material and class II vapor retarder at specified thicknesses</li>
+                   <li>Exterior CI (Continuous Insulation) applications under specified thicknesses</li>
+                   <li>Low water absorption properties and FEMA recognized Class 5 material as "highly resistant to flood water damage"</li>
+                   <li>Superior mechanical attributes that can enhance structural properties</li>
+                   <li>Recommended for those applications where thermal and water vapor performance are critical such as in IECC Climate Zone 5 and higher and various specialized applications such as freezers, coolers, indoor swimming pools etc.</li>
+
+               </ul>
+               </div>
+           </div>
             <div className='accordian-container1'>
                 <Accordion className='accordian1' defaultActiveKey="0">
                     <h4>QUIK-SHIELD® Open Cell Products</h4>

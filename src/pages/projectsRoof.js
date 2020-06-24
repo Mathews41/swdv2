@@ -13,7 +13,7 @@ import harley from '../images/harley.webp'
 
 import ppASU from '../images/Project Profile - ASU Greek Village.pdf'
 import ppHarley from '../images/Project Profile - Harley Davidson.pdf'
-import ppIBM from '../images/Project Profile - IBM - For Review.pdf'
+import ppIBM from '../images/IBM.pdf'
 import azalea from '../images/azalea.webp'
 import ppAzalea from '../images/Project Prolife - Azalea Regional Shopping Center - SJP ORIGINAL EDITS (2).pdf'
 import ppTrend from '../images/Project Profile - The Trend at 51 Apartment Homes.pdf'

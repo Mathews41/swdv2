@@ -75,8 +75,9 @@ Wilmington, NC</h4>
     <a href={ppYulman} target='_blank' rel='noreferrer' id='card' >
       <img alt='insulation' class="card-img-top1"  src={jul} alt="Card image top"/>
       <div class="card-body1">
-        <h3 class="card-title">Woodville Farms</h3>
-        <h4 class="card-subtitle">Woodville, Ontario Canada</h4>
+        <h3 class="card-title">YULMAN STADIUM
+TULANE UNIVERSITY</h3>
+        <h4 class="card-subtitle">New Orleans, LA</h4>
         <button href={ppYulman} target='_blank' rel='noreferrer' className='cardButton'>Read Full Study</button>
       </div>
     </a>

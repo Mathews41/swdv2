@@ -465,18 +465,24 @@
             
         }
     }
-    .archStepper {
-        width: 100%;
+    .ArchStepperPage {
+        width: 100vw;
         height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        background: rgba(0, 0, 0, 0.473);
     }
     .stepperimg {
         z-index: -10;
-        width: fit-content;
-        height: fit-content;
-        position: absolute;
+        width: 120%;
+        height: 100%;
+        position: fixed;
+    }
+    .archStepper {
+        width: 100%;
+        height: auto;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .bgimg {
         width: 100%;
@@ -488,25 +494,52 @@
     }
     .stepperPage {
         width: 100%;
-        height: 60%;
+        height: 30%;
         z-index: 1;
+        background: white;
         display: flex;
         align-items: flex-start;
-        margin-top: -10%;
+        margin-top: 5%;
+        margin-bottom: 30px;
     }
     #cardDeck {
         width: 100%;
-        height: 70%;
+        height: 30%;
         z-index: 2;
         position: absolute;
         display: flex;
         margin: 0;
+        margin-top: 5%;
+        align-items: center;
         justify-content: center;
         animation: fadeInAnimation 1s  0s 1 normal ;
     }
     .stepperCard {
-        width: 50vw;
-        
+        width:45vw;
+        align-self: center;
+    }
+    .cardImg {
+        height: 10rem;
+    }
+    .cardLink {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        margin-top: 2%;
+        flex-direction: column;
+        justify-self: center;
+    
+    }
+    
+    #cardTitle {
+     font-size: 18pt;
+    }
+    #cardText {
+        font-size: 12pt;
+        display: none;
+    }
+    #cardBody {
+        padding: 15px;
     }
     #cardTextList {
         display: flex;
@@ -529,39 +562,10 @@
         font-size: 18pt;
         margin-top: 2%;
     }
-    .stepperCard:hover {
-        background: rgb(167, 167, 167);
-        transition-duration: .3s;
-        transform: scale(1.05);
-    }
-    .cardImg {
-        height: 9rem;
-    }
-    .cardLink:hover {
-        color: inherit;
-    }
-    .cardLink {
-        width: 50%;
-        height: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-self: center;
-    
-    }
-    
-    #cardTitle {
-     font-size: 18pt;
-    }
-    #cardText {
-        font-size: 10pt;
-    }
-    #cardBody {
-        padding: 15px;
-    }
     .isoBand {
         width: 78.5vw;
         background: white;
-        height: 80px;
+        height: 100px;
         z-index: 4;
         overflow: hidden;
         position: absolute;
@@ -574,14 +578,14 @@
         border-radius: 10px;
     }
     .ISO {
-        width: 70px;
-        height: 70px;
+        width: 80px;
+        height: 80px;
         display: flex;
     }
     .isoBand1 {
         width: 100%;
         background: white;
-        height: 140px;
+        height: 100px;
         z-index: 4;
         bottom: 0;
         display: flex;
@@ -592,14 +596,19 @@
         border-radius: 10px;
     }
     .ISO1 {
-        width: 70px;
-        height: 70px;
+        width: 80px;
+        height: 80px;
         display: flex;
     }
     .ISO11 {
-        width: 70px;
-        height: 70px;
+        width: 80px;
+        height: 80px;
         margin-top: 15px;
+        border-radius: 10px;
+    }
+    .ISO12 {
+        width: 115px;
+        height: 120px;
         border-radius: 10px;
     }
     .insulLink {

@@ -30,6 +30,27 @@
         // box-shadow: 10px 10px 10px black;
         text-shadow: 5px 5px 5px black;
     }
+    .pros {
+        width: 100%;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .pros > ul {
+        width: 40%;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        font-size: 24pt;
+        align-items: flex-start;
+        justify-items: flex-start;
+    }
+    .pros > ul > li {
+        font-size: 14pt;;
+        list-style-type: disc;
+    }
     .split-img11 {
         width: 50%;
         height: 30vh;
@@ -657,6 +678,27 @@
         text-shadow: 5px 5px 5px black;
         margin-top: 10%;
     }
+    .pros {
+        width: 100%;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .pros > ul {
+        width: 40%;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        font-size: 24pt;
+        align-items: flex-start;
+        justify-items: flex-start;
+    }
+    .pros > ul > li {
+        font-size: 14pt;;
+        list-style-type: disc;
+    }
     .split-img11 {
         width: 50%;
         height: 10vh;
@@ -1138,7 +1180,27 @@
         height: auto;
         background: rgb(255, 255, 255);
     }
-   
+    .pros {
+        width: 100%;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .pros > ul {
+        width: 40%;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        font-size: 24pt;
+        align-items: flex-start;
+        justify-items: flex-start;
+    }
+    .pros > ul > li {
+        font-size: 14pt;;
+        list-style-type: disc;
+    }
     .img-container1 > span {
         width: 100%;
         height: 13.3%;
@@ -1761,39 +1823,57 @@
         height: auto;
         background: rgb(255, 255, 255);
         margin: 0;
-        // display: flex;
-        // flex-direction: column;
-        // background: url(../../../images/bg.jpg)no-repeat center fixed;
-        // background-size: cover;
         display: flex;
         align-items: center;
         flex-direction: column;
+        overflow: hidden;
         
     }
     .arch-page {
         width: 100%;
         height: auto;
         background: rgb(255, 255, 255);
+        margin-top: 9%;
     }
-   
-    .img-container1 > span {
-        width: 100%;
-        height: 10vh;
-        position: absolute;
-        font-size: 48pt;
-        background: rgba(2, 43, 85, 0.623);
-        color: rgb(252, 252, 252);
-        // box-shadow: 10px 10px 10px black;
-        text-shadow: 5px 5px 5px black;
-        margin-top: 5%;
-    }
-    .split-img11 {
-        width: 50%;
-        height: 10vh;
-        margin: 0;
-        padding: 0;
-        margin-top: 10%;
-    }
+   .img-container1 {
+       color: black;
+       font-size: 40pt;
+       text-align: center;
+   }
+   .pros {
+       width: 100%;
+       margin-top: 2%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-evenly;
+       background: rgb(216, 216, 216);
+   }
+   .pros > h1 {
+       font-size: 22pt;
+       color: rgb(0, 0, 0);
+       letter-spacing: .2rem;
+       text-align: center;
+   }
+   .pros1 {
+       display: flex;
+       flex-direction: row;
+       align-items: flex-start;
+       justify-content: space-evenly;
+   }
+   .pros1 > ul {
+       width: 40%;
+       color: rgb(0, 0, 0);
+       display: flex;
+       flex-direction: column;
+       font-size: 20pt;
+       align-items: flex-start;
+       justify-items: flex-start;
+   }
+   .pros1 > ul > li {
+       font-size: 12pt;;
+       list-style-type: disc;
+   }
     .accordian-container1 {
         width: 100%;
         height: auto;
@@ -1802,6 +1882,11 @@
         justify-content: space-evenly;
         flex-direction: row;
         margin-bottom: 10px;
+        
+    }
+    .clicklogo {
+        width: 10%;
+        height: 10%;
     }
     .accordian-container2 {
         width: 100%;
@@ -1813,7 +1898,7 @@
         
     }
     .accordian1 {
-        width: 50%;
+        width: 60%;
         height: 100%;
         background: rgba(2, 43, 85, 0.897);
         z-index: 2;
@@ -1822,6 +1907,10 @@
         border-radius: 10px;;
         flex-shrink: 1;
         
+    }
+    .accordian1 > h4 {
+        color: white;
+        text-align: center;
     }
     .drawingContainer {
         width: 100%;
@@ -1967,6 +2056,13 @@
         color: rgb(59,0,255);
         
     }
+    #oemButton {
+        background: blue;
+        color: white;
+        display: flex;  
+        align-items: center;
+        justify-content: center;
+    }
     .productSpecs > li {
         font-size: 14pt;
         color: green;
@@ -1995,9 +2091,7 @@
         width: 14%;
         word-wrap: break-word;
     }
-    .accordian1 > h4 {
-        color: white;
-    }
+   
     .accordian2 > h4 {
         color: white;
     }
@@ -2017,6 +2111,9 @@
         justify-content: flex-start;
         align-items: center;
         
+    }
+    .toggle1 > h6 {
+        font-size: 12pt;
     }
     .imgsLower {
         width: 20%;
@@ -2219,7 +2316,7 @@
     }
     .upperText1 {
         display: flex;
-        width: 80%;
+        width: 50%;
         // background-image: linear-gradient(rgba(2, 43, 85, 0.836) 70%, rgb(255, 255, 255));
         flex-direction: column;
         align-items: center;
@@ -2324,114 +2421,80 @@
     .redli {
         color: red;
     }
-    .building {
-        width: 600px;
-        height: 315px; 
-        border-radius: 20px;
-        padding: 10px;
-    }
-    .buildings {
-        width: 400px;
-        height: 200px; 
-        border-radius: 20px;
-        padding: 10px;
-        margin-left: 3%;
-        display: none;
-
-        
-    }
-    .buildings2 {
-        width: 400px;
-        height: 200px; 
-        border-radius: 20px;
-        padding: 10px;
-        margin-right: 3%;
-        display: none;
-
     
-        
-    }
-    #upperTextArch {
-        flex-shrink: 0;
-    }
-    .pictext {
-        width: 460px;
-        color: black;
-        display: flex;
-        font-size: 11pt;
-        padding-right: 10px;
-        text-align: center;
-        justify-content: center;
-        margin-left: 0rem;
-        font-style: italic;
-        display: none;
-
-    
-    }
-    .pictext1 {
-        width: 460px;
-        color: black;
-        display: flex;
-        font-size: 11pt;
-        text-align: center;
-        padding-right: 40px;
-        justify-content: center;
-        font-style: italic;
-        display: none;
-
-    }
-    .lowerPicText {
-        width: 460px;
-        color: black;
-        display: flex;
-        font-size: 11pt;
-        justify-content: center;
-        margin-left: 3rem;
-    }
     
     
 }
 @media (min-width: 981px) and (max-width: 1280px){
-    .arch-page {
-        width: 100%;
-        height: 100%;
+    .page {
+        width: auto;
+        height: auto;
         background: rgb(255, 255, 255);
-        margin-top: 5%;
-    }
-    .img-container1 {
-        width: 100%;
-        height: 13.3%;
+        margin: 0;
         display: flex;
-        text-align: center;
         align-items: center;
-        justify-content: center;
-        flex-shrink: 0;
+        flex-direction: column;
+        overflow: hidden;
         
     }
-    .img-container1 > span {
+    .arch-page {
         width: 100%;
-        height: 10vh;
-        position: absolute;
-        font-size: 42pt;
-        color: black;
-        margin-top: 10%;
+        height: auto;
+        background: rgb(255, 255, 255);
+        margin-top: 7%;
     }
-    .split-img11 {
-        width: 50%;
-        height: 10vh;
-        margin: 0;
-        padding: 0;
-        margin-top: 10%;
-    }
+   .img-container1 {
+       color: black;
+       font-size: 45pt;
+       text-align: center;
+   }
+   .pros {
+       width: 100%;
+       margin-top: 2%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-evenly;
+       background: rgb(216, 216, 216);
+   }
+   .pros > h1 {
+       font-size: 25pt;
+       color: rgb(0, 0, 0);
+       letter-spacing: .2rem;
+       text-align: center;
+   }
+   .pros1 {
+       display: flex;
+       flex-direction: row;
+       align-items: flex-start;
+       justify-content: space-evenly;
+   }
+   .pros1 > ul {
+       width: 40%;
+       color: rgb(0, 0, 0);
+       display: flex;
+       flex-direction: column;
+       font-size: 20pt;
+       align-items: flex-start;
+       justify-items: flex-start;
+   }
+   .pros1 > ul > li {
+       font-size: 14pt;;
+       list-style-type: disc;
+   }
     .accordian-container1 {
         width: 100%;
         height: auto;
-        margin-top: 15%;
         position: relative;
         display: flex;
         justify-content: space-evenly;
         flex-direction: row;
         margin-bottom: 10px;
+        
+    }
+    .clicklogo {
+        width: 10%;
+        height: 10%;
     }
     .accordian-container2 {
         width: 100%;
@@ -2443,7 +2506,7 @@
         
     }
     .accordian1 {
-        width: 80%;
+        width: 60%;
         height: 100%;
         background: rgba(2, 43, 85, 0.897);
         z-index: 2;
@@ -2452,6 +2515,10 @@
         border-radius: 10px;;
         flex-shrink: 1;
         
+    }
+    .accordian1 > h4 {
+        color: white;
+        text-align: center;
     }
     .drawingContainer {
         width: 100%;
@@ -2486,6 +2553,9 @@
         margin: 1%;
         border-radius: 10px;;
         flex-shrink: 1;
+    
+        
+        
     }
     .collapse1 {
         width: 100%;
@@ -2594,6 +2664,13 @@
         color: rgb(59,0,255);
         
     }
+    #oemButton {
+        background: blue;
+        color: white;
+        display: flex;  
+        align-items: center;
+        justify-content: center;
+    }
     .productSpecs > li {
         font-size: 14pt;
         color: green;
@@ -2622,13 +2699,9 @@
         width: 14%;
         word-wrap: break-word;
     }
-    .accordian1 > h4 {
-        color: white;
-        text-align: center;
-    }
+   
     .accordian2 > h4 {
         color: white;
-        text-align: center;
     }
     .rtside1 {
         width: 30%;
@@ -2646,6 +2719,9 @@
         justify-content: flex-start;
         align-items: center;
         
+    }
+    .toggle1 > h6 {
+        font-size: 12pt;
     }
     .imgsLower {
         width: 20%;
@@ -2835,25 +2911,24 @@
     }
     .upperText {
         display: flex;
-        position: relative;
         width: 100%;
+        // background-image: linear-gradient(rgba(2, 43, 85, 0.836) 70%, rgb(255, 255, 255));
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
-        padding-top: 20px;
-        margin-right: 0;
+        padding-top: 30px;
         
     }
     .upperText > div {
-        flex-shrink: 0;
+        flex-shrink: 1;
     }
     .upperText1 {
         display: flex;
-        width: 80%;
+        width: 50%;
         // background-image: linear-gradient(rgba(2, 43, 85, 0.836) 70%, rgb(255, 255, 255));
         flex-direction: column;
         align-items: center;
-        padding-top: 20px;
+        padding-top: 30px;
         
     }
     .htiltle {
@@ -2953,63 +3028,6 @@
     }
     .redli {
         color: red;
-    }
-    .building {
-        width: 600px;
-        height: 315px; 
-        border-radius: 20px;
-        padding: 10px;
-    }
-    .buildings {
-        width: 300px;
-        height: 200px; 
-        border-radius: 20px;
-        padding: 10px;
-        margin-left: 3%;    
-        display: none;
-    }
-    .buildings2 {
-        width: 300px;
-        height: 200px; 
-        border-radius: 20px;
-        padding: 10px;
-        margin-right: 3%;
-        display: none;
-    
-        
-    }
-    .pictext {
-        width: 460px;
-        color: black;
-        display: flex;
-        font-size: 11pt;
-        padding-right: 10px;
-        text-align: center;
-        justify-content: center;
-        margin-left: 0rem;
-        font-style: italic;
-        display: none;
-
-    
-    }
-    .pictext1 {
-        width: 460px;
-        color: black;
-        display: flex;
-        font-size: 11pt;
-        text-align: center;
-        padding-right: 40px;
-        justify-content: center;
-        font-style: italic;
-        display: none;
-    }
-    .lowerPicText {
-        width: 460px;
-        color: black;
-        display: flex;
-        font-size: 11pt;
-        justify-content: center;
-        margin-left: 3rem;
     }
     
     
@@ -3040,7 +3058,39 @@
        font-size: 48pt;
        text-align: center;
    }
-  
+   .pros {
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgb(216, 216, 216);
+}
+.pros > h1 {
+    font-size: 28pt;
+    color: rgb(0, 0, 0);
+    letter-spacing: .2rem;
+}
+.pros1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pros1 > ul {
+    width: 40%;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    font-size: 24pt;
+    align-items: flex-start;
+    justify-items: flex-start;
+}
+.pros1 > ul > li {
+    font-size: 14pt;;
+    list-style-type: disc;
+}
     .accordian-container1 {
         width: 100%;
         height: auto;
@@ -3657,20 +3707,53 @@
         display: flex;
         align-items: center;
         flex-direction: column;
+        overflow: hidden;
         
     }
     .arch-page {
         width: 100%;
         height: auto;
         background: rgb(255, 255, 255);
-        margin-top: 10%;
+        margin-top: 7%;
     }
    .img-container1 {
        color: black;
        font-size: 48pt;
        text-align: center;
    }
-  
+   .pros {
+       width: 100%;
+       margin-top: 2%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-evenly;
+       background: rgb(216, 216, 216);
+   }
+   .pros > h1 {
+       font-size: 28pt;
+       color: rgb(0, 0, 0);
+       letter-spacing: .2rem;
+   }
+   .pros1 {
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: space-evenly;
+   }
+   .pros1 > ul {
+       width: 40%;
+       color: rgb(0, 0, 0);
+       display: flex;
+       flex-direction: column;
+       font-size: 24pt;
+       align-items: flex-start;
+       justify-items: flex-start;
+   }
+   .pros1 > ul > li {
+       font-size: 14pt;;
+       list-style-type: disc;
+   }
     .accordian-container1 {
         width: 100%;
         height: auto;
