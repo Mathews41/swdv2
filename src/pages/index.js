@@ -19,7 +19,7 @@ import uofa from '../images/uofahonors-min.webp'
 
 
 import greenguard from '../images/greenguard logo (1).webp'
-import abaa from '../images/abaa.webp'
+import abaa from '../images/abaa.svg'
 import icon2 from '../images/icon2.webp'
 import greenbuilding from '../images/greenbuilding.webp'
 import masterSpec from '../images/images.webp'
@@ -150,12 +150,7 @@ class IndexPage extends React.Component {
                                 <Card.Text id='cardText'>
                                 QUIK-SHIELD® Spray Foam Insulation is the most effective way to insulate the building envelope.
                                 Available in 1/2lb open cell or 2lb closed cell insulation. 
-                                <ul className='cardTextList'>
-                                <div className='cardTextListTitle'>Benefits Include:</div>
-                                    <li>Air-sealing and eliminating thermal shorts</li>
-                                    <li>Superior energy performance</li>
-                                    <li>Seamless air barrier</li>
-                                </ul>
+                                
                                 </Card.Text>
                         </Card.Body>
                     </Card>
@@ -170,14 +165,7 @@ class IndexPage extends React.Component {
                             </Card.Title>
                             <Card.Text id='cardText'>
                             QUIK-SHIELD® Spray Foam Roofing provides a seamless system from roof edge to roof edge.
-                                <ul className='cardTextList'>
-                                <div className='cardTextListTitle'>Benefits Include:</div>
-                                    <li className='cardTextList'>Air Barrier</li>
-                                    <li className='cardTextList'>Self- flashing around penetrations</li>
-                                    <li className='cardTextList'>Thermal resistance</li>
-                                    <li className='cardTextList'>No mechanical fasteners</li>
-                                    <li className='cardTextList'>Cool Roof- reduces expansion and contraction</li>
-                                </ul>
+                                
                                 </Card.Text>
                         </Card.Body>
                     </Card>

@@ -955,7 +955,7 @@
     .ArchStepperPage {
         width: auto;
         height: 100vh;
-        background: rgba(0, 0, 0, 0.589);
+        background: rgb(255, 255, 255);
     }
     .stepperimg {
         width: 100%;
@@ -985,7 +985,7 @@
     }
     #cardDeck {
         width: 100%;
-        height: 65%;
+        height: 40%;
         z-index: 2;
         position: absolute;
         display: flex;
@@ -995,7 +995,7 @@
     }
     .stepperCard {
         width: 50vw;
-        height: max(30rem);
+        height: max(20rem);
         background: white;
         
     }
@@ -1005,7 +1005,7 @@
         transform: scale(1.05);
     }
     .cardImg {
-        height: 15rem;
+        height: 14rem;
     }
     .cardLink:hover {
         color: inherit;
@@ -1026,7 +1026,7 @@
         text-align: left;
         margin: 0;
         padding: 0;
-        font-size: 28pt;
+        font-size: 32pt;
     }
     .cardTextList > li {
         text-align: flex-start;
