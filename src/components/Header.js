@@ -34,7 +34,7 @@ export default function Header() {
                     <Burger/>
                   <ul className='top-nav-list' >
                   <li>
-                   <a className='linkArch' href='/architectsStepper/'>
+                   <a className='linkArch' href='/'>
                         Home
                         </a>
                    </li>
