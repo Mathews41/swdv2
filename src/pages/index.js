@@ -134,7 +134,7 @@ class IndexPage extends React.Component {
     const {data} = this.props;
     return (
       <div className='ArchStepperPage'>
-                <img alt='background image' className='stepperimg' src={uofa}></img>
+                {/* <img alt='background image' className='stepperimg' src={uofa}></img> */}
             <Header/>
         <div className='archStepper'>
             <div className='stepperPage' >

@@ -168,7 +168,7 @@ export default function architectsInsulation() {
                 <Accordion.Toggle className='toggle2' as={Card.Header} eventKey="5">
                 <h3>QS 118/118XC</h3>
                 <h6 className='accordian-subtext2'>
-                QS 118 and 118XC  is a 2nd generation spray foam that delivers Ultra Low Density and can spray up to an 8” lift eliminating the need to spray  multiple lifts. Also available in Cold-Weather Foam Formula for extreme cold application conditions.
+                QS 118 and 118XC  is a 2nd generation spray foam that delivers Ultra Low Density and can spray up to an 4” lift eliminating the need to spray  multiple lifts. Also available in Cold-Weather Foam Formula for extreme cold application conditions.
                     </h6>
                     <Icon.ChevronDown color='blue' size={45} />
                      <h6>Tech Info Click Here</h6>

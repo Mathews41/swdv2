@@ -26,7 +26,7 @@ import masterSpec from '../images/images.webp'
 export default function architectsStepper() {
     return (
         <div className='page'>
-            <img alt='background image' className='stepperimg' src={uofa}></img>
+            {/* <img alt='background image' className='stepperimg' src={uofa}></img> */}
             <Header/>
         <div className='archStepper'>
             <div className='stepperPage' >
