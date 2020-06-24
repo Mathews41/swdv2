@@ -32,7 +32,7 @@ export default function architectsStepper() {
             <div className='stepperPage' >
             <CardDeck id='cardDeck'>
                 <a href='/projectsWall/'className='cardLink'>
-                    <Card className='stepperCard'>
+                    <Card className='stepperCard1'>
                         <Card.Img className='cardImg' variant="top" src={pic1} />
                         <Card.Body id='cardBody'>
                             <Card.Title id='cardTitle'>Insulation Projects
@@ -45,7 +45,7 @@ export default function architectsStepper() {
                     </Card>
                 </a>
                 <a className='cardLink' href='/projectsRoof/'>
-                    <Card className='stepperCard'>
+                    <Card className='stepperCard1'>
                         <Card.Img className='cardImg'  variant="top" src={img2} />
                         <Card.Body id='cardBody'>
                             <Card.Title id='cardTitle'>

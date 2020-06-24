@@ -300,6 +300,11 @@
         margin-top: 15px;
         border-radius: 10px;
     }
+    .ISO12 {
+        width: 50px;
+        height: 70px;
+        border-radius: 10px;
+    }
     .insulLink {
         margin-left: 10px;
         width: 10%;
@@ -996,6 +1001,12 @@
     .stepperCard {
         width: 50vw;
         height: max(20rem);
+        background: white;
+        
+    }
+    .stepperCard1 {
+        width: 50vw;
+        height: max(30rem);
         background: white;
         
     }

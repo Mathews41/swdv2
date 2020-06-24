@@ -80,8 +80,10 @@ export default function architectsInsulation() {
                    <li>Excellent sound absorbtion</li>
                    <li>Interior applications only</li>
                    <li>Recommended for those applications where bi-directional drying are advangeous such as in IECC Climate Zones 1-4</li>
+                   <li>For specialized conditions and recommendations contact us at marketing@swdurethane.com</li>
 
                </ul>
+               
                <ul>
                    Closed Cell
                    <li>Medium density 2 lbs/ft³, semi-rigid polyurethane foam</li>
