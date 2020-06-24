@@ -73,7 +73,7 @@ export default function architectsInsulation() {
                <h1>Considerations for selecting Foam Insulation:</h1>
                <div className='pros1'>
                <ul>
-                   Open cell
+                   Open Cell
                    <li>Low density 0.4-0.5 lbs/ft³ polyurethane foam</li>
                    <li>Air barrier material at specified thicknesses</li>
                    <li>Vapor permeable-Allows for bi-directional drying (drying to the exterior in winter and to the interior in summer)</li>
