@@ -76,7 +76,7 @@ export default function architectsInsulation() {
                    Open cell
                    <li>Low density 0.4-0.5 lbs/ft³ polyurethane foam</li>
                    <li>Air barrier material at specified thicknesses</li>
-                   <li>Vapor permeable-Allowsw for bi-directional drying (drying to the exterior in winter and to the interiour in summer)</li>
+                   <li>Vapor permeable-Allows for bi-directional drying (drying to the exterior in winter and to the interior in summer)</li>
                    <li>Excellent sound absorbtion</li>
                    <li>Interior applications only</li>
                    <li>Recommended for those applications where bi-directional drying are advangeous such as in IECC Climate Zones 1-4</li>
