@@ -26,8 +26,8 @@ export default function Header() {
                   
                 </div>
                 <div id="navbar-brand">
-                  <a href='/architectsStepper/'>
-                    <img className='icon1' src={LOGO} alt="swd logo" href='/architectsStepper'/>
+                  <a href='/'>
+                    <img className='icon1' src={LOGO} alt="swd logo" href='/'/>
                   </a>
                   
                 </div>
