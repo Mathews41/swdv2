@@ -85,7 +85,7 @@ export default function architectsInsulation() {
                <ul>
                    Closed Cell
                    <li>Medium density 2 lbs/ft³, semi-rigid polyurethane foam</li>
-                   <li>Air barrier material and class II vapor retarder at specified thicknesses</li>
+                   <li>Air barrier material and Class II vapor retarder at specified thicknesses</li>
                    <li>Exterior CI (Continuous Insulation) applications under specified thicknesses</li>
                    <li>Low water absorption properties and FEMA recognized Class 5 material as "highly resistant to flood water damage"</li>
                    <li>Superior mechanical attributes that can enhance structural properties</li>
