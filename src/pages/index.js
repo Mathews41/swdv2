@@ -172,6 +172,12 @@ class IndexPage extends React.Component {
                 </a>
             </CardDeck>
         </div>
+        <div className='videoCont'>
+          <iframe/>
+          <iframe/>
+          <iframe/>
+
+        </div>
         <div className='isoBand'>
             <img alt='arch stepper' className='ISO1' src={abaa}></img>
             <img alt='arch stepper' className='ISO12' src={greenguard}></img>

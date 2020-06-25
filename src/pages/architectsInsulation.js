@@ -124,6 +124,7 @@ export default function architectsInsulation() {
                <a classname='lowerleftContent'href='/projectsWall/'>
                     <img className='lowerImg' src={elevation}></img>
                     <h3 className='imgtag'>University of North Carolina</h3>
+                    <h5 className='imgsub'> Continuous spray foam application</h5>
                     </a>
                     </div>
                <div className='pros2'>

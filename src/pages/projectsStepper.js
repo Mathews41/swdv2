@@ -46,7 +46,7 @@ export default function architectsStepper() {
                 </a>
                 <a className='cardLink' href='/projectsRoof/'>
                     <Card className='stepperCard1'>
-                        <Card.Img className='cardImg'  variant="top" src={img2} />
+                        <Card.Img className='cardImg'  variant="top" src={uofa} />
                         <Card.Body id='cardBody'>
                             <Card.Title id='cardTitle'>
                                 Roofing Projects
