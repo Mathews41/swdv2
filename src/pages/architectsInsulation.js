@@ -67,36 +67,22 @@ export default function architectsInsulation() {
         <div className='arch-page'>
         <Header/>
             <div className='img-container1'>
-                <span>Spray Foam Insulation</span>
+                <span>Spray Foam Wall Insulation</span>
             </div>
            <div className='pros'>
-               <h1>Considerations for selecting Foam Insulation:</h1>
+               <div className='prosContainer'>
                <div className='pros1'>
                <ul>
-                   Open Cell
-                   <li>Low density 0.4-0.5 lbs/ft³ polyurethane foam</li>
-                   <li>Air barrier material at specified thicknesses</li>
-                   <li>Vapor permeable-Allows for bi-directional drying (drying to the exterior in winter and to the interior in summer)</li>
-                   <li>Excellent sound absorbtion</li>
+                   Open Cell Criteria
                    <li>Interior applications only</li>
+                   <li>Air barrier material</li>
+                   <li>Excellent sound absorbtion</li>
+                   <li>Vapor permeable-Allows for bi-directional drying (drying to the exterior in winter and to the interior in summer)</li>
                    <li>Recommended for those applications where bi-directional drying are advangeous such as in IECC Climate Zones 1-4</li>
-                   <li>For specialized conditions and recommendations contact us at marketing@swdurethane.com</li>
+                   <li>Low density 0.4 - 0.5 lbs/ft³ polyurethane foam</li>
 
                </ul>
                
-               <ul>
-                   Closed Cell
-                   <li>Medium density 2 lbs/ft³, semi-rigid polyurethane foam</li>
-                   <li>Air barrier material and Class II vapor retarder at specified thicknesses</li>
-                   <li>Exterior CI (Continuous Insulation) applications under specified thicknesses</li>
-                   <li>Low water absorption properties and FEMA recognized Class 5 material as "highly resistant to flood water damage"</li>
-                   <li>Superior mechanical attributes that can enhance structural properties</li>
-                   <li>Recommended for those applications where thermal and water vapor performance are critical such as in IECC Climate Zone 5 and higher and various specialized applications such as freezers, coolers, indoor swimming pools etc.</li>
-
-               </ul>
-               </div>
-           </div>
-            <div className='accordian-container1'>
                 <Accordion className='accordian1' defaultActiveKey="0">
                     <h4>QUIK-SHIELD® Open Cell Products</h4>
                 
@@ -105,7 +91,8 @@ export default function architectsInsulation() {
                 <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="3">
                <h3>QS 108YM</h3>
                         <h6 className='accordian-subtext1'>
-                        QS 108YM, the “Yield Monster”, is the 2nd generation Ultra-Low-Density formula with the lowest cost installed of any spray foam product on the market. Also has a 1 hour re-entry time.
+                        QS 108YM, the “Yield Monster”, is the 2nd generation ultra-low-density foam with an industry leading
+                        <span>1-hour re-entry time.</span>
                     </h6>
                                       <Icon.ChevronDown color='blue' size={45} />
                                        <h6>Tech Info Click Here</h6>
@@ -133,14 +120,32 @@ export default function architectsInsulation() {
                 </Link>
                 </div>
                     </Accordion>
+               </div>
+               <a classname='lowerleftContent'href='/projectsWall/'>
+                    <img className='lowerImg' src={elevation}></img>
+                    <h3 className='imgtag'>University of North Carolina</h3>
+                    </a>
+                    </div>
+               <div className='pros2'>
+               <ul>
+                   Closed Cell Criteria
+                   <li>Exterior/Interior CI (Continuous Insulation) applications </li>
+                   <li>Air barrier material and Class II vapor retarder</li>
+                   <li>Low water absorption properties and FEMA recognized Class 5 material as "highly resistant to flood water damage"</li>
+                   <li>Superior structural attributes</li>
+                   <li>Recommended for those applications where thermal and water vapor performance are critical such as in IECC Climate Zone 5 and higher and various specialized applications such as freezers, coolers, indoor swimming pools etc.</li>
+                   <li>Medium density 2 lbs/ft³, semi-rigid polyurethane foam</li>
+
+               </ul>
+            <div className='accordian-container1'>
                     <Accordion className='accordian1' defaultActiveKey="0">
                     <h4>QUIK-SHIELD® Closed Cell Products</h4>
             <Card className='card2'>
                 <Accordion.Toggle className='toggle2' as={Card.Header} eventKey="4">
-                <h3>Air Barrier System</h3>
+                <h3>QS 112</h3>
                     <h6 className='accordian-subtext2'>
-                    QS 112 is a 1st generation Closed Cell spray foam with an industry leading 1-hour re-entry time that can be sprayed up to a 4” lift.
-                    Air Barrier Association of America Approved.
+                    QS 112 is a 1st generation closed cell spray foam with an industry leading 1-hour re-entry time.
+                    Air Barrier Association of America (ABAA) Approved.
                     </h6>
                     <Icon.ChevronDown color='blue' size={45} />
                      <h6>Tech Info Click Here</h6>
@@ -168,9 +173,9 @@ export default function architectsInsulation() {
             </Card>
             <Card className='card2'>
                 <Accordion.Toggle className='toggle2' as={Card.Header} eventKey="5">
-                <h3>QS 118/118XC</h3>
+                <h3>QS 118</h3>
                 <h6 className='accordian-subtext2'>
-                QS 118 and 118XC  is a 2nd generation spray foam that delivers Ultra Low Density and can spray up to an 4” lift eliminating the need to spray  multiple lifts. Also available in Cold-Weather Foam Formula for extreme cold application conditions.
+                QS 118 is a 2nd generation spray foam, ultra low density, 1-hour re-entry time. Available in cold-weather version for extreme cold applications.
                     </h6>
                     <Icon.ChevronDown color='blue' size={45} />
                      <h6>Tech Info Click Here</h6>
@@ -199,7 +204,7 @@ export default function architectsInsulation() {
                 <Accordion.Toggle className='toggle2' as={Card.Header} eventKey="6">
                 <h3>QS 450 </h3>
                 <h6 className='accordian-subtext2'>
-                2 lb density, rigid, closed cell, polyurethane pour foam system. Which creates a seamless water resistant barrier and provides for exceptional insulation values.
+                2 lb density, closed cell, pour foam system typically used in block fill
                     </h6>
                                       <Icon.ChevronDown color='blue' size={45} />
                                        <h6>Tech Info Click Here</h6>
@@ -227,7 +232,8 @@ export default function architectsInsulation() {
                 </Link>
                 </div>
                     </Accordion>
-                    
+                    </div>
+           </div>
                    </div> 
                 
                 <div className='isoBand1'>

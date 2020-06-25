@@ -62,13 +62,13 @@ export default function architectsInsulation() {
         <div className='arch-page'>
         <Header/>
             <div className='img-container1'>
-                <span className='headspan'>Roofing Systems</span>
+                <span className='headspan'> </span>
 
                </div>
             <div className='accordian-container1'>
                
-                    <Accordion className='accordian1' defaultActiveKey="0">
-                    <h4>Quik-Shield® Spray Foam Roofing Systems</h4>
+                    <Accordion className='accordian11' defaultActiveKey="0">
+                    <h4>Quik-Shield® Roofing Systems</h4>
                 
             <Card className='card1'>
                 <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="16">
@@ -124,7 +124,7 @@ export default function architectsInsulation() {
                 <Accordion.Toggle className='toggle1' as={Card.Header} eventKey="17">
                 <h3>QS Roofing System #2 </h3> <h3>(most specified)</h3>
                     <h6 className='accordian-subtext1'>
-                        10 year Warranty available
+                        10 year warranty available
                     </h6>
                     <Icon.ChevronDown color='blue' size={45} />
                      <h6>Tech Info Click Here</h6>

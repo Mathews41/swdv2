@@ -106,8 +106,8 @@ export default function projects() {
     <a href={ppIBM} target='_blank' id='card' >
       <img alt='roof' class="card-img-top1"  src={aztech} alt="Card image top"/>
       <div class="card-body1">
-        <h3 class="card-title">University of Arizona</h3>
-        <h4 class="card-subtitle">Arizona Science and Technology Park</h4>
+        <h3 class="card-title">Arizona Science and Technology Park</h3>
+        <h4 class="card-subtitle">Tuscon, AZ</h4>
         <button href={ppIBM} className='cardButton'>Read Full Study</button>
       </div>
     </a>
