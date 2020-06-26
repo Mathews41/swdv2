@@ -795,7 +795,7 @@
     }
     .ArchStepperPage {
         width: auto;
-        height: auto;
+        height: 100vh;
         background: rgb(255, 255, 255);
     }
     .stepperimg {
@@ -842,11 +842,16 @@
     }
     .stepperCard1 {
         width: 50vw;
-        height: max(30rem);
+        height: max(34rem);
         background: white;
         
     }
     .stepperCard:hover {
+        background: rgb(167, 167, 167);
+        transition-duration: .3s;
+        transform: scale(1.05);
+    }
+    .stepperCard1:hover {
         background: rgb(167, 167, 167);
         transition-duration: .3s;
         transform: scale(1.05);
@@ -858,7 +863,7 @@
         color: inherit;
     }
     .cardLink {
-        width: 35%;
+        width: 33%;
         height: 100%;
         display: flex;
         flex-direction: row;
@@ -900,12 +905,14 @@
     .videoCont {
         width: 100%;
         height: auto;
-        margin-top: 23%;
+        margin-top: 28%;
+        padding: 10px;
     }
+    
     .isoBand {
         width: 70.5vw;
         background: white;
-        height: 120px;
+        height: 70px;
         z-index: 4;
         overflow: hidden;
         position: absolute;
@@ -918,8 +925,8 @@
         border-radius: 10px;
     }
     .ISO {
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         display: flex;
     }
     .isoBand1 {
@@ -936,20 +943,20 @@
         border-radius: 10px;
     }
     .ISO1 {
-        width: 120px;
-        height: 120px;
+        width: 65px;
+        height: 65px;
         display: flex;
     }
     .ISO12 {
-        width: 150px;
-        height: 150px;
+        width: 90px;
+        height: 90px;
         margin-top: 15px;
         margin-bottom: 10px;
         border-radius: 10px;
     }
     .ISO11 {
-        width: 100px;
-        height: 100px;
+        width: 65px;
+        height: 65px;
         margin-top: 15px;
         border-radius: 10px;
     }

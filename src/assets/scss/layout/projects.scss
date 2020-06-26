@@ -861,6 +861,7 @@
         width: auto;
         height: auto;
         display: flex;
+        overflow: hidden;
         flex-direction: column;
     }
     .container-proj {
@@ -910,7 +911,7 @@
     }
     .card-body1 > h3{
         width: 100%;
-        height: 100px;
+        height: 50px;
         color: black;
         background: white;
         font-size: 15pt;
@@ -918,7 +919,7 @@
     }
     .card-body1 > h4 {
         width: 100%;
-        height: 70px;
+        height: 50px;
         color: black;
         background: white;
         text-align: flex-start;
@@ -956,7 +957,7 @@
         justify-content: space-evenly;
     }
     #card {
-        width: 400px;
+        width: 500px;
         height: 100%;
         margin: 1%;
         border-radius: 1%;
@@ -977,7 +978,12 @@
     }
     .card-img-top1 {
         width: 100%;
-        height: 225px;
+        height: 300px;
+        max-width: 500px;
+    }
+    .card-img-top12 {
+        width: 160%;
+        height: 300px;
     }
     .dropdownArch {
         display: none;

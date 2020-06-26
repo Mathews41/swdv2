@@ -24,52 +24,24 @@ export default function Footer() {
           <ul>
             <h3>Main</h3>
             <li>
-              <a href='/products/'> Products </a>
+              <a href='/'> Home </a>
             </li>
             <li>
-              <a href='/contractors/'> Contractors </a>
+              <a href='/architectsInsulation/'> Insulation </a>
             </li>
             <li>
-              <a href='/architectsStepper/'> Architects </a>
+              <a href='/architectsRoofing/'> Roofing </a>
             </li>
             <li>
-              <a href='/projects/'> Projects </a>
+              <a href='/projectsStepper/'> Projects </a>
             </li>
             <li>
-              <a href='/industrial/'> Industrial </a>
-            </li>
-            <li>
-              <a href='/about/'> About </a>
+              <a href='/details/'> Details & Drawings </a>
             </li>
           </ul>
         </div>
       </div>
-      <div className='footerAbout'>
-        <ul>
-         <h3>About</h3>
-          <li>
-           <a href='/about/'> About SWD </a>
-          </li>
-          <li>
-          <a href='contact'> Contact Us </a>
-          </li>
-          <li>
-          <a> News </a>
-          </li>
-          <li>
-          <a> Careers </a>
-          </li>
-          <li>
-          <a> Testimonials </a>
-          </li>
-          <li>
-          <a> Terms and Conditions </a>
-          </li>
-          <li>
-            <a> Privacy Policy </a>
-          </li>
-        </ul>
-      </div>
+      
       <div className='footerQuestions'>
         <h3 className='questionsTitle'>Questions? Call Us.</h3>
         <p>We’re here to help. Call us and speak with a foam specialist.</p>
