@@ -4,7 +4,7 @@ import {Link} from 'gatsby'
 
 import * as Icon from 'react-feather'
 import Burger from './Hamburger'
-import LOGO from '../images/SWDLOGO.webp'
+import LOGO from '../../src/images/SWDLOGO.webp'
 
 
 
