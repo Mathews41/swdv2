@@ -73,7 +73,7 @@ export default function architectsInsulation() {
                <div className='prosContainer'>
                <div className='pros1'>
                <ul>
-                   Open Cell Criteria
+                   <h3>Open Cell Criteria</h3>
                    <li>Interior applications only</li>
                    <li>Air barrier material</li>
                    <li>Excellent sound absorbtion</li>
@@ -129,7 +129,7 @@ export default function architectsInsulation() {
                     </div>
                <div className='pros2'>
                <ul>
-                   Closed Cell Criteria
+                   <h3>Closed Cell Criteria</h3>
                    <li>Exterior/Interior CI (Continuous Insulation) applications </li>
                    <li>Air barrier material and Class II vapor retarder</li>
                    <li>Low water absorption properties and FEMA recognized Class 5 material as "highly resistant to flood water damage"</li>
