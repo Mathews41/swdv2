@@ -649,11 +649,12 @@
   }
   .footerMain {
     color: black;
-    width: 10%;
+    width: 100%;
     height: 100%;
   
   }
   .footerMain > ul {
+    width: 100%;
     list-style-type: disc;
     font-size: 12pt;
   }

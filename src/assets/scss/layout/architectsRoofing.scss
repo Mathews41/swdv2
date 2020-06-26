@@ -1930,7 +1930,7 @@
         width: 100%;
         height: auto;
         background: rgb(255, 255, 255);
-        margin-top: 9%;
+        margin-top: 10%;
     }
    .img-container1 {
        color: black;
@@ -1938,128 +1938,209 @@
        text-align: center;
    }
    .pros {
-       width: 100%;
-       margin-top: 2%;
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       justify-content: space-evenly;
-       background: rgb(216, 216, 216);
-   }
-   .pros > h1 {
-       font-size: 22pt;
-       color: rgb(0, 0, 0);
-       letter-spacing: .2rem;
-       text-align: center;
-   }
-   .pros1 {
-       display: flex;
-       flex-direction: row;
-       align-items: flex-start;
-       justify-content: space-evenly;
-   }
-   .pros1 > ul {
-       width: 40%;
-       color: rgb(0, 0, 0);
-       display: flex;
-       flex-direction: column;
-       font-size: 20pt;
-       align-items: flex-start;
-       justify-items: flex-start;
-   }
-   .pros1 > ul > li {
-       font-size: 12pt;;
-       list-style-type: disc;
-   }
-    .accordian-container1 {
-        width: 100%;
-        height: auto;
-        position: relative;
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: row;
-        margin-bottom: 10px;
-        
-    }
-    .clicklogo {
-        width: 10%;
-        height: 10%;
-    }
-    .accordian-container2 {
-        width: 100%;
-        height: auto;
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        
-        
-    }
-    .accordian1 {
-        width: 60%;
-        height: 100%;
-        background: rgba(2, 43, 85, 0.897);
-        z-index: 2;
-        margin: 1%;
-        text-align: center;
-        border-radius: 10px;;
-        flex-shrink: 1;
-        
-    }
-    .accordian1 > h4 {
-        color: white;
-        text-align: center;
-    }
-    .drawingContainer {
-        width: 100%;
-        height: 10%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        align-self: center;
-    }
-    .drawButton {
-        width: 300px;
-        background: rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
-        font-size: 18pt;
-        margin: 1%;
-        padding: 1%;
-        text-align: center;
-        text-justify: center;
-        border-radius: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 2%;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.pros1 {
+    width: 100%;
+    background: rgb(214, 214, 214);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    border-radius: 10px;;
+
+}
+.pros1 > ul {
+    width: 100%;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    font-size: 24pt;
+    top: 0;
+    align-items: flex-start;
+    justify-items: flex-start;
+}
+.pros1 > ul > h3 {
+    width: 100%;
+    font-size: 24pt;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.pros1 > ul > li {
+    font-size: 14pt;;
+    list-style-type: disc;
+}
+.lowerleftContent {
+    width: 100%;
+    align-items: center;
+}
+.lowerImg {
+width: 100%;
+height: 30%;
+margin-top: 5%;
+border-radius: 10px;
+}
+.imgtag {
+    width: 100%;
+    height: auto;
+    color: black;
+    font-size: 16pt;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: .2rem;
+}
+.imgsub {
+    width: 100%;
+    height: auto;
+    color: black;
+    text-align: center;
+    font-style: italic;
+}
+.prosContainer {
+width: 45%;
+}
+.pros2 {
+width: 45%;
+background: rgb(214, 214, 214);
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: space-evenly;
+border-radius: 10px;;
+
+}
+.pros2 > ul {
+width: 100%;
+color: rgb(0, 0, 0);
+display: flex;
+flex-direction: column;
+font-size: 24pt;
+top: 0;
+align-items: flex-start;
+justify-items: flex-start;
+}
+.pros2 > ul > h3 {
+    width: 100%;
+    font-size: 24pt;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.pros2 > ul > li {
+font-size: 14pt;;
+list-style-type: disc;
+}
+.accordian-container1 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-bottom: 10px;
     
-    }
-    .externalLink {
-        margin-left: 5%;
-    }
-    .accordian2 {
-        box-shadow: 10px 10px 20px 5px black;
-        width: 100%;
-        height: 100%;
-        background: rgba(2, 43, 85, 0.836);
-        z-index: 2;
-        text-align: center;
-        margin: 1%;
-        border-radius: 10px;;
-        flex-shrink: 1;
+}
+.clicklogo {
+    width: 10%;
+    height: 10%;
+}
+.accordian-container2 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
     
-        
-        
-    }
-    .collapse1 {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    .img-seperator1 {
-        width: 50%;
-    }
-    .card1 {
-        width: 100%;
-        height: auto;
-        color: rgb(0, 0, 0);
-        background: rgb(255, 255, 255);
-    }
+    
+}
+.accordian1 {
+    width: 96%;
+    height: 100%;
+    background: rgba(2, 43, 85, 0.897);
+    z-index: 2;
+    margin: 2%;
+    text-align: center;
+    border-radius: 10px;;
+    flex-shrink: 1;
+    
+}
+.accordian1 > h4 {
+    color: white;
+    text-align: center;
+    font-size: 26pt;
+}
+.accordian11 {
+    width: 50%;
+    height: 100%;
+    background: rgba(2, 43, 85, 0.897);
+    z-index: 2;
+    margin: 2%;
+    text-align: center;
+    border-radius: 10px;;
+    flex-shrink: 1;
+}
+.accordian11 > h4 {
+    color: white;
+    text-align: center;
+    font-size: 26pt;
+}
+.drawingContainer {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.drawButton {
+    width: 300px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 18pt;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    text-justify: center;
+    border-radius: 5px;
+
+}
+.externalLink {
+    margin-left: 5%;
+}
+.accordian2 {
+    box-shadow: 10px 10px 20px 5px black;
+    width: 100%;
+    height: 100%;
+    background: rgba(2, 43, 85, 0.836);
+    z-index: 2;
+    text-align: center;
+    margin: 1%;
+    border-radius: 10px;;
+    flex-shrink: 1;
+
+    
+    
+}
+
+.collapse1 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.img-seperator1 {
+    width: 50%;
+}
+.card1 {
+    width: 100%;
+    height: auto;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+}
     .card2{
         width: 100%;
         height: auto;
@@ -2210,7 +2291,8 @@
         
     }
     .toggle1 > h6 {
-        font-size: 12pt;
+        font-size: 16pt;
+        text-align: flex-start;
     }
     .imgsLower {
         width: 20%;
@@ -2286,7 +2368,7 @@
         font-size: 15pt;
         // font-style: italic;
         color: rgb(2, 43, 85);
-        text-align: center;
+        text-align: flex-start;
         padding: 10px;
     }
     .accordian-subtext2 {
@@ -2297,7 +2379,7 @@
         padding: 10px;
     
         color: rgb(2, 43, 85);
-        text-align: start;
+        text-align: flex-start;
         
     }
     .img-container1 {
@@ -2453,6 +2535,7 @@
         height: 300px;
     
     }
+    
     .lowerbox3 {
         width: 100%;
         padding: 10px;
@@ -2518,9 +2601,6 @@
     .redli {
         color: red;
     }
-    
-    
-    
 }
 @media (min-width: 981px) and (max-width: 1280px){
     .page {
@@ -2542,132 +2622,213 @@
     }
    .img-container1 {
        color: black;
-       font-size: 45pt;
+       font-size: 48pt;
        text-align: center;
    }
    .pros {
-       width: 100%;
-       margin-top: 2%;
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       justify-content: space-evenly;
-       background: rgb(216, 216, 216);
-   }
-   .pros > h1 {
-       font-size: 25pt;
-       color: rgb(0, 0, 0);
-       letter-spacing: .2rem;
-       text-align: center;
-   }
-   .pros1 {
-       display: flex;
-       flex-direction: row;
-       align-items: flex-start;
-       justify-content: space-evenly;
-   }
-   .pros1 > ul {
-       width: 40%;
-       color: rgb(0, 0, 0);
-       display: flex;
-       flex-direction: column;
-       font-size: 20pt;
-       align-items: flex-start;
-       justify-items: flex-start;
-   }
-   .pros1 > ul > li {
-       font-size: 14pt;;
-       list-style-type: disc;
-   }
-    .accordian-container1 {
-        width: 100%;
-        height: auto;
-        position: relative;
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: row;
-        margin-bottom: 10px;
-        
-    }
-    .clicklogo {
-        width: 10%;
-        height: 10%;
-    }
-    .accordian-container2 {
-        width: 100%;
-        height: auto;
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        
-        
-    }
-    .accordian1 {
-        width: 60%;
-        height: 100%;
-        background: rgba(2, 43, 85, 0.897);
-        z-index: 2;
-        margin: 1%;
-        text-align: center;
-        border-radius: 10px;;
-        flex-shrink: 1;
-        
-    }
-    .accordian1 > h4 {
-        color: white;
-        text-align: center;
-    }
-    .drawingContainer {
-        width: 100%;
-        height: 10%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        align-self: center;
-    }
-    .drawButton {
-        width: 300px;
-        background: rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
-        font-size: 18pt;
-        margin: 1%;
-        padding: 1%;
-        text-align: center;
-        text-justify: center;
-        border-radius: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 2%;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.pros1 {
+    width: 100%;
+    background: rgb(214, 214, 214);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    border-radius: 10px;;
+
+}
+.pros1 > ul {
+    width: 100%;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    font-size: 24pt;
+    top: 0;
+    align-items: flex-start;
+    justify-items: flex-start;
+}
+.pros1 > ul > h3 {
+    width: 100%;
+    font-size: 24pt;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.pros1 > ul > li {
+    font-size: 14pt;;
+    list-style-type: disc;
+}
+.lowerleftContent {
+    width: 100%;
+    align-items: center;
+}
+.lowerImg {
+width: 100%;
+height: 30%;
+margin-top: 5%;
+border-radius: 10px;
+}
+.imgtag {
+    width: 100%;
+    height: auto;
+    color: black;
+    font-size: 16pt;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: .2rem;
+}
+.imgsub {
+    width: 100%;
+    height: auto;
+    color: black;
+    text-align: center;
+    font-style: italic;
+}
+.prosContainer {
+width: 45%;
+}
+.pros2 {
+width: 45%;
+background: rgb(214, 214, 214);
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: space-evenly;
+border-radius: 10px;;
+
+}
+.pros2 > ul {
+width: 100%;
+color: rgb(0, 0, 0);
+display: flex;
+flex-direction: column;
+font-size: 24pt;
+top: 0;
+align-items: flex-start;
+justify-items: flex-start;
+}
+.pros2 > ul > h3 {
+    width: 100%;
+    font-size: 24pt;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.pros2 > ul > li {
+font-size: 14pt;;
+list-style-type: disc;
+}
+.accordian-container1 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-bottom: 10px;
     
-    }
-    .externalLink {
-        margin-left: 5%;
-    }
-    .accordian2 {
-        box-shadow: 10px 10px 20px 5px black;
-        width: 100%;
-        height: 100%;
-        background: rgba(2, 43, 85, 0.836);
-        z-index: 2;
-        text-align: center;
-        margin: 1%;
-        border-radius: 10px;;
-        flex-shrink: 1;
+}
+.clicklogo {
+    width: 10%;
+    height: 10%;
+}
+.accordian-container2 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
     
-        
-        
-    }
-    .collapse1 {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    .img-seperator1 {
-        width: 50%;
-    }
-    .card1 {
-        width: 100%;
-        height: auto;
-        color: rgb(0, 0, 0);
-        background: rgb(255, 255, 255);
-    }
+    
+}
+.accordian1 {
+    width: 96%;
+    height: 100%;
+    background: rgba(2, 43, 85, 0.897);
+    z-index: 2;
+    margin: 2%;
+    text-align: center;
+    border-radius: 10px;;
+    flex-shrink: 1;
+    
+}
+.accordian1 > h4 {
+    color: white;
+    text-align: center;
+    font-size: 26pt;
+}
+.accordian11 {
+    width: 50%;
+    height: 100%;
+    background: rgba(2, 43, 85, 0.897);
+    z-index: 2;
+    margin: 2%;
+    text-align: center;
+    border-radius: 10px;;
+    flex-shrink: 1;
+}
+.accordian11 > h4 {
+    color: white;
+    text-align: center;
+    font-size: 26pt;
+}
+.drawingContainer {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.drawButton {
+    width: 300px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 18pt;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    text-justify: center;
+    border-radius: 5px;
+
+}
+.externalLink {
+    margin-left: 5%;
+}
+.accordian2 {
+    box-shadow: 10px 10px 20px 5px black;
+    width: 100%;
+    height: 100%;
+    background: rgba(2, 43, 85, 0.836);
+    z-index: 2;
+    text-align: center;
+    margin: 1%;
+    border-radius: 10px;;
+    flex-shrink: 1;
+
+    
+    
+}
+
+.collapse1 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.img-seperator1 {
+    width: 50%;
+}
+.card1 {
+    width: 100%;
+    height: auto;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+}
     .card2{
         width: 100%;
         height: auto;
@@ -2818,7 +2979,8 @@
         
     }
     .toggle1 > h6 {
-        font-size: 12pt;
+        font-size: 16pt;
+        text-align: flex-start;
     }
     .imgsLower {
         width: 20%;
@@ -2894,7 +3056,7 @@
         font-size: 15pt;
         // font-style: italic;
         color: rgb(2, 43, 85);
-        text-align: center;
+        text-align: flex-start;
         padding: 10px;
     }
     .accordian-subtext2 {
@@ -2905,7 +3067,7 @@
         padding: 10px;
     
         color: rgb(2, 43, 85);
-        text-align: start;
+        text-align: flex-start;
         
     }
     .img-container1 {
@@ -3061,6 +3223,7 @@
         height: 300px;
     
     }
+    
     .lowerbox3 {
         width: 100%;
         padding: 10px;
@@ -3126,6 +3289,7 @@
     .redli {
         color: red;
     }
+    
     
     
 }

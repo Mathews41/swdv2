@@ -1,6 +1,8 @@
 import React from 'react'
 import Accordion from 'react-bootstrap/Accordion'
 import Card from 'react-bootstrap/Card'
+import Footer from '../components/Footer'
+
 import Media from 'react-bootstrap/Media'
 import * as Icon from 'react-feather'
 import '../assets/scss/layout/details.scss'
@@ -695,6 +697,7 @@ export default function details() {
         </div>
         </div>
         </div>
+        <Footer/>
         </div>
     )
 }
