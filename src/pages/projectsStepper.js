@@ -12,6 +12,7 @@ import pic1 from '../images/QS112_Edited_6-min (2).webp'
 import * as Icon from 'react-feather'
 import '../assets/scss/layout/_main.scss'
 import uofa from '../images/uofahonors-min.webp'
+import jul from '../images/yul-overall.webp'
 
 
 import greenguard from '../images/greenguard logo (1).webp'
@@ -33,7 +34,7 @@ export default function architectsStepper() {
             <CardDeck id='cardDeck'>
                 <a href='/projectsWall/'className='cardLink'>
                     <Card className='stepperCard1'>
-                        <Card.Img className='cardImg' variant="top" src={pic1} />
+                        <Card.Img className='cardImg' variant="top" src={jul} />
                         <Card.Body id='cardBody'>
                             <Card.Title id='cardTitle'>Insulation Projects
                             <Icon.ExternalLink className='insulLink'/>

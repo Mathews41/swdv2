@@ -860,6 +860,7 @@
         width: auto;
         height: 100vh;
         background: rgb(255, 255, 255);
+        overflow: hidden;
     }
     .stepperimg {
         width: 100%;
@@ -884,8 +885,14 @@
         z-index: 1;
         display: flex;
         align-items: flex-start;
-        margin-top: 8%;
+        margin-top: 6%;
         margin-bottom: 30px;
+    }
+    .stepperPage > h1 {
+        width: 100%;
+        height: 5%;
+        text-align: center;
+
     }
     #cardDeck {
         width: 100%;
@@ -894,6 +901,7 @@
         position: absolute;
         display: flex;
         margin: 0;
+        margin-top: 5%;
         justify-content: center;
         animation: fadeInAnimation 1s  0s 1 normal ;
     }
@@ -968,8 +976,9 @@
     .videoCont {
         width: 100%;
         height: auto;
-        margin-top: 28%;
+        bottom: 5rem;
         padding: 10px;
+        position: absolute;
     }
     
     .isoBand {
@@ -1067,7 +1076,7 @@
         z-index: 1;
         display: flex;
         align-items: flex-start;
-        margin-top: 8%;
+        margin-top: 5%;
         margin-bottom: 30px;
     }
     #cardDeck {
@@ -1077,22 +1086,33 @@
         position: absolute;
         display: flex;
         margin: 0;
+        margin-top: 5%;
         justify-content: center;
         animation: fadeInAnimation 1s  0s 1 normal ;
     }
     .stepperCard {
         width: 50vw;
-        height: max(20rem);
+        height: max(19rem);
         background: white;
         
     }
+    .stepperPage > h1 {
+        width: 100%;
+        height: 5%;
+        text-align: center;
+    }
     .stepperCard1 {
         width: 50vw;
-        height: max(30rem);
+        height: max(25rem);
         background: white;
         
     }
     .stepperCard:hover {
+        background: rgb(167, 167, 167);
+        transition-duration: .3s;
+        transform: scale(1.05);
+    }
+    .stepperCard1:hover {
         background: rgb(167, 167, 167);
         transition-duration: .3s;
         transform: scale(1.05);
@@ -1133,11 +1153,11 @@
         margin-top: 2%;
     }
     #cardTitle {
-     font-size: 22pt;
+     font-size: 18pt;
      color: black;
     }
     #cardText {
-        font-size: 13pt;
+        font-size: 12pt;
         color: black;
     }
     #cardBody {
@@ -1146,8 +1166,9 @@
     .videoCont {
         width: 100%;
         height: auto;
-        margin-top: 23%;
+        bottom: 5rem;
         padding: 10px;
+        position: absolute;
     }
     .isoBand {
         width: 70.5vw;
