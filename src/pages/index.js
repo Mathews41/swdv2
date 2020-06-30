@@ -138,7 +138,7 @@ class IndexPage extends React.Component {
             <Header/>
         <div className='archStepper'>
             <div className='stepperPage' >
-            <h1>Construction and Spray Foam Products</h1>
+            <h1>Construction Spray Foam Products</h1>
             <CardDeck id='cardDeck'>
                 <a href='/architectsInsulation/'className='cardLink'>
                     <Card className='stepperCard'>
