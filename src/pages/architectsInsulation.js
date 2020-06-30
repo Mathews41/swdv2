@@ -203,9 +203,11 @@ export default function architectsInsulation() {
             </Card>
             <Card className='card2'>
                 <Accordion.Toggle className='toggle2' as={Card.Header} eventKey="6">
-                <h3>QS 450 </h3>
+                <h3>QS 450 Pour Foam</h3>
                 <h6 className='accordian-subtext2'>
-                2 lb density, closed cell, pour foam system typically used in block fill
+                    Core Fill Insulation. Specifically designed for use
+                    to fill cavities in concrete, cinder block, masonry walls
+                    to increase insulation values.
                     </h6>
                                       <Icon.ChevronDown color='blue' size={45} />
                                        <h6>Tech Info Click Here</h6>

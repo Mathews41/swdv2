@@ -39,7 +39,7 @@ export default function architectsStepper() {
                             <Card.Title id='cardTitle'>Insulation Projects
                             <Icon.ExternalLink className='insulLink'/>
                             </Card.Title>
-                                <Card.Text id='cardText'>
+                                <Card.Text id='cardText1'>
                                 QUIK-SHIELD® Spray Foam insulation is the most effective way to insulate any type of building. Whether using an open-cell foam or a two pound closed-cell foam, spray foam creates an unsurpassed air barrier insulation system. This air barrier not only delivers thermal resistance against conduction (R-value) that surpasses batt and cellulose, it also dramatically reduces energy loss through convection.
                                 </Card.Text>
                         </Card.Body>
@@ -53,7 +53,7 @@ export default function architectsStepper() {
                                 Roofing Projects
                             <Icon.ExternalLink className='insulLink'/>
                             </Card.Title>
-                                <Card.Text id='cardText'>
+                                <Card.Text id='cardText1'>
                                 QUIK-SHIELD® Seamless Monolithic Urethane Foam Roof System
 From roof edge to roof edge QUIK-SHIELD® urethane foam provides a seamless roof with no mechanical fasteners, providing the building with an unsurpassed air barrier and increased thermal resistance. QUIK-SHIELD® also provides self-flashing around HVAC curbs, vents, and skylights, adding additional protection against moisture and air infiltration through otherwise failed metal flashings.
                                 </Card.Text>
