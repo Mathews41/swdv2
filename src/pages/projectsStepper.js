@@ -29,9 +29,9 @@ export default function architectsStepper() {
         <div className='page'>
             {/* <img alt='background image' className='stepperimg' src={uofa}></img> */}
             <Header/>
-        <div className='archStepper'>
-            <div className='stepperPage' >
-            <CardDeck id='cardDeck'>
+        <div className='archStepper1'>
+            <div className='stepperPage1' >
+            <CardDeck id='cardDeck1'>
                 <a href='/projectsWall/'className='cardLink'>
                     <Card className='stepperCard1'>
                         <Card.Img className='cardImg' variant="top" src={jul} />
@@ -49,7 +49,7 @@ export default function architectsStepper() {
                     <Card className='stepperCard1'>
                         <Card.Img className='cardImg'  variant="top" src={uofa} />
                         <Card.Body id='cardBody'>
-                            <Card.Title id='cardTitle'>
+                            <Card.Title id='cardTitle1'>
                                 Roofing Projects
                             <Icon.ExternalLink className='insulLink'/>
                             </Card.Title>

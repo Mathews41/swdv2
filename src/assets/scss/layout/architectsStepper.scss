@@ -999,11 +999,27 @@
         justify-content: center;
         align-items: center;
     }
+    .archStepper1 {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .img-containerHome {
         margin-top: 10rem;
         z-index: 1;
     }
     .stepperPage {
+        width: 100%;
+        height: 80%;
+        z-index: 1;
+        display: flex;
+        align-items: flex-start;
+        margin-top: 6%;
+        margin-bottom: 30px;
+    }
+    .stepperPage1 {
         width: 100%;
         height: 80%;
         z-index: 1;
@@ -1019,6 +1035,17 @@
 
     }
     #cardDeck {
+        width: 100%;
+        height: 40%;
+        z-index: 2;
+        position: absolute;
+        display: flex;
+        margin: 0;
+        margin-top: 5%;
+        justify-content: center;
+        animation: fadeInAnimation 1s  0s 1 normal ;
+    }
+    #cardDeck1 {
         width: 100%;
         height: 40%;
         z-index: 2;
@@ -1190,11 +1217,27 @@
         justify-content: center;
         align-items: center;
     }
+    .archStepper1 {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .img-containerHome {
         margin-top: 10rem;
         z-index: 1;
     }
     .stepperPage {
+        width: 100%;
+        height: 80%;
+        z-index: 1;
+        display: flex;
+        align-items: flex-start;
+        margin-top: 5%;
+        margin-bottom: 30px;
+    }
+    .stepperPage1 {
         width: 100%;
         height: 80%;
         z-index: 1;
@@ -1211,6 +1254,17 @@
         display: flex;
         margin: 0;
         margin-top: 5%;
+        justify-content: center;
+        animation: fadeInAnimation 1s  0s 1 normal ;
+    }
+    #cardDeck1 {
+        width: 100%;
+        height: 40%;
+        z-index: 2;
+        position: absolute;
+        display: flex;
+        margin: 0;
+        margin-top: 1%;
         justify-content: center;
         animation: fadeInAnimation 1s  0s 1 normal ;
     }
@@ -1282,7 +1336,15 @@
      font-size: 18pt;
      color: black;
     }
+    #cardTitle1 {
+        font-size: 18pt;
+        color: black;
+       }
     #cardText {
+        font-size: 12pt;
+        color: black;
+    }
+    #cardText1 {
         font-size: 12pt;
         color: black;
     }
