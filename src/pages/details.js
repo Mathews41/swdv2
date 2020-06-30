@@ -7,7 +7,7 @@ import Media from 'react-bootstrap/Media'
 import * as Icon from 'react-feather'
 import '../assets/scss/layout/details.scss'
 import Header from '../components/Header'
-import uofahero from '../images/techpark.webp'
+import uofahero from '../images/techpark.jpg'
 
 
 // files

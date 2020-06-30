@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import icon1 from '../images/icon3.webp'
+import icon1 from '../images/icon3.jpg'
 import {Link} from 'gatsby'
 
 import * as Icon from 'react-feather'
 import Burger from './Hamburger'
-import LOGO from '../images/logo.webp'
+import LOGO from '../images/logo.jpg'
 
 
 

@@ -9,20 +9,20 @@ import 'normalize.css';
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
 import '../assets/scss/layout/architectsStepper.scss'
-import img2 from '../images/Roofing_Edited_10-min.webp'
+import img2 from '../images/Roofing_Edited_10-min.jpg'
 import { Link } from 'gatsby'
-import pic1 from '../images/QS106_Edited_3-min.webp'
+import pic1 from '../images/QS106_Edited_3-min.jpg'
 import * as Icon from 'react-feather'
 import '../assets/scss/layout/_main.scss'
-import uofa from '../images/uofahonors-min.webp'
+import uofa from '../images/uofahonors-min.jpg'
 
 
 
-import greenguard from '../images/greenguard logo (1).webp'
+import greenguard from '../images/greenguard logo (1).jpg'
 import abaa from '../images/abaa.svg'
-import icon2 from '../images/icon2.webp'
-import greenbuilding from '../images/greenbuilding.webp'
-import masterSpec from '../images/images.webp'
+import icon2 from '../images/icon2.jpg'
+import greenbuilding from '../images/greenbuilding.jpg'
+import masterSpec from '../images/images.jpg'
 
 
 import PropTypes from 'prop-types'
