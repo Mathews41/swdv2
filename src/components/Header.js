@@ -50,7 +50,7 @@ export default function Header() {
                    </li>
                     <li>
                     <div className='dropdown'>
-                      <a className='linkProj' href='/projectsStepper/'>
+                      <a className='linkProj' href='/projects/'>
                         Projects
                         </a>
                         <div className='projectsMenu'>

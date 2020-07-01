@@ -1,6 +1,6 @@
 import React from 'react'
 
-import logo from '../images/icon3.jpg'
+import logo from '../images/gatsby-icon.png'
 import appstore from '../images/appstore-min.jpg'
 import googleplay from '../images/googleplay.jpg'
 import facebook from '../images/facebook.jpg'
@@ -33,10 +33,13 @@ export default function Footer() {
               <a href='/architectsRoofing/'> Roofing </a>
             </li>
             <li>
-              <a href='/projectsStepper/'> Projects </a>
+              <a href='/projects/'> Projects </a>
             </li>
             <li>
               <a href='/details/'> Details & Drawings </a>
+            </li>
+            <li>
+              <a href='http://swdurethane.com/'> SWD Urethane </a>
             </li>
           </ul>
         </div>
