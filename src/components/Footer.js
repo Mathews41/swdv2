@@ -38,17 +38,16 @@ export default function Footer() {
             <li>
               <a href='/details/'> Details & Drawings </a>
             </li>
-            <li>
-              <a href='http://swdurethane.com/'> SWD Urethane </a>
-            </li>
+            
           </ul>
         </div>
       </div>
       
       <div className='footerQuestions'>
         <h3 className='questionsTitle'>Questions? Call Us.</h3>
-        <p>We’re here to help. Call us and speak with a foam specialist.</p>
+        <p>We’re here to help. Call us to speak with a foam specialist or visit our corporate site.</p>
         <h3 className='number'>800-828-1394</h3>
+        <a className='domain'href='http://swdurethane.com/'> SWDUrethane.com </a>
       </div>
       <div className='ogLogoContainer'>
       <div className='logosContainer'>
