@@ -1058,7 +1058,7 @@
     }
     .stepperCard {
         width: 50vw;
-        height: max(23rem);
+        height: max(110%);
         background: white;
         
     }
@@ -1079,7 +1079,7 @@
         transform: scale(1.05);
     }
     .cardImg {
-        height: 14rem;
+        height: 60%;
     }
     .cardLink:hover {
         color: inherit;
@@ -1126,7 +1126,7 @@
     }
     .videoCont {
         width: 100%;
-        height: auto;
+        height: 20%;
         bottom: 5rem;
         padding: 10px;
         position: absolute;
@@ -1353,8 +1353,8 @@
     }
     .videoCont {
         width: 100%;
-        height: auto;
-        bottom: 5rem;
+        height: 25%;
+        bottom: 5%;
         padding: 10px;
         position: absolute;
     }
