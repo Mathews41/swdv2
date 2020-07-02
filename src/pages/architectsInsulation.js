@@ -109,7 +109,7 @@ export default function architectsInsulation() {
                                     <a href={ccrr108}
                                     target='_blank' rel='noreferrer' >QS 108YM Code Report </a>  
                                     <a href={vocym108}
-                                    target='_blank' rel='noreferrer' >QS 108YM VOC </a> 
+                                    target='_blank' rel='noreferrer' >QS 108YM GREENGUARD </a> 
 
                             </Media.Body>
                         </Media>
