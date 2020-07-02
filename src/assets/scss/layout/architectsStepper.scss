@@ -274,7 +274,7 @@
     }
     .stepperCard {
         width: 70vw;
-        height: max(12rem);
+        height: max(10rem);
         background: white;
         
     }
@@ -295,7 +295,7 @@
         transform: scale(1.05);
     }
     .cardImg {
-        height: 9rem;
+        height: 7rem;
     }
     .cardLink:hover {
         color: inherit;
@@ -455,14 +455,14 @@
         z-index: 1;
         display: flex;
         align-items: flex-start;
-        margin-top: 20%;
+        margin-top: 22%;
         margin-bottom: 30px;
     }
     .stepperPage > h1 {
         width: 100%;
         height: 5%;
         text-align: center;
-        font-size: 26pt;
+        font-size: 22pt;
         letter-spacing: .2rem;
     }
     #cardDeck {
@@ -473,20 +473,20 @@
         display: flex;
         flex-direction: column;
         margin: 0;
-        margin-top: 10%;
+        margin-top: 12%;
         justify-content: flex-start;
         align-items: center;
         animation: fadeInAnimation 1s  0s 1 normal ;
     }
     .stepperCard {
-        width: 70vw;
-        height: max(18rem);
+        width: 50vw;
+        height: max(19rem);
         background: white;
         
     }
     .stepperCard1 {
-        width: 65vw;
-        height: max(24rem);
+        width: 50vw;
+        height: max(20rem);
         background: white;
         
     }
@@ -512,7 +512,7 @@
         transform: scale(1.05);
     }
     .cardImg {
-        height: 12rem;
+        height: 10rem;
     }
     .cardLink:hover {
         color: inherit;
@@ -534,7 +534,7 @@
         text-align: left;
         margin: 0;
         padding: 0;
-        font-size: 32pt;
+        font-size: 30pt;
     }
     .cardTextList > li {
         text-align: flex-start;
@@ -544,19 +544,19 @@
         text-align: flex-start;
         padding: 0;
         margin: 0;
-        font-size: 18pt;
+        font-size: 16pt;
         margin-top: 2%;
     }
     #cardTitle {
-     font-size: 18pt;
+     font-size: 16pt;
      color: black;
     }
     #cardText {
-        font-size: 12pt;
+        font-size: 10pt;
         color: black;
     }
     #cardText1 {
-        font-size: 12pt;
+        font-size: 10pt;
         color: black;
     }
     #cardBody {
@@ -626,6 +626,8 @@
     }
     .insulLink {
         margin-left: 10px;
+        width: 20px;
+        height: 20px;
     
     }
     
@@ -661,12 +663,46 @@
         align-items: center;
         margin: 0;
     }
+    .archStepper1 {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .archStepper2 {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
     
     .img-containerHome {
         margin-top: 10rem;
         z-index: 1;
     }
     .stepperPage {
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        display: flex;
+        align-items: flex-start;
+        margin-top: 20%;
+        margin-bottom: 30px;
+    }
+    .stepperPage1 {
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        display: flex;
+        align-items: flex-start;
+        margin-top: 20%;
+        margin-bottom: 30px;
+    }
+    .stepperPage2 {
         width: 100%;
         height: 100%;
         z-index: 1;
@@ -695,6 +731,32 @@
         align-items: center;
         animation: fadeInAnimation 1s  0s 1 normal ;
     }
+    #cardDeck1 {
+        width: 100%;
+        height: auto;
+        z-index: 2;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-top: 10%;
+        justify-content: flex-start;
+        align-items: center;
+        animation: fadeInAnimation 1s  0s 1 normal ;
+    }
+    #cardDeck2 {
+        width: 100%;
+        height: auto;
+        z-index: 2;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-top: 10%;
+        justify-content: flex-start;
+        align-items: center;
+        animation: fadeInAnimation 1s  0s 1 normal ;
+    }
     .stepperCard {
         width: 70vw;
         height: max(18rem);
@@ -703,7 +765,13 @@
     }
     .stepperCard1 {
         width: 65vw;
-        height: max(24rem);
+        height: max(18rem);
+        background: white;
+        
+    }
+    .stepperCard2 {
+        width: 65vw;
+        height: max(18rem);
         background: white;
         
     }
@@ -717,7 +785,18 @@
         transition-duration: .3s;
         transform: scale(1.05);
     }
+    .stepperCard2:hover {
+        background: rgb(167, 167, 167);
+        transition-duration: .3s;
+        transform: scale(1.05);
+    }
     .cardImg {
+        height: 12rem;
+    }
+    .cardImg1 {
+        height: 12rem;
+    }
+    .cardImg2 {
         height: 12rem;
     }
     .cardLink:hover {
@@ -867,11 +946,45 @@
         align-items: center;
         margin: 0;
     }
+    .archStepper1 {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .archStepper2 {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
     .img-containerHome {
         margin-top: 10rem;
         z-index: 1;
     }
     .stepperPage {
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        display: flex;
+        align-items: flex-start;
+        margin-top: 18%;
+        margin-bottom: 30px;
+    }
+    .stepperPage1 {
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        display: flex;
+        align-items: flex-start;
+        margin-top: 18%;
+        margin-bottom: 30px;
+    }
+    .stepperPage2 {
         width: 100%;
         height: 100%;
         z-index: 1;
@@ -900,6 +1013,32 @@
         align-items: center;
         animation: fadeInAnimation 1s  0s 1 normal ;
     }
+    #cardDeck1 {
+        width: 100%;
+        height: auto;
+        z-index: 2;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-top: 10%;
+        justify-content: flex-start;
+        align-items: center;
+        animation: fadeInAnimation 1s  0s 1 normal ;
+    }
+    #cardDeck2 {
+        width: 100%;
+        height: auto;
+        z-index: 2;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-top: 10%;
+        justify-content: flex-start;
+        align-items: center;
+        animation: fadeInAnimation 1s  0s 1 normal ;
+    }
     .stepperCard {
         width: 70vw;
         height: max(20rem);
@@ -907,6 +1046,12 @@
         
     }
     .stepperCard1 {
+        width: 65vw;
+        height: max(24rem);
+        background: white;
+        
+    }
+    .stepperCard2 {
         width: 65vw;
         height: max(24rem);
         background: white;
@@ -922,7 +1067,18 @@
         transition-duration: .3s;
         transform: scale(1.05);
     }
+    .stepperCard2:hover {
+        background: rgb(167, 167, 167);
+        transition-duration: .3s;
+        transform: scale(1.05);
+    }
     .cardImg {
+        height: 14rem;
+    }
+    .cardImg1 {
+        height: 14rem;
+    }
+    .cardImg2 {
         height: 14rem;
     }
     .cardLink:hover {
