@@ -500,6 +500,17 @@
         transition-duration: .3s;
         transform: scale(1.05);
     }
+    .stepperCard2 {
+        width: 50vw;
+        height: max(18rem);
+        background: white;
+        
+    }
+    .stepperCard2:hover {
+        background: rgb(167, 167, 167);
+        transition-duration: .3s;
+        transform: scale(1.05);
+    }
     .cardImg {
         height: 12rem;
     }
@@ -1087,6 +1098,22 @@
         margin-top: 6%;
         margin-bottom: 30px;
     }
+    .stepperPage2 {
+        width: 100%;
+        height: 80%;
+        z-index: 1;
+        display: flex;
+        align-items: flex-start;
+        margin-top: 5%;
+        margin-bottom: 30px;
+    }
+    .archStepper2 {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .stepperPage > h1 {
         width: 100%;
         height: 5%;
@@ -1111,7 +1138,18 @@
         position: absolute;
         display: flex;
         margin: 0;
-        margin-top: 5%;
+        margin-top: 2%;
+        justify-content: center;
+        animation: fadeInAnimation 1s  0s 1 normal ;
+    }
+    #cardDeck2 {
+        width: 100%;
+        height: 40%;
+        z-index: 2;
+        position: absolute;
+        display: flex;
+        margin: 0;
+        margin-top: 1%;
         justify-content: center;
         animation: fadeInAnimation 1s  0s 1 normal ;
     }
@@ -1123,9 +1161,20 @@
     }
     .stepperCard1 {
         width: 50vw;
-        height: max(34rem);
+        height: max(33rem);
         background: white;
         
+    }
+    .stepperCard2 {
+        width: 50vw;
+        height: max(25rem);
+        background: white;
+        
+    }
+    .stepperCard2:hover {
+        background: rgb(167, 167, 167);
+        transition-duration: .3s;
+        transform: scale(1.05);
     }
     .stepperCard:hover {
         background: rgb(167, 167, 167);
@@ -1139,6 +1188,12 @@
     }
     .cardImg {
         height: 60%;
+    }
+    .cardImg1 {
+        height: 15rem;
+    }
+    .cardImg2 {
+        height: 50%;
     }
     .cardLink:hover {
         color: inherit;

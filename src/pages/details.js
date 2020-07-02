@@ -34,7 +34,7 @@ export default function architectsStepper() {
             <CardDeck id='cardDeck2'>
                 <a href='/detailsInsulation/'className='cardLink'>
                     <Card className='stepperCard2'>
-                        <Card.Img className='cardImg' variant="top" src={jul} />
+                        <Card.Img className='cardImg1' variant="top" src={jul} />
                         <Card.Body id='cardBody'>
                             <Card.Title id='cardTitle'>Insulation Details & Drawings
                             <Icon.ExternalLink className='insulLink'/>
@@ -47,9 +47,9 @@ export default function architectsStepper() {
                 </a>
                 <a className='cardLink' href='/detailsRoof/'>
                     <Card className='stepperCard2'>
-                        <Card.Img className='cardImg'  variant="top" src={uofa} />
+                        <Card.Img className='cardImg1'  variant="top" src={uofa} />
                         <Card.Body id='cardBody'>
-                            <Card.Title id='cardTitle1'>
+                            <Card.Title id='cardTitle'>
                                 Roofing Details & Drawings
                             <Icon.ExternalLink className='insulLink'/>
                             </Card.Title>
