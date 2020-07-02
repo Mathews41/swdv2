@@ -158,7 +158,7 @@ const RightNav = ({ open }) => {
       <li><a id='sideNav' href='/'>Home</a></li>
       <li><a id='sideNav' href='/architectsInsulation/'>Insulation</a></li>
       <li><a id='sideNav' href='/architectsRoofing/'>Roofing</a></li>
-      <li><a id='sideNav' href='/projectsStepper/'>Projects</a></li>
+      <li><a id='sideNav' href='/projects/'>Projects</a></li>
       <li><a id='sideNav' href='/details/'>Details & Drawings</a></li>
 
 
