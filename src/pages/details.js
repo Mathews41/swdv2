@@ -13,6 +13,8 @@ import * as Icon from 'react-feather'
 import '../assets/scss/layout/_main.scss'
 import uofa from '../images/uofahonors-min.jpg'
 import jul from '../images/yul-overall.jpg'
+import roofingdeets from '../images/Roofing_Edited_6-min.jpg'
+
 
 
 import greenguard from '../images/greenguard logo (1).jpg'
@@ -47,7 +49,7 @@ export default function architectsStepper() {
                 </a>
                 <a className='cardLink' href='/detailsRoof/'>
                     <Card className='stepperCard2'>
-                        <Card.Img className='cardImg1'  variant="top" src={uofa} />
+                        <Card.Img className='cardImg1'  variant="top" src={roofingdeets} />
                         <Card.Body id='cardBody'>
                             <Card.Title id='cardTitle'>
                                 Roofing Details & Drawings
