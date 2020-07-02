@@ -49,7 +49,7 @@ export default function architectsStepper() {
                     <Card className='stepperCard1'>
                         <Card.Img className='cardImg1'  variant="top" src={uofa} />
                         <Card.Body id='cardBody'>
-                            <Card.Title id='cardTitle1'>
+                            <Card.Title id='cardTitle'>
                                 Roofing Projects
                             <Icon.ExternalLink className='insulLink'/>
                             </Card.Title>
