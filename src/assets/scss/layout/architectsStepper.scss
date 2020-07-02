@@ -423,71 +423,97 @@
             
         }
     }
+    .ArchStepperPage {
+        width: auto;
+        height: auto;
+        background: rgb(255, 255, 255);
+        overflow: hidden;
+        margin: 0;
+    }
+    .stepperimg {
+        width: 100%;
+        z-index: -10;
+        height: 100vh;
+        position: fixed;
+    }
     .archStepper {
         width: 100%;
         height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 0;
     }
-    .stepperimg {
-        z-index: -10;
-        width: fit-content;
-        height: fit-content;
-        position: absolute;
-    }
-    .bgimg {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: row;
-        z-index: 0;
-        position: absolute;
+    
+    .img-containerHome {
+        margin-top: 10rem;
+        z-index: 1;
     }
     .stepperPage {
         width: 100%;
-        height: 80%;
+        height: 100%;
         z-index: 1;
         display: flex;
         align-items: flex-start;
-        margin-top: 8%;
+        margin-top: 20%;
+        margin-bottom: 30px;
+    }
+    .stepperPage > h1 {
+        width: 100%;
+        height: 5%;
+        text-align: center;
+        font-size: 26pt;
+        letter-spacing: .2rem;
     }
     #cardDeck {
         width: 100%;
-        height: 70%;
+        height: auto;
         z-index: 2;
         position: absolute;
         display: flex;
+        flex-direction: column;
         margin: 0;
-        justify-content: center;
+        margin-top: 10%;
+        justify-content: flex-start;
+        align-items: center;
         animation: fadeInAnimation 1s  0s 1 normal ;
     }
     .stepperCard {
-        width: 40vw;
+        width: 70vw;
+        height: max(18rem);
+        background: white;
         
     }
-    
+    .stepperCard1 {
+        width: 65vw;
+        height: max(24rem);
+        background: white;
+        
+    }
+    .stepperCard:hover {
+        background: rgb(167, 167, 167);
+        transition-duration: .3s;
+        transform: scale(1.05);
+    }
+    .stepperCard1:hover {
+        background: rgb(167, 167, 167);
+        transition-duration: .3s;
+        transform: scale(1.05);
+    }
     .cardImg {
-        height: 9rem;
+        height: 12rem;
     }
-    
+    .cardLink:hover {
+        color: inherit;
+    }
     .cardLink {
-        width: 45%;
-        height: 100%;
+        width: auto;
+        height: 20%;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-self: center;
+        margin-bottom: 5%;
     
-    }
-    
-    #cardTitle {
-     font-size: 14pt;
-    }
-    #cardText {
-        font-size: 8.3pt;
-    }
-    #cardBody {
-        padding: 15px;
     }
     #cardTextList {
         display: flex;
@@ -497,7 +523,7 @@
         text-align: left;
         margin: 0;
         padding: 0;
-        font-size: 28pt;
+        font-size: 32pt;
     }
     .cardTextList > li {
         text-align: flex-start;
@@ -510,30 +536,56 @@
         font-size: 18pt;
         margin-top: 2%;
     }
+    #cardTitle {
+     font-size: 18pt;
+     color: black;
+    }
+    #cardText {
+        font-size: 12pt;
+        color: black;
+    }
+    #cardText1 {
+        font-size: 12pt;
+        color: black;
+    }
+    #cardBody {
+        padding: 10px;
+    }
+    .videoCont {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 10%;
+        margin-top: 24%;
+        padding: 10px;
+        display: none;
+    }
+    
     .isoBand {
-        width: 78.5vw;
+        width: 70.5vw;
         background: white;
-        height: 80px;
+        height: 70px;
         z-index: 4;
         overflow: hidden;
         position: absolute;
         bottom: 0;
         display: flex;
         flex-direction: row;
-        align-self: flex-end;
+        align-self: center;
         justify-content: space-evenly;
         align-items: center;
         border-radius: 10px;
     }
     .ISO {
-        width: 60px;
-        height: 60px;
+        width: 70px;
+        height: 70px;
         display: flex;
     }
     .isoBand1 {
         width: 100%;
         background: white;
-        height: 140px;
+        height: 120px;
         z-index: 4;
         bottom: 0;
         display: flex;
@@ -544,13 +596,20 @@
         border-radius: 10px;
     }
     .ISO1 {
-        width: 60px;
-        height: 60px;
+        width: 65px;
+        height: 65px;
         display: flex;
     }
+    .ISO12 {
+        width: 90px;
+        height: 90px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
     .ISO11 {
-        width: 60px;
-        height: 60px;
+        width: 65px;
+        height: 65px;
         margin-top: 15px;
         border-radius: 10px;
     }
@@ -1224,6 +1283,13 @@
         justify-content: center;
         align-items: center;
     }
+    .archStepper2 {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .img-containerHome {
         margin-top: 10rem;
         z-index: 1;
@@ -1238,6 +1304,15 @@
         margin-bottom: 30px;
     }
     .stepperPage1 {
+        width: 100%;
+        height: 80%;
+        z-index: 1;
+        display: flex;
+        align-items: flex-start;
+        margin-top: 5%;
+        margin-bottom: 30px;
+    }
+    .stepperPage2 {
         width: 100%;
         height: 80%;
         z-index: 1;
@@ -1268,6 +1343,17 @@
         justify-content: center;
         animation: fadeInAnimation 1s  0s 1 normal ;
     }
+    #cardDeck2 {
+        width: 100%;
+        height: 40%;
+        z-index: 2;
+        position: absolute;
+        display: flex;
+        margin: 0;
+        margin-top: 1%;
+        justify-content: center;
+        animation: fadeInAnimation 1s  0s 1 normal ;
+    }
     .stepperCard {
         width: 50vw;
         height: max(19rem);
@@ -1287,12 +1373,23 @@
         background: white;
         
     }
+    .stepperCard2 {
+        width: 50vw;
+        height: max(18rem);
+        background: white;
+        
+    }
     .stepperCard:hover {
         background: rgb(167, 167, 167);
         transition-duration: .3s;
         transform: scale(1.05);
     }
     .stepperCard1:hover {
+        background: rgb(167, 167, 167);
+        transition-duration: .3s;
+        transform: scale(1.05);
+    }
+    .stepperCard2:hover {
         background: rgb(167, 167, 167);
         transition-duration: .3s;
         transform: scale(1.05);

@@ -226,7 +226,7 @@ export default function architectsInsulation() {
                     </Accordion.Collapse>
             </Card>
             <div className='drawingContainer'>
-            <Link className='drawButton' to='/details/'>
+            <Link className='drawButton' to='/detailsRoof/'>
                 Details & Drawings
                 <Icon.ExternalLink className='externalLink'/>
                 </Link>

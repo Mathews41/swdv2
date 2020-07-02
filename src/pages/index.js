@@ -149,7 +149,7 @@ class IndexPage extends React.Component {
                             </Card.Title>
                                 <Card.Text id='cardText'>
                                 QUIK-SHIELD® Spray Foam Insulation is the most effective way to insulate the building envelope.
-                                Available in 0.4 lb open cell or 2 lb closed cell insulation. 
+                                Available in  open cell or closed cell insulation. 
                                 
                                 </Card.Text>
                         </Card.Body>

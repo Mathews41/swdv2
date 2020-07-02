@@ -33,7 +33,7 @@ import greenguard from '../images/greenguard logo (1).jpg'
 
 //DOCS
 import ccrr108 from '../images/CCRR-108.pdf'
-import gold from '../images/GREENGUARD-Gold-Certification-2020.pdf'
+import vocym108 from '../images/108ymvoc.pdf'
 import TDS108 from '../images/TDS-QS-108YM.pdf'
 import spec108 from '../images/Spec108.pdf'
 import TDS112xc from '../images/TDS-QS-112XC.pdf'
@@ -76,9 +76,9 @@ export default function architectsInsulation() {
                    <li>Interior applications only</li>
                    <li>Air barrier material</li>
                    <li>Excellent sound absorbtion</li>
-                   <li>Vapor permeable-Allows for bi-directional drying (drying to the exterior in winter and to the interior in summer)</li>
+                   <li>Vapor permeable-allows for bi-directional drying (drying to the exterior in winter and to the interior in summer)</li>
                    <li>Recommended for those applications where bi-directional drying are advangeous such as in IECC Climate Zones 1-4</li>
-                   <li>Low density 0.4 - 0.5 lbs/ft³ polyurethane foam</li>
+                   <li>Low density, higher yield polyurethane foam</li>
 
                </ul>
                
@@ -106,6 +106,10 @@ export default function architectsInsulation() {
                                     target='_blank' rel='noreferrer' >QS 108YM Technical Data Sheet </a>  
                                     <a href={spec108}
                                     target='_blank' rel='noreferrer' >QS 108YM Specification </a>  
+                                    <a href={ccrr108}
+                                    target='_blank' rel='noreferrer' >QS 108YM Code Report </a>  
+                                    <a href={vocym108}
+                                    target='_blank' rel='noreferrer' >QS 108YM VOC </a> 
 
                             </Media.Body>
                         </Media>
@@ -113,7 +117,7 @@ export default function architectsInsulation() {
                     </Accordion.Collapse>
             </Card>
                 <div className='drawingContainer'>
-            <Link className='drawButton' to='/details/'>
+            <Link className='drawButton' to='/detailsInsulation/'>
                 Details & Drawings
                 <Icon.ExternalLink className='externalLink'/>
                 </Link>
@@ -134,7 +138,7 @@ export default function architectsInsulation() {
                    <li>Low water absorption properties and FEMA recognized Class 5 material as "highly resistant to flood water damage"</li>
                    <li>Superior structural attributes</li>
                    <li>Recommended for those applications where thermal and water vapor performance are critical such as in IECC Climate Zone 5 and higher and various specialized applications such as freezers, coolers, indoor swimming pools etc.</li>
-                   <li>Medium density 2 lbs/ft³, semi-rigid polyurethane foam</li>
+                   <li>Medium density 2 lbs/ft³, rigid polyurethane foam</li>
 
                </ul>
             <div className='accordian-container1'>
@@ -158,8 +162,6 @@ export default function architectsInsulation() {
                             <Media.Body className='media-body1'>
                                     <a href={TDS112}
                                     target='_blank' rel='noreferrer' >QS 112 Technical Data Sheet </a>  
-                                    <a href={TDS112xc}
-                                    target='_blank' rel='noreferrer' >QS 112XC Technical Data Sheet </a>
                                     <a href={qs112} target='_blank' rel='noreferrer'>QS 112 Specification(Download)</a>  
                                     <a href={ccrr112}
                                     target='_blank' rel='noreferrer' >QS 112 Code Report</a>  
@@ -187,9 +189,7 @@ export default function architectsInsulation() {
                         <Media.Body className='media-body1'>
                                     <a href={TDS118}
                                     target='_blank' rel='noreferrer' >QS 118 Technical Data Sheet </a>  
-                                    <a href={TDS118xc}
-                                    target='_blank' rel='noreferrer' >QS 118XC Technical Data Sheet </a> 
-                                    <a href={qs118} target='_blank' rel='noreferrer'>QS 118 Specification(Download)</a>  
+                                    <a href={qs118} target='_blank' rel='noreferrer'>QS 118 Specification</a>  
                                     <a href={ccrr118}
                                     target='_blank' rel='noreferrer' >QS 118 Code Report</a>  
                                     <a href={VOC118}
@@ -205,7 +205,7 @@ export default function architectsInsulation() {
                 <h3>QS 450 Pour Foam</h3>
                 <h6 className='accordian-subtext2'>
                     Core Fill Insulation. Specifically designed for use
-                    to fill cavities in concrete, cinder block, masonry walls
+                    to fill cavities in concrete, cinder block, and masonry walls
                     to increase insulation values.
                     </h6>
                                       <Icon.ChevronDown color='blue' size={45} />
@@ -228,7 +228,7 @@ export default function architectsInsulation() {
                     </Accordion.Collapse>
             </Card>
             <div className='drawingContainer'>
-            <Link className='drawButton' to='/details/'>
+            <Link className='drawButton' to='/detailsInsulation/'>
                 Details & Drawings
                 <Icon.ExternalLink className='externalLink'/>
                 </Link>

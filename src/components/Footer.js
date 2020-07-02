@@ -45,7 +45,7 @@ export default function Footer() {
       
       <div className='footerQuestions'>
         <h3 className='questionsTitle'>Questions? Call Us.</h3>
-        <p>We’re here to help. Call us to speak with a foam specialist or visit our corporate site.</p>
+        <p>We’re here to help. Call us to speak with a foam specialist or visit our corporate website.</p>
         <h3 className='number'>800-828-1394</h3>
         <a className='domain'href='http://swdurethane.com/'> SWDUrethane.com </a>
       </div>

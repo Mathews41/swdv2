@@ -66,9 +66,21 @@ export default function Header() {
                         </div>
                     </li>
                     <li>
-                      <a className='linkArch' href='/details/'>
+                    <div className='dropdown'>
+                      <a className='linkProj' href='/details/'>
                         Details & Drawings
                         </a>
+                        <div className='projectsMenu'>
+                          <ul>
+                            <li>
+                              <Link className='archLink' to='/detailsInsulation/'>Insulation Details</Link>
+                            </li>
+                            <li className='roofList'>
+                            <Link className='roofLink' to='/detailsRoof/'>Roofing Details</Link>
+                            </li>
+                          </ul>
+                        </div>
+                        </div>
                     </li>
                     
                    
