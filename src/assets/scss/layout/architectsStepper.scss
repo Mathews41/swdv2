@@ -1606,7 +1606,13 @@
         transform: scale(1.05);
     }
     .cardImg {
-        height: 14rem;
+        height: 70%;
+    }
+    .cardImg1 {
+        height: 15rem;
+    }
+    .cardImg2 {
+        height: 50%;
     }
     .cardLink:hover {
         color: inherit;
