@@ -77,9 +77,11 @@ import QSW132r from '../images/QSR-132 - Existing Pitch Pan.pdf'
 import QSW133r from '../images/QSR-133 - Equipment Support on Existing Stand.pdf'
 import QSW134r from '../images/QSR-134 - Roof Equipment Protective Wall.pdf'
 import QSW135r from '../images/QSR-135 - AC Duct Elbow.pdf'
+import QSW142r from '../images/QSR-142 1-3 Hour Class A Metal Deck.pdf'
 import QSW143r from '../images/QSR-143 - Class A Metal Fluted Deck with Tape.pdf'
 import QSW144r from '../images/QSR-144 - Class B Roof on Combustible Deck.pdf'
 import QSW145r from '../images/QSR-145 - Polyiso Board.pdf'
+import QSW146r from '../images/QSR-146 2 Hour Class A Concrete Deck.pdf'
 import QSW147r from '../images/QSR-147 - Class A Roof on Combustible Deck with Cementitious Coating.pdf'
 import QSW151r from '../images/QSR-151 - Roof Hatch.pdf'
 import QSW152r from '../images/QSR-152 - Raised Curb for Skylight.pdf'
@@ -379,6 +381,12 @@ export default function details() {
                             <Media.Body className='media-body1'>   
                             <ul className='ullist'>
                             <li>
+                                    <a href={QSW142r} target='_blank' rel='noreferrer'>
+                                    QSR-142 1 - 3 Hour - Class ‘A’ Metal Deck
+Roof Assembly
+                                    </a>
+                                </li>
+                            <li>
                                     <a href={QSW143r} target='_blank' rel='noreferrer'>
                                     QSR-143 - Class A Metal Fluted Deck with Tape
                                     </a>
@@ -390,6 +398,11 @@ export default function details() {
                                 </li><li>
                                     <a href={QSW145r} target='_blank' rel='noreferrer'>
                                     QSR-145 - Polyiso Board
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href={QSW146r} target='_blank' rel='noreferrer'>
+                                    QSR-146 2 Hour Class A Concrete Deck
                                     </a>
                                 </li>
                                 <li>

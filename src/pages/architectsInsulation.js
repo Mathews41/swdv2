@@ -12,15 +12,6 @@ import Footer from '../components/Footer'
 import '../assets/scss/layout/global.scss'
 
 
-// Brochure
-import qs118b from '../images/QS118B.pdf'
-import qs118xcb from '../images/QS118XCB.pdf'
-import qs112xcb from '../images/QS112XCB.pdf'
-import qs112b from '../images/QS112B.pdf'
-import qs106b from '../images/QS106B.pdf'
-import qs108b from '../images/QS108B.pdf'
-import qs104b from '../images/QS104B.pdf'
-import qs108ymb from '../images/QS108YMB.pdf'
 
 //Images
 import elevation from '../images/elevation shot-min.jpg'
@@ -33,7 +24,7 @@ import greenguard from '../images/greenguard logo (1).jpg'
 
 //DOCS
 import ccrr108 from '../images/CCRR-108.pdf'
-import vocym108 from '../images/108ymvoc.pdf'
+import vocym108 from '../images/GREENGUARD Gold Certification-QS108-Current 2020.pdf'
 import TDS108 from '../images/TDS-QS-108YM.pdf'
 import spec108 from '../images/Spec108.pdf'
 import TDS112xc from '../images/TDS-QS-112XC.pdf'
