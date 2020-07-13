@@ -221,7 +221,7 @@ export default function details() {
                             <ul className='ullist'>
                                 <li>
                                     <a href={QSW001Ceil} target='_blank' rel='noreferrer'>
-                                    AIA Certificate - Roofing System Paul Simonsen DIGITAL
+                                    QSW-001 Ceiling - Cathedral with Skylight
                                     </a>
                                 </li>
                                 <li>
