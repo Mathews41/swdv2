@@ -255,8 +255,7 @@
 @media (min-width: 981px) and (max-width: 1280px){
     .detailsPg {
         width: 100vw;
-        height: 100%;
-        margin-top: 5%;
+        height: 100vh;
         background: rgb(255, 255, 255);
         display: flex;
         flex-direction: column;
@@ -273,8 +272,8 @@
     }
     .detailsheader {
         text-align: center;
-        width: 40%;
-        height: 10%;
+        width: 90%;
+        height: auto;
         display: flex;
         flex-direction: column;
         background: rgba(255, 255, 255, 0.842);
