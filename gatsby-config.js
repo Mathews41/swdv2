@@ -26,24 +26,24 @@ module.exports = {
            trackingId: "UA-168691058-1",
         },
   },
-  {
-    resolve: "gatsby-plugin-guess-js",
-    options: {
-      // Find the view id in the GA admin in a section labeled "views"
-      GAViewID: `VIEW_ID`,
-      // Add a JWT to get data from GA
-      jwt: {
-        client_email: `GOOGLE_SERVICE_ACCOUNT_EMAIL`,
-        private_key: `GOOGLE_SERVICE_ACCOUNT_PRIVATE_KEY`,
-      },
-      minimumThreshold: 0.03,
-      // The "period" for fetching analytic data.
-      period: {
-        startDate: new Date("2020-7-1"),
-        endDate: new Date(),
-      },
-    },
-  },
+  // {
+  //   resolve: "gatsby-plugin-guess-js",
+  //   options: {
+  //     // Find the view id in the GA admin in a section labeled "views"
+  //     GAViewID: `VIEW_ID`,
+  //     // Add a JWT to get data from GA
+  //     jwt: {
+  //       client_email: `GOOGLE_SERVICE_ACCOUNT_EMAIL`,
+  //       private_key: `GOOGLE_SERVICE_ACCOUNT_PRIVATE_KEY`,
+  //     },
+  //     minimumThreshold: 0.03,
+  //     // The "period" for fetching analytic data.
+  //     period: {
+  //       startDate: new Date("2020-7-1"),
+  //       endDate: new Date(),
+  //     },
+  //   },
+  // },
   {
     resolve: `gatsby-plugin-styled-components`,
     options: {
