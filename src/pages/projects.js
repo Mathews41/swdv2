@@ -13,6 +13,7 @@ import * as Icon from 'react-feather'
 import '../assets/scss/layout/_main.scss'
 import uofa from '../images/uofahonors-min.jpg'
 import jul from '../images/yul-overall.jpg'
+import Footer from '../components/Footer'
 
 
 import greenguard from '../images/greenguard logo (1).jpg'
@@ -71,6 +72,7 @@ From roof edge to roof edge QUIK-SHIELD® urethane foam provides a seamless roof
 
         </div>
         </div>
+        <Footer/>
         </div>
     )
 }

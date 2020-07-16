@@ -14,6 +14,7 @@ import '../assets/scss/layout/_main.scss'
 import uofa from '../images/uofahonors-min.jpg'
 import jul from '../images/yul-overall.jpg'
 import roofingdeets from '../images/Roofing_Edited_6-min.jpg'
+import Footer from '../components/Footer'
 
 
 
@@ -72,6 +73,7 @@ export default function architectsStepper() {
 
         </div>
         </div>
+        <Footer/>
         </div>
     )
 }

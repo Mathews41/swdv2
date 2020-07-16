@@ -1159,7 +1159,7 @@
 		}
 	}
 		.body {
-			height: 100vh;
+			height: 100%;
 			width: 100vw;
 			background: white;
 		}
@@ -1175,7 +1175,6 @@
 			padding: 0;
 			z-index: 3;
 			display: -webkit-flex;
-			overflow-x: hidden;
 	
 			
 	
