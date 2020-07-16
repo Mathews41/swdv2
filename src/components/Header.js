@@ -82,7 +82,11 @@ export default function Header() {
                         </div>
                         </div>
                     </li>
-                    
+                    <li>
+                   <a className='linkArch' href='/leed/'>
+                        LEED
+                        </a>
+                   </li>
                    
                   </ul>
               </nav>

@@ -4863,6 +4863,41 @@ list-style-type: disc;
         height: 100%;
         margin-top: 1%;
     }
-    
+    .leedtop {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3%;
+    }
+    .leedtitle {
+        width: 63%;
+        display: flex;
+        background: #B7B7B7;
+        padding: 2%;
+        border-radius: 10px;
+        
+    }
+    .leedlist {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .leedlist > li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .leedlist > li > img {
+        height: 150px;
+        width: 200px;
+        margin-top: 1%;
+    }
+    .leedlist > li > h2 {
+        font-size: 20pt;
+        letter-spacing: .2rem;
+    }
     
 }

@@ -62,7 +62,6 @@ From roof edge to roof edge QUIK-SHIELD® urethane foam provides a seamless roof
                 </a>
             </CardDeck>
         </div>
-        </div>
         <div className='isoBand'>
             <img alt='stepper' className='ISO1' src={abaa}></img>
             <img alt='stepper' className='ISO12' src={greenguard}></img>
@@ -70,6 +69,7 @@ From roof edge to roof edge QUIK-SHIELD® urethane foam provides a seamless roof
             <img alt='stepper' className='ISO11' src={masterSpec}></img>
             <img alt='stepper' className='ISO1' src={greenbuilding}></img>
 
+        </div>
         </div>
         </div>
     )

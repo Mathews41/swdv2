@@ -149,7 +149,7 @@
 }
 @include breakpoint(xsmall){
   .footer {
-    width: 100vw;
+    width: 100%;
     height: auto;
     background:rgb(235, 235, 235);
     display: flex;
@@ -299,7 +299,7 @@
 @include breakpoint(small){
    .footer {
     
-    width: 100vw;
+    width: 100%;
     height: 30vh;
     background:rgb(235, 235, 235);
     display: flex;
@@ -374,7 +374,7 @@
     color: blue;
   }
   .footerQuestions {
-    width: 16%;
+    width: 20%;
     color: black;
     font-size: 12pt;
   }
@@ -448,6 +448,10 @@
   }
   .google {
     background:rgb(214, 214, 214);
+  }
+  .domain {
+    font-size: 12pt;
+    color: blue;
   }
 }
 @include breakpoint(medium){
