@@ -17,11 +17,18 @@
             
         }
     }
+    .projPage {
+        background: white;
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
     .container-proj {
-        width: 90%;
+        width: 100%;
         height: 100%;
         margin: 0;
-        margin-left: 10%;
         margin-bottom: 5%;
     
     }
@@ -33,6 +40,7 @@
     #section_0 {
         width: 100%;
         height: auto;
+        background: white;
         padding-top: 10%;
     }
     .scrollspyTitle {
@@ -65,7 +73,7 @@
     }
     .card-body1 > h3{
         width: 100%;
-        height: 20%;
+        height: 100px;
         color: black;
         background: white;
         font-size: 15pt;
@@ -73,7 +81,7 @@
     }
     .card-body1 > h4 {
         width: 100%;
-        height: 55%;
+        height: 70px;
         color: black;
         background: white;
         text-align: flex-start;
@@ -86,57 +94,26 @@
     .cardButton{
         position:relative;
         transition: .5s ease;
-        width: 60%;
+        width: 70%;
         font-size: 10pt;
-        bottom: 0px;
         align-self: center;
         background: rgb(2, 43, 85);
+        z-index: 10;
     }
     .cardButton:hover {
         background: black;
     }
     .content-container {
         width: 100%;
-        height: 100%;
+        height: auto;
         display: flex;
         flex-direction: column;
         text-align: center;
-    }
-    .scrollspy1 {
-        width: 13%;
-        height: 200px;
-        text-align: center;
-        background: white;
-        margin-left: 1%;
-        animation: growAnimation1 1s  0s 1 normal ;
-        box-shadow: 10px 10px 10px 5px black;
-        position: fixed;
-        border-radius: 10px;
-        left: 0;
         margin-top: 10%;
-        padding: 0;
-    
-    }
-    .scrollspy1 > li{
-        padding: 30px;
-    }
-    .scrollspy1:hover {
-        transition-duration: .3s;
-        transform: scale(1.1);
-    }
-    .scrollspy-content1 {
-        width: 100%;
-        height: auto;
-        display: flex;
-        z-index: 0;
-        // padding-top: 150px;
-        text-align: center;
-        margin-top: 0;
-        
     }
     .card-columns {
-        width: 100%;
-        height: 70vh;
+        width: 80%;
+        height: auto;
         display: inline-flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -144,15 +121,16 @@
     }
     #card {
         width: 400px;
-        height: 70%;
-        margin: 1%;
+        height: 100%;
+        margin-bottom: 2%;
+        background: white;
         border-radius: 1%;
         box-shadow: 10px 10px 10px 5px black;
         display: flex;
         flex-direction: column;
         overflow: hidden;
         animation: SlideAnimation2 1s  0s 1 normal ;
-    
+        
     }
     .carTag {
         color: black;
@@ -165,6 +143,11 @@
     .card-img-top1 {
         width: 100%;
         height: 225px;
+        max-width: 500px;
+    }
+    .card-img-top12 {
+        width: 140%;
+        height: 85px;
     }
     .dropdownArch {
         display: none;
@@ -192,11 +175,18 @@
             
         }
     }
+    .projPage {
+        background: white;
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
     .container-proj {
-        width: 90%;
+        width: 100%;
         height: 100%;
         margin: 0;
-        margin-left: 10%;
         margin-bottom: 5%;
     
     }
@@ -208,6 +198,7 @@
     #section_0 {
         width: 100%;
         height: auto;
+        background: white;
         padding-top: 10%;
     }
     .scrollspyTitle {
@@ -240,7 +231,7 @@
     }
     .card-body1 > h3{
         width: 100%;
-        height: 20%;
+        height: 100px;
         color: black;
         background: white;
         font-size: 15pt;
@@ -248,7 +239,7 @@
     }
     .card-body1 > h4 {
         width: 100%;
-        height: 55%;
+        height: 70px;
         color: black;
         background: white;
         text-align: flex-start;
@@ -261,57 +252,26 @@
     .cardButton{
         position:relative;
         transition: .5s ease;
-        width: 60%;
+        width: 70%;
         font-size: 10pt;
-        bottom: 0px;
         align-self: center;
         background: rgb(2, 43, 85);
+        z-index: 10;
     }
     .cardButton:hover {
         background: black;
     }
     .content-container {
         width: 100%;
-        height: 100%;
+        height: auto;
         display: flex;
         flex-direction: column;
         text-align: center;
-    }
-    .scrollspy1 {
-        width: 13%;
-        height: 200px;
-        text-align: center;
-        background: white;
-        margin-left: 1%;
-        animation: growAnimation1 1s  0s 1 normal ;
-        box-shadow: 10px 10px 10px 5px black;
-        position: fixed;
-        border-radius: 10px;
-        left: 0;
         margin-top: 10%;
-        padding: 0;
-    
-    }
-    .scrollspy1 > li{
-        padding: 30px;
-    }
-    .scrollspy1:hover {
-        transition-duration: .3s;
-        transform: scale(1.1);
-    }
-    .scrollspy-content1 {
-        width: 100%;
-        height: auto;
-        display: flex;
-        z-index: 0;
-        // padding-top: 150px;
-        text-align: center;
-        margin-top: 0;
-        
     }
     .card-columns {
-        width: 100%;
-        height: 70vh;
+        width: 90%;
+        height: auto;
         display: inline-flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -319,15 +279,16 @@
     }
     #card {
         width: 400px;
-        height: 70%;
-        margin: 1%;
+        height: 100%;
+        margin-bottom: 5%;
+        background: white;
         border-radius: 1%;
         box-shadow: 10px 10px 10px 5px black;
         display: flex;
         flex-direction: column;
         overflow: hidden;
         animation: SlideAnimation2 1s  0s 1 normal ;
-    
+        
     }
     .carTag {
         color: black;
@@ -339,6 +300,11 @@
     }
     .card-img-top1 {
         width: 100%;
+        height: 225px;
+        max-width: 500px;
+    }
+    .card-img-top12 {
+        width: 140%;
         height: 225px;
     }
     .dropdownArch {
@@ -367,11 +333,17 @@
             
         }
     }
+    .projPage {
+        background: white;
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
     .container-proj {
-        width: 90%;
+        width: 100%;
         height: 100%;
         margin: 0;
-        margin-left: 10%;
         margin-bottom: 5%;
     
     }
@@ -383,6 +355,7 @@
     #section_0 {
         width: 100%;
         height: auto;
+        background: white;
         padding-top: 10%;
     }
     .scrollspyTitle {
@@ -415,7 +388,7 @@
     }
     .card-body1 > h3{
         width: 100%;
-        height: 20%;
+        height: 100px;
         color: black;
         background: white;
         font-size: 15pt;
@@ -423,7 +396,7 @@
     }
     .card-body1 > h4 {
         width: 100%;
-        height: 55%;
+        height: 70px;
         color: black;
         background: white;
         text-align: flex-start;
@@ -438,55 +411,23 @@
         transition: .5s ease;
         width: 60%;
         font-size: 10pt;
-        bottom: 0px;
         align-self: center;
         background: rgb(2, 43, 85);
+        z-index: 10;
     }
     .cardButton:hover {
         background: black;
     }
     .content-container {
         width: 100%;
-        height: 100%;
+        height: auto;
         display: flex;
         flex-direction: column;
         text-align: center;
     }
-    .scrollspy1 {
-        width: 13%;
-        height: 200px;
-        text-align: center;
-        background: white;
-        margin-left: 1%;
-        animation: growAnimation1 1s  0s 1 normal ;
-        box-shadow: 10px 10px 10px 5px black;
-        position: fixed;
-        border-radius: 10px;
-        left: 0;
-        margin-top: 10%;
-        padding: 0;
-    
-    }
-    .scrollspy1 > li{
-        padding: 30px;
-    }
-    .scrollspy1:hover {
-        transition-duration: .3s;
-        transform: scale(1.1);
-    }
-    .scrollspy-content1 {
-        width: 100%;
-        height: auto;
-        display: flex;
-        z-index: 0;
-        // padding-top: 150px;
-        text-align: center;
-        margin-top: 0;
-        
-    }
     .card-columns {
         width: 100%;
-        height: 70vh;
+        height: auto;
         display: inline-flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -494,15 +435,16 @@
     }
     #card {
         width: 400px;
-        height: 70%;
+        height: 100%;
         margin: 1%;
+        background: white;
         border-radius: 1%;
         box-shadow: 10px 10px 10px 5px black;
         display: flex;
         flex-direction: column;
         overflow: hidden;
         animation: SlideAnimation2 1s  0s 1 normal ;
-    
+        
     }
     .carTag {
         color: black;
@@ -514,6 +456,11 @@
     }
     .card-img-top1 {
         width: 100%;
+        height: 225px;
+        max-width: 500px;
+    }
+    .card-img-top12 {
+        width: 140%;
         height: 225px;
     }
     .dropdownArch {

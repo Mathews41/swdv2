@@ -160,6 +160,7 @@ const RightNav = ({ open }) => {
       <li><a id='sideNav' href='/architectsRoofing/'>Roofing</a></li>
       <li><a id='sideNav' href='/projects/'>Projects</a></li>
       <li><a id='sideNav' href='/details/'>Details & Drawings</a></li>
+      <li><a id='sideNav' href='/leed/'>LEED</a></li>
 
 
     </Ul>
