@@ -10,7 +10,7 @@ import 'normalize.css';
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
 import '../assets/scss/layout/architectsStepper.scss'
-import img2 from '../images/Roofing_Edited_10-min.jpg'
+import img2 from '../images/Roofing_Edited_2-min.jpg'
 import { Link } from 'gatsby'
 import pic1 from '../images/QS106_Edited_3-min.jpg'
 import * as Icon from 'react-feather'

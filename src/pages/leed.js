@@ -22,14 +22,13 @@ export default function leed() {
                 <img alt='roofing' className='LEED' src={greenbuilding}></img>
                </div>
                <div className='leedtop'>
+                    <h2>LEED Credits for a Cleaner Climate</h2>
                <h3 className='leedtitle'>
-                    LEED Credits for a Cleaner Climate
                     Spray foam insulation is a total building performance solution that contributes to
                     LEED v3 and LEED v4 credits, in the following categories:
-                    <a href={info} target='__blank' rel='noreferrer' className='leedbtn'>Additional Information</a>
                     </h3>
                </div>
-                
+               <div className='leedcontent'>
                 <ul className='leedlist'>
                     <li>
                         <h2>Energy & Atmosphere</h2>   
@@ -48,6 +47,8 @@ export default function leed() {
                         <img src={indoor}/>
                     </li>
                 </ul>
+                    <a href={info} target='__blank' rel='noreferrer' className='leedbtn'>SPFA LEED Article</a>
+                </div>
                 </div>
                 <Footer/>
         </div>

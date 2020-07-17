@@ -5226,9 +5226,11 @@ list-style-type: disc;
     .leedtop {
         width: 100%;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-bottom: 3%;
+
     }
     .leedbtn {
         width: 400px;
@@ -5245,15 +5247,22 @@ list-style-type: disc;
     .leedtitle {
         width: 63%;
         display: flex;
-        background: #B7B7B7;
         align-items: center;
         padding: 2%;
         border-radius: 10px;
         flex-direction: column;
         
     }
-    .leedlist {
+    .leedcontent {
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .leedlist {
+        width: 90%;
+        height: auto;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -5270,8 +5279,8 @@ list-style-type: disc;
         margin-top: 1%;
     }
     .leedlist > li > h2 {
-        font-size: 20pt;
-        letter-spacing: .2rem;
+        font-size: 18pt;
+        letter-spacing: .1rem;
     }
     
 }
