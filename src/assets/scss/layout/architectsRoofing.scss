@@ -704,13 +704,29 @@ list-style-type: disc;
         margin-bottom: 10%;
     }
     .leedtitle {
-        width: 80%;
+        width: 83%;
         display: flex;
         background: #B7B7B7;
-        font-size: 10pt;
+        align-items: center;
         padding: 2%;
+        letter-spacing: .1rem;
         border-radius: 10px;
+        flex-direction: column;
         
+    }
+    .leedbtn {
+        width: 200px;
+        height: 50px;
+        display: flex;
+        font-size: 10pt;
+        align-items: center;
+        justify-content: center;
+        background: rgb(2, 43, 85);
+        margin: 2%;
+        border: none;
+        color: white;
+        border-radius: 10px;
+        text-align: center;
     }
     .leedlist {
         width: 100%;
@@ -1450,13 +1466,29 @@ list-style-type: disc;
         margin-bottom: 10%;
     }
     .leedtitle {
-        width: 80%;
+        width: 83%;
         display: flex;
         background: #B7B7B7;
-        font-size: 10pt;
+        align-items: center;
         padding: 2%;
+        letter-spacing: .1rem;
         border-radius: 10px;
+        flex-direction: column;
         
+    }
+    .leedbtn {
+        width: 200px;
+        height: 50px;
+        display: flex;
+        font-size: 10pt;
+        align-items: center;
+        justify-content: center;
+        background: rgb(2, 43, 85);
+        margin: 2%;
+        border: none;
+        color: white;
+        border-radius: 10px;
+        text-align: center;
     }
     .leedlist {
         width: 100%;
@@ -2195,10 +2227,23 @@ list-style-type: disc;
         width: 63%;
         display: flex;
         background: #B7B7B7;
-        font-size: 12pt;
+        align-items: center;
         padding: 2%;
         border-radius: 10px;
+        flex-direction: column;
         
+    }
+    .leedbtn {
+        width: 300px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(2, 43, 85);
+        margin: 2%;
+        border: none;
+        color: white;
+        border-radius: 10px;
     }
     .leedlist {
         width: 100%;
@@ -2932,10 +2977,23 @@ list-style-type: disc;
         width: 63%;
         display: flex;
         background: #B7B7B7;
-        font-size: 16pt;
+        align-items: center;
         padding: 2%;
         border-radius: 10px;
+        flex-direction: column;
         
+    }
+    .leedbtn {
+        width: 400px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(2, 43, 85);
+        margin: 2%;
+        border: none;
+        color: white;
+        border-radius: 10px;
     }
     .leedlist {
         width: 100%;
@@ -3672,9 +3730,10 @@ list-style-type: disc;
         width: 63%;
         display: flex;
         background: #B7B7B7;
-        font-size: 16pt;
+        align-items: center;
         padding: 2%;
         border-radius: 10px;
+        flex-direction: column;
         
     }
     .leedlist {
@@ -3684,7 +3743,18 @@ list-style-type: disc;
         justify-content: space-evenly;
         margin-bottom: 12%;
     }
-
+    .leedbtn {
+        width: 400px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(2, 43, 85);
+        margin: 2%;
+        border: none;
+        color: white;
+        border-radius: 10px;
+    }
     .leedlist > li {
         display: flex;
         flex-direction: column;
@@ -4412,8 +4482,10 @@ list-style-type: disc;
         width: 63%;
         display: flex;
         background: #B7B7B7;
+        align-items: center;
         padding: 2%;
         border-radius: 10px;
+        flex-direction: column;
         
     }
     .leedlist {
@@ -4421,6 +4493,18 @@ list-style-type: disc;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+    }
+    .leedbtn {
+        width: 400px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(2, 43, 85);
+        margin: 2%;
+        border: none;
+        color: white;
+        border-radius: 10px;
     }
     .leedlist > li {
         display: flex;

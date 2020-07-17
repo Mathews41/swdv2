@@ -17,6 +17,8 @@ import ppIBM from '../images/IBM1.pdf'
 import azalea from '../images/azalea.jpg'
 import ppAzalea from '../images/Project Prolife - Azalea Regional Shopping Center - SJP ORIGINAL EDITS (2).pdf'
 import ppTrend from '../images/Project Profile - The Trend at 51 Apartment Homes.pdf'
+import uofa from '../images/Project Profile - University of Arizona Honors Village.pdf'
+
 
 
 
@@ -69,6 +71,17 @@ export default function projects() {
       <button href={ppHarley} target='_blank' className='cardButton'>Read Full Study</button>
       </div>
 
+    </a>
+    <a href={uofa} target='_blank' id='card' >
+      <img alt='roof' class="card-img-top1" src={uofahonors}  alt="Card image top"/>
+      <div class="card-body1">
+        <h3 class="card-title">University of Arizona Honors Village</h3>
+        <h4 class="card-subtitle">
+          
+            Tuscon, AZ
+        </h4>
+        <button className='cardButton' target='_blank' href={ppTrend}>Read Full Study</button>
+      </div>
     </a>
     <a href={ppTrend} target='_blank' id='card' >
       <img alt='roof' class="card-img-top1" src={trend}  alt="Card image top"/>
