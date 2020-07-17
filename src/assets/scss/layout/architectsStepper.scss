@@ -1542,7 +1542,7 @@
     .videoCont {
         width: 100%;
         height: 20%;
-        bottom: 5rem;
+        bottom: 6rem;
         padding: 10px;
         position: absolute;
     }
@@ -1657,8 +1657,7 @@
         z-index: 1;
         display: flex;
         align-items: flex-start;
-        margin-top: 5%;
-        margin-bottom: 30px;
+        margin-top: 1%;
     }
     .stepperPage1 {
         width: 100%;
@@ -1713,7 +1712,7 @@
     }
     .stepperCard {
         width: 50vw;
-        height: max(19rem);
+        height: max(20rem);
         background: white;
         
     }
@@ -1752,7 +1751,7 @@
         transform: scale(1.05);
     }
     .cardImg {
-        height: 70%;
+        height: 75%;
     }
     .cardImg1 {
         height: 15rem;
@@ -1814,7 +1813,7 @@
     .videoCont {
         width: 100%;
         height: 25%;
-        bottom: 5%;
+        bottom: 7.5%;
         padding: 10px;
         position: absolute;
     }

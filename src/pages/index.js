@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
+import SEO from "../components/seo"
 
 import Header from '../components/Header'
 import Main from '../components/Main'
@@ -134,6 +135,10 @@ class IndexPage extends React.Component {
     const {data} = this.props;
     return (
       <div className='ArchStepperPage'>
+        {/* <SEO 
+        title='SWD Urethane' 
+        description='“Yield is very important to a contractor. In fact, we’re making a lot more money because I’ve been watching yields. But now if SWD is giving me a product that is higher yield, that is already half the battle. So, now, even if my guys are not doing as good a job and we’re not watching them every minute, we’re still going to get more yield, either way.”'
+        /> */}
                 {/* <img alt='background image' className='stepperimg' src={uofa}></img> */}
             <Header/>
         <div className='archStepper'>
