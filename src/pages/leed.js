@@ -6,6 +6,7 @@ import energy from '../images/energy.png'
 import inno from '../images/innovation.png'
 import material from '../images/material.png'
 import indoor from '../images/indoor.png'
+import info from '../images/spfa.pdf'
 
 
 
@@ -24,7 +25,9 @@ export default function leed() {
                <h3 className='leedtitle'>
                     LEED Credits for a Cleaner Climate
                     Spray foam insulation is a total building performance solution that contributes to
-                    LEEDv3 legacy credits, including new LEEDv4 credits, in the following categories:</h3>
+                    LEEDv3 legacy credits, including new LEEDv4 credits, in the following categories:
+                    <a href={info} target='__blank' rel='noreferrer' className='leedbtn'>Additional Information</a>
+                    </h3>
                </div>
                 
                 <ul className='leedlist'>

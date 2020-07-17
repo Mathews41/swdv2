@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: 'SWD Urethane',
-    author: 'SWDADMIN',
     description: 'Swd urethane polyurethane technologies provides spray foam roofing systems and spray foam wall insulation',
-    siteUrl: 'https://swdarchproducts.com'
+    Url: 'https://swdarchproducts.com',
+    image: 'src/images/icon.jpg',
+    author: 'swdurethane'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
