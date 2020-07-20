@@ -691,34 +691,28 @@ list-style-type: disc;
         color: red;
     }
     .LEED {
-        height: 200px;
-        width: 200px;
+        height: 100px;
+        width: 100px;
         margin-top: 3%;
-        margin-bottom: 5%;
     }
     .leedtop {
         width: 100%;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom: 10%;
+        margin-bottom: 5%;
+
     }
-    .leedtitle {
-        width: 83%;
-        display: flex;
-        background: #B7B7B7;
-        align-items: center;
-        padding: 2%;
+    .leedtop > h2 {
+        font-size: 10pt;
+        margin-top: 1%;
         letter-spacing: .1rem;
-        border-radius: 10px;
-        flex-direction: column;
-        
     }
     .leedbtn {
         width: 200px;
         height: 50px;
         display: flex;
-        font-size: 10pt;
         align-items: center;
         justify-content: center;
         background: rgb(2, 43, 85);
@@ -726,35 +720,48 @@ list-style-type: disc;
         border: none;
         color: white;
         border-radius: 10px;
-        text-align: center;
     }
-    .leedlist {
+    .leedtitle {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 2%;
+        font-size: 8pt;
+        border-radius: 10px;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 2%;
+        
+    }
+    .leedcontent {
         width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
-        margin-bottom: 12%;
+        align-items: center;
+        justify-content: center;
+        font-size: 8pt;
     }
-
+    .leedlist {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
     .leedlist > li {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 0;
-
     }
     .leedlist > li > img {
-        height: 120px;
-        width: 140px;
-        margin-bottom: 2%;
+        height: 80px;
+        width: 100px;
+        margin-top: 2%;
     }
     .leedlist > li > h2 {
-        font-size: 16pt;
+        font-size: 8pt;
         letter-spacing: .1rem;
-        margin-bottom: 15%;
-        text-align: center;
-
     }
     
     
@@ -1453,34 +1460,27 @@ list-style-type: disc;
         color: red;
     }
     .LEED {
-        height: 200px;
-        width: 200px;
+        height: 100px;
+        width: 100px;
         margin-top: 3%;
-        margin-bottom: 5%;
     }
     .leedtop {
         width: 100%;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom: 10%;
+        margin-bottom: 5%;
+
     }
-    .leedtitle {
-        width: 83%;
-        display: flex;
-        background: #B7B7B7;
-        align-items: center;
-        padding: 2%;
+    .leedtop > h2 {
+        font-size: 12pt;
         letter-spacing: .1rem;
-        border-radius: 10px;
-        flex-direction: column;
-        
     }
     .leedbtn {
         width: 200px;
         height: 50px;
         display: flex;
-        font-size: 10pt;
         align-items: center;
         justify-content: center;
         background: rgb(2, 43, 85);
@@ -1488,35 +1488,48 @@ list-style-type: disc;
         border: none;
         color: white;
         border-radius: 10px;
-        text-align: center;
     }
-    .leedlist {
+    .leedtitle {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 2%;
+        font-size: 10pt;
+        border-radius: 10px;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 2%;
+        
+    }
+    .leedcontent {
         width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
-        margin-bottom: 12%;
+        align-items: center;
+        justify-content: center;
+        font-size: 12pt;
     }
-
+    .leedlist {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
     .leedlist > li {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 0;
-
     }
     .leedlist > li > img {
-        height: 120px;
-        width: 140px;
-        margin-bottom: 2%;
+        height: 80px;
+        width: 100px;
+        margin-top: 2%;
     }
     .leedlist > li > h2 {
-        font-size: 16pt;
+        font-size: 8pt;
         letter-spacing: .1rem;
-        margin-bottom: 15%;
-        text-align: center;
-
     }
     
     
@@ -2213,28 +2226,24 @@ list-style-type: disc;
         color: red;
     }
     .LEED {
-        height: 60%;
+        width: 150px;
+        height: 150px;
         margin-top: 3%;
     }
     .leedtop {
         width: 100%;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom: 10%;
+        margin-bottom: 3%;
+
     }
-    .leedtitle {
-        width: 63%;
-        display: flex;
-        background: #B7B7B7;
-        align-items: center;
-        padding: 2%;
-        border-radius: 10px;
-        flex-direction: column;
-        
+    .leedtop > h2 {
+        font-size: 14pt;
     }
     .leedbtn {
-        width: 300px;
+        width: 400px;
         height: 50px;
         display: flex;
         align-items: center;
@@ -2245,14 +2254,31 @@ list-style-type: disc;
         color: white;
         border-radius: 10px;
     }
+    .leedtitle {
+        width: 63%;
+        display: flex;
+        align-items: center;
+        padding: 2%;
+        font-size: 10pt;
+        border-radius: 10px;
+        flex-direction: column;
+        
+    }
+    .leedcontent {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 12pt;
+    }
     .leedlist {
         width: 100%;
+        height: auto;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        margin-bottom: 12%;
     }
-
     .leedlist > li {
         display: flex;
         flex-direction: column;
@@ -2260,16 +2286,15 @@ list-style-type: disc;
         align-items: center;
     }
     .leedlist > li > img {
-        height: 90px;
-        width: 120px;
+        height: 80px;
+        width: 100px;
+        margin-top: 1%;
     }
     .leedlist > li > h2 {
-        font-size: 12pt;
+        font-size: 8pt;
         letter-spacing: .1rem;
-        margin-bottom: 15%;
-        text-align: center;
-
     }
+    
     
 }
 @media (min-width: 737px) and (max-width: 980px){
@@ -2963,25 +2988,20 @@ list-style-type: disc;
         color: red;
     }
     .LEED {
-        height: 80%;
+        height: 100%;
         margin-top: 3%;
     }
     .leedtop {
         width: 100%;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom: 10%;
+        margin-bottom: 3%;
+
     }
-    .leedtitle {
-        width: 63%;
-        display: flex;
-        background: #B7B7B7;
-        align-items: center;
-        padding: 2%;
-        border-radius: 10px;
-        flex-direction: column;
-        
+    .leedtop > h2 {
+        font-size: 15pt;
     }
     .leedbtn {
         width: 400px;
@@ -2995,14 +3015,31 @@ list-style-type: disc;
         color: white;
         border-radius: 10px;
     }
+    .leedtitle {
+        width: 63%;
+        display: flex;
+        align-items: center;
+        padding: 2%;
+        font-size: 12pt;
+        border-radius: 10px;
+        flex-direction: column;
+        
+    }
+    .leedcontent {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 14pt;
+    }
     .leedlist {
         width: 100%;
+        height: auto;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        margin-bottom: 12%;
     }
-
     .leedlist > li {
         display: flex;
         flex-direction: column;
@@ -3010,16 +3047,15 @@ list-style-type: disc;
         align-items: center;
     }
     .leedlist > li > img {
-        height: 120px;
-        width: 150px;
+        height: 100px;
+        width: 130px;
+        margin-top: 1%;
     }
     .leedlist > li > h2 {
-        font-size: 16pt;
+        font-size: 10pt;
         letter-spacing: .1rem;
-        margin-bottom: 15%;
-        text-align: center;
-
     }
+    
     
 }
 @media (min-width: 981px) and (max-width: 1280px){
@@ -3716,32 +3752,20 @@ list-style-type: disc;
         color: red;
     }
     .LEED {
-        height: 80%;
+        height: 100%;
         margin-top: 3%;
     }
     .leedtop {
         width: 100%;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom: 10%;
+        margin-bottom: 3%;
+
     }
-    .leedtitle {
-        width: 63%;
-        display: flex;
-        background: #B7B7B7;
-        align-items: center;
-        padding: 2%;
-        border-radius: 10px;
-        flex-direction: column;
-        
-    }
-    .leedlist {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        margin-bottom: 12%;
+    .leedtop > h2 {
+        font-size: 18pt;
     }
     .leedbtn {
         width: 400px;
@@ -3755,6 +3779,31 @@ list-style-type: disc;
         color: white;
         border-radius: 10px;
     }
+    .leedtitle {
+        width: 63%;
+        display: flex;
+        align-items: center;
+        padding: 2%;
+        font-size: 14pt;
+        border-radius: 10px;
+        flex-direction: column;
+        
+    }
+    .leedcontent {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 14pt;
+    }
+    .leedlist {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
     .leedlist > li {
         display: flex;
         flex-direction: column;
@@ -3762,17 +3811,14 @@ list-style-type: disc;
         align-items: center;
     }
     .leedlist > li > img {
-        height: 120px;
-        width: 150px;
+        height: 100px;
+        width: 130px;
+        margin-top: 1%;
     }
     .leedlist > li > h2 {
-        font-size: 16pt;
+        font-size: 10pt;
         letter-spacing: .1rem;
-        margin-bottom: 15%;
-        text-align: center;
-
     }
-    
     
     
 }
@@ -4468,31 +4514,17 @@ list-style-type: disc;
         color: red;
     }
     .LEED {
-        height: 70%;
-        margin-top: 3%;
+        height: 100%;
+        margin-top: 1%;
     }
     .leedtop {
         width: 100%;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-bottom: 3%;
-    }
-    .leedtitle {
-        width: 63%;
-        display: flex;
-        background: #B7B7B7;
-        align-items: center;
-        padding: 2%;
-        border-radius: 10px;
-        flex-direction: column;
-        
-    }
-    .leedlist {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+
     }
     .leedbtn {
         width: 400px;
@@ -4506,6 +4538,29 @@ list-style-type: disc;
         color: white;
         border-radius: 10px;
     }
+    .leedtitle {
+        width: 63%;
+        display: flex;
+        align-items: center;
+        padding: 2%;
+        border-radius: 10px;
+        flex-direction: column;
+        
+    }
+    .leedcontent {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .leedlist {
+        width: 93%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
     .leedlist > li {
         display: flex;
         flex-direction: column;
@@ -4513,15 +4568,14 @@ list-style-type: disc;
         align-items: center;
     }
     .leedlist > li > img {
-        height: 130px;
-        width: 170px;
+        height: 150px;
+        width: 200px;
         margin-top: 1%;
     }
     .leedlist > li > h2 {
-        font-size: 20pt;
-        letter-spacing: .2rem;
+        font-size: 15pt;
+        letter-spacing: .1rem;
     }
-    
     
     
 }
