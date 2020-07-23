@@ -107,7 +107,7 @@ export default function architectsInsulation() {
                                         <h4>
                                         Specification
                                         </h4>
-                                        <a href={spec155}target='_blank' rel='noreferrer' >Division 07 57 00 Specification (Download)</a>
+                                        <a href={spec155}target='_blank' rel='noreferrer' >Division 07 57 00 Specification</a>
                                         <h4 className='htag'>
                                         Code Report
                                         </h4>
@@ -157,7 +157,7 @@ export default function architectsInsulation() {
                                         <h4>
                                         Specification
                                         </h4>
-                                        <a href={spec155}target='_blank' rel='noreferrer' >Division 07 57 00 Specification (Download)</a>
+                                        <a href={spec155}target='_blank' rel='noreferrer' >Division 07 57 00 Specification</a>
                                         <h4 className='htag'>
                                         Code Report
                                         </h4>
@@ -214,7 +214,7 @@ export default function architectsInsulation() {
                                         <h4>
                                         Specification
                                         </h4>
-                                        <a href={spec155}target='_blank' rel='noreferrer' >Division 07 57 00 Specification (Download)</a>
+                                        <a href={spec155}target='_blank' rel='noreferrer' >Division 07 57 00 Specification</a>
                                         <h4 className='htag'>
                                         Code Report
                                         </h4>

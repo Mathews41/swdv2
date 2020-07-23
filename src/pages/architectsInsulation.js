@@ -153,7 +153,7 @@ export default function architectsInsulation() {
                             <Media.Body className='media-body1'>
                                     <a href={TDS112}
                                     target='_blank' rel='noreferrer' >QS 112 Technical Data Sheet </a>  
-                                    <a href={qs112} target='_blank' rel='noreferrer'>QS 112 Specification(Download)</a>  
+                                    <a href={qs112} target='_blank' rel='noreferrer'>QS 112 Specification</a>  
                                     <a href={ccrr112}
                                     target='_blank' rel='noreferrer' >QS 112 Code Report</a>  
                                     <a href={VOC112}
