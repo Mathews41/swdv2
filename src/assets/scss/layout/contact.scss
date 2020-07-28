@@ -254,7 +254,7 @@
         color: blue;
     }
 }
-@media (min-width: 981px) and (max-width: 1280px){
+@media (min-width: 981px) and (max-width: 1099px){
     .form-container {
         width: 100%;
         height: 100%;
@@ -318,7 +318,7 @@
         color: blue;
     }
 }
-@media (min-width: 1281px) and (max-width: 1680px){
+@media (min-width: 1100px) and (max-width: 1680px){
     .form-container {
         width: 100%;
         height: 100%;
@@ -398,7 +398,7 @@
         display: flex;
         flex-direction: column;
         width: 50%;
-        height: 50%;
+        height: 30%;
         margin-top: 10%;
         box-shadow: 10px 10px 10px 5px black;
         border-radius: 1%;
@@ -410,9 +410,9 @@
         align-items: center;
     }
     .formLabel {
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         padding: 1%;
-        background: #2B466C;
+        font-size: 18pt;
         
     }
     #formControl {
@@ -427,9 +427,15 @@
         
     
     }
+    #email {
+        background: white;
+    }
+    #name {
+        background: white;
+    }
     .contactButton {
-        width: 40%;
-        background: blue;
+        width: 100%;
+        background: #2B466C;
         margin-top: 1%;
         
     }
@@ -445,4 +451,14 @@
     .contactIcon {
         color: blue;
     }
+    .swal-button {
+        color: white;
+        width: 300px;
+        font-family: Alegreya Sans SC, sans-serif;
+        outline: none;
+        margin-right: 60px;;
+        border-radius: 4px;
+        font-size: 18px;
+        border: none;
+      }
 }

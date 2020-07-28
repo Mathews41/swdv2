@@ -1,4 +1,4 @@
-@include breakpoint(xxsmall){
+@media (min-width: 0px) and (max-width: 360px){
   .footer {
     width: 100%;
     height: 50vh;
@@ -147,7 +147,7 @@
     background:rgb(214, 214, 214);
   }
 }
-@include breakpoint(xsmall){
+@media (min-width: 361px) and (max-width: 480px){
   .footer {
     width: 100%;
     height: auto;
@@ -279,7 +279,7 @@
     background:rgb(214, 214, 214);
   }
 }
-@include breakpoint(small){
+@media (min-width: 481px) and (max-width: 736px){
    .footer {
     
     width: 100%;
@@ -437,7 +437,7 @@
     color: blue;
   }
 }
-@include breakpoint(medium){
+@media (min-width: 737px) and (max-width: 980px){
   .footer {
    
    width: 100%;
@@ -592,7 +592,7 @@
    background:rgb(214, 214, 214);
  }
 }
-@include breakpoint(large){
+@media (min-width: 981px) and (max-width: 1099px){
   .footer {
     
     width: 100%;
@@ -740,7 +740,7 @@
     background:rgb(214, 214, 214);
   }
 }
-@include breakpoint(xlarge){
+@media (min-width: 1100px) and (max-width: 1680px){
   .footer {
     width: 100%;
     background:rgb(235, 235, 235);
@@ -852,7 +852,7 @@
     background:rgb(214, 214, 214);
   }
 }
-@include breakpoint(xxlarge){
+@media (min-width: 1681px){
   .footer {
     width: 100%;
     background:rgb(235, 235, 235);
