@@ -1,4 +1,6 @@
 import React from 'react'
+import { Helmet } from "react-helmet";
+
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import bg from '../images/bg-min.jpg'
@@ -29,6 +31,11 @@ import uofa from '../images/Project Profile - University of Arizona Honors Villa
 export default function projects() {
     return (
         <div className='projPage'>
+          <Helmet>
+          <meta charSet="utf-8" />
+          <title>Roofing Projects</title>
+          <link rel="canonical" href="https://swdarchproducts.com/projectsRoof/" />
+        </Helmet>
             <Header></Header>
                
                 <div></div>

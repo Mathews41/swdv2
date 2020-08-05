@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import SEO from "../components/seo"
+import { Helmet } from "react-helmet";
 
 import Header from '../components/Header'
 import Main from '../components/Main'
@@ -135,6 +136,11 @@ class IndexPage extends React.Component {
     const {data} = this.props;
     return (
       <div className='ArchStepperPage'>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Home</title>
+          <link rel="canonical" href="https://swdarchproducts.com" />
+        </Helmet>
         {/* <SEO 
         title='SWD Urethane' 
         description='“Yield is very important to a contractor. In fact, we’re making a lot more money because I’ve been watching yields. But now if SWD is giving me a product that is higher yield, that is already half the battle. So, now, even if my guys are not doing as good a job and we’re not watching them every minute, we’re still going to get more yield, either way.”'

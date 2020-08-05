@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from "react-helmet";
 import {Link} from 'gatsby'
 import Accordion from 'react-bootstrap/Accordion'
 import Card from 'react-bootstrap/Card'
@@ -10,6 +11,7 @@ import arch from '../images/Arch Wall Photo-min.jpg'
 import '../assets/scss/layout/architectsStepper.scss'
 import Footer from '../components/Footer'
 import '../assets/scss/layout/global.scss'
+import SEO from "../components/Seo"
 
 
 
@@ -54,6 +56,12 @@ import ppAPI from '../images/Project Profile - SPF Continuous Insulation.pdf'
 export default function architectsInsulation() {
     return (
     <div className='page'>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Architects Insulation</title>
+          <link rel="canonical" href="https://swdarchproducts.com/architectsInsulation/" />
+        </Helmet>
+
         <div className='arch-page'>
         <Header/>
             <div className='img-container1'>

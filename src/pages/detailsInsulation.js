@@ -2,6 +2,7 @@ import React from 'react'
 import Accordion from 'react-bootstrap/Accordion'
 import Card from 'react-bootstrap/Card'
 import Footer from '../components/Footer'
+import { Helmet } from "react-helmet";
 
 import Media from 'react-bootstrap/Media'
 import * as Icon from 'react-feather'
@@ -55,42 +56,6 @@ import QSW0261a from '../images/QSW-261A Masonry Wall (CMU) - Pour Foam Insulati
 import QSW0263 from '../images/QSW-263 Masonry Wall (CMU) - Pour Foam Insulation Drained Screened.pdf'
 import QSW0263a from '../images/QSW-263A Masonry Wall (CMU) - Pour Foam Insulation Drained Screened (Top View).pdf'
 
-//Roofing Details
-import QSW001r from '../images/QSR-001 - New Metal Parapet Cap.pdf'
-import QSW003r from '../images/QSR-003 - Base Flashing For Wall-Supported Deck.pdf'
-import QSW003ar from '../images/QSR-003A - Base Flashing Wall-Supported Deck Tall Wall.pdf'
-import QSW008ar from '../images/QSR-008A - Typical Existing Area Divider.pdf'
-import QSW010r from '../images/QSR-010 - Mechanical Equipment Support New and Remedial.pdf'
-import QSW011r from '../images/QSR-011 - Equipment Support Stand.pdf'
-import QSW013r from '../images/QSR-013 - Prefabricated Metal Curb.pdf'
-import QSW014r from '../images/QSR-014 - Wood Raised Curb.pdf'
-import QSW015r from '../images/QSR-015 - Structural Member through Roof Deck.pdf'
-import QSW018r from '../images/QSR-018 - Deck Supported Penetration.pdf'
-import QSW020r from '../images/QSR-020 - Roof Drain With Fastener.pdf'
-import QSW020rr from '../images/QSR-020A - Roof Drain Without Fastener.pdf'
-import QSW021r from '../images/QSR-021 SCUPPER DETAIL AT PARAPET WALL.pdf'
-import QSW022r from '../images/QSR-022 OVERFLOW SCUPPER AT PARAPET WALL.pdf'
-import QSW121r from '../images/QSR-121 SLOPED ROOF AND CRICKETS.pdf'
-import QSW122r from '../images/QSR-122 SLOPE TO DRAIN.pdf'
-import QSW131r from '../images/QSR-131 - Remedial Air Conditioner Treatment.pdf'
-import QSW132r from '../images/QSR-132 - Existing Pitch Pan.pdf'
-import QSW133r from '../images/QSR-133 - Equipment Support on Existing Stand.pdf'
-import QSW134r from '../images/QSR-134 - Roof Equipment Protective Wall.pdf'
-import QSW135r from '../images/QSR-135 - AC Duct Elbow.pdf'
-import QSW143r from '../images/QSR-143 - Class A Metal Fluted Deck with Tape.pdf'
-import QSW144r from '../images/QSR-144 - Class B Roof on Combustible Deck.pdf'
-import QSW145r from '../images/QSR-145 - Polyiso Board.pdf'
-import QSW147r from '../images/QSR-147 - Class A Roof on Combustible Deck with Cementitious Coating.pdf'
-import QSW151r from '../images/QSR-151 - Roof Hatch.pdf'
-import QSW152r from '../images/QSR-152 - Raised Curb for Skylight.pdf'
-import QSW153r from '../images/QSR-153 - Raised Curb for Down Draft Equipment.pdf'
-import QSW161r from '../images/QSR-161 - Parapet Wall Detail.pdf'
-import QSW162r from '../images/QSR-162 - Foam and Coating Short Parapet Wall.pdf'
-import QSW163r from '../images/QSR-163 - New Flashing Wall-Supported Deck.pdf'
-import QSW164r from '../images/QSR-164 - Stucco Finish on Parapet Wall.pdf'
-import QSW165r from '../images/QSR-165 - Mansard Wall Top and Bottom.pdf'
-import QSWAIA from '../images/AIA Certificate - Roofing System Paul Simonsen DIGITAL.pdf'
-import drain from '../images/Drain.pdf'
 
 
 
@@ -98,6 +63,11 @@ import drain from '../images/Drain.pdf'
 export default function details() {
     return (
         <div className='detailspage'>
+            <Helmet>
+            <meta charSet="utf-8" />
+            <title>Insulation Details</title>
+            <link rel="canonical" href="https://swdarchproducts.com/detailsInsulation/" />
+            </Helmet>
             <Header/>
             <div className='detailsPg'>
             <div className='detailsheader'>
@@ -167,7 +137,7 @@ export default function details() {
                                             QSW-002 Basement - Finished Internal Insulation
                                             </a> 
                                             </li>
-                                    <li>
+                                            <li>
                                             <a href={QSW004} target='_blank' rel='noreferrer'>
                                             QSW-004 Basement - Unconditioned
                                             </a>

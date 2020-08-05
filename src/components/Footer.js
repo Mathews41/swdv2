@@ -1,4 +1,6 @@
 import React, {useState} from 'react';
+import { Helmet } from "react-helmet";
+
 
 import logo from '../images/gatsby-icon.png'
 import appstore from '../images/appstore-min.jpg'
@@ -57,6 +59,23 @@ export default function Footer() {
         </a>
         </div>
         </div>
+        <Helmet>
+          <script type="application/ld+json">
+            {`
+              {
+                "@type": "Organization",
+                "url": "https://www.swdarchproducts.com",
+                "name": "SWD Urethane",
+                "contactPoint": {
+                  "@type": "ContactPoint",
+                  "telephone": "800-828-1394",
+                  "contactType": "Customer Support"
+                }
+              }
+            `}
+          </script>
+        </Helmet>
     </div>
+    
   )
 }

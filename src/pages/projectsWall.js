@@ -1,4 +1,6 @@
 import React from 'react'
+import { Helmet } from "react-helmet";
+
 import Header from '../components/Header'
 import bg from '../images/bg-min.jpg'
 import asu from '../images/ASU-min.jpg'
@@ -28,6 +30,11 @@ import jul from '../images/yul-overall.jpg'
 export default function projects() {
     return (
         <div className='page'>
+          <Helmet>
+          <meta charSet="utf-8" />
+          <title>Insulation Projects</title>
+          <link rel="canonical" href="https://swdarchproducts.com/projectsWall/" />
+        </Helmet>
             <Header></Header>
                
                 <div></div>

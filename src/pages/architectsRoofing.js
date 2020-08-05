@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from "react-helmet";
 
 import Accordion from 'react-bootstrap/Accordion'
 import Card from 'react-bootstrap/Card'
@@ -59,6 +60,11 @@ import Spec from '../images/SWDSpec.pdf'
 export default function architectsInsulation() {
     return (
     <div className='page'>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Architects Roofing</title>
+          <link rel="canonical" href="https://swdarchproducts.com/architectsRoofing/" />
+        </Helmet>
         <div className='arch-page'>
         <Header/>
             <div className='img-container1'>

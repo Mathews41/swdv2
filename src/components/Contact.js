@@ -37,6 +37,7 @@ export default function Contact() {
     };
     return (
         <div>
+            <h3></h3>
             <form onSubmit={handleSubmit}  id="contact-form" method="POST" action="/send-email">
     <div className="form-group">
         <label className='formLabel' for="name">Name</label>
