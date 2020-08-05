@@ -11,7 +11,6 @@ import arch from '../images/Arch Wall Photo-min.jpg'
 import '../assets/scss/layout/architectsStepper.scss'
 import Footer from '../components/Footer'
 import '../assets/scss/layout/global.scss'
-import SEO from "../components/Seo"
 
 
 
