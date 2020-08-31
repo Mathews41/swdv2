@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
+import { Helmet } from "react-helmet";
 import CardDeck from 'react-bootstrap/CardDeck'
 import '../assets/scss/layout/architectsStepper.scss'
 import bg2 from '../images/bg2-min.jpg'
@@ -29,8 +30,13 @@ export default function architectsStepper() {
     return (
         <div className='ArchStepperPage'>
             {/* <img alt='background image' className='stepperimg' src={uofa}></img> */}
+            <Helmet>
+          <meta charSet="utf-8" />
+          <title>Projects</title>
+          <link rel="canonical" href="https://swdarchproducts.com/projects/" />
+        </Helmet>
             <Header/>
-            <title>Projects</title>
+        
         <div className='archStepper1'>
             <div className='stepperPage1' >
             <CardDeck id='cardDeck1'>

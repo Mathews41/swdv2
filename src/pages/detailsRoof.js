@@ -59,8 +59,13 @@ import drain from '../images/Drain.pdf'
 export default function details() {
     return (
         <div className='detailspage'>
+             <Helmet>
+          <meta charSet="utf-8" />
+          <title>Roofing Details</title>
+          <link rel="canonical" href="https://swdarchproducts.com/detailsRoof/" />
+        </Helmet>
             <Header/>
-            <title>Roofing Details</title>
+           
 
             <div className='detailsPg'>
             <div className='detailsheader'>

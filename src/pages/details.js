@@ -15,6 +15,8 @@ import uofa from '../images/uofahonors-min.jpg'
 import jul from '../images/yul-overall.jpg'
 import roofingdeets from '../images/Roofing_Edited_6-min.jpg'
 import Footer from '../components/Footer'
+import { Helmet } from "react-helmet";
+
 
 
 
@@ -30,6 +32,11 @@ import masterSpec from '../images/images.jpg'
 export default function architectsStepper() {
     return (
         <div className='page'>
+            <Helmet>
+          <meta charSet="utf-8" />
+          <title>Details</title>
+          <link rel="canonical" href="https://swdarchproducts.com/details/" />
+        </Helmet>
             {/* <img alt='background image' className='stepperimg' src={uofa}></img> */}
             <Header/>
             <title>Details</title>

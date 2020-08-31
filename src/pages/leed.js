@@ -16,7 +16,11 @@ import info from '../images/spfa.pdf'
 export default function leed() {
     return (
         <div className='leedpg'>
-            <title>LEED</title>
+             <Helmet>
+          <meta charSet="utf-8" />
+          <title>LEED</title>
+          <link rel="canonical" href="https://swdarchproducts.com/leed/" />
+        </Helmet>
             
             <div className='page'>
         <div className='arch-page'>
