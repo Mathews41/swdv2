@@ -32,6 +32,8 @@ export default function architectsStepper() {
         <div className='page'>
             {/* <img alt='background image' className='stepperimg' src={uofa}></img> */}
             <Header/>
+            <title>Details</title>
+
         <div className='archStepper2'>
             <div className='stepperPage2' >
             <CardDeck id='cardDeck2'>

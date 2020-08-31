@@ -60,6 +60,8 @@ export default function details() {
     return (
         <div className='detailspage'>
             <Header/>
+            <title>Roofing Details</title>
+
             <div className='detailsPg'>
             <div className='detailsheader'>
                 <h1>Roofing Details & Drawings</h1>

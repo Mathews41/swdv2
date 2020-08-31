@@ -16,6 +16,8 @@ import info from '../images/spfa.pdf'
 export default function leed() {
     return (
         <div className='leedpg'>
+            <title>LEED</title>
+            
             <div className='page'>
         <div className='arch-page'>
         <Header/>
