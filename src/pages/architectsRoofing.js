@@ -10,7 +10,7 @@ import elevation from '../images/elevation shot-min.jpg'
 import img2 from '../images/Roofing_Edited_5-min.jpg'
 import Header from '../components/Header'
 
-import eval155 from '../images/QSR-020 QSR-020A ROOF DRAIN DETAILS.pdf'
+import eval155 from '../images/ESR-2532-2021.pdf'
 import roofrating155 from '../images/roofRating155.pdf'
 import TDS15525 from '../images/TDS-QS-155-2.5.pdf'
 import spec155 from '../images/spec155.pdf'
