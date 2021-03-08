@@ -25,7 +25,7 @@ import QSW013r from '../images/QSR-013 - Prefabricated Metal Curb.pdf'
 import QSW014r from '../images/QSR-014 - Wood Raised Curb.pdf'
 import QSW015r from '../images/QSR-015 - Structural Member through Roof Deck.pdf'
 import QSW018r from '../images/QSR-018 - Deck Supported Penetration.pdf'
-import QSW020r from '../images/QSR-020 - Roof Drain With Fastener.pdf'
+import QSW020r from '../images/QSR-020 QSR-020A ROOF DRAIN DETAILS.pdf'
 import QSW020rr from '../images/QSR-020A - Roof Drain Without Fastener.pdf'
 import QSW021r from '../images/QSR-021 SCUPPER DETAIL AT PARAPET WALL.pdf'
 import QSW022r from '../images/QSR-022 OVERFLOW SCUPPER AT PARAPET WALL.pdf'
@@ -194,12 +194,7 @@ export default function details() {
                                 </li>
                                 <li>
                                     <a href={QSW020r} target='_blank' rel='noreferrer'>
-                                    QSR-020 ROOF DRAIN WITH MECHANICAL FASTENER
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href={drain} target='_blank' rel='noreferrer'>
-                                    QSR-020 ROOF DRAIN
+                                    QSR-020 ROOF DRAIN DETAILS
                                     </a>
                                 </li>
                                 <li>
