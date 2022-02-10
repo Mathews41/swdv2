@@ -18,7 +18,7 @@
     "gatsby-plugin-sass": "^2.1.27",
     "gatsby-plugin-sitemap": "^2.4.4",
     "gatsby-plugin-styled-components": "^3.3.4",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "nodemailer": "^6.4.10",
     "normalize.css": "^8.0.1",
     "react": "^16.12.0",
